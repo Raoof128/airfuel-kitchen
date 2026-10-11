@@ -6,28 +6,28 @@ Status vocabulary: FIXED-VERIFIED (fix in code and checked by a test or probe), 
 
 ## Totals
 
-Rows: **112**
+Rows: **113**
 
 By severity (P0 data loss, cross-user exposure or destructive migration; P1 broken persistence, sync defect, duplicate records, broken restore, allergen-exclusion bypass; P2 missing validation, recoverable inconsistency, wrong ranking, incomplete error handling; P3 debt):
 
 | Severity | Count |
 | --- | ---: |
 | P0 | 0 |
-| P1 | 15 |
+| P1 | 16 |
 | P2 | 50 |
 | P3 | 47 |
-| **Total** | **112** |
+| **Total** | **113** |
 
 By status:
 
 | Status | Count |
 | --- | ---: |
-| FIXED-VERIFIED | 64 |
+| FIXED-VERIFIED | 65 |
 | FIXED-UNVERIFIED | 2 |
 | OPEN | 29 |
 | WONT-FIX | 4 |
 | DECISION | 13 |
-| **Total** | **112** |
+| **Total** | **113** |
 
 ## Register
 
@@ -145,6 +145,7 @@ By status:
 | LEAD-B10 | Settings / Sync (delete-all) | src/pages/Settings.tsx:30,721; src/cloud/index.ts:52 (deleteLocalCloudState) | P2 | Delete-all used forgetCloudCache, which refuses while conflicts are unresolved (delete could never finish with conflicts) | Delete-all path shared the cache-clear refusal rule | Delete-all uses deleteLocalCloudState (after sign-out): clears records, outbox, conflicts and binding; refused while sync enabled or running (lead) | backend-sync-controller: 'delete-all with unresolved conflicts' | FIXED-VERIFIED |
 | LEAD-B12 | Build config | tsconfig.node.json (exclude scripts/bench, scripts/*-audit/tmp) | P3 | Type-check of scratch scripts | Scratch scripts included in project types | Excluded in tsconfig.node.json (lead) | none (config read; tsc not re-run by this register) | FIXED-UNVERIFIED (config present; tsc not re-run here) |
 | TEST-2 | E2E / SavedCheckbox | tests/e2e/security.spec.ts:59 | P2 | "separate tabs preserve simultaneous cooking checklist changes and timer" failed 2/6: the test reloaded while the step-tick save was still in flight (aria-busy=true), aborting the IndexedDB transaction | Frontend sweep SHELL-6 stopped disabling checkboxes while saving, so the test's toBeEnabled() wait no longer waited for the save | Test waits for aria-busy to clear before reload; db.ts gains hasPendingWrites(); real users are already warned by App.tsx's beforeunload guard while run() is pending | tests/unit/backend-storage-cook-interleave.test.ts (two connections, both orders, 60 interleaved writes); e2e --repeat-each 10 passed | FIXED-VERIFIED (final full e2e 102/102) |
+| SEC-20 | Sync / Supabase | supabase/migrations/202610110003_airfuel_sync_quota.sql | P1 | Post-commit security review: the 0003 quota capped rows (224,006) but not bytes; with 512 KiB payloads one account could store ~109 GiB | Row count is not a storage bound | Migration 202610110004 adds a 64 MiB per-account payload-byte quota under a row lock on the quota row (also serialises writes, fixing OBS-1); counters move only when the upsert changes a row; shrinks and deletes free bytes; 53400 refusal reason surfaced in the sync status | tests/unit/backend-sync-byte-quota.test.ts (6, PGlite incl. backfill); RLS suite runs 0004 (30) | FIXED-VERIFIED (commit 7886d6c; PGlite is single-connection, so real parallel writes are not exercised) |
 
 ## Notes
 
