@@ -46,9 +46,13 @@ describe("search matches whole words, not substrings", () => {
     expect(titles("eye")).toEqual(["Rib-eye steak"]);
   });
 
-  it("keeps accented letters as part of a word", () => {
+  it("finds accented words with or without the accent, and keeps the word-start rule", () => {
     expect(titles("jalapeño")).toEqual(["Jalapeño poppers"]);
-    expect(titles("jalapeno")).toEqual([]);
+    expect(titles("jalapeno")).toEqual(["Jalapeño poppers"]);
+    expect(titles("JALAPENO poppers")).toEqual(["Jalapeño poppers"]);
+    // Folding must not turn word starts into substrings: "oil" still does not match "boiled".
+    expect(titles("oil")).toEqual(["Garlic oil chips"]);
+    expect(titles("oil")).not.toContain("Boiled potatoes");
   });
 
   it("ignores punctuation and case in the query", () => {

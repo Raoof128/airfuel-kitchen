@@ -35,3 +35,9 @@ docs/frontend/screenshots/agents/
 docs/frontend/screenshots/redteam/
 docs/screenshots/upgrade-before/
 docs/screenshots/upgrade-after/
+
+scripts/backend-audit/tmp/
+supabase/.temp/
+
+# Unfinished data-layer benchmark harness from the backend sweep (agent stopped before reporting)
+scripts/bench/

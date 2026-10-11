@@ -1,4 +1,5 @@
 import {
+  allergenNames,
   recipeSchema,
   type CookingSession,
   type Ingredient,
@@ -12,19 +13,71 @@ import {
 
 const normalise = (value: string) =>
   value.toLowerCase().trim().replace(/\s+/g, " ");
-const searchable = (recipe: Recipe) =>
+// Common Cyrillic and Greek letters that look like Latin ones. Matching only, never display.
+const confusables: Record<string, string> = {
+  а: "a", е: "e", о: "o", р: "p", с: "c", у: "y", х: "x", і: "i", ј: "j", к: "k", м: "m",
+  н: "h", т: "t", в: "b", α: "a", ε: "e", ο: "o", ι: "i", κ: "k", ν: "v", ρ: "p", τ: "t",
+  χ: "x", υ: "u",
+};
+const confusable = new RegExp(`[${Object.keys(confusables).join("")}]`, "gu");
+// Folds spelling variants for matching: "jalapeño" becomes "jalapeno", zero-width and other
+// format characters disappear, and look-alike letters map to Latin. Search text and the avoid
+// list fold the same way, so both sides meet.
+const fold = (value: string) =>
   normalise(
+    value
+      .normalize("NFKD")
+      .replace(/\p{M}+/gu, "")
+      .replace(/\p{Cf}+/gu, "")
+      .replace(confusable, (letter) => confusables[letter] ?? letter),
+  );
+const recipeText = (recipe: Recipe) =>
     [
       recipe.title,
       recipe.description,
       ...recipe.tags,
       ...recipe.ingredients.map((i) => i.name),
-    ].join(" "),
-  );
-const contains = (haystack: string, needle: string) =>
-  haystack.includes(normalise(needle));
+    ].join(" ");
+const searchable = (recipe: Recipe) => fold(recipeText(recipe));
 // Words, not substrings: "oil" must not match "boiled" and "egg" must not match "veggie".
 const words = (text: string) => text.split(/[^\p{L}\p{N}]+/u).filter(Boolean);
+// Recipes are treated as immutable once loaded, so their folded word lists are computed once.
+// Recipe objects are never changed: display keeps the original accented text.
+const wordCache = new WeakMap<Recipe, string[]>();
+const recipeWords = (recipe: Recipe) => {
+  let cached = wordCache.get(recipe);
+  if (!cached) {
+    cached = words(searchable(recipe));
+    wordCache.set(recipe, cached);
+  }
+  return cached;
+};
+// Free-text ingredient preferences match the head noun of a word, so "egg" matches "eggs" and
+// "peanut butter" but not "eggplant", and "pea" does not match "peanut". Each word of a
+// multi-word entry must match a consecutive word in the recipe. An empty entry matches nothing.
+const endings = (part: string) => [
+  part,
+  `${part}s`,
+  `${part}es`,
+  part.endsWith("y") ? `${part.slice(0, -1)}ies` : part,
+];
+const wordMatches = (word: string, part: string) =>
+  endings(part).some((ending) => word.endsWith(ending));
+const mentions = (haystackWords: readonly string[], entry: string) => {
+  const needle = words(fold(entry));
+  if (!needle.length) return false;
+  for (let start = 0; start + needle.length <= haystackWords.length; start++)
+    if (needle.every((part, offset) => wordMatches(haystackWords[start + offset], part)))
+      return true;
+  return false;
+};
+// A recipe that contains wheat contains gluten, so excluding either excludes both.
+const allergenClosure = (allergens: readonly string[]) => {
+  const closed = new Set(allergens);
+  if (closed.has("gluten")) closed.add("wheat");
+  if (closed.has("wheat")) closed.add("gluten");
+  return closed;
+};
 export function effectiveRecipes(
   catalogue: readonly Recipe[],
   data: KitchenData,
@@ -37,16 +90,24 @@ export function effectiveRecipes(
       const parsed = recipeSchema.safeParse(override.recipe);
       if (parsed.success) {
         const baseline = recipes.get(override.id)!;
+        // Changed ingredients void the canonical allergen and diet declarations. Such a recipe
+        // fails closed: it is excluded by every allergen filter and every diet filter.
+        const ingredientsChanged =
+          JSON.stringify(parsed.data.ingredients) !==
+          JSON.stringify(baseline.ingredients);
         recipes.set(override.id, {
           ...parsed.data,
           // An untrusted backup override must never weaken the canonical safety constraints.
-          allergens: [
-            ...new Set([...baseline.allergens, ...parsed.data.allergens]),
-          ],
-          dietary: parsed.data.dietary.filter((claim) =>
-            baseline.dietary.includes(claim),
-          ),
-          oilFree: baseline.oilFree && parsed.data.oilFree,
+          allergens: ingredientsChanged
+            ? [...allergenNames]
+            : [...new Set([...baseline.allergens, ...parsed.data.allergens])],
+          dietary: ingredientsChanged
+            ? []
+            : parsed.data.dietary.filter((claim) =>
+                baseline.dietary.includes(claim),
+              ),
+          oilFree:
+            !ingredientsChanged && baseline.oilFree && parsed.data.oilFree,
           internalTempC:
             baseline.internalTempC === null
               ? parsed.data.internalTempC
@@ -68,6 +129,7 @@ export interface RecipeFilters {
   maxMinutes?: number;
   dietary?: string[];
   excludeAllergens?: string[];
+  avoidIngredients?: string[];
   difficulty?: string;
   oilFree?: boolean;
   status?: "all" | "tried" | "untried" | "favourites";
@@ -79,7 +141,7 @@ export function filterRecipes(
   states: readonly RecipeState[] = [],
 ): Recipe[] {
   const byId = new Map(states.map((state) => [state.id, state]));
-  let query = normalise(filters.query ?? "");
+  let query = fold(filters.query ?? "");
   const time = query.match(/(?:under|less than)\s+(\d+)\s*(?:minutes?|mins?)/);
   const protein = query.match(
     /(?:more than|over|at least)\s+(\d+)\s*g?\s*protein/,
@@ -91,17 +153,24 @@ export function filterRecipes(
     .replace(/(?:more than|over|at least)\s+\d+\s*g?\s*protein/g, "")
     .replace(/\b(?:no oil|oil free|oil-free)\b/g, "")
     .trim();
-  const tokens = words(query).map((token) =>
-    token === "eggs" ? "egg" : token,
-  );
+  // Duplicate tokens add no information, so a repeated query is checked once per recipe.
+  const tokens = [
+    ...new Set(
+      words(query).map((token) => (token === "eggs" ? "egg" : token)),
+    ),
+  ];
+  const excluded = allergenClosure(filters.excludeAllergens ?? []);
+  const avoid = filters.avoidIngredients ?? [];
   const result = recipes.filter((recipe) => {
     const state = byId.get(recipe.id);
+    const haystack = recipeWords(recipe);
     // Custom declarations have not been independently checked; fail closed for food restrictions.
     return (
       !(
         (filters.excludeAllergens?.length || filters.dietary?.length) &&
         recipe.id.startsWith("custom-")
       ) &&
+      !avoid.some((entry) => mentions(haystack, entry)) &&
       (!filters.category || recipe.category === filters.category) &&
       (filters.minProtein === undefined ||
         recipe.nutrition.protein >= filters.minProtein) &&
@@ -119,14 +188,12 @@ export function filterRecipes(
       (filters.dietary ?? []).every((value) =>
         recipe.dietary.includes(value as Recipe["dietary"][number]),
       ) &&
-      !(filters.excludeAllergens ?? []).some((value) =>
-        recipe.allergens.includes(value as Recipe["allergens"][number]),
-      ) &&
+      !recipe.allergens.some((value) => excluded.has(value)) &&
       (filters.status !== "tried" || state?.tried) &&
       (filters.status !== "untried" || !state?.tried) &&
       (filters.status !== "favourites" || state?.favourite) &&
       tokens.every((token) =>
-        words(searchable(recipe)).some((word) => word.startsWith(token)),
+        haystack.some((word) => word.startsWith(token)),
       )
     );
   });
@@ -137,8 +204,8 @@ export function filterRecipes(
     if (filters.sort === "rating")
       return (byId.get(b.id)?.rating ?? 0) - (byId.get(a.id)?.rating ?? 0);
     return (
-      Number(normalise(b.title).includes(query)) -
-      Number(normalise(a.title).includes(query))
+      Number(fold(b.title).includes(query)) -
+      Number(fold(a.title).includes(query))
     );
   });
 }
@@ -149,18 +216,47 @@ export interface Recommendation {
   score: number;
   reasons: string[];
 }
+export interface RecommendOptions {
+  /** Epoch milliseconds for the "cooked recently" window. Defaults to the current time. */
+  now?: number;
+  /** Source of the surprise-mode jitter, each value in [0, 1). Defaults to Math.random. */
+  random?: () => number;
+}
+// A category earns the "rated highly" bonus only after two recipes in it are rated 4 or more,
+// so a single rating cannot lift every untried recipe in that category.
+const minimumLikedCategory = 2;
+// Recipes cooked recently are pushed down, not removed: a strong penalty within a week, a
+// smaller one within four weeks, and a further cost for each cooking in the last ninety days.
+const recentWindowMs = 7 * 86400000;
+const monthWindowMs = 28 * 86400000;
+const quarterWindowMs = 90 * 86400000;
+const repeatCost = 10;
+const maxRepeatCost = 40;
 export function recommendRecipes(
   recipes: readonly Recipe[],
   data: KitchenData,
   mode: RecommendationMode = "tonight",
   limit = 6,
+  options: RecommendOptions = {},
 ): Recommendation[] {
   const prefs = data.preferences;
+  const now = options.now ?? Date.now();
+  const random = options.random ?? Math.random;
   const states = new Map(data.recipeStates.map((state) => [state.id, state]));
+  const pantryKeys = new Set(
+    data.pantry
+      .filter((item) => item.quantity > 0)
+      .map((item) => ingredientKey(item)),
+  );
+  const inPantry = (ingredient: Ingredient) =>
+    pantryKeys.has(ingredientKey(ingredient));
+  // Hard constraints first: allergens, diets, avoided ingredients and the time cap are
+  // applied before any score is computed, so no bonus can rescue a recipe.
   const candidates = filterRecipes(
     recipes,
     {
       excludeAllergens: prefs.allergens,
+      avoidIngredients: prefs.avoidIngredients,
       dietary: prefs.dietary,
       oilFree: prefs.oilFree,
       status:
@@ -171,131 +267,125 @@ export function recommendRecipes(
             : "all",
     },
     data.recipeStates,
-  )
-    .filter(
-      (recipe) =>
-        !prefs.avoidIngredients.some((ingredient) =>
-          contains(searchable(recipe), ingredient),
-        ),
-    )
-    .filter(
-      (recipe) =>
-        mode !== "fast" ||
-        recipe.totalMinutes <= Math.min(20, prefs.maxMinutes),
-    );
-  const recentThreshold = Date.now() - 7 * 86400000;
-  const recent = new Set(
-    data.sessions
-      .filter(
-        (session) =>
-          new Date(`${session.date}T12:00:00Z`).valueOf() >= recentThreshold,
-      )
-      .map((session) => session.recipeId),
+  ).filter(
+    (recipe) =>
+      mode !== "fast" || recipe.totalMinutes <= Math.min(20, prefs.maxMinutes),
   );
+  const cookedAgo = new Map<string, number[]>();
+  for (const session of data.sessions) {
+    const at = new Date(`${session.date}T12:00:00Z`).valueOf();
+    if (now - at > quarterWindowMs) continue;
+    cookedAgo.set(session.recipeId, [...(cookedAgo.get(session.recipeId) ?? []), now - at]);
+  }
+  const highlyRatedByCategory = new Map<Recipe["category"], number>();
+  for (const recipe of recipes)
+    if ((states.get(recipe.id)?.rating ?? 0) >= 4)
+      highlyRatedByCategory.set(
+        recipe.category,
+        (highlyRatedByCategory.get(recipe.category) ?? 0) + 1,
+      );
   const likedCategories = new Set(
-    recipes
-      .filter((recipe) => (states.get(recipe.id)?.rating ?? 0) >= 4)
-      .map((recipe) => recipe.category),
+    [...highlyRatedByCategory]
+      .filter(([, count]) => count >= minimumLikedCategory)
+      .map(([category]) => category),
   );
   const scored = candidates
     .map((recipe) => {
       const state = states.get(recipe.id);
-      const haystack = searchable(recipe);
-      const reasons: string[] = [];
+      const haystack = recipeWords(recipe);
+      // Each reason carries the points it added, so the explanation shows the strongest signals.
+      const reasons: { text: string; points: number }[] = [];
       let score = 0;
-      if (recipe.totalMinutes <= prefs.maxMinutes) {
-        score += 20 + 8 * (1 - recipe.totalMinutes / prefs.maxMinutes);
-        reasons.push(`Fits your ${prefs.maxMinutes}-minute cooking preference`);
-      } else score -= recipe.totalMinutes - prefs.maxMinutes;
-      if (recipe.nutrition.protein >= prefs.minProtein) {
-        score += 20;
-        reasons.push(
+      const reward = (points: number, text: string) => {
+        score += points;
+        reasons.push({ text, points });
+      };
+      if (recipe.totalMinutes <= prefs.maxMinutes)
+        reward(
+          20 + 8 * (1 - recipe.totalMinutes / prefs.maxMinutes),
+          `Fits your ${prefs.maxMinutes}-minute cooking preference`,
+        );
+      else score -= recipe.totalMinutes - prefs.maxMinutes;
+      if (recipe.nutrition.protein >= prefs.minProtein)
+        reward(
+          20,
           `${Math.round(recipe.nutrition.protein)}g protein per serving`,
         );
-      }
       // Reward meeting the user's target, with no extra reward for inflated portions beyond it.
       if (prefs.minProtein > 0)
         score += 6 * Math.min(1, recipe.nutrition.protein / prefs.minProtein);
-      if (!state?.tried) {
-        score += 12;
-        reasons.push("Something you have not tried");
-      }
-      if (state?.favourite) {
-        score += 16;
-        reasons.push("One of your saved favourites");
-      }
+      if (!state?.tried) reward(12, "Something you have not tried");
+      if (state?.favourite) reward(16, "One of your saved favourites");
       if (state?.rating) {
-        score += (state.rating - 3) * 8;
-        if (state.rating >= 4) reasons.push(`You rated this ${state.rating}/5`);
+        const points = (state.rating - 3) * 8;
+        score += points;
+        if (state.rating >= 4)
+          reasons.push({ text: `You rated this ${state.rating}/5`, points });
       }
-      if (likedCategories.has(recipe.category) && !state?.tried) {
-        score += 10;
-        reasons.push("From a category you have rated highly");
-      }
-      if (prefs.preferredProteins.some((value) => contains(haystack, value))) {
-        score += 10;
-        reasons.push("Matches your preferred proteins");
-      }
-      if (
-        prefs.favouriteIngredients.some((value) => contains(haystack, value))
-      ) {
-        score += 8;
-        reasons.push("Includes an ingredient you enjoy");
-      }
-      if (prefs.cuisines.some((value) => contains(haystack, value))) {
-        score += 6;
-        reasons.push("Matches a favourite cuisine");
-      }
+      if (likedCategories.has(recipe.category) && !state?.tried)
+        reward(10, "From a category you have rated highly");
+      if (prefs.preferredProteins.some((value) => mentions(haystack, value)))
+        reward(10, "Matches your preferred proteins");
+      if (prefs.favouriteIngredients.some((value) => mentions(haystack, value)))
+        reward(8, "Includes an ingredient you enjoy");
+      if (prefs.cuisines.some((value) => mentions(haystack, value)))
+        reward(6, "Matches a favourite cuisine");
       score -=
-        prefs.dislikedIngredients.filter((value) => contains(haystack, value))
+        prefs.dislikedIngredients.filter((value) => mentions(haystack, value))
           .length * 25;
-      if (recent.has(recipe.id)) {
-        score -= 25;
-        reasons.push("Cooked recently");
-      }
-      const pantryMatches = recipe.ingredients.filter((ingredient) =>
-        data.pantry.some(
-          (item) =>
-            item.quantity > 0 &&
-            ingredientKey(ingredient) === ingredientKey(item),
-        ),
-      ).length;
-      if (pantryMatches) {
-        score +=
+      // Recency lowers the score; it is not a reason to recommend, so it is not listed.
+      const ages = cookedAgo.get(recipe.id) ?? [];
+      if (ages.some((age) => age <= recentWindowMs)) score -= 25;
+      else if (ages.some((age) => age <= monthWindowMs)) score -= 10;
+      score -= Math.min(maxRepeatCost, repeatCost * ages.length);
+      const pantryMatches = recipe.ingredients.filter(inPantry).length;
+      if (pantryMatches)
+        reward(
           (pantryMatches / recipe.ingredients.length) *
-          (mode === "pantry" ? 90 : 20);
-        reasons.push(
+            (mode === "pantry" ? 90 : 20),
           `${pantryMatches} of ${recipe.ingredients.length} ingredients in your pantry`,
         );
-      }
-      if (mode === "surprise") score += Math.random() * 50;
-      return { recipe, score, reasons: reasons.slice(0, 4) };
+      if (mode === "surprise") score += random() * 50;
+      return {
+        recipe,
+        score,
+        reasons: reasons
+          .filter((reason) => reason.points > 0)
+          .sort((a, b) => b.points - a.points)
+          .slice(0, 4)
+          .map((reason) => reason.text),
+      };
     })
     .filter(
       (item) =>
-        mode !== "pantry" ||
-        item.recipe.ingredients.some((ingredient) =>
-          data.pantry.some(
-            (p) =>
-              p.quantity > 0 && ingredientKey(ingredient) === ingredientKey(p),
-          ),
-        ),
+        mode !== "pantry" || item.recipe.ingredients.some(inPantry),
     )
     .sort(
       (a, b) => b.score - a.score || a.recipe.id.localeCompare(b.recipe.id),
     );
+  // Pick one at a time by diversity-adjusted score: each category already on the list costs 10
+  // points. A single linear pass per pick replaces re-sorting the whole pool on every pick.
   const chosen: Recommendation[] = [];
   const categoryCounts = new Map<Recipe["category"], number>();
-  while (scored.length && chosen.length < Math.max(0, limit)) {
-    const varietyScore = (item: Recommendation) =>
-      item.score - 10 * (categoryCounts.get(item.recipe.category) ?? 0);
-    scored.sort(
-      (a, b) =>
-        varietyScore(b) - varietyScore(a) ||
-        a.recipe.id.localeCompare(b.recipe.id),
-    );
-    const next = scored.shift()!;
-    chosen.push({ ...next, score: varietyScore(next) });
+  const varietyScore = (item: Recommendation) =>
+    item.score - 10 * (categoryCounts.get(item.recipe.category) ?? 0);
+  const limitTo = Math.max(0, limit);
+  while (scored.length && chosen.length < limitTo) {
+    let best = 0;
+    for (let index = 1; index < scored.length; index++) {
+      const challenger = varietyScore(scored[index]);
+      const incumbent = varietyScore(scored[best]);
+      if (
+        challenger > incumbent ||
+        (challenger === incumbent &&
+          scored[index].recipe.id.localeCompare(scored[best].recipe.id) < 0)
+      )
+        best = index;
+    }
+    // The diversity penalty decides order only. The returned score stays the recipe's own
+    // score, so it does not change with the other results in the same list.
+    const [next] = scored.splice(best, 1);
+    chosen.push(next);
     categoryCounts.set(
       next.recipe.category,
       (categoryCounts.get(next.recipe.category) ?? 0) + 1,
@@ -422,10 +512,11 @@ export function buildShoppingList(
     if (row) row.quantity = Math.max(0, row.quantity - baseUnit(item).quantity);
   }
   const savedById = new Map(saved.map((item) => [item.id, item]));
+  // Drop only after rounding, so a need that rounds to zero is not listed as "0 g".
   const generated = [...rows.values()]
-    .filter((row) => row.quantity > 1e-8)
-    .map((row) => {
-      const quantity = Math.round(row.quantity * 1000) / 1000;
+    .map((row) => ({ row, quantity: Math.round(row.quantity * 1000) / 1000 }))
+    .filter(({ quantity }) => quantity > 0)
+    .map(({ row, quantity }) => {
       const savedRow = savedById.get(row.id);
       // A purchase tick applies to its measured quantity, not every future plan with the same ingredient.
       const sameQuantity =
@@ -459,6 +550,15 @@ const numberFormat = new Intl.NumberFormat("en-AU", {
 const decimalFormat = new Intl.NumberFormat("en-AU", {
   maximumFractionDigits: 2,
 });
+// A positive need never reads as zero: anything under a quarter teaspoon shows as one quarter.
+function nearestSpoonsForNeed(value: number): number {
+  return value > 0 ? Math.max(nearestSpoons(value), spoonSteps[1][0]) : 0;
+}
+// The shopping formatter shows one decimal, so a tiny positive amount would read as "0".
+function atLeastTenth(value: number): number {
+  return value > 0 && value < 0.05 ? 0.1 : value;
+}
+const largeFromTenths = 999.95;
 function nearestSpoons(value: number): number {
   const whole = Math.floor(value);
   const remainder = value - whole;
@@ -479,18 +579,21 @@ export function formatShoppingAmount(
   unit: ShoppingItem["unit"],
 ): string {
   if (unit === "tsp" || unit === "tbsp")
-    return spoonText(nearestSpoons(quantity), unit);
-  if (unit === "g" && quantity >= 1000)
+    return spoonText(nearestSpoonsForNeed(quantity), unit);
+  // The unit switches just below 1000, where one decimal would otherwise print "1,000 g" or "1,000 ml".
+  if (unit === "g" && quantity >= largeFromTenths)
     return `${decimalFormat.format(quantity / 1000)} kg`;
-  if (unit !== "ml") return `${numberFormat.format(quantity)} ${unit}`;
-  if (quantity >= 1000) return `${decimalFormat.format(quantity / 1000)} L`;
+  if (unit !== "ml")
+    return `${numberFormat.format(atLeastTenth(quantity))} ${unit}`;
+  if (quantity >= largeFromTenths)
+    return `${decimalFormat.format(quantity / 1000)} L`;
   if (quantity >= 60) return `${numberFormat.format(quantity)} ml`;
   if (quantity >= 15) {
     // Round up to the next half tablespoon: 22.5 ml reads 1½ tbsp, 31.67 ml reads 2 tbsp.
     const halves = Math.ceil((quantity / 20) * 2 - 1e-9) / 2;
     return spoonText(halves, "tbsp");
   }
-  return spoonText(nearestSpoons(quantity / 5), "tsp");
+  return spoonText(nearestSpoonsForNeed(quantity / 5), "tsp");
 }
 export function localDate(
   date = new Date(),

@@ -3,7 +3,7 @@
 The canonical catalogue is `src/data/recipes-savoury.json` plus `src/data/recipes-plant.json`. Only those records appear in the app. Candidate lists, rejected sources and exploratory files here do not contribute to its count.
 
 - `source-register.json`: generated crosswalk from every recipe to its attributed sources, check dates and nutrition method, with exact canonical file hashes. Run `npm run research:index` to refresh; this is not a new internet verification.
-- `validation-report.json`: schema, count, category, arithmetic, image and duplicate-signature checks from `npm run validate:data`.
+- `validation-report.json`: schema, count, category, arithmetic, image, source-register, allergen, dietary, food-safety and duplicate checks from `npm run validate:data`. Current state: 0 errors, 113 warnings. The review list is in `docs/backend/RECIPE_DATA_REPORT.md`.
 - `plant/` and `savoury/`: independently authored records, concise source facts, food-composition mappings, verification/rejection evidence and stream reports. Their reports describe regeneration.
 - `expansion/`: shared discovery and factual editorial assistance. Several candidates were rejected or superseded. Their presence does not indicate acceptance.
 - `runtime-dependency-audit.json`: npm audit of runtime dependencies at validation time. This checks the registry's published advisories, not every possible vulnerability.

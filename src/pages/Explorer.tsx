@@ -101,6 +101,7 @@ export function Explorer({
           maxCalories: calories ? Number(calories) : undefined,
           dietary: [...data.preferences.dietary, ...(dietary ? [dietary] : [])],
           excludeAllergens: [...data.preferences.allergens, ...allergens],
+          avoidIngredients: data.preferences.avoidIngredients,
           difficulty: difficulty || undefined,
           oilFree,
           status,
@@ -123,6 +124,7 @@ export function Explorer({
       allergens,
       data.preferences.dietary,
       data.preferences.allergens,
+      data.preferences.avoidIngredients,
       data.recipeStates,
     ],
   );

@@ -23,7 +23,279 @@
     "estimated": 182,
     "source-estimate": 118
   },
+  "audit": {
+    "fullyValidated": 257,
+    "recipesWithErrors": 0,
+    "recipesNeedingManualReview": 43,
+    "incompleteSourceEvidence": 13,
+    "nutritionUncertainty": {
+      "publisherEstimates": 118,
+      "calorieCrossCheckOutsideTolerance": 36,
+      "fibreUnknown": 6
+    },
+    "duplicateCandidatePairs": [
+      {
+        "a": "air-fryer-omelette",
+        "b": "air-fryer-scrambled-eggs-on-toast",
+        "titleJaccard": 0,
+        "ingredientJaccard": 1
+      },
+      {
+        "a": "air-fryer-steak-fajitas",
+        "b": "air-fryer-chicken-fajitas",
+        "titleJaccard": 0.5,
+        "ingredientJaccard": 0.67
+      }
+    ],
+    "ownerDecisionNswMince": 26,
+    "volumeUnitOnSolids": 31,
+    "flags": {
+      "air-fryer-meatballs": [
+        "owner-decision-nsw-75"
+      ],
+      "air-fryer-pork-apple-sage-sausage-rolls": [
+        "owner-decision-nsw-75"
+      ],
+      "air-fryer-meatball-potato-traybake": [
+        "owner-decision-nsw-75"
+      ],
+      "air-fryer-pork-apple-burgers": [
+        "owner-decision-nsw-75"
+      ],
+      "air-fryer-turkey-meatballs": [
+        "owner-decision-nsw-75"
+      ],
+      "air-fryer-turkey-burgers": [
+        "owner-decision-nsw-75"
+      ],
+      "air-fryer-lamb-kofta-kebabs": [
+        "owner-decision-nsw-75"
+      ],
+      "air-fryer-meatloaf": [
+        "owner-decision-nsw-75"
+      ],
+      "air-fryer-pork-in-blanket-turnovers": [
+        "owner-decision-nsw-75"
+      ],
+      "air-fryer-pork-potato-kofte": [
+        "owner-decision-nsw-75"
+      ],
+      "air-fryer-smash-burgers-with-cheese-bacon": [
+        "owner-decision-nsw-75"
+      ],
+      "air-fryer-harissa-sausage-veg-traybake": [
+        "owner-decision-nsw-75"
+      ],
+      "air-fryer-toad-in-the-hole": [
+        "owner-decision-nsw-75"
+      ],
+      "big-mac-tacos-in-air-fryer": [
+        "owner-decision-nsw-75"
+      ],
+      "air-fryer-chilli-con-carne": [
+        "owner-decision-nsw-75"
+      ],
+      "air-fryer-doner-kebab": [
+        "owner-decision-nsw-75"
+      ],
+      "air-fryer-harvest-casserole": [
+        "owner-decision-nsw-75"
+      ],
+      "copycat-kfc-zinger-chicken-burger-in-the-airfryer": [
+        "owner-decision-nsw-75"
+      ],
+      "air-fryer-pizza-fries": [
+        "owner-decision-nsw-75"
+      ],
+      "how-to-make-the-best-ever-juicy-lucy-cheese-burger-in-the-airfryer": [
+        "owner-decision-nsw-75"
+      ],
+      "spicy-italian-sausage-capsicum-mushroom-onion-subs-recipe": [
+        "owner-decision-nsw-75"
+      ],
+      "meat-and-rice-stuffed-peppers": [
+        "web-read-only-no-http-status"
+      ],
+      "air-fryed-egg-rolls": [
+        "web-read-only-no-http-status"
+      ],
+      "harissa-alaska-cod-rice-bowls": [
+        "web-read-only-no-http-status"
+      ],
+      "air-fried-alaska-salmon-with-israeli-salad-couscous": [
+        "web-read-only-no-http-status"
+      ],
+      "bell-pepper-stuffed-chicken-roll-ups": [
+        "owner-decision-nsw-75"
+      ],
+      "pandan-leaf-chicken": [
+        "owner-decision-nsw-75"
+      ],
+      "thai-chicken-meatballs": [
+        "owner-decision-nsw-75"
+      ],
+      "bruschetta-chicken": [
+        "owner-decision-nsw-75"
+      ],
+      "chicken-patties-and-one-dish-chicken-rice": [
+        "owner-decision-nsw-75"
+      ],
+      "air-fryer-chicken-kiev": [
+        "web-read-only-no-http-status"
+      ],
+      "chicken-katsu-curry": [
+        "web-read-only-no-http-status"
+      ],
+      "garlic-butter-lobster-tails": [
+        "web-read-only-no-http-status"
+      ],
+      "air-fried-teriyaki-bacon-wrapped-dates": [
+        "web-read-only-no-http-status"
+      ],
+      "air-fryer-buffalo-chicken-livers-with-blue-cheese-dipping-sauce": [
+        "web-read-only-no-http-status"
+      ],
+      "ginger-tamari-fish-parcels": [
+        "web-read-only-no-http-status"
+      ],
+      "pork-souvlaki-skewers": [
+        "web-read-only-no-http-status"
+      ],
+      "roast-cauliflower-chickpea-chicken-salad": [
+        "web-read-only-no-http-status"
+      ],
+      "salmon-gnocchi-spinach-pesto": [
+        "web-read-only-no-http-status"
+      ],
+      "air-fryer-omelette": [
+        "duplicate-candidate"
+      ],
+      "air-fryer-scrambled-eggs-on-toast": [
+        "duplicate-candidate"
+      ],
+      "air-fryer-steak-fajitas": [
+        "duplicate-candidate"
+      ],
+      "air-fryer-chicken-fajitas": [
+        "duplicate-candidate"
+      ]
+    }
+  },
   "errors": [],
-  "warnings": [],
-  "note": "Structural and arithmetic validation only. Individual source verification and editorial review are recorded in research/. Not a kitchen or laboratory test."
+  "warnings": [
+    "air-fryer-scrambled-eggs-on-toast: only 2 steps; check instructions are complete",
+    "air-fryer-zucchini-double-cheese-pizza: only 2 steps; check instructions are complete",
+    "air-fryer-pizza-toast: only 2 steps; check instructions are complete",
+    "air-fryer-onions: only 2 steps; check instructions are complete",
+    "air-fryer-cheese-and-bean-toastie: only 2 steps; check instructions are complete",
+    "air-fryer-cabbage: only 2 steps; check instructions are complete",
+    "air-fryer-roasted-beets: only 2 steps; check instructions are complete",
+    "how-to-cook-asparagus-in-air-fryer: only 2 steps; check instructions are complete",
+    "air-fryer-frozen-green-beans: only 2 steps; check instructions are complete",
+    "air-fryer-frozen-corn-on-the-cob: only 2 steps; check instructions are complete",
+    "air-fryer-cream-cheese-bagels: only 2 steps; check instructions are complete",
+    "air-fryer-butternut-squash: only 2 steps; check instructions are complete",
+    "best-ever-philips-airfryer-new-york-cheesecake: total time 777 min; confirm any overnight soak is intended",
+    "air-fryer-tea-loaf: total time 833 min; confirm any overnight soak is intended",
+    "air-fryer-roasted-peppers-bell-peppers: only 2 steps; check instructions are complete",
+    "air-fryer-spinach: only 2 steps; check instructions are complete",
+    "paneer-tikka: only 2 steps; check instructions are complete",
+    "malai-broccoli: only 2 steps; check instructions are complete",
+    "tandoori-paneer-naan-pizza: only 2 steps; check instructions are complete",
+    "air-fryer-tandoori-chicken-kebabs: total time 520 min; confirm any overnight soak is intended",
+    "NSW 75 C owner decision: air-fryer-meatballs: 71 C (Beef and pork parmesan meatballs)",
+    "NSW 75 C owner decision: air-fryer-pork-apple-sage-sausage-rolls: 71 C (Sage and apple sausage rolls)",
+    "NSW 75 C owner decision: air-fryer-meatball-potato-traybake: 71 C (Cheesy beef meatballs and root vegetables)",
+    "NSW 75 C owner decision: air-fryer-pork-apple-burgers: 71 C (Pork and apple burgers with chips)",
+    "NSW 75 C owner decision: air-fryer-turkey-meatballs: 74 C (Turkey and parsley meatballs)",
+    "NSW 75 C owner decision: air-fryer-turkey-burgers: 74 C (Turkey cheeseburgers and potato cubes)",
+    "NSW 75 C owner decision: air-fryer-lamb-kofta-kebabs: 71 C (Lamb kofta fingers)",
+    "NSW 75 C owner decision: air-fryer-meatloaf: 71 C (Lean beef meatloaf with tomato glaze)",
+    "NSW 75 C owner decision: air-fryer-pork-in-blanket-turnovers: 71 C (Bacon sausage and chutney turnovers)",
+    "NSW 75 C owner decision: air-fryer-pork-potato-kofte: 71 C (Pork and potato kofte with bulgur salad)",
+    "NSW 75 C owner decision: air-fryer-smash-burgers-with-cheese-bacon: 71 C (Bacon cheeseburgers)",
+    "NSW 75 C owner decision: air-fryer-harissa-sausage-veg-traybake: 71 C (Harissa sausages with pumpkin and kale)",
+    "NSW 75 C owner decision: air-fryer-toad-in-the-hole: 71 C (Sausage Yorkshire pudding tray)",
+    "NSW 75 C owner decision: big-mac-tacos-in-air-fryer: 71 C (Cheeseburger tortilla pockets)",
+    "NSW 75 C owner decision: air-fryer-chilli-con-carne: 71 C (Beef and kidney bean chilli)",
+    "NSW 75 C owner decision: air-fryer-doner-kebab: 71 C (Lamb doner pita with garlic yoghurt)",
+    "NSW 75 C owner decision: air-fryer-harvest-casserole: 71 C (Sausage, apple and Brussels sprout roast)",
+    "NSW 75 C owner decision: copycat-kfc-zinger-chicken-burger-in-the-airfryer: 74 C (Crunchy chicken burgers with paprika mayo)",
+    "NSW 75 C owner decision: air-fryer-pizza-fries: 71 C (Chorizo and mozzarella loaded chips)",
+    "NSW 75 C owner decision: how-to-make-the-best-ever-juicy-lucy-cheese-burger-in-the-airfryer: 71 C (Cheese-filled beef patties)",
+    "NSW 75 C owner decision: spicy-italian-sausage-capsicum-mushroom-onion-subs-recipe: 71 C (Sausage, mushroom and capsicum rolls)",
+    "NSW 75 C owner decision: bell-pepper-stuffed-chicken-roll-ups: 74 C (Chicken and capsicum roulades)",
+    "NSW 75 C owner decision: pandan-leaf-chicken: 74 C (Pandan-wrapped chicken parcels)",
+    "NSW 75 C owner decision: thai-chicken-meatballs: 74 C (Chicken meatballs with sweet chilli glaze)",
+    "NSW 75 C owner decision: bruschetta-chicken: 74 C (Tomato and basil stuffed chicken fans)",
+    "NSW 75 C owner decision: chicken-patties-and-one-dish-chicken-rice: 74 C (Mozzarella chicken schnitzel patties)",
+    "Calorie cross-check outside tolerance: air-fryer-sweet-potato-fries: 244 kcal vs 213 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-sweet-potato-hash: 471 kcal vs 420 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-brussels-sprouts: 36 kcal vs 19 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-parsnips: 190 kcal vs 151 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-veggie-curry: 237 kcal vs 207 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-veggie-sausage-casserole: 329 kcal vs 274 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-spiced-carrot-fries: 213 kcal vs 179 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-roasted-veg: 193 kcal vs 159 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-miso-aubergine: 95 kcal vs 80 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-broccoli: 50 kcal vs 32 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-buffalo-cauliflower-wings: 188 kcal vs 167 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-onions: 45 kcal vs 34 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-cabbage: 110 kcal vs 98 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-garlic-mushrooms: 120 kcal vs 101 from macros",
+    "Calorie cross-check outside tolerance: best-ever-airfryer-vegan-lentil-burgers: 230 kcal vs 180 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-roasted-beets: 150 kcal vs 130 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-frozen-green-beans: 45 kcal vs 25 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-frozen-corn-on-the-cob: 165 kcal vs 148 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-chickpeas: 85 kcal vs 67 from macros",
+    "Calorie cross-check outside tolerance: whole-30-life-changing-airfryer-veggie-pakoras: 305 kcal vs 240 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-stuffed-peppers: 270 kcal vs 236 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-chestnuts: 130 kcal vs 85 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-roasted-garlic: 60 kcal vs 37 from macros",
+    "Calorie cross-check outside tolerance: bharwa-bhindi-stuffed-okra: 240 kcal vs 214 from macros",
+    "Calorie cross-check outside tolerance: masala-peanuts: 145 kcal vs 128 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-spinach: 65 kcal vs 50 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-roasted-artichokes: 180 kcal vs 124 from macros",
+    "Calorie cross-check outside tolerance: dal-with-air-fryer-tofu: 685 kcal vs 602 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-black-bean-burgers: 340 kcal vs 285 from macros",
+    "Calorie cross-check outside tolerance: bbq-lentil-mushroom-balls: 410 kcal vs 361 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-zucchini-boats: 210 kcal vs 187 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-portobello-burgers: 350 kcal vs 308 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-soy-chunk-popcorn: 330 kcal vs 282 from macros",
+    "Calorie cross-check outside tolerance: white-bean-polenta-bruschetta: 560 kcal vs 474 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-sweetcorn-fritters: 101 kcal vs 90 from macros",
+    "Calorie cross-check outside tolerance: air-fryer-chilli-con-carne: 275 kcal vs 242 from macros",
+    "Volume unit on a solid ingredient: air-fryer-stollen-bites: 60 ml icing sugar",
+    "Volume unit on a solid ingredient: air-fryer-scones: 30 ml caster sugar",
+    "Volume unit on a solid ingredient: air-fryer-falafel: 15 ml plain flour",
+    "Volume unit on a solid ingredient: air-fryer-soda-bread: 30 ml porridge oats",
+    "Volume unit on a solid ingredient: air-fryer-jam-custard-pastry-pockets: 45 ml icing sugar",
+    "Volume unit on a solid ingredient: air-fryer-pavlova: 15 ml icing sugar",
+    "Volume unit on a solid ingredient: air-fryer-french-toast: 15 ml demerara sugar",
+    "Volume unit on a solid ingredient: air-fryer-spring-rolls: 30 ml cornflour",
+    "Volume unit on a solid ingredient: green-goddess-bowl-with-crispy-sesame-tofu: 45 ml plain flour",
+    "Volume unit on a solid ingredient: paneer-tikka: 15 ml chickpea flour",
+    "Volume unit on a solid ingredient: malai-broccoli: 59 ml vegetarian processed cheese",
+    "Volume unit on a solid ingredient: malai-broccoli: 15 ml cornflour",
+    "Volume unit on a solid ingredient: tandoori-paneer-naan-pizza: 118 ml paneer cheese",
+    "Volume unit on a solid ingredient: tandoori-paneer-naan-pizza: 177 ml mozzarella cheese",
+    "Volume unit on a solid ingredient: almond-hemp-granola: 355 ml rolled oats",
+    "Volume unit on a solid ingredient: almond-hemp-granola: 118 ml raw almonds",
+    "Volume unit on a solid ingredient: almond-hemp-granola: 59 ml almond meal",
+    "Volume unit on a solid ingredient: almond-hemp-granola: 30 ml hemp seeds",
+    "Volume unit on a solid ingredient: quinoa-kale-stuffed-squash: 15 ml toasted pumpkin seeds",
+    "Volume unit on a solid ingredient: broccoli-ricotta-stuffed-shells: 118 ml ricotta cheese",
+    "Volume unit on a solid ingredient: broccoli-ricotta-stuffed-shells: 71 ml vegetarian hard cheese",
+    "Volume unit on a solid ingredient: broccoli-ricotta-stuffed-shells: 15 ml pine nuts",
+    "Volume unit on a solid ingredient: broccoli-ricotta-stuffed-shells: 59 ml mozzarella cheese",
+    "Volume unit on a solid ingredient: air-fryer-crispy-chilli-beef: 30 ml cornflour",
+    "Volume unit on a solid ingredient: air-fryer-sticky-pork-tacos-with-plum-chilli-salsa: 15 ml dark brown sugar",
+    "Volume unit on a solid ingredient: air-fryer-meatball-potato-traybake: 30 ml Red Leicester cheese",
+    "Volume unit on a solid ingredient: air-fryer-chicken-taquitos: 45 ml cream cheese",
+    "Volume unit on a solid ingredient: air-fryer-fishcakes: 75 ml plain flour",
+    "Volume unit on a solid ingredient: air-fryer-sesame-prawn-toast: 15 ml sesame seeds",
+    "Volume unit on a solid ingredient: air-fryer-buffalo-wings: 15 ml cornflour",
+    "Volume unit on a solid ingredient: sticky-air-fryer-salmon-rice-bowl: 30 ml sesame seeds"
+  ],
+  "note": "Structural, arithmetic and food-safety invariants. Source verification and editorial review are recorded in research/. Not a kitchen or laboratory test."
 }

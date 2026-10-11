@@ -1427,3 +1427,167 @@ main > section {
 .stack-form [aria-invalid="true"] {
   border-color: var(--danger);
 }
+
+/* Cross-device sync status, counts and conflict review (CloudSettings.tsx). */
+.cloud-rule {
+  font-size: 13px;
+  color: var(--muted);
+}
+.cloud-status {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background: var(--sage);
+  color: var(--sage-ink);
+  padding: 14px 16px;
+  border-radius: 8px;
+  margin: 18px 0;
+}
+.cloud-status-icon {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--sage-ink);
+}
+.cloud-status-failed,
+.cloud-status-conflict {
+  color: var(--accent);
+}
+.cloud-status-text {
+  min-width: 0;
+}
+.cloud-status-label {
+  margin: 0;
+  font-weight: 600;
+  font-size: 14px;
+}
+.cloud-status-message {
+  margin: 4px 0 0;
+  font-size: 13px;
+}
+.cloud-status-icon.is-spinning svg {
+  animation: cloud-spin 1.1s linear infinite;
+}
+@keyframes cloud-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.cloud-counts {
+  margin: 0 0 12px;
+}
+.cloud-count {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 12px 0;
+  padding: 12px 14px;
+  border: 1px solid var(--danger);
+  border-radius: 8px;
+  color: var(--ink);
+}
+.cloud-count-failed svg {
+  flex: none;
+  margin-top: 2px;
+  color: var(--danger);
+}
+.cloud-count .button {
+  margin-top: 8px;
+}
+.cloud-count p {
+  margin: 0;
+  font-size: 13px;
+}
+.cloud-conflicts {
+  margin: 18px 0;
+}
+.cloud-conflicts h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.cloud-conflicts > p {
+  font-size: 13px;
+  color: var(--muted);
+}
+.cloud-conflict-list {
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 0;
+  display: grid;
+  gap: 14px;
+}
+.cloud-conflict {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: var(--shadow);
+}
+.cloud-conflict h4 {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.cloud-conflict-versions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+.cloud-conflict-side h5 {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+.cloud-conflict-side ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  display: grid;
+  gap: 4px;
+  overflow-wrap: anywhere;
+}
+.cloud-conflict-actions {
+  margin-top: 14px;
+}
+@media (max-width: 600px) {
+  .cloud-conflict-versions {
+    grid-template-columns: 1fr;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cloud-status-icon.is-spinning svg {
+    animation: none;
+  }
+}
+
+/* Exclusion warnings: an icon and text, never colour alone. */
+.planned-meal-conflict {
+  display: flex;
+  gap: 6px;
+  align-items: flex-start;
+  margin: 8px 0 0;
+  color: var(--danger);
+  font-size: 12px;
+  line-height: 1.5;
+}
+.planned-meal-conflict svg {
+  flex: 0 0 auto;
+  margin-top: 2px;
+}
+.shopping-conflict {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  color: var(--danger);
+}
+.shopping-conflict svg {
+  flex: 0 0 auto;
+  margin-top: 2px;
+}

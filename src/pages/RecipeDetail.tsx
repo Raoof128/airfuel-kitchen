@@ -212,7 +212,10 @@ export function RecipeDetail({ slug }: { slug: string }) {
       void run(() =>
         actions.patchRecipeState(recipe.id, { viewedAt: Date.now() }),
       );
-  }, [recipe?.id]); // Viewing is deliberately independent of tried status.
+    // Record one view per recipe id: `recipe` is a new object on every data change,
+    // and `run` is stable. Viewing is deliberately independent of tried status.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [recipe?.id]);
   useEffect(() => {
     const guard = (event: BeforeUnloadEvent) => {
       if (noteDirty.current) {
@@ -257,23 +260,64 @@ export function RecipeDetail({ slug }: { slug: string }) {
     );
   const scaled = scaleIngredients(recipe, servings);
   async function addShopping() {
-    await run(async () => {
-      // Ids are stable per recipe and position, so adding again replaces these rows
-      // instead of duplicating them; keep any ticks already set on them.
-      for (const [index, item] of scaled.entries()) {
-        const id = `direct-${recipe!.id}-${index}`;
-        await actions.saveShopping({
-          id,
-          name: item.name,
-          quantity: item.quantity,
-          unit: item.unit,
-          form: item.form,
-          aisle: item.aisle,
-          checked: data.shopping.find((s) => s.id === id)?.checked ?? false,
-          manual: true,
-        });
-      }
-    }, "Ingredients added to your shopping list");
+    // Ids are stable per recipe and position, so adding again replaces these rows
+    // instead of duplicating them; keep any ticks already set on them. One
+    // transaction: either every ingredient is added or none is (ARCH-12).
+    const rows = scaled.map((item, index) => {
+      const id = `direct-${recipe!.id}-${index}`;
+      return {
+        id,
+        name: item.name,
+        quantity: item.quantity,
+        unit: item.unit,
+        form: item.form,
+        aisle: item.aisle,
+        checked: data.shopping.find((s) => s.id === id)?.checked ?? false,
+        manual: true,
+      };
+    });
+    await run(
+      () => actions.saveShoppingBatch(rows),
+      "Ingredients added to your shopping list",
+    );
+  }
+  // While this recipe is the active cook, the checklist is the cook's; otherwise
+  // ticks are the recipe's own and never start a cook or block another recipe.
+  function isChecked(kind: "ingredient" | "step", index: number) {
+    if (active)
+      return (
+        kind === "ingredient" ? active.checkedIngredients : active.checkedSteps
+      ).includes(index);
+    const checks = state?.checks;
+    return (
+      (kind === "ingredient" ? checks?.ingredients : checks?.steps)?.includes(
+        index,
+      ) ?? false
+    );
+  }
+  function setCheck(
+    kind: "ingredient" | "step",
+    index: number,
+    checked: boolean,
+  ) {
+    return run(() =>
+      active
+        ? actions.setCookingCheck(
+            recipe!.id,
+            kind,
+            index,
+            checked,
+            servings,
+            recipe!.id,
+          )
+        : actions.setRecipeCheck(
+            recipe!.id,
+            kind,
+            index,
+            checked,
+            kind === "ingredient" ? scaled.length : recipe!.steps.length,
+          ),
+    );
   }
   return (
     <>
@@ -493,18 +537,9 @@ export function RecipeDetail({ slug }: { slug: string }) {
               <li key={i}>
                 <label>
                   <SavedCheckbox
-                    checked={active?.checkedIngredients.includes(i) || false}
+                    checked={isChecked("ingredient", i)}
                     onCheckedChange={(checked) =>
-                      run(() =>
-                        actions.setCookingCheck(
-                          recipe.id,
-                          "ingredient",
-                          i,
-                          checked,
-                          servings,
-                          data.activeCooking?.recipeId ?? null,
-                        ),
-                      )
+                      setCheck("ingredient", i, checked)
                     }
                   />
                   <span>
@@ -559,25 +594,12 @@ export function RecipeDetail({ slug }: { slug: string }) {
             {recipe.steps.map((step, i) => (
               <li
                 key={i}
-                className={
-                  active?.checkedSteps.includes(i) ? "step-complete" : ""
-                }
+                className={isChecked("step", i) ? "step-complete" : ""}
               >
                 <label>
                   <SavedCheckbox
-                    checked={active?.checkedSteps.includes(i) || false}
-                    onCheckedChange={(checked) =>
-                      run(() =>
-                        actions.setCookingCheck(
-                          recipe.id,
-                          "step",
-                          i,
-                          checked,
-                          servings,
-                          data.activeCooking?.recipeId ?? null,
-                        ),
-                      )
-                    }
+                    checked={isChecked("step", i)}
+                    onCheckedChange={(checked) => setCheck("step", i, checked)}
                   />
                   <span className="step-number">{i + 1}</span>
                   <span>{step}</span>

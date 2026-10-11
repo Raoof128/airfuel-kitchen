@@ -1,6 +1,6 @@
 # AirFuel Kitchen
 
-A private, offline-first air-fryer cooking companion built for Australian metric ingredients and a Ninja 6.7 L basket, without assuming a model number. Includes **300 researched recipes**, with original metric instructions, attributed sources and estimated nutrition. The final dataset has 128 main meals with at least 25g estimated protein per serving.
+A private, offline-first air-fryer cooking companion built for Australian metric ingredients and a Ninja 6.7 L basket, without assuming a model number. Includes **300 researched recipes**, with original metric instructions, attributed sources and estimated nutrition. The final dataset has 128 main meals with at least 25g estimated protein per serving; "main meal" here means every category except breakfast, snacks-sides and desserts, so it includes the vegetarian category.
 
 ## Run locally
 

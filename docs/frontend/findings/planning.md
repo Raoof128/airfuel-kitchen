@@ -107,3 +107,11 @@ Screenshots: `docs/frontend/screenshots/agents/planning/` (planner, shopping, pa
 - Fix: each `section.day-panel` is labelled by `day-long-<date>`, a visually hidden full-date span in its header (e.g. "Sunday 11 October"). The selected-panel special case is removed. The visible "Sun / 11" heading is unchanged.
 - Verification: `panel-names.mjs` at 375 (1 visible) and 1440 (7 visible): all 7 names are full dates in the form "Monday 5 October" ... "Sunday 11 October". Axe clean at both widths.
 - Status: FIXED-VERIFIED
+
+## SEC-14: planned meals that break current exclusions are not flagged (planner and shopping)
+- Severity: P2 (safety)
+- Route / component / file:line: `/planner` planned-meal cards and `/shopping` header, `src/pages/Planning.tsx` (`exclusionConflicts`, `.planned-meal-conflict`, `.shopping-conflict`); CSS in `src/styles/kitchen.css`.
+- Defect: after an allergen exclusion or dietary requirement is set in Settings, planned meals that break it were shown and shopped with no warning.
+- Fix: no new rule written. `exclusionConflicts` calls the existing `filterRecipes` once per preference (`excludeAllergens: [a]` or `dietary: [d]`), so the closure rules (gluten/wheat) and the fail-closed rule for custom recipes apply exactly as in recommendations. Each planned meal that fails shows an icon plus text, e.g. "Warning: Contains milk, now excluded. Keep it, or change the meal." Dietary failures read "Not vegan, now required." The shopping list shows a notice with a count ("1 planned meal conflicts with your exclusions...") and a link to the planner. Meals are kept; nothing is removed.
+- Verification: `exclusions.mjs` (halloumi = milk, sweet-potato hash = egg): with milk excluded, only halloumi is flagged, both meals stay in the plan, shopping notice shows "1 planned meal conflicts", axe clean on shopping, at 375 and 1440 in light and dark, no page errors. `dietary.mjs`: vegan requirement shows "Not vegan, now required" on halloumi, planner axe clean with the warning shown. Screenshots: `exclusion-shopping-375-light.png`, `exclusion-planner-375-light.png`.
+- Status: FIXED-VERIFIED

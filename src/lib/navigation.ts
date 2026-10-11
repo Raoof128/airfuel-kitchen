@@ -17,3 +17,13 @@ export function exploreReturnLocation() {
   }
   return "#/explore";
 }
+
+// "Delete personal data" also removes the remembered search, which can hold
+// what the user was looking for.
+export function forgetExploreLocation() {
+  try {
+    sessionStorage.removeItem("airfuel-explore-location");
+  } catch {
+    // Nothing is stored when session storage is unavailable.
+  }
+}

@@ -123,3 +123,9 @@ Browser scripts: `scripts/frontend-audit/tmp/custom/flow.mjs` (before), `verify.
 - Fix: placeholder is now "300 g chicken breast, diced / 1 tbsp olive oil / ½ tsp smoked paprika". The hint already mentions the pipe format only under "Advanced". Unit tests cover `200 g chicken breast, diced` (preparation "diced") and `½ tsp smoked paprika`.
 - Verification: tsc 0, eslint 0, vitest custom-ingredients 17/17.
 - Status: FIXED-UNVERIFIED (no browser screenshot of the placeholder)
+
+## ARCH-8: Safety rule and ingredient parser moved out of the component (P2)
+- Fix: the parser (`parseCustomIngredients`, `parseNaturalIngredient`, unit aliases) and the safety rule (`coreTemperatureRequirement`, category and protein minimums, packaged exclusions) moved verbatim to `src/lib/customRecipe.ts`. `src/lib/index.ts` re-exports it. `CustomRecipes.tsx` imports both from `../lib`.
+- Tests: `tests/unit/custom-ingredients.test.ts` now imports from the new module. New `tests/unit/backend-custom-safety.test.ts` covers poultry 74, mince/pork/egg/red meat 71, fish 63, word boundaries (eggplant, peanut, hamburger), packaged exclusions (chicken stock, fish sauce), category minimums, and the highest requirement winning.
+- Verification: `npx vitest run` on both files: 36/36 pass. `tsc` exit 0. `eslint` exit 0 on the changed files. Browser not re-run (code moved without changes).
+- Status: FIXED-VERIFIED

@@ -82,10 +82,15 @@ export const recipeSchema = z
               .string()
               .url()
               .max(2000)
-              .refine(
-                (v) => new URL(v).protocol === "https:",
-                "HTTPS sources only",
-              ),
+              .refine((v) => {
+                // new URL() throws on relative or malformed input; that is a rejected
+                // value, not an exception escaping the schema.
+                try {
+                  return new URL(v).protocol === "https:";
+                } catch {
+                  return false;
+                }
+              }, "HTTPS sources only"),
             verifiedAt: dateSchema,
           })
           .strict(),
@@ -132,7 +137,8 @@ export const recipeSchema = z
   );
 export type Recipe = z.infer<typeof recipeSchema>;
 export type Ingredient = z.infer<typeof ingredientSchema>;
-const timestamp = z.number().finite().int().min(0).max(8640000000000000);
+export const timestampCeiling = 8640000000000000;
+const timestamp = z.number().finite().int().min(0).max(timestampCeiling);
 const id = z.string().min(1).max(300);
 const metadata = { id, updatedAt: timestamp };
 export const recipeStateSchema = z
@@ -144,6 +150,15 @@ export const recipeStateSchema = z
     rating: z.number().int().min(1).max(5).nullable(),
     notes: text,
     viewedAt: timestamp.nullable(),
+    // Ticks made on the recipe page while not cooking. Optional so older rows and backups
+    // stay valid; indexes are 0-99 like the active cook's, and lists hold at most 100.
+    checks: z
+      .object({
+        ingredients: z.array(z.number().int().min(0).max(99)).max(100),
+        steps: z.array(z.number().int().min(0).max(99)).max(100),
+      })
+      .strict()
+      .optional(),
   })
   .strict();
 export type RecipeState = z.infer<typeof recipeStateSchema>;
@@ -282,20 +297,33 @@ export const activeCookingSchema = z
   })
   .strict();
 export type ActiveCooking = z.infer<typeof activeCookingSchema>;
+// The most records of each kind a backup can hold. Writes, merges and export all use these
+// same numbers, so the app can never reach a state its own export refuses.
+export const backupLimits = {
+  recipeStates: 20000,
+  sessions: 50000,
+  plans: 20000,
+  pantry: 10000,
+  shopping: 10000,
+  customRecipes: 1000,
+  overrides: 1000,
+  preferences: 1,
+  activeCooking: 1,
+} as const;
 export const backupSchema = z
   .object({
     format: z.literal("airfuel-kitchen"),
     version: z.literal(2),
     exportedAt: timestamp,
-    recipeStates: z.array(recipeStateSchema).max(20000),
-    sessions: z.array(sessionSchema).max(50000),
-    plans: z.array(planSchema).max(20000),
-    pantry: z.array(pantrySchema).max(10000),
-    shopping: z.array(shoppingSchema).max(10000),
-    customRecipes: z.array(customRecipeSchema).max(1000),
-    overrides: z.array(overrideSchema).max(1000),
-    preferences: z.array(preferenceSchema).max(1),
-    activeCooking: z.array(activeCookingSchema).max(1),
+    recipeStates: z.array(recipeStateSchema).max(backupLimits.recipeStates),
+    sessions: z.array(sessionSchema).max(backupLimits.sessions),
+    plans: z.array(planSchema).max(backupLimits.plans),
+    pantry: z.array(pantrySchema).max(backupLimits.pantry),
+    shopping: z.array(shoppingSchema).max(backupLimits.shopping),
+    customRecipes: z.array(customRecipeSchema).max(backupLimits.customRecipes),
+    overrides: z.array(overrideSchema).max(backupLimits.overrides),
+    preferences: z.array(preferenceSchema).max(backupLimits.preferences),
+    activeCooking: z.array(activeCookingSchema).max(backupLimits.activeCooking),
   })
   .strict();
 export type Backup = z.infer<typeof backupSchema>;

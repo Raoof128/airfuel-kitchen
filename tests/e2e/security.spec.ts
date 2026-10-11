@@ -93,6 +93,11 @@ test("separate tabs preserve simultaneous cooking checklist changes and timer", 
     .getByRole("button", { name: "Start timer", exact: true })
     .click();
   await page.locator('.method-list input[type="checkbox"]').nth(0).check();
+  // The tick is shown before it is saved. Wait until the save is acknowledged, or the reload
+  // below aborts the pending IndexedDB transaction and the tick is lost.
+  await expect(
+    page.locator('.method-list input[type="checkbox"]').nth(0),
+  ).not.toHaveAttribute("aria-busy");
   await expect(
     page.locator('.method-list input[type="checkbox"]').nth(0),
   ).toBeEnabled();

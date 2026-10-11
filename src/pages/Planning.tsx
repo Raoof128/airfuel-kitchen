@@ -8,6 +8,7 @@ import {
   Check,
   Pencil,
   Search,
+  AlertTriangle,
 } from "lucide-react";
 import { useApp, formatQuantity, readableDate } from "../components/context";
 import { Empty, Modal, PageHeading, SavedCheckbox } from "../components/UI";
@@ -20,7 +21,13 @@ import {
   filterRecipes,
   formatShoppingAmount,
 } from "../lib";
-import type { PantryItem, ShoppingItem, PlanEntry } from "../lib/schema";
+import type {
+  PantryItem,
+  Preferences,
+  PlanEntry,
+  Recipe,
+  ShoppingItem,
+} from "../lib/schema";
 const slots = ["breakfast", "lunch", "dinner", "snack"] as const;
 function addDays(date: string, amount: number) {
   const d = new Date(`${date}T12:00:00Z`);
@@ -29,6 +36,19 @@ function addDays(date: string, amount: number) {
 }
 function shiftWeek(date: string, amount: number) {
   return addDays(date, amount * 7);
+}
+// Reuses the recommendation filter one rule at a time, so each reason names the exact allergen or requirement.
+function exclusionConflicts(
+  recipe: Recipe,
+  preferences: Pick<Preferences, "allergens" | "dietary">,
+): string[] {
+  const allergens = preferences.allergens
+    .filter((allergen) => !filterRecipes([recipe], { excludeAllergens: [allergen] }).length)
+    .map((allergen) => `Contains ${allergen}, now excluded`);
+  const dietary = preferences.dietary
+    .filter((claim) => !filterRecipes([recipe], { dietary: [claim] }).length)
+    .map((claim) => `Not ${claim}, now required`);
+  return [...allergens, ...dietary];
 }
 function dayName(day: string, options: Intl.DateTimeFormatOptions) {
   return new Date(`${day}T12:00:00Z`).toLocaleDateString("en-AU", {
@@ -131,6 +151,7 @@ export function Planner() {
     query: search,
     excludeAllergens: data.preferences.allergens,
     dietary: data.preferences.dietary,
+    avoidIngredients: data.preferences.avoidIngredients,
   });
   // An existing meal excluded by changed dietary settings must not silently
   // turn into the first allowed recipe when its editor opens.
@@ -243,6 +264,9 @@ export function Planner() {
                   .filter((p) => p.date === day && p.slot === slot)
                   .map((p) => {
                     const r = recipes.find((r) => r.id === p.recipeId);
+                    const conflicts = r
+                      ? exclusionConflicts(r, data.preferences)
+                      : [];
                     return (
                       <article className="planned-meal" key={p.id}>
                         <a href={`#/recipe/${r?.slug || p.recipeId}`}>
@@ -254,6 +278,15 @@ export function Planner() {
                             ? ` · ${Math.round(r.nutrition.protein * p.servings)}g protein`
                             : ""}
                         </span>
+                        {conflicts.length > 0 && (
+                          <p className="planned-meal-conflict">
+                            <AlertTriangle size={14} aria-hidden="true" />
+                            <span>
+                              Warning: {conflicts.join("; ")}. Keep it, or
+                              change the meal.
+                            </span>
+                          </p>
+                        )}
                         <div className="planned-meal-actions">
                           <button
                             className="icon-button"
@@ -486,6 +519,12 @@ export function Shopping() {
     saved,
   );
   const aisles = [...new Set(rows.map((r) => r.aisle))];
+  const conflictingMeals = data.plans
+    .filter((p) => week.includes(p.date))
+    .filter((p) => {
+      const r = recipes.find((recipe) => recipe.id === p.recipeId);
+      return r && exclusionConflicts(r, data.preferences).length > 0;
+    }).length;
   const tickedRows = rows.filter((r) => r.checked);
   const checked = tickedRows.length;
   // Manual items are deleted; planned ingredients are only unticked, since they come from the meal plan.
@@ -493,17 +532,8 @@ export function Shopping() {
     setClearing(true);
     try {
       const okay = await run(
-        async () => {
-          for (const row of tickedRows) {
-            if (row.manual) await actions.deleteShopping(row.id);
-            else
-              await actions.saveShopping({
-                ...row,
-                id: `${scope}${row.id}`,
-                checked: false,
-              });
-          }
-        },
+        // One transaction: a failure part-way leaves every tick as it was (ARCH-12).
+        () => actions.clearTickedShopping(week[0]),
         `Cleared ${checked} ticked ${checked === 1 ? "item" : "items"}`,
       );
       if (okay) setConfirmingClear(false);
@@ -534,6 +564,17 @@ export function Shopping() {
           Subtract matching pantry quantities
         </label>
       </div>
+      {conflictingMeals > 0 && (
+        <p className="notice shopping-conflict">
+          <AlertTriangle size={16} aria-hidden="true" />
+          <span>
+            {conflictingMeals} planned{" "}
+            {conflictingMeals === 1 ? "meal conflicts" : "meals conflict"} with
+            your exclusions. They stay on this list until you change them.{" "}
+            <a href="#/planner">Review your plan</a>
+          </span>
+        </p>
+      )}
       <div className="shopping-progress">
         <strong>
           {checked} of {rows.length} items ticked off

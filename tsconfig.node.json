@@ -12,5 +12,6 @@
     "strict": true,
     "types": ["node"]
   },
-  "include": ["vite.config.ts", "playwright.config.ts", "scripts/**/*.ts"]
+  "include": ["vite.config.ts", "playwright.config.ts", "scripts/**/*.ts"],
+  "exclude": ["scripts/bench/**", "scripts/*-audit/tmp/**"]
 }

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { parseCustomIngredients } from "../../src/pages/CustomRecipes";
+import { parseCustomIngredients } from "../../src/lib/customRecipe";
 
 describe("custom ingredient entry", () => {
   it("accepts decimals and optional preparation or aisle while preserving explicit fields", () => {

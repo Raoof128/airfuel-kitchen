@@ -1100,5 +1100,13 @@
       "salt": "1.07g"
     },
     "timing": "Prep: 10 mins Cook: 49 mins Serves 4 Easy"
+  },
+  {
+    "slug": "air-fryer-maple-soy-tempeh",
+    "url": "https://dailydish.co.uk/air-fryer-tempeh/",
+    "status": 200,
+    "verifiedAt": "2026-10-11",
+    "sha256": "c1b6bcc596d9b039c7be32ba984b85a30d8c171451b05e95a5f2b0a31d454a41",
+    "title": "Air Fryer Tempeh - The Daily Dish"
   }
 ]

@@ -229,6 +229,8 @@ describe("integration defect regressions", () => {
     const other = new KitchenDB(database.name);
     const a = createActions(database);
     const b = createActions(other);
+    // These ticks belong to an active cook, so the cook starts first.
+    await a.startCooking(fixture.id, 3, null);
     await Promise.all([
       a.setCookingCheck(fixture.id, "ingredient", 0, true, 3),
       b.setCookingCheck(fixture.id, "ingredient", 1, true, 3),

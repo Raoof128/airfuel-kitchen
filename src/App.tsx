@@ -28,7 +28,7 @@ import {
   CircleHelp,
 } from "lucide-react";
 import { useRegisterSW } from "virtual:pwa-register/react";
-import { useKitchen, effectiveRecipes } from "./lib";
+import { useKitchen, effectiveRecipes, onUpgradeBlocked } from "./lib";
 import { catalogue } from "./data/catalogue";
 import { AppContext } from "./components/context";
 import { Dashboard } from "./pages/Dashboard";
@@ -111,6 +111,10 @@ function Kitchen() {
   // pinned error can never swallow a later success message.
   const [errorToast, setErrorToast] = useState<string | null>(null);
   const [notice, setNotice] = useState<string | null>(null);
+  // Another tab on an older build can hold the database open; Dexie then waits
+  // silently, so say why the kitchen is not opening instead of spinning forever.
+  const [upgradeBlocked, setUpgradeBlocked] = useState(false);
+  useEffect(() => onUpgradeBlocked(() => setUpgradeBlocked(true)), []);
   const errorToastRef = useRef<HTMLDivElement>(null);
   const [errorToastHeight, setErrorToastHeight] = useState(0);
   useLayoutEffect(() => {
@@ -230,7 +234,15 @@ function Kitchen() {
       <div className="loading">
         <Flame size={36} />
         <h1>Opening your kitchen…</h1>
-        <p>Reading your saved recipes and cooking memories.</p>
+        {upgradeBlocked ? (
+          <p role="alert">
+            AirFuel Kitchen is open in another tab on an older version. Close
+            the other AirFuel Kitchen tabs, then reload this page. Your saved
+            data is safe.
+          </p>
+        ) : (
+          <p>Reading your saved recipes and cooking memories.</p>
+        )}
       </div>
     );
   const path = route.split("?")[0];

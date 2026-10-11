@@ -15,6 +15,7 @@ import {
   importBackup,
   requestPersistentStorage,
   type ImportPreview,
+  maxBackupBytes,
 } from "../lib";
 import {
   allergenNames,
@@ -24,7 +25,13 @@ import {
 import { useApp } from "../components/context";
 import { PageHeading, Modal } from "../components/UI";
 import { CloudSettings } from "../components/CloudSettings";
-import { cloudConfigured, signOut, forgetCloudCache } from "../cloud";
+import {
+  cloudConfigured,
+  deleteLocalCloudState,
+  listCloudConflicts,
+  signOut,
+} from "../cloud";
+import { forgetExploreLocation } from "../lib/navigation";
 import { clearRecipeNoteDrafts } from "../lib/noteDrafts";
 function split(value: FormDataEntryValue | null) {
   return String(value || "")
@@ -83,6 +90,19 @@ export function SettingsPage() {
   const [reset, setReset] = useState(false);
   const [resetText, setResetText] = useState("");
   const [resetError, setResetError] = useState("");
+  // Unresolved sync conflict copies live only in the sync database, so a backup
+  // does not include them and delete-all removes them (RT-B8): say so first.
+  const [conflictCount, setConflictCount] = useState(0);
+  useEffect(() => {
+    if (!reset) return;
+    let live = true;
+    listCloudConflicts()
+      .then((items) => live && setConflictCount(items.length))
+      .catch(() => live && setConflictCount(0));
+    return () => {
+      live = false;
+    };
+  }, [reset]);
   const [storage, setStorage] = useState("");
   useEffect(() => {
     // Clean forms follow imported or cross-tab preferences. An open draft must
@@ -94,7 +114,10 @@ export function SettingsPage() {
     draftDirty &&
     JSON.stringify({ ...p, updatedAt: 0 }) !==
       JSON.stringify({ ...data.preferences, updatedAt: 0 });
-  async function changeTheme(theme: Preferences["theme"], select: HTMLSelectElement) {
+  async function changeTheme(
+    theme: Preferences["theme"],
+    select: HTMLSelectElement,
+  ) {
     // Appearance applies and persists at once, independent of the rest of the form.
     const saved: { preferences?: Preferences } = {};
     const success = await run(async () => {
@@ -467,8 +490,10 @@ export function SettingsPage() {
                 e.target.value = "";
                 if (!file) return;
                 await run(async () => {
-                  if (file.size > 10 * 1024 * 1024)
-                    throw new Error("Backup files must be smaller than 10 MB.");
+                  if (file.size > maxBackupBytes)
+                    throw new Error(
+                      `Backup files must be smaller than ${maxBackupBytes / 1024 / 1024} MB.`,
+                    );
                   if (file.size === 0)
                     throw new Error(
                       "This file is empty. Choose a backup exported from Settings.",
@@ -516,8 +541,8 @@ export function SettingsPage() {
       <section className="settings-section">
         <h2>Your recipes</h2>
         <p>
-          Recipes you’ve written yourself live in Your recipes. They are included
-          in backups and removed when you delete personal data.
+          Recipes you’ve written yourself live in Your recipes. They are
+          included in backups and removed when you delete personal data.
         </p>
         <a className="button" href="#/custom">
           Open Your recipes
@@ -646,6 +671,16 @@ export function SettingsPage() {
             keep your memories. Cloud sync will be signed out; remote data
             remain and may download if sync is enabled again.
           </p>
+          {conflictCount > 0 && (
+            <p className="notice">
+              {conflictCount === 1
+                ? "1 unresolved sync conflict"
+                : `${conflictCount} unresolved sync conflicts`}{" "}
+              will also be deleted. A backup does not include the other
+              versions, so resolve them under Cross-device sync first if you
+              want to keep them.
+            </p>
+          )}
           {resetError && (
             <p className="notice" role="alert">
               {resetError}
@@ -679,8 +714,11 @@ export function SettingsPage() {
                     await run(async () => {
                       try {
                         if (cloudConfigured()) await signOut();
-                        await forgetCloudCache();
+                        // Sync conflict copies are personal data too, so the
+                        // delete-all path empties the whole sync database.
+                        await deleteLocalCloudState();
                         await actions.clearUserData();
+                        forgetExploreLocation();
                         if (!clearRecipeNoteDrafts())
                           throw new Error(
                             "Saved personal data was deleted, but this browser could not clear temporary note drafts. Clear site data to remove them completely.",
