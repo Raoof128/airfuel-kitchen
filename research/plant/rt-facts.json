@@ -1,0 +1,1626 @@
+[
+  {
+    "name": "Air Fryer Scrambled Eggs",
+    "sourceUrl": "https://recipethis.com/air-fryer-scrambled-eggs-on-toast/",
+    "slug": "air-fryer-scrambled-eggs-on-toast",
+    "sha256": "2112b9c948bf484a2ad77a93f3bf0cc2f0b4583044d47361b1c1d5dee82ca456",
+    "recipeIngredient": [
+      "2  Large Eggs",
+      "1 Tsp Salted Butter",
+      "Salt & Pepper",
+      "Optional \u2013 2 Tsp Milk"
+    ],
+    "recipeYield": [
+      "2"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "81 kcal",
+      "carbohydrateContent": "0.3 g",
+      "proteinContent": "6 g",
+      "fatContent": "6 g",
+      "saturatedFatContent": "3 g",
+      "cholesterolContent": "169 mg",
+      "sodiumContent": "79 mg",
+      "sugarContent": "0.2 g",
+      "transFatContent": "0.1 g",
+      "unsaturatedFatContent": "3 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT1M",
+    "cookTime": "PT6M"
+  },
+  {
+    "name": "Air Fryer Zucchini Fries (Courgette Chips)",
+    "sourceUrl": "https://recipethis.com/air-fryer-zucchini-fries/",
+    "slug": "air-fryer-zucchini-fries",
+    "sha256": "cc4967dc18235bef1a100a782754bf4f0e652e3e7f4cb4cde35f770e79d36f5d",
+    "recipeIngredient": [
+      "1  Medium Courgette",
+      "Extra Virgin Olive Oil Spray",
+      "2 Tsp Dried Oregano",
+      "35 g Plain Flour",
+      "1  Large Egg",
+      "45 g Panko Breadcrumbs",
+      "1 Tsp Dried Thyme",
+      "1 Tsp Dried Basil",
+      "Salt & Pepper"
+    ],
+    "recipeYield": [
+      "2"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "209 kcal",
+      "carbohydrateContent": "35 g",
+      "proteinContent": "9 g",
+      "fatContent": "4 g",
+      "saturatedFatContent": "1 g",
+      "cholesterolContent": "82 mg",
+      "sodiumContent": "205 mg",
+      "fiberContent": "4 g",
+      "sugarContent": "4 g",
+      "transFatContent": "0.01 g",
+      "unsaturatedFatContent": "2 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT8M",
+    "cookTime": "PT20M"
+  },
+  {
+    "name": "Air Fryer Zucchini Pizza Bites (Courgette Pizza)",
+    "sourceUrl": "https://recipethis.com/air-fryer-zucchini-double-cheese-pizza/",
+    "slug": "air-fryer-zucchini-double-cheese-pizza",
+    "sha256": "2ba1d13ef9e01a0e5c58baaf15222b3247dc082f223f291a0f283bfe18971693",
+    "recipeIngredient": [
+      "\u00bd  Medium Courgette",
+      "Extra Virgin Olive Oil Spray",
+      "3 Tbsp Light Cream Cheese",
+      "3 Slices Cheddar Cheese",
+      "4 Tsp Dried Oregano",
+      "Salt & Pepper"
+    ],
+    "recipeYield": [
+      "2"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "168 kcal",
+      "carbohydrateContent": "7 g",
+      "proteinContent": "9 g",
+      "fatContent": "12 g",
+      "saturatedFatContent": "7 g",
+      "cholesterolContent": "38 mg",
+      "sodiumContent": "252 mg",
+      "fiberContent": "2 g",
+      "sugarContent": "3 g",
+      "unsaturatedFatContent": "4 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT8M",
+    "cookTime": "PT11M"
+  },
+  {
+    "name": "Air Fryer Pizza Toast",
+    "sourceUrl": "https://recipethis.com/air-fryer-pizza-toast/",
+    "slug": "air-fryer-pizza-toast",
+    "sha256": "1a9794c0fbda310584051af4beac79857bb4d7b184291a9f543a5957e7b90aac",
+    "recipeIngredient": [
+      "1 Slice Toast Bread",
+      "\u00bd Tbsp Tomato Puree",
+      "\u00bd Tbsp Garlic Puree",
+      "1 Tbsp Barbecue Sauce",
+      "\u00bd Tsp Sweet Paprika",
+      "\u00bd Tsp Dried Oregano",
+      "2 Slices Cheese",
+      "4  Cherry Tomatoes"
+    ],
+    "recipeYield": [
+      "1"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "355 kcal",
+      "carbohydrateContent": "28 g",
+      "proteinContent": "17 g",
+      "fatContent": "20 g",
+      "saturatedFatContent": "11 g",
+      "cholesterolContent": "56 mg",
+      "sodiumContent": "689 mg",
+      "fiberContent": "2 g",
+      "sugarContent": "9 g",
+      "unsaturatedFatContent": "5 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT5M",
+    "cookTime": "PT8M"
+  },
+  {
+    "name": "Air Fryer Cheesecake",
+    "sourceUrl": "https://recipethis.com/best-ever-philips-airfryer-new-york-cheesecake/",
+    "slug": "best-ever-philips-airfryer-new-york-cheesecake",
+    "sha256": "ae46ba217b88cef46428ae48cbca492e1e7fb787d28ede41c7150335ad4fa39e",
+    "recipeIngredient": [
+      "700 g Philadelphia Cream Cheese",
+      "250 g Granulated Sugar",
+      "3 Tbsp Sour Cream",
+      "2 Tsp Vanilla Extract",
+      "2  Large Eggs",
+      "100 g Oreos",
+      "75 g White Chocolate Chunks",
+      "3  Snack Bags Mini Oreos"
+    ],
+    "recipeYield": [
+      "8"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "583 kcal",
+      "carbohydrateContent": "54 g",
+      "proteinContent": "8 g",
+      "fatContent": "38 g",
+      "saturatedFatContent": "21 g",
+      "transFatContent": "0.01 g",
+      "cholesterolContent": "134 mg",
+      "sodiumContent": "367 mg",
+      "fiberContent": "1 g",
+      "sugarContent": "47 g",
+      "unsaturatedFatContent": "13 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT10M",
+    "cookTime": "PT30M"
+  },
+  {
+    "name": "Air Fryer Onions",
+    "sourceUrl": "https://recipethis.com/air-fryer-onions/",
+    "slug": "air-fryer-onions",
+    "sha256": "51fda9b58d8de2866c3db52cc3d33b3ae68a95cdcd2180bf70177d3f99187e94",
+    "recipeIngredient": [
+      "1  Medium White Onion",
+      "Extra Virgin Olive Oil Spray"
+    ],
+    "recipeYield": [
+      "2"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "22 kcal",
+      "carbohydrateContent": "5 g",
+      "proteinContent": "1 g",
+      "fatContent": "0.1 g",
+      "saturatedFatContent": "0.03 g",
+      "sodiumContent": "2 mg",
+      "fiberContent": "1 g",
+      "sugarContent": "2 g",
+      "unsaturatedFatContent": "0.02 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT5M",
+    "cookTime": "PT9M"
+  },
+  {
+    "name": "Puff Pastry Pizza In Air Fryer",
+    "sourceUrl": "https://recipethis.com/puff-pastry-pizza-in-air-fryer/",
+    "slug": "puff-pastry-pizza-in-air-fryer",
+    "sha256": "2b731740e753eedc0b1eb1406aa5613c0858123f804cec191d3593321df1aadb",
+    "recipeIngredient": [
+      "200 g finely chopped tinned tomatoes",
+      "2 Tsp tomato puree",
+      "1 Tsp garlic puree",
+      "1 Tsp dried basil",
+      "250 g puff pastry",
+      "175 g cherry tomatoes",
+      "225 g grated cheddar cheese",
+      "extra cheese for stuffing (8 cheese sticks)",
+      "2 Tsp dried oregano",
+      "Salt & Pepper",
+      "Air Fryer"
+    ],
+    "recipeYield": [
+      "2"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "1175 kcal",
+      "carbohydrateContent": "65 g",
+      "proteinContent": "37 g",
+      "fatContent": "86 g",
+      "saturatedFatContent": "34 g",
+      "cholesterolContent": "113 mg",
+      "sodiumContent": "1059 mg",
+      "fiberContent": "4 g",
+      "sugarContent": "4 g",
+      "unsaturatedFatContent": "43 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT5M",
+    "cookTime": "PT8M"
+  },
+  {
+    "name": "Crustless Quiche In Air Fryer",
+    "sourceUrl": "https://recipethis.com/air-fryer-cheese-quiche/",
+    "slug": "air-fryer-cheese-quiche",
+    "sha256": "7e86ab48ab4f3c51bd051c52d36a71be15e51feec12dfa6c3794372f1d6b18ed",
+    "recipeIngredient": [
+      "125 g Self Raising Flour",
+      "5  Large Eggs",
+      "120 ml Whole Milk",
+      "1  Medium Tomato",
+      "1  Medium Red Onion",
+      "4 slices ham (chopped into chunks)",
+      "85 g Grated Cheddar Cheese",
+      "2 Tsp Mixed Herbs",
+      "2 Tsp Dried Oregano",
+      "Salt & Pepper",
+      "Air Fryer"
+    ],
+    "recipeYield": [
+      "6"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "261 kcal",
+      "carbohydrateContent": "20 g",
+      "proteinContent": "16 g",
+      "fatContent": "13 g",
+      "saturatedFatContent": "5 g",
+      "transFatContent": "0.01 g",
+      "cholesterolContent": "165 mg",
+      "sodiumContent": "377 mg",
+      "fiberContent": "1 g",
+      "sugarContent": "3 g",
+      "unsaturatedFatContent": "6 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT5M",
+    "cookTime": "PT30M"
+  },
+  {
+    "name": "Air Fryer Breakfast Potatoes",
+    "sourceUrl": "https://recipethis.com/air-fryer-breakfast-potatoes/",
+    "slug": "air-fryer-breakfast-potatoes",
+    "sha256": "3797fcdccbf53eaf0e572cb99ccab672a5693fdc592e0c6f18a9f571546e3fae",
+    "recipeIngredient": [
+      "1 kg Baby Potatoes",
+      "6 slices Bacon",
+      "1 Tbsp Extra Virgin Olive Oil",
+      "1 Tbsp Dried Parsley",
+      "1 Tbsp Dried Oregano",
+      "Salt & Pepper",
+      "Cosori Air Fryer"
+    ],
+    "recipeYield": [
+      "4"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "366 kcal",
+      "carbohydrateContent": "45 g",
+      "proteinContent": "9 g",
+      "fatContent": "17 g",
+      "saturatedFatContent": "5 g",
+      "cholesterolContent": "22 mg",
+      "sodiumContent": "236 mg",
+      "fiberContent": "6 g",
+      "sugarContent": "2 g",
+      "transFatContent": "0.04 g",
+      "unsaturatedFatContent": "11 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT8M",
+    "cookTime": "PT32M"
+  },
+  {
+    "name": "Stuffing Balls In Air Fryer",
+    "sourceUrl": "https://recipethis.com/sage-onion-stuffing-balls-in-the-air-fryer/",
+    "slug": "sage-onion-stuffing-balls-in-the-air-fryer",
+    "sha256": "6b0f878654b612747c6da422b7711f3aa51df45d253f3847ed65c0aeef677868",
+    "recipeIngredient": [
+      "225 g Sausage Meat",
+      "2 Slices Bread",
+      "1  Small Onion",
+      "2 Tsp Thyme",
+      "2 Tsp Bouquet Garni",
+      "Salt & Pepper",
+      "Philips Air Fryer"
+    ],
+    "recipeYield": [
+      "8"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "114 kcal",
+      "carbohydrateContent": "5 g",
+      "proteinContent": "5 g",
+      "fatContent": "8 g",
+      "saturatedFatContent": "3 g",
+      "transFatContent": "0.1 g",
+      "cholesterolContent": "20 mg",
+      "sodiumContent": "214 mg",
+      "fiberContent": "1 g",
+      "sugarContent": "1 g",
+      "unsaturatedFatContent": "4 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT5M",
+    "cookTime": "PT14M"
+  },
+  {
+    "name": "Cauliflower Cheese In Air Fryer",
+    "sourceUrl": "https://recipethis.com/cauliflower-cheese-in-air-fryer/",
+    "slug": "cauliflower-cheese-in-air-fryer",
+    "sha256": "002bd097776851fdc194f78c4b633bc18cd8a12dbe1f728577ee07c93d07726a",
+    "recipeIngredient": [
+      "700 g Frozen Cauliflower (1/2 large bag)",
+      "1 Tsp Dried Oregano",
+      "1 Tsp Dried Mixed Herbs",
+      "Salt & Pepper",
+      "Extra Grated Cheese For Sprinkling (optional)",
+      "1  Medium Butternut Squash (peeled and cubed)",
+      "1 Tbsp Extra Virgin Olive Oil",
+      "1  Small Tub Philadelphia Soft/Cream Cheese",
+      "300 g Grated Cheese",
+      "240 ml Veggie Stock",
+      "2 Tsp Mixed Herbs",
+      "2 Tsp Dried Oregano",
+      "Salt & Pepper",
+      "Cosori Air Fryer",
+      "Silicone Pan With Handles"
+    ],
+    "recipeYield": [
+      "4"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "490 kcal",
+      "carbohydrateContent": "42 g",
+      "proteinContent": "28 g",
+      "fatContent": "26 g",
+      "saturatedFatContent": "12 g",
+      "cholesterolContent": "66 mg",
+      "sodiumContent": "1614 mg",
+      "fiberContent": "8 g",
+      "sugarContent": "8 g",
+      "unsaturatedFatContent": "10 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT5M",
+    "cookTime": "PT45M"
+  },
+  {
+    "name": "Air Fryer Cauliflower Bites",
+    "sourceUrl": "https://recipethis.com/air-fryer-cauliflower-bites/",
+    "slug": "air-fryer-cauliflower-bites",
+    "sha256": "278beb00749364d59579913faffa6627ce2414d1b2ea8711a85c5a23be786572",
+    "recipeIngredient": [
+      "250 g Box Frozen Cauliflower Bites",
+      "Philips Air Fryer"
+    ],
+    "recipeYield": [
+      "2"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "31 kcal",
+      "carbohydrateContent": "6 g",
+      "proteinContent": "2 g",
+      "fatContent": "0.3 g",
+      "saturatedFatContent": "0.2 g",
+      "sodiumContent": "38 mg",
+      "fiberContent": "3 g",
+      "sugarContent": "2 g",
+      "unsaturatedFatContent": "0.08 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT1M",
+    "cookTime": "PT12M"
+  },
+  {
+    "name": "Air Fryer Gnocchi",
+    "sourceUrl": "https://recipethis.com/air-fryer-potato-gnocchi/",
+    "slug": "air-fryer-potato-gnocchi",
+    "sha256": "7a035c3e8a4bb54337d7cf0953b3bd569d5a6cbb82f1f48cb0a2cd3848545fd7",
+    "recipeIngredient": [
+      "800 g Dried Packaged Gnocchi",
+      "Extra Virgin Olive Oil Spray",
+      "50 g Fresh Parsley or Basil",
+      "1  Small Lemon (juice and rind)",
+      "30 g Butter (cut into slices)",
+      "6  Garlic Cloves (peeled)",
+      "2 Tsp Dried Basil",
+      "40 g Grated Parmesan Cheese",
+      "Salt & Pepper",
+      "Cherry Tomatoes (optional)",
+      "Philips Air Fryer"
+    ],
+    "recipeYield": [
+      "2"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "880 kcal",
+      "carbohydrateContent": "154 g",
+      "proteinContent": "24 g",
+      "fatContent": "21 g",
+      "saturatedFatContent": "12 g",
+      "transFatContent": "0.5 g",
+      "cholesterolContent": "50 mg",
+      "sodiumContent": "1820 mg",
+      "fiberContent": "12 g",
+      "sugarContent": "2 g",
+      "unsaturatedFatContent": "6 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT5M",
+    "cookTime": "PT17M"
+  },
+  {
+    "name": "Air Fryer Cheese And Bean Toastie",
+    "sourceUrl": "https://recipethis.com/air-fryer-cheese-and-bean-toastie/",
+    "slug": "air-fryer-cheese-and-bean-toastie",
+    "sha256": "5e6bd1370e27433437f50d347ee95910c9cba16ba48e4bc4af7dee8a5cb4f055",
+    "recipeIngredient": [
+      "2  Heaped Tbsp Baked Beans",
+      "6 Slices Double Gloucester Cheese",
+      "4 Slices White Bread",
+      "Butter (for spreading)",
+      "Cosori Air Fryer"
+    ],
+    "recipeYield": [
+      "2"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "474 kcal",
+      "carbohydrateContent": "87 g",
+      "proteinContent": "22 g",
+      "fatContent": "7 g",
+      "saturatedFatContent": "3 g",
+      "transFatContent": "0.01 g",
+      "cholesterolContent": "25 mg",
+      "sodiumContent": "1541 mg",
+      "fiberContent": "18 g",
+      "sugarContent": "3 g",
+      "unsaturatedFatContent": "4 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT5M",
+    "cookTime": "PT12M"
+  },
+  {
+    "name": "Air Fryer Cabbage",
+    "sourceUrl": "https://recipethis.com/air-fryer-cabbage/",
+    "slug": "air-fryer-cabbage",
+    "sha256": "ae5d8c5c1daae5497f35f2fee4511d764b1afba07877972cede9f1ddb14696dc",
+    "recipeIngredient": [
+      "1  Spring Cabbage",
+      "1 Tbsp Extra Virgin Olive Oil",
+      "1 Tsp Dried Oregano",
+      "1 Tsp Dried Parsley",
+      "Salt & Pepper",
+      "Cosori Air Fryer"
+    ],
+    "recipeYield": [
+      "2"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "178 kcal",
+      "carbohydrateContent": "27 g",
+      "proteinContent": "6 g",
+      "fatContent": "8 g",
+      "saturatedFatContent": "1 g",
+      "sodiumContent": "82 mg",
+      "fiberContent": "12 g",
+      "sugarContent": "15 g",
+      "unsaturatedFatContent": "6 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT2M",
+    "cookTime": "PT6M"
+  },
+  {
+    "name": "Air Fryer Green Bean Casserole",
+    "sourceUrl": "https://recipethis.com/air-fryer-green-bean-casserole/",
+    "slug": "air-fryer-green-bean-casserole",
+    "sha256": "bfbeddeee5ad2704c250d7e11c503648b28858ab2f8fcdf8f90de7ddfad45fdc",
+    "recipeIngredient": [
+      "400 g Frozen Green Beans",
+      "Leftover Cheese Sauce",
+      "3 Tbsp Breadcrumbs",
+      "3 Slices Back Bacon",
+      "1 Tsp Onion Powder",
+      "1 Tsp Garlic Powder",
+      "Salt & Pepper",
+      "Philips Air Fryer"
+    ],
+    "recipeYield": [
+      "4"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "97 kcal",
+      "carbohydrateContent": "13 g",
+      "proteinContent": "7 g",
+      "fatContent": "2 g",
+      "saturatedFatContent": "1 g",
+      "cholesterolContent": "11 mg",
+      "sodiumContent": "300 mg",
+      "fiberContent": "3 g",
+      "sugarContent": "4 g",
+      "unsaturatedFatContent": "1.4 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT5M",
+    "cookTime": "PT30M"
+  },
+  {
+    "name": "Air Fryer Spaghetti Squash Casserole",
+    "sourceUrl": "https://recipethis.com/air-fryer-spaghetti-squash-casserole/",
+    "slug": "air-fryer-spaghetti-squash-casserole",
+    "sha256": "5ceac8c2f315357fcc02e672b4060a3405fa49eeeb2206a4e2d2bfa8e0dfa4a0",
+    "recipeIngredient": [
+      "Leftover Spaghetti Squash Shell",
+      "1.5 Cups Leftover Spaghetti Squash",
+      "1 Cup Drained Black Beans",
+      "1 Cup Frozen Sweetcorn",
+      "2  Boneless Skinless Chicken Thighs (cooked)",
+      "4 Tbsp Salsa",
+      "2 Tbsp Greek Yoghurt",
+      "1 Tbsp Philadelphia Light",
+      "4 Tsp Mexican Seasoning",
+      "2 Tsp Coriander",
+      "Salt & Pepper",
+      "100 g Grated Cheddar Cheese",
+      "6  Cherry Tomatoes (halved)",
+      "Air Fryer"
+    ],
+    "recipeYield": [
+      "2"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "614 kcal",
+      "carbohydrateContent": "54 g",
+      "proteinContent": "48 g",
+      "fatContent": "26 g",
+      "saturatedFatContent": "12 g",
+      "transFatContent": "0.02 g",
+      "cholesterolContent": "162 mg",
+      "sodiumContent": "690 mg",
+      "fiberContent": "15 g",
+      "sugarContent": "9 g",
+      "unsaturatedFatContent": "9 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT5M",
+    "cookTime": "PT18M"
+  },
+  {
+    "name": "Air Fryer Spaghetti Squash Seeds",
+    "sourceUrl": "https://recipethis.com/air-fryer-spaghetti-squash-seeds/",
+    "slug": "air-fryer-spaghetti-squash-seeds",
+    "sha256": "070cf5aa5fb74aead2c7b442642e16e1c90d351d9fab344e32ff83871317b79f",
+    "recipeIngredient": [
+      "Instant Pot Spaghetti Squash (seed leftovers)",
+      "2 Tsp Extra Virgin Olive Oil",
+      "2 Tsp Sweet Paprika",
+      "2 Tsp Coriander Leaf",
+      "2 Tsp Ground Cumin",
+      "Salt & Pepper",
+      "Air Fryer",
+      "Kitchen Towel"
+    ],
+    "recipeYield": [
+      "4"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "164 kcal",
+      "carbohydrateContent": "4 g",
+      "proteinContent": "8 g",
+      "fatContent": "15 g",
+      "saturatedFatContent": "2 g",
+      "transFatContent": "0.01 g",
+      "sodiumContent": "4 mg",
+      "fiberContent": "2 g",
+      "sugarContent": "0.5 g",
+      "unsaturatedFatContent": "12 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT5M",
+    "cookTime": "PT8M"
+  },
+  {
+    "name": "Air Fryer Spaghetti Squash",
+    "sourceUrl": "https://recipethis.com/air-fryer-spaghetti-squash/",
+    "slug": "air-fryer-spaghetti-squash",
+    "sha256": "47ed6a1662a801bf8b45157122d00860150b74cdcd1816041d5aae0bd796760c",
+    "recipeIngredient": [
+      "1  Medium Spaghetti Squash",
+      "Air Fryer Frozen Meatballs (optional)",
+      "Soup Maker Tomato Sauce (optional)",
+      "Extra Virgin Olive Oil Spray",
+      "1 Tsp Garlic Powder",
+      "Salt & Pepper",
+      "Air Fryer"
+    ],
+    "recipeYield": [
+      "2"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "155 kcal",
+      "carbohydrateContent": "34 g",
+      "proteinContent": "3 g",
+      "fatContent": "3 g",
+      "saturatedFatContent": "1 g",
+      "sodiumContent": "83 mg",
+      "fiberContent": "7 g",
+      "sugarContent": "13 g",
+      "unsaturatedFatContent": "1.2 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT5M",
+    "cookTime": "PT25M"
+  },
+  {
+    "name": "Air Fryer Acorn Squash",
+    "sourceUrl": "https://recipethis.com/air-fryer-acorn-squash/",
+    "slug": "air-fryer-acorn-squash",
+    "sha256": "d9370000332869a73a471f031bcee4ee3dc352ccc39f63f0c2168bcae644b2c3",
+    "recipeIngredient": [
+      "2  Acorn Squash",
+      "Extra Virgin Olive Oil Spray",
+      "1 Tsp Nutmeg",
+      "2 Tsp Cinnamon",
+      "1 Tbsp Honey",
+      "1 Tsp Basil",
+      "1 Tsp Oregano",
+      "Salt & Pepper",
+      "Cosori Air Fryer"
+    ],
+    "recipeYield": [
+      "2"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "217 kcal",
+      "carbohydrateContent": "56 g",
+      "proteinContent": "4 g",
+      "fatContent": "1 g",
+      "saturatedFatContent": "0.4 g",
+      "sodiumContent": "14 mg",
+      "fiberContent": "8 g",
+      "sugarContent": "9 g",
+      "unsaturatedFatContent": "0.3 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT5M",
+    "cookTime": "PT15M"
+  },
+  {
+    "name": "Air Fryer Cheese Swirls",
+    "sourceUrl": "https://recipethis.com/air-fryer-cheese-swirls/",
+    "slug": "air-fryer-cheese-swirls",
+    "sha256": "2f05e33800e53d697b8528a6f39aa8105832741976545dbf4e69e130b0c8d980",
+    "recipeIngredient": [
+      "2 Tbsp Mustard",
+      "\u00bd  Small Onion (diced)",
+      "150 g Grated Cheese",
+      "Egg Wash",
+      "225 g Self Raising Flour",
+      "50 g Butter",
+      "120 ml Semi Skimmed Milk",
+      "28 g Grated Cheese",
+      "1 Tbsp Parsley",
+      "Salt & Pepper",
+      "Philips Air Fryer"
+    ],
+    "recipeYield": [
+      "6"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "337 kcal",
+      "carbohydrateContent": "33 g",
+      "proteinContent": "14 g",
+      "fatContent": "16 g",
+      "saturatedFatContent": "9 g",
+      "transFatContent": "0.3 g",
+      "cholesterolContent": "45 mg",
+      "sodiumContent": "639 mg",
+      "fiberContent": "1 g",
+      "sugarContent": "2 g",
+      "unsaturatedFatContent": "5 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT12M",
+    "cookTime": "PT12M"
+  },
+  {
+    "name": "Air Fryer Frittata",
+    "sourceUrl": "https://recipethis.com/air-fryer-frittata/",
+    "slug": "air-fryer-frittata",
+    "sha256": "011fddf8eb6ec8b620808a751fb889d0211627560fe963de20dd462e3859d41a",
+    "recipeIngredient": [
+      "8  Large Eggs",
+      "240 ml Mascarpone",
+      "200 g Grated Reduced Fat Cheddar",
+      "6  Reduced Fat Sausages (sliced into quarters)",
+      "1  Large Sweet Potato",
+      "1  Medium Zucchini/Courgette",
+      "1 Tbsp Extra Virgin Olive Oil",
+      "2  Spring Onions (sliced)",
+      "1 Tsp Parsley",
+      "Salt & Pepper",
+      "Sliced Cherry Tomatoes (optional)",
+      "Sprinkle Basil (optional)",
+      "Philips Air Fryer",
+      "Cosori Air Fryer",
+      "Silicone Containers"
+    ],
+    "recipeYield": [
+      "8"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "414 kcal",
+      "carbohydrateContent": "11 g",
+      "proteinContent": "24 g",
+      "fatContent": "30 g",
+      "saturatedFatContent": "13 g",
+      "transFatContent": "1 g",
+      "cholesterolContent": "244 mg",
+      "sodiumContent": "902 mg",
+      "fiberContent": "1 g",
+      "sugarContent": "3 g",
+      "unsaturatedFatContent": "4 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT10M",
+    "cookTime": "PT39M"
+  },
+  {
+    "name": "Air Fryer Carrot Cake",
+    "sourceUrl": "https://recipethis.com/air-fryer-carrot-cake/",
+    "slug": "air-fryer-carrot-cake",
+    "sha256": "ff2ea76c095a0fe0ee455391d1d7671edccc15349c76380433ccc7c6fbd8043a",
+    "recipeIngredient": [
+      "225 g Self Raising Flour",
+      "150 ml Extra Virgin Olive Oil",
+      "150 g Brown Sugar",
+      "30 g Caster Sugar/Granulated Sugar",
+      "2  Large Carrots",
+      "2  Large Eggs",
+      "2 Tbsp Semi Skimmed Milk",
+      "1 Tsp Mixed Spice",
+      "1 Tsp Cinnamon",
+      "1 Tsp Ground Ginger",
+      "\u00bc Tsp Nutmeg",
+      "85 g Philadelphia Cream Cheese",
+      "16 g Butter",
+      "60 g Icing Sugar",
+      "1 Tsp Vanilla Essence",
+      "Cosori Air Fryer",
+      "Silicone Cake Pan"
+    ],
+    "recipeYield": [
+      "12"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "307 kcal",
+      "carbohydrateContent": "35 g",
+      "proteinContent": "4 g",
+      "fatContent": "17 g",
+      "saturatedFatContent": "4 g",
+      "transFatContent": "1 g",
+      "cholesterolContent": "38 mg",
+      "sodiumContent": "55 mg",
+      "fiberContent": "1 g",
+      "sugarContent": "21 g",
+      "unsaturatedFatContent": "12 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT12M",
+    "cookTime": "PT41M"
+  },
+  {
+    "name": "Air Fryer Pancakes",
+    "sourceUrl": "https://recipethis.com/air-fryer-pancakes/",
+    "slug": "air-fryer-pancakes",
+    "sha256": "54636427efc4b90a608e2790ceacc12ff6fd349387d21d8d6fd8f7b15e0c1aea",
+    "recipeIngredient": [
+      "Pancakes Box Mix",
+      "190 ml Semi Skimmed Milk",
+      "1 Tsp Cinnamon",
+      "1 Tsp Vanilla Essence",
+      "Philips Air Fryer",
+      "Hand Mixer"
+    ],
+    "recipeYield": [
+      "2"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "servingSize": "100 g",
+      "calories": "238 kcal",
+      "fatContent": "5 g",
+      "saturatedFatContent": "3 g",
+      "carbohydrateContent": "40 g",
+      "sugarContent": "13.1 g",
+      "fiberContent": "1.1 g",
+      "proteinContent": "7.7 g"
+    },
+    "prepTime": "PT5M",
+    "cookTime": "PT8M"
+  },
+  {
+    "name": "Air Fryer Toast Recipe",
+    "sourceUrl": "https://recipethis.com/air-fryer-toast/",
+    "slug": "air-fryer-toast",
+    "sha256": "d85197af46aadeec785ba46f90ed73f3524160e967d9f195b56f3c1fe5511e0b",
+    "recipeIngredient": [
+      "2 Slices Bread",
+      "Butter (optional)",
+      "Cosori Air Fryer"
+    ],
+    "recipeYield": [
+      "2"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "76 kcal",
+      "carbohydrateContent": "14 g",
+      "proteinContent": "3 g",
+      "fatContent": "1 g",
+      "saturatedFatContent": "1 g",
+      "transFatContent": "1 g",
+      "sodiumContent": "145 mg",
+      "fiberContent": "1 g",
+      "sugarContent": "2 g",
+      "unsaturatedFatContent": "2 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": null,
+    "cookTime": "PT3M"
+  },
+  {
+    "name": "Air Fryer Garlic Mushrooms Recipe",
+    "sourceUrl": "https://recipethis.com/air-fryer-garlic-mushrooms/",
+    "slug": "air-fryer-garlic-mushrooms",
+    "sha256": "a83d8a3db16aaad9fbe0d82b3f5378f2e94d8d719fa21883c7e3dbc58893f457",
+    "recipeIngredient": [
+      "250 g Button Mushrooms",
+      "1  Garlic Bulb",
+      "Fresh Rosemary",
+      "Extra Virgin Olive Oil Spray",
+      "\u00bd Tsp Garlic Powder",
+      "Salt & Pepper",
+      "1 Tbsp Butter (optional)",
+      "Cosori Air Fryer"
+    ],
+    "recipeYield": [
+      "2"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "82 kcal",
+      "carbohydrateContent": "5 g",
+      "proteinContent": "4 g",
+      "fatContent": "6 g",
+      "saturatedFatContent": "4 g",
+      "transFatContent": "1 g",
+      "cholesterolContent": "15 mg",
+      "sodiumContent": "57 mg",
+      "fiberContent": "1 g",
+      "sugarContent": "3 g",
+      "unsaturatedFatContent": "2 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT5M",
+    "cookTime": "PT9M"
+  },
+  {
+    "name": "Air Fryer Egg Cups",
+    "sourceUrl": "https://recipethis.com/air-fryer-egg-cups/",
+    "slug": "air-fryer-egg-cups",
+    "sha256": "c19ff8433c1c08c542be6972060aa1029bddd6075efc59b844eb7b4d5fc147b2",
+    "recipeIngredient": [
+      "6  Cherry Tomatoes",
+      "\u00bc  Green Pepper",
+      "40 g Leftover Meat",
+      "4  Large Eggs",
+      "1 Tsp Dried Garlic",
+      "2 Tsp Basil",
+      "Salt &amp; Pepper",
+      "3 Tbsp Milk (optional)",
+      "Air Fryer"
+    ],
+    "recipeYield": [
+      "8"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "49 kcal",
+      "carbohydrateContent": "1 g",
+      "proteinContent": "5 g",
+      "fatContent": "3 g",
+      "saturatedFatContent": "1 g",
+      "cholesterolContent": "88 mg",
+      "sodiumContent": "41 mg",
+      "fiberContent": "1 g",
+      "sugarContent": "1 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT3M",
+    "cookTime": "PT15M"
+  },
+  {
+    "name": "Air Fryer Vegan Lentil Burgers",
+    "sourceUrl": "https://recipethis.com/best-ever-airfryer-vegan-lentil-burgers/",
+    "slug": "best-ever-airfryer-vegan-lentil-burgers",
+    "sha256": "2ee8e37ed550d291641cb5466b28fad69f7b2b4ea5c567fdb6e0f85b73de238e",
+    "recipeIngredient": [
+      "Air Fryer",
+      "Foil",
+      "Instant Pot Green Lentils",
+      "1  Large Sweet Potato",
+      "6  Medium Carrots",
+      "1  Small Red Onion",
+      "50 g Gluten Free Oat Flour",
+      "1 Tsp Garlic Puree",
+      "1 Tsp Basil",
+      "1 Tsp Oregano",
+      "1 Tsp Thyme",
+      "1 Tsp Paprika",
+      "1 Tsp Harissa",
+      "Salt & Pepper"
+    ],
+    "recipeYield": [
+      "8"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "77 kcal",
+      "carbohydrateContent": "16 g",
+      "proteinContent": "2 g",
+      "fatContent": "1 g",
+      "saturatedFatContent": "1 g",
+      "sodiumContent": "58 mg",
+      "fiberContent": "3 g",
+      "sugarContent": "4 g",
+      "unsaturatedFatContent": "2 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT5M",
+    "cookTime": "PT17M"
+  },
+  {
+    "name": "Air Fryer Grilled Cheese",
+    "sourceUrl": "https://recipethis.com/air-fryer-grilled-cheese/",
+    "slug": "air-fryer-grilled-cheese",
+    "sha256": "8e3824410c3c120fc6abc1f214c216efea22c267c45d38f01d27e50ffcf2d413",
+    "recipeIngredient": [
+      "Air Fryer",
+      "500 g Fresh Bread Sliced",
+      "3 Slices Cheese",
+      "50 g Soft Cheese"
+    ],
+    "recipeYield": [
+      "1"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "930 kcal",
+      "carbohydrateContent": "125 g",
+      "proteinContent": "38 g",
+      "fatContent": "31 g",
+      "saturatedFatContent": "16 g",
+      "cholesterolContent": "72 mg",
+      "sodiumContent": "1639 mg",
+      "fiberContent": "11 g",
+      "sugarContent": "16 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT2M",
+    "cookTime": "PT3M"
+  },
+  {
+    "name": "Air Fryer Roasted Beets",
+    "sourceUrl": "https://recipethis.com/air-fryer-roasted-beets/",
+    "slug": "air-fryer-roasted-beets",
+    "sha256": "eb163146ee0195a42717a4ff38b5c44758ac063c491de9063feb2aa7b50944db",
+    "recipeIngredient": [
+      "Air Fryer",
+      "3  Medium Beetroots",
+      "1 Tbsp Extra Virgin Olive Oil",
+      "Salt & Pepper",
+      "Extra Virgin Olive Oil Spray"
+    ],
+    "recipeYield": [
+      "2"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "115 kcal",
+      "carbohydrateContent": "12 g",
+      "proteinContent": "2 g",
+      "fatContent": "7 g",
+      "saturatedFatContent": "1 g",
+      "sodiumContent": "96 mg",
+      "fiberContent": "3 g",
+      "sugarContent": "8 g",
+      "unsaturatedFatContent": "6 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT5M",
+    "cookTime": "PT25M"
+  },
+  {
+    "name": "Air Fryer Crispy Tofu",
+    "sourceUrl": "https://recipethis.com/air-fryer-crispy-tofu/",
+    "slug": "air-fryer-crispy-tofu",
+    "sha256": "190667475ff9b81e5a26a79abfe0d353e1fe2faac4f2fc6544b0ba95731135d1",
+    "recipeIngredient": [
+      "Air Fryer",
+      "250 g Natural Tofu",
+      "60 ml Lemon Juice",
+      "1 Tbsp Garlic Puree",
+      "1 Tbsp Parsley",
+      "1 Tbsp Basil",
+      "1 Tbsp Harissa",
+      "Salt & Pepper"
+    ],
+    "recipeYield": [
+      "2"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "132 kcal",
+      "carbohydrateContent": "9 g",
+      "proteinContent": "12 g",
+      "fatContent": "6 g",
+      "saturatedFatContent": "1 g",
+      "sodiumContent": "108 mg",
+      "fiberContent": "2 g",
+      "sugarContent": "2 g",
+      "unsaturatedFatContent": "5 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT5M",
+    "cookTime": "PT10M"
+  },
+  {
+    "name": "Air Fryer Oatmeal Cookies",
+    "sourceUrl": "https://recipethis.com/air-fryer-oatmeal-cookies/",
+    "slug": "air-fryer-oatmeal-cookies",
+    "sha256": "684e86a7dde997d16e3aaa7aa0a55cfefc8f1db2154aec299a299f88c25cd129",
+    "recipeIngredient": [
+      "Air Fryer",
+      "Foil",
+      "Cookie Cutters",
+      "150 g Self Raising Flour",
+      "150 g Rolled Oats",
+      "75 g Butter",
+      "75 g Caster Sugar",
+      "2 Tsp Golden Syrup",
+      "2 Tsp Vanilla Essence",
+      "15 ml Whole Milk",
+      "Squirty Cream (optional)"
+    ],
+    "recipeYield": [
+      "6"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "339 kcal",
+      "carbohydrateContent": "50 g",
+      "proteinContent": "6 g",
+      "fatContent": "12 g",
+      "saturatedFatContent": "7 g",
+      "transFatContent": "1 g",
+      "cholesterolContent": "27 mg",
+      "sodiumContent": "93 mg",
+      "fiberContent": "3 g",
+      "sugarContent": "16 g",
+      "unsaturatedFatContent": "4 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT10M",
+    "cookTime": "PT11M"
+  },
+  {
+    "name": "How To Cook Asparagus In Air Fryer",
+    "sourceUrl": "https://recipethis.com/how-to-cook-asparagus-in-air-fryer/",
+    "slug": "how-to-cook-asparagus-in-air-fryer",
+    "sha256": "f46b09e5525e35ae6968caa3db141070f79c0d100e442d6856bdeec499fa51e7",
+    "recipeIngredient": [
+      "Air Fryer",
+      "250 g Asparagus",
+      "Salt &amp; Pepper",
+      "Extra Virgin Olive Oil Spray",
+      "8 g Butter",
+      "30 g Grated Cheese"
+    ],
+    "recipeYield": [
+      "2"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "118 kcal",
+      "carbohydrateContent": "5 g",
+      "proteinContent": "9 g",
+      "fatContent": "8 g",
+      "saturatedFatContent": "5 g",
+      "transFatContent": "1 g",
+      "cholesterolContent": "22 mg",
+      "sodiumContent": "260 mg",
+      "fiberContent": "3 g",
+      "sugarContent": "2 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": null,
+    "cookTime": "PT11M"
+  },
+  {
+    "name": "Air Fryer Frozen Green Beans",
+    "sourceUrl": "https://recipethis.com/air-fryer-frozen-green-beans/",
+    "slug": "air-fryer-frozen-green-beans",
+    "sha256": "a4b061b10c80cf2d14d77f49954471825f12dd5384ea10989d10eb12075cbffc",
+    "recipeIngredient": [
+      "Air Fryer",
+      "500 g Frozen Green Beans",
+      "1 Tsp Olive Oil",
+      "1 Tbsp Italian Seasoning"
+    ],
+    "recipeYield": [
+      "4"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "52 kcal",
+      "carbohydrateContent": "9 g",
+      "proteinContent": "2 g",
+      "fatContent": "1 g",
+      "sodiumContent": "7 mg",
+      "fiberContent": "3 g",
+      "sugarContent": "4 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT2M",
+    "cookTime": "PT13M"
+  },
+  {
+    "name": "Air Fryer Frozen Corn On The Cob",
+    "sourceUrl": "https://recipethis.com/air-fryer-frozen-corn-on-the-cob/",
+    "slug": "air-fryer-frozen-corn-on-the-cob",
+    "sha256": "781b104e71ab8ea0cd7ed60055be4e71f43448c4d5b6c27bc47fe5ec8b95d610",
+    "recipeIngredient": [
+      "Air Fryer",
+      "6  Frozen Corn On The Cobs",
+      "2 Tsp Butter",
+      "Salt &amp; Pepper"
+    ],
+    "recipeYield": [
+      "3"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "26 kcal",
+      "carbohydrateContent": "1 g",
+      "proteinContent": "1 g",
+      "fatContent": "3 g",
+      "saturatedFatContent": "2 g",
+      "cholesterolContent": "7 mg",
+      "sodiumContent": "24 mg",
+      "sugarContent": "1 g",
+      "transFatContent": "1 g",
+      "fiberContent": "1 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT2M",
+    "cookTime": "PT15M"
+  },
+  {
+    "name": "Air Fryer Toasted Bagels",
+    "sourceUrl": "https://recipethis.com/air-fryer-cream-cheese-bagels/",
+    "slug": "air-fryer-cream-cheese-bagels",
+    "sha256": "5a28a67892ba5ee616988cca3515f0c2d4d4ea30153cbf84c12e4c61b52ba7ce",
+    "recipeIngredient": [
+      "Air Fryer",
+      "2  Frozen Bagels",
+      "2 Tbsp Soft Cheese",
+      "1 Tsp Butter"
+    ],
+    "recipeYield": [
+      "2"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "356 kcal",
+      "carbohydrateContent": "57 g",
+      "proteinContent": "12 g",
+      "fatContent": "9 g",
+      "saturatedFatContent": "4 g",
+      "cholesterolContent": "21 mg",
+      "sodiumContent": "625 mg",
+      "fiberContent": "2 g",
+      "sugarContent": "1 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT1M",
+    "cookTime": "PT5M"
+  },
+  {
+    "name": "Air Fryer Butternut Squash Cubes",
+    "sourceUrl": "https://recipethis.com/air-fryer-butternut-squash/",
+    "slug": "air-fryer-butternut-squash",
+    "sha256": "6e09bc9a8ef8500ef5ce990ebd33015da8bf8ec461981bb91b268c7fd169be78",
+    "recipeIngredient": [
+      "Air Fryer",
+      "500 g Butternut Squash",
+      "\u00bd Tbsp Extra Virgin Olive Oil",
+      "1 Tsp Garlic Powder",
+      "2 Tsp Thyme",
+      "2 Tsp Parsley",
+      "Salt &amp; Pepper"
+    ],
+    "recipeYield": [
+      "4"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "75 kcal",
+      "carbohydrateContent": "15 g",
+      "proteinContent": "1 g",
+      "fatContent": "2 g",
+      "saturatedFatContent": "1 g",
+      "sodiumContent": "6 mg",
+      "fiberContent": "3 g",
+      "sugarContent": "3 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT5M",
+    "cookTime": "PT20M"
+  },
+  {
+    "name": "Air Fryer Pizza Fries",
+    "sourceUrl": "https://recipethis.com/air-fryer-pizza-fries/",
+    "slug": "air-fryer-pizza-fries",
+    "sha256": "0ff8f98efad2ab1d187231b6569b6812a7d3cf7c3fac60ef864f281ed595875c",
+    "recipeIngredient": [
+      "Air Fryer",
+      "Air Fryer Fries",
+      "2  Large Potatoes",
+      "1 Tbsp Extra Virgin Olive Oil",
+      "2 Tsp Oregano",
+      "Salt &amp; Pepper",
+      "150 g Grated Cheese",
+      "1  Chorizo (thinly sliced)"
+    ],
+    "recipeYield": [
+      "2"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "524 kcal",
+      "carbohydrateContent": "4 g",
+      "proteinContent": "36 g",
+      "fatContent": "40 g",
+      "saturatedFatContent": "18 g",
+      "cholesterolContent": "92 mg",
+      "sodiumContent": "1518 mg",
+      "fiberContent": "1 g",
+      "sugarContent": "1 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT10M",
+    "cookTime": "PT18M"
+  },
+  {
+    "name": "Air Fryer Pakoras",
+    "sourceUrl": "https://recipethis.com/whole-30-life-changing-airfryer-veggie-pakoras/",
+    "slug": "whole-30-life-changing-airfryer-veggie-pakoras",
+    "sha256": "d7dd6a03d637d3fd4bc9532dac4a4d56cb6a2e8ccb0919c1ecec39322da81277",
+    "recipeIngredient": [
+      "Air Fryer",
+      "250 g Gram Flour",
+      "50 g Self Raising Flour",
+      "1 Tbsp Lime Juice",
+      "1  Medium Sweet Potato",
+      "150 g Leftover Vegetables",
+      "1 Tsp Garam Masala",
+      "\u00bc Tsp Chili Powder",
+      "1 Tsp Tandorri Powder",
+      "Salt &amp; Pepper"
+    ],
+    "recipeYield": [
+      "4"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "342 kcal",
+      "carbohydrateContent": "57 g",
+      "proteinContent": "17 g",
+      "fatContent": "5 g",
+      "saturatedFatContent": "1 g",
+      "sodiumContent": "78 mg",
+      "fiberContent": "10 g",
+      "sugarContent": "8 g",
+      "servingSize": "1 serving"
+    },
+    "prepTime": "PT8M",
+    "cookTime": "PT35M"
+  },
+  {
+    "@context": "http://schema.org/",
+    "@type": "Recipe",
+    "name": "Air Fryer Halloumi Greek Salad",
+    "author": {
+      "@type": "Person",
+      "name": "Recipe This"
+    },
+    "datePublished": "2022-07-05T05:28:00+00:00",
+    "recipeYield": [
+      "2"
+    ],
+    "prepTime": "PT5M",
+    "cookTime": "PT6M",
+    "totalTime": "PT11M",
+    "recipeIngredient": [
+      "225 g Halloumi",
+      "Sliced Cumber",
+      "Halved Cherry Tomatoes",
+      "150 g Mixed Olives",
+      "\u00bd  Medium Red Onion",
+      "200 g Rocket Leaves",
+      "2 Tsp Oregano",
+      "Extra Virgin Olive Oil Spray",
+      "4 Tsp Extra Virgin Olive Oil (for drizzling)",
+      "Philips Air Fryer"
+    ],
+    "recipeCategory": [
+      "Salad"
+    ],
+    "recipeCuisine": [
+      "Air Fryer"
+    ],
+    "keywords": "basil halloumi, halloumi dishes, Halloumi Greek Salad, halloumi meals, halloumi salad, is halloumi healthy",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "575 kcal",
+      "carbohydrateContent": "11 g",
+      "proteinContent": "29 g",
+      "fatContent": "48 g",
+      "saturatedFatContent": "22 g",
+      "sodiumContent": "2549 mg",
+      "fiberContent": "6 g",
+      "sugarContent": "4 g",
+      "unsaturatedFatContent": "24 g",
+      "servingSize": "1 serving"
+    },
+    "sourceUrl": "https://recipethis.com/air-fryer-halloumi-greek-salad/",
+    "slug": "air-fryer-halloumi-greek-salad",
+    "sha256": "1457d9245d158189a4f2ceec0da412033f634dd617038ef1919b087ac23ee520"
+  },
+  {
+    "@context": "http://schema.org/",
+    "@type": "Recipe",
+    "name": "Air Fryer Halloumi Burgers Recipe",
+    "author": {
+      "@type": "Person",
+      "name": "Recipe This"
+    },
+    "datePublished": "2022-01-12T05:47:00+00:00",
+    "recipeYield": [
+      "4"
+    ],
+    "prepTime": "PT2M",
+    "cookTime": "PT19M",
+    "totalTime": "PT21M",
+    "recipeIngredient": [
+      "450 g Halloumi",
+      "500 g Pack Mediterranean Vegetables",
+      "4  Ciabatta Rolls",
+      "Handful Cherry Tomatoes",
+      "2 Tsp Basil",
+      "2 Tsp Oregano",
+      "2 Tsp Thyme",
+      "Salt & Pepper",
+      "Extra Virgin Olive Oil Spray",
+      "Mayonnaise (optional)",
+      "Coleslaw (optional)",
+      "Ninja Foodi"
+    ],
+    "recipeCategory": [
+      "Main Course"
+    ],
+    "recipeCuisine": [
+      "Air Fryer"
+    ],
+    "keywords": "air fryer halloumi burgers, halloumi burger, halloumi burger recipe, halloumi burgers",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "566 kcal",
+      "carbohydrateContent": "45 g",
+      "proteinContent": "34 g",
+      "fatContent": "29 g",
+      "saturatedFatContent": "19 g",
+      "sodiumContent": "1683 mg",
+      "fiberContent": "6 g",
+      "sugarContent": "1 g",
+      "unsaturatedFatContent": "8 g",
+      "servingSize": "1 serving"
+    },
+    "sourceUrl": "https://recipethis.com/air-fryer-halloumi-burgers/",
+    "slug": "air-fryer-halloumi-burgers",
+    "sha256": "e7409058a10e1ce24255e9b185f5654f87002037f7630c720f283028102221e0"
+  },
+  {
+    "@context": "http://schema.org/",
+    "@type": "Recipe",
+    "name": "Air Fryer Quesadilla",
+    "author": {
+      "@type": "Person",
+      "name": "Recipe This"
+    },
+    "datePublished": "2020-08-11T05:26:00+00:00",
+    "recipeYield": [
+      "4"
+    ],
+    "prepTime": "PT4M",
+    "cookTime": "PT6M",
+    "totalTime": "PT10M",
+    "recipeIngredient": [
+      "Air Fryer",
+      "Cocktail Sticks",
+      "8  Tortilla Wraps",
+      "Egg Wash",
+      "3 Tbsp Salsa",
+      "100 g Grated Mexican Cheese",
+      "1  Can Black Beans",
+      "1 Cup Frozen Sweetcorn",
+      "250 g Grated Frozen Cheddar Cheese",
+      "2 Tbsp Sour Cream",
+      "2 Tsp Garlic Powder",
+      "1 Tbsp Mexican Seasoning"
+    ],
+    "recipeCategory": [
+      "Appetizer",
+      "Main Course",
+      "Side Dish",
+      "Snack"
+    ],
+    "recipeCuisine": [
+      "Air Fryer"
+    ],
+    "keywords": "Air Fryer Quesadilla, taco bell cheese quesadilla",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "590 kcal",
+      "carbohydrateContent": "45 g",
+      "proteinContent": "28 g",
+      "fatContent": "34 g",
+      "saturatedFatContent": "19 g",
+      "cholesterolContent": "92 mg",
+      "sodiumContent": "1077 mg",
+      "fiberContent": "4 g",
+      "sugarContent": "6 g",
+      "servingSize": "1 serving"
+    },
+    "sourceUrl": "https://recipethis.com/air-fryer-quesadilla/",
+    "slug": "air-fryer-quesadilla",
+    "sha256": "3462581f1bd76597bd03e7af09e44a4c2fcebf755627422a205cc26e0af20774"
+  },
+  {
+    "@context": "http://schema.org/",
+    "@type": "Recipe",
+    "name": "Air Fryer Tortilla De Patatas (Spanish Omelette)",
+    "author": {
+      "@type": "Person",
+      "name": "Recipe This"
+    },
+    "datePublished": "2022-08-02T07:00:00+00:00",
+    "recipeYield": [
+      "8"
+    ],
+    "prepTime": "PT6M",
+    "cookTime": "PT44M",
+    "totalTime": "PT50M",
+    "recipeIngredient": [
+      "500 g Baby Potatoes",
+      "6  Large Eggs",
+      "2 Tsp Extra Virgin Olive Oil",
+      "Extra Virgin Olive Oil Spray",
+      "Sea Salt",
+      "Cosori Air Fryer"
+    ],
+    "recipeCategory": [
+      "Breakfast"
+    ],
+    "recipeCuisine": [
+      "Air Fryer"
+    ],
+    "keywords": "can you make an omelette in air fryer, how to make a spanish tortilla, how to make spanish potato omelette, tortilla de patatas, tortilla de patatas air fryer, tortilla fryer",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "104 kcal",
+      "carbohydrateContent": "11 g",
+      "proteinContent": "5 g",
+      "fatContent": "4 g",
+      "saturatedFatContent": "1 g",
+      "transFatContent": "0.01 g",
+      "cholesterolContent": "123 mg",
+      "sodiumContent": "51 mg",
+      "fiberContent": "1 g",
+      "sugarContent": "1 g",
+      "unsaturatedFatContent": "3 g",
+      "servingSize": "1 serving"
+    },
+    "sourceUrl": "https://recipethis.com/air-fryer-tortilla-de-patatas/",
+    "slug": "air-fryer-tortilla-de-patatas",
+    "sha256": "ae1ec2dbc0bd6f454009568f93e6e29ab9ed78c01cc26bfe9533951357d46403"
+  },
+  {
+    "@context": "http://schema.org/",
+    "@type": "Recipe",
+    "name": "Air Fryer Flour Tortilla Chips",
+    "author": {
+      "@type": "Person",
+      "name": "Recipe This"
+    },
+    "datePublished": "2021-08-16T06:26:15+00:00",
+    "video": {
+      "name": "Air Fryer Tortilla Chips (Made With Flour Tortillas)",
+      "description": "Tortilla Chips in the air fryer \u2013 Get the full recipe here \u2192 with step by step instructions, photos, tips and more.\n\nYou can pre-order the complete air fryer cookbook here:\n\nIn today\u2019s video air fryer experts Dominic and Samantha Milner from will be showing you how to cook flour tortilla chips in the air fryer. And how you can mix and match flavours for your favourite tortilla chips.\n\nThey have been using the air fryer for 10 years, have more than 500 air fryer recipes on Recipe This and you can also ask them anything about the air fryer, and they will be more than happy to help you!\n\nAs well as air fryer tortilla chips they also have a free 5 day air fryer mini course which is perfect for air fryer beginners which you can get for FREE here:\n\nPlus, below you can access even more resources from Recipe This:\n\n\u25cf Blog:\n\u25cf Cookbook:\n\u25cf Podcast:\n\u25cf Free Newsletter:\n\u25cf Facebook Group:\n\u25cf Pinterest:\n\nAlso don\u2019t forget to subscribe to their channel and click the bell for latest notifications as and when they happen.\n\nThanks again for watching\n\nThe RecipeThis.com Team\n\n#recipethis #airfryer #airfryerrecipes #airfryertips",
+      "uploadDate": "2022-08-25T15:58:40+00:00",
+      "duration": "PT8M51S",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dI3WGlnwYX4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dI3WGlnwYX4?feature=oembed",
+      "contentUrl": "https://www.youtube.com/watch?v=dI3WGlnwYX4",
+      "@type": "VideoObject"
+    },
+    "recipeYield": [
+      "4"
+    ],
+    "prepTime": "PT5M",
+    "cookTime": "PT10M",
+    "totalTime": "PT15M",
+    "recipeIngredient": [
+      "Air Fryer",
+      "Ramekin",
+      "Pastry Brush",
+      "Kitchen Scissors",
+      "6  Tortilla Wraps",
+      "1 Tbsp Extra Virgin Olive Oil",
+      "1 Tbsp Cajun Seasoning"
+    ],
+    "recipeCategory": [
+      "Main Course",
+      "Side Dish"
+    ],
+    "recipeCuisine": [
+      "Air Fryer"
+    ],
+    "keywords": "air fryer flour tortilla chips, air fryer tortilla chips, tortilla chips in air fryer",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "171 kcal",
+      "carbohydrateContent": "24 g",
+      "proteinContent": "4 g",
+      "fatContent": "7 g",
+      "saturatedFatContent": "1 g",
+      "sodiumContent": "310 mg",
+      "fiberContent": "2 g",
+      "sugarContent": "2 g",
+      "unsaturatedFatContent": "5 g",
+      "servingSize": "1 serving"
+    },
+    "sourceUrl": "https://recipethis.com/air-fryer-flour-tortilla-chips/",
+    "slug": "air-fryer-flour-tortilla-chips",
+    "sha256": "5f18c651737768d3091c64f269fd0251e98a8cfebb5f255534874fef8bb9dc6a"
+  }
+]

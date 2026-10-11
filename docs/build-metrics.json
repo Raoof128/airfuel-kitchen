@@ -1,0 +1,88 @@
+{
+  "builtAssets": "dist/assets",
+  "javascript": [
+    {
+      "file": "index-0kqGPu_l.js",
+      "bytes": 152518,
+      "gzipBytes": 43707
+    },
+    {
+      "file": "recipes-plant-Cqr1mge0.js",
+      "bytes": 613392,
+      "gzipBytes": 66513
+    },
+    {
+      "file": "recipes-savoury-CmzMFtok.js",
+      "bytes": 603425,
+      "gzipBytes": 72068
+    },
+    {
+      "file": "rolldown-runtime-hePW80VL.js",
+      "bytes": 716,
+      "gzipBytes": 430
+    },
+    {
+      "file": "vendor-BegFJYAZ.js",
+      "bytes": 1408,
+      "gzipBytes": 662
+    },
+    {
+      "file": "vendor-Bywlca-Z.js",
+      "bytes": 3683,
+      "gzipBytes": 1619
+    },
+    {
+      "file": "vendor-C0pJwawb.js",
+      "bytes": 8731,
+      "gzipBytes": 3249
+    },
+    {
+      "file": "vendor-CWVxb5ex.js",
+      "bytes": 14465,
+      "gzipBytes": 5525
+    },
+    {
+      "file": "vendor-D3GGiIM7.js",
+      "bytes": 30163,
+      "gzipBytes": 9516
+    },
+    {
+      "file": "vendor-DC_lu9hv.js",
+      "bytes": 44829,
+      "gzipBytes": 13290
+    },
+    {
+      "file": "vendor-DO3Sua0M.js",
+      "bytes": 100547,
+      "gzipBytes": 32406
+    },
+    {
+      "file": "vendor-DPz2_ECt.js",
+      "bytes": 70299,
+      "gzipBytes": 14590
+    },
+    {
+      "file": "vendor-DjKl6jTz.js",
+      "bytes": 91427,
+      "gzipBytes": 26227
+    },
+    {
+      "file": "vendor-Dq2X9ao3.js",
+      "bytes": 63960,
+      "gzipBytes": 18426
+    },
+    {
+      "file": "vendor-VhE9KXJb.js",
+      "bytes": 203025,
+      "gzipBytes": 62817
+    },
+    {
+      "file": "vendor-nrUaXfR-.js",
+      "bytes": 3677,
+      "gzipBytes": 1314
+    }
+  ],
+  "totalJavaScriptBytes": 2006265,
+  "totalJavaScriptGzipBytes": 372359,
+  "note": "Gzip sizes calculated locally at default gzip settings. The preview response transfer sizes are separately measured in performance.json."
+}

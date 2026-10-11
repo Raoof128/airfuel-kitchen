@@ -1,0 +1,67 @@
+:root {
+  font-family: "DM Sans", sans-serif;
+  font-synthesis: none;
+  color-scheme: light;
+  --bg: #f8f6f0;
+  --surface: #fffefb;
+  --ink: #283329;
+  --muted: #5e6759;
+  --line: #dddfd3;
+  --line-control: #7a8673;
+  --ring: #a84229;
+  --accent: #a84229;
+  --accent-hover: #89351e;
+  --sage: #e9eddf;
+  --sage-ink: #445637;
+  --soft: #f0f0e7;
+  --danger: #a32c2c;
+  --forest: #2d4935;
+  --on-forest: #f8f5e8;
+  --on-accent: #fff;
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --font-body: "DM Sans", sans-serif;
+  --font-display: "Fraunces", Georgia, serif;
+  /* Floor for all text. Nothing in the app renders below 12px. */
+  --text-caption: 12px;
+  --text-min: 0.75rem;
+  --text-h2: clamp(24px, 2.2vw + 14px, 30px);
+  --tap-min: 44px;
+  --text-small: 14px;
+  --text-body: 16px;
+  --shadow: 0 3px 14px #29322406;
+  --shadow-raised: 0 9px 28px #29322410;
+  --motion-fast: 160ms;
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+  color: var(--ink);
+  background: var(--bg);
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #181e19;
+  --surface: #222b23;
+  --ink: #f3f2e9;
+  --muted: #b9c2b2;
+  --line: #414d3d;
+  --line-control: #78866f;
+  --ring: #f19d80;
+  --accent: #f19d80;
+  --accent-hover: #ffb99d;
+  --sage: #2e3b29;
+  --sage-ink: #ccdbb6;
+  --soft: #2a3428;
+  --danger: #ffabab;
+  --forest: #2b412e;
+  --on-forest: #f6f2e4;
+  --on-accent: #262b22;
+  --shadow: 0 3px 14px #0000000d;
+  --shadow-raised: 0 9px 28px #0000001f;
+}

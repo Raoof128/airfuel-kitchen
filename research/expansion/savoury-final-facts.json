@@ -1,0 +1,150 @@
+{
+  "reviewedAt": "2026-10-11",
+  "purpose": "Concise factual research handoff; original editorial methods must be authored separately. No source images, full instructions or page archives retained.",
+  "access": {
+    "robotsUrl": "https://www.sunbeam.com.au/robots.txt",
+    "robotsStatus": "Web tool inaccessible. One direct urllib attempt to robots.txt timed out; terms-and-conditions guessed path and homepage direct requests also timed out. No permission inferred; accessible web homepage footer supplied actual terms link.",
+    "termsUrl": "https://www.newellbrands.com/terms-of-use/en-au",
+    "termsEvidence": "Sunbeam AU homepage footer links this Newell AU policy. Read2026-10-11: personal non-commercial viewing allowed; redistribution/commercial exploitation and site mirroring/archiving restricted. No express automated-access restriction observed.",
+    "mode": "Individual public web page reads, not bulk crawling. Facts only and declared original adaptations.",
+    "sourceNutrition": "None on these four pages; calculate from chosen edible weights and explicit served amounts."
+  },
+  "candidates": [
+    {
+      "key": "ginger-tamari-fish-parcels",
+      "url": "https://www.sunbeam.com.au/blog/post/sam-woods-asian-baked-fish-parcels",
+      "publisher": "Sunbeam AU / Sam Wood",
+      "evidence": "Individual page ingredients158\u2013173; method181\u2013202.",
+      "sourceYield": 4,
+      "ingredients": {
+        "white_fish_fillet_g": 300,
+        "spring_onion_each": 2,
+        "red_chilli_each": 1,
+        "garlic_cloves": 1,
+        "ginger_cm": 3,
+        "tamari_tbsp": 2,
+        "sesame_oil_tbsp": 0.5,
+        "honey_tbsp": 0.5,
+        "bok_choy_bunches": 1,
+        "brown_rice_cups": 1,
+        "sesame_seeds_tsp": 2,
+        "coriander_tbsp": 2,
+        "lime_each": 1
+      },
+      "timing": {
+        "headerPrepMinutes": 40,
+        "headerCookMinutes": 20,
+        "marinateMinutes": 30,
+        "methodAirFryMinutes": 15,
+        "temperatureC": 180
+      },
+      "methodFacts": "Marinate fillet, wrap in baking paper, roast parcel12minutes then add bok choy for3minutes; plate with rice.",
+      "requiredAdaptations": [
+        "UNSAFE SOURCE: used marinade is reserved then drizzled raw at serving. Reserve clean sauce BEFORE adding raw fish, refrigerate it separately; discard raw-contact excess.",
+        "300g fish suits2 meal portions better than source4; declare yield adaptation. Specify cooked brown-rice grams because source state ambiguous.",
+        "Use approved securely folded parchment parcels away from element; open away from face. Add verified fish centre endpoint.",
+        "Single-basket capacity may require separately steamed greens; retain explicit equipment/time."
+      ]
+    },
+    {
+      "key": "pork-souvlaki-skewers",
+      "url": "https://www.sunbeam.com.au/blog/post/pork-souvlaki-skewers",
+      "publisher": "Sunbeam AU",
+      "evidence": "Individual page ingredients159\u2013172; method179\u2013198.",
+      "sourceYield": "6 skewers",
+      "ingredients": {
+        "pork_tenderloin_g": 1000,
+        "olive_oil_tbsp": 6,
+        "dried_oregano_tbsp": 1,
+        "ground_cumin_tsp": 1,
+        "smoked_paprika_tsp": 1,
+        "garlic_cloves": 2,
+        "lemon_each": 1,
+        "parsley_tbsp": 1,
+        "flatbreads_tzatziki_tomato": "Unquantified serving suggestions"
+      },
+      "timing": {
+        "prepMinutes": 10,
+        "cookMinutes": 20,
+        "temperatureC": 180,
+        "restMinutes": "Not specified"
+      },
+      "methodFacts": "Coat2\u20133cm pork cubes in mixed marinade; thread onto fitting skewers. Air fry, turn at10minutes; rest before serving with bread and tzatziki.",
+      "requiredAdaptations": [
+        "Scale down to basket capacity; one spaced layer, count multiple batches if retaining1kg.",
+        "Quantify bread/dip/tomato if included; dairy and wheat then apply.",
+        "Oil retention uncertain; count explicitly selected used oil conservatively. Source AU tablespoon20ml convention should be documented.",
+        "Specify safe pork centre endpoint/rest from project guidance; source supplies no thermometer check."
+      ]
+    },
+    {
+      "key": "roast-cauliflower-chickpea-chicken-salad",
+      "url": "https://www.sunbeam.com.au/blog/post/air-fried-chicken-salad",
+      "publisher": "Sunbeam AU",
+      "evidence": "Individual page ingredients160\u2013171; method182\u2013219.",
+      "sourceYield": 4,
+      "ingredients": {
+        "cooked_chicken_g": 300,
+        "shallots_each": 2,
+        "garlic_bulb_each": 1,
+        "rosemary_stems": 2,
+        "chickpeas_can_net_g": 400,
+        "red_capsicum_each": 1,
+        "cauliflower_each": 1,
+        "roasting_oil_tbsp": 2,
+        "bread_slices": 1,
+        "mixed_leaves_handfuls": "2\u20133",
+        "red_wine_vinegar_tbsp": 1,
+        "dressing_olive_oil_tbsp": 2
+      },
+      "timing": {
+        "prepMinutes": 10,
+        "headerCookMinutes": 30,
+        "methodCookMinutes": 20,
+        "temperatureC": 200
+      },
+      "methodFacts": "Roast shallot/garlic/rosemary/capsicum separately from cauliflower/chickpeas, stirring halfway. Add bread for final5minutes. Mash roasted garlic with dressing ingredients, combine cooled vegetables with ready-cooked chicken and leaves.",
+      "requiredAdaptations": [
+        "Source uses two zones simultaneously; single-basket version requires smaller amount or sequential20minute batches.",
+        "Chicken is already fully cooked, not raw; use cooked-chicken nutrient basis and refrigerate until assembly.",
+        "Specify drained chickpea weight, edible cauliflower/garlic and leaf weights.",
+        "Bread optional in source; include exact weight/allergens only if adopted."
+      ]
+    },
+    {
+      "key": "salmon-gnocchi-spinach-pesto",
+      "url": "https://www.sunbeam.com.au/blog/post/roasted-salmon-with-gnocchi-vegetables-and-spinach-pesto",
+      "publisher": "Sunbeam AU",
+      "evidence": "Individual page ingredients158\u2013174; method181\u2013207.",
+      "sourceYield": 2,
+      "ingredients": {
+        "salmon_fillets_each": 2,
+        "salmon_each_g": "150\u2013200",
+        "gnocchi_g": 250,
+        "broccoli_g": 100,
+        "green_beans_g": 80,
+        "cherry_tomatoes_g": 80,
+        "roasting_olive_oil_tbsp": 1.5,
+        "spinach_g": 50,
+        "chilli_flakes_pepper": "pinches",
+        "pesto_spinach_g": 50,
+        "pesto_parmesan_g": 35,
+        "pesto_garlic_cloves": 1,
+        "pesto_parsley_g": 30,
+        "pesto_lemon_each": 1,
+        "pesto_olive_oil_tbsp": 4
+      },
+      "timing": {
+        "prepMinutes": 20,
+        "cookMinutes": 15,
+        "temperatureC": 180
+      },
+      "methodFacts": "Coat gnocchi/vegetables with oil; roast beside fillets, turn vegetables halfway. Blend pesto separately; wilt serving spinach. Toss vegetables/spinach with some pesto and serve with salmon.",
+      "requiredAdaptations": [
+        "Source mixes in only a couple tablespoons of a larger pesto batch, offers remainder separately. Scale pesto to served quantity or explicitly count all consumed; do not charge entire batch but instruct partial use.",
+        "Source uses large oven tray; adapt portions/layout or sequential batches for6.7L basket. No steam function is used despite product branding.",
+        "Choose fish weight within range; add verified centre endpoint. Check gnocchi wheat/egg and Parmesan milk allergens."
+      ]
+    }
+  ]
+}

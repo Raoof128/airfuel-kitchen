@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-11",
+  "publishedCount": 300,
+  "uniqueSourceUrls": 344,
+  "minimum160Met": true,
+  "requestedTarget": 300,
+  "target300Met": true,
+  "categories": {
+    "vegetarian": 45,
+    "breakfast": 27,
+    "snacks-sides": 38,
+    "desserts": 22,
+    "quick-dinners": 67,
+    "meat": 38,
+    "chicken-turkey": 32,
+    "seafood": 31
+  },
+  "highProteinMains25g": 128,
+  "protein30g": 99,
+  "protein40g": 47,
+  "protein50g": 15,
+  "nutritionMethods": {
+    "estimated": 182,
+    "source-estimate": 118
+  },
+  "errors": [],
+  "warnings": [],
+  "note": "Structural and arithmetic validation only. Individual source verification and editorial review are recorded in research/. Not a kitchen or laboratory test."
+}

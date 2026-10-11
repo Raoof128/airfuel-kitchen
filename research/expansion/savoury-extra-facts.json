@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-10-11",
+  "verification": "Individual pages opened with web tool, full ingredients/method reviewed. Original prose required; these are condensed source facts and adaptation cautions. Not canonical records.",
+  "access": {
+    "foodforfitness": "curl robots explicitly ChatGPT-User Allow /. Terms permit personal noncommercial reading/copy; no explicit crawlerban inreview. urllib robot403 not retried; web individualpages readable.",
+    "supergolden": "Excluded: https://www.supergoldenbakes.com/privacy-policy/ expressly prohibits automated access and text/data mining.",
+    "NOAA": "robotsallowsinsightpaths. Recipecreditedthirdparty, donotassumepublicdomainphoto.",
+    "PaulaDeen": "https://www.pauladeen.com/terms-of-service/ checked 2026-10-11. Single individual recipe and terms reviewed minutes apart; no faster-than-human crawler. Personal/internal factual research only, no source prose or photos copied.",
+    "Kikkoman": "Recipe footer and privacy policy checked 2026-10-11; no separate terms link found. Robots permits recipe paths with 10-second crawl delay. Only individual factual review, original prose, no photos copied."
+  },
+  "records": [
+    {
+      "title": "Garlic butter chicken Kyiv",
+      "url": "https://www.foodforfitness.co.uk/recipes/air-fryer-chicken-kiev/",
+      "sourceYield": 4,
+      "ingredientFacts": "Chickenbreast600g; butter60g; garlic3cloves; parsley2UKtbsp; flour60g; eggs2; panko60g; paprika5ml; garlicpowder2.5ml; measured oilspray.",
+      "techniqueReview": "Butterfreezer20min; flattenbreasts/fill; stuffedchickenfridge15min; flour-egg-panko;190C15-18minturnhalf;rest5min. Add74Cendpoint andallchillingtototal. Recalculate macros: sourceconflicts43/53gprotein for150gchicken."
+    },
+    {
+      "title": "Chicken katsu and curry sauce",
+      "url": "https://www.foodforfitness.co.uk/recipes/chicken-katsu-curry/",
+      "sourceYield": 4,
+      "ingredientFacts": "Chickenbreast600g; flour50g; egg1; panko100g; oilspray. Sauce: coconutoil5ml; onion1; garlic7g; ginger7g; carrot1; currypowder30ml; flour15ml; stock500ml; soy10ml; honey5ml; bay1.",
+      "techniqueReview": "1cmchicken cutlets flour/egg/panko;180C15-20min to74C. Sauceonioncarrotpansoften, aromatics, flour, stock, simmer15min, blend(removebay),5minfurther. Riceisserving suggestionnotinmacros. RecalculateAFCD; source55gproteinimplausible150gchicken."
+    },
+    {
+      "title": "Garlic butter lobster tails",
+      "url": "https://www.fisheries.noaa.gov/insight/lobster-recipes",
+      "sourceYield": 2,
+      "ingredientFacts": "Lobstertails2; butter4US tbsp; garlic1US tbsp; lemonjuice1tsp; paprika1tsp; parsley/saltpepper.",
+      "techniqueReview": "NOAAhosted recipecreditedSeafoodNutritionPartnership. Splitupper shellalmostthrough;butteraromaticscoat;190C5-7mindependingtailsize. Add63Cprobe,opaque,fullythawed instruction. EdiblemeatweighneededAFCD, notshellweight. Nonbudgetoccasionrecipe."
+    },
+    {
+      "title": "Teriyaki bacon-wrapped dates",
+      "url": "https://kikkomanusa.com/recipes/air-fried-teriyaki-bacon-wrapped-dates/",
+      "sourceYield": 12,
+      "ingredientFacts": "Bacon6thicksliceshalved; pittedMedjooldates12; spicy-miso teriyaki30ml; oilspray.",
+      "techniqueReview": "12individualbitesnot12meals. Wrap/securewithfoodsafesoakedpicks;200C9-10min;cool5min. Source20min omits5mincooling. AFCD perserving3piecescouldbe4snackservings,notproteinclaim. Packetallergenswheatsoy."
+    },
+    {
+      "title": "Crumbed chicken livers with blue cheese dip",
+      "url": "https://www.pauladeen.com/recipe/air-fryer-buffalo-chicken-livers-with-blue-cheese-dipping-sauce/",
+      "sourceYield": 4,
+      "ingredientFacts": "Livers454gsoakedmilk; flour1UScup; butter227g; hotsauce120ml; salt5ml; paprika/garlicpowder/cayenne/pepper2.5mleach; oilspray; bluecheesedressing240ml; bluecheese113g.",
+      "techniqueReview": "Source200C4+4minflip,10piecesperbatch. MUST74Cthroughoutliversnotpink;rawpoultryoffalhandling. Highfat sourceverymuch notlean; couldomitlargehotsaucebutterandexplicitadaptation andAFCD. Milksoakdiscardnotallretained nutrient; allallergensmilkeggfromdressingwheat. Sourceoriginalrecipe28min excludesmultibatches."
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://www.supergoldenbakes.com/air-fryer-chicken-yakitori/",
+      "reason": "Publisher terms prohibit automated text/data mining and automated access; excluded from catalogue research."
+    },
+    {
+      "url": "https://www.supergoldenbakes.com/korean-bbq-beef-homemade-bulgogi-recipe/",
+      "reason": "Publisher terms prohibit automated text/data mining and automated access; excluded from catalogue research."
+    },
+    {
+      "url": "https://www.supergoldenbakes.com/air-fryer-corned-beef/",
+      "reason": "Publisher terms prohibit automated text/data mining and automated access; excluded from catalogue research."
+    }
+  ]
+}

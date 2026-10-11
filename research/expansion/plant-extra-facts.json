@@ -1,0 +1,628 @@
+{
+  "reviewedAt": "2026-10-11",
+  "purpose": "Research handoff only. Facts paraphrased from individually viewed primary recipe pages; not canonical recipe prose or a nutrition audit.",
+  "access": {
+    "method": "Public web search/open tool; no bypass, login, or paywall access.",
+    "robots": "Attempts to read robots.txt for EasyCheesyVegetarian, SplashOfTaste, BrooklynActiveMama, ForksOverKnives, SilverHillsBakery, SecondRecipe, VeganYackAttack, AbundantBorders and Giant failed/timed out. Therefore robots approval is NOT claimed. Four independent shell robots requests also timed out. Do not bulk-crawl based on this file. Additional robots endpoints for KathysVeganKitchen and SupergoldenBakes returned internal errors. EvergreenKitchen, SustainableCooks and LianasKitchen robots endpoints also inaccessible via web tool. Cosori and VeganPunks robots endpoints inaccessible via web tool.",
+    "terms": "Final focused policy audit below covers all 15 hosts introduced by this support file that became canonical before or during review, including the three rejected hosts. Other dataset hosts and unused candidates are outside this audit. No article text or photographs copied; no commercial licence or legal determination claimed.",
+    "excludedDomain": {
+      "url": "https://www.sharkninja.com/terms-and-conditions.html",
+      "reason": "Section 1 expressly restricts automatic robot/page-scrape acquisition despite permissive robots.txt; no recipe extraction continued there."
+    },
+    "limits": "Source quantities retain cups, US/UK tablespoons, whole produce and package amounts. Metric weights must be separately established and documented; never silently assume Australian 20ml tablespoons for foreign sources. All page nutrition is an unverified publisher estimate. Canned weights must distinguish net and drained.",
+    "policyAudit": {
+      "reviewedAt": "2026-10-11",
+      "scope": "Introduced canonical hosts only, limited to retrieved policy pages; unavailable robots are not permission. Some replacements remain researcher-owned.",
+      "hosts": [
+        {
+          "host": "www.easycheesyvegetarian.com",
+          "policyUrl": "https://www.easycheesyvegetarian.com/privacy-policy/",
+          "status": "No explicit automated-access prohibition observed in the policy text retrieved. This is not a licence or full-host permission determination."
+        },
+        {
+          "host": "www.splashoftaste.com",
+          "policyUrl": "https://www.splashoftaste.com/privacy-policy/",
+          "status": "No explicit automated-access prohibition observed in the policy text retrieved. This is not a licence or full-host permission determination."
+        },
+        {
+          "host": "veganyackattack.com",
+          "policyUrl": "https://veganyackattack.com/contact/privacy-policy/",
+          "status": "No explicit automated-access prohibition observed in the policy text retrieved. This is not a licence or full-host permission determination."
+        },
+        {
+          "host": "brooklynactivemama.com",
+          "policyUrl": "https://brooklynactivemama.com/privacy-policy/",
+          "status": "No explicit automated-access prohibition observed in the policy text retrieved. This is not a licence or full-host permission determination."
+        },
+        {
+          "host": "www.kathysvegankitchen.com",
+          "policyUrl": "https://www.kathysvegankitchen.com/privacy-policy/",
+          "status": "No explicit automated-access prohibition observed in the policy text retrieved. This is not a licence or full-host permission determination."
+        },
+        {
+          "host": "evergreenkitchen.ca",
+          "policyUrl": "https://evergreenkitchen.ca/privacy/",
+          "status": "No explicit automated-access prohibition observed in the policy text retrieved. This is not a licence or full-host permission determination."
+        },
+        {
+          "host": "www.sustainablecooks.com",
+          "policyUrl": "https://www.sustainablecooks.com/privacy-policy/",
+          "status": "No explicit automated-access prohibition observed in the policy text retrieved. This is not a licence or full-host permission determination."
+        },
+        {
+          "host": "lianaskitchen.co.uk",
+          "policyUrl": "https://lianaskitchen.co.uk/privacy-policy/",
+          "status": "No explicit automated-access prohibition observed in the policy text retrieved. This is not a licence or full-host permission determination."
+        },
+        {
+          "host": "veganpunks.com",
+          "policyUrl": "https://veganpunks.com/privacy-policy/",
+          "status": "No explicit automated-access prohibition observed in the policy text retrieved. This is not a licence or full-host permission determination."
+        },
+        {
+          "host": "www.secondrecipe.com",
+          "policyUrl": "https://www.secondrecipe.com/privacy/",
+          "status": "Ambiguous content-use restriction under No Commercial Use: prior written authorization required for recipe images/content use. No separate automation, scraping, factual-analysis or TDM restriction observed. Retained as independently authored factual adaptation for private local build by root decision; no commercial reuse permission claimed."
+        },
+        {
+          "host": "abundantborders.org.uk",
+          "policyUrl": "https://abundantborders.org.uk/privacy-policy/",
+          "status": "UNVERIFIED: homepage and guessed policy path unavailable; targeted policy search found no policy. Public recipe PDF fact verification does not establish access-policy clearance."
+        },
+        {
+          "host": "cosori.com",
+          "policyUrl": "https://cosori.com/policies/terms-of-service",
+          "status": "Personal noncommercial licence with copyright restrictions. Prohibits interference or disruption, including automated bots/scrapers/crawlers or disproportionate infrastructure load; no blanket automated-access ban observed. No further article retrieval during audit."
+        },
+        {
+          "host": "www.supergoldenbakes.com",
+          "policyUrl": "https://www.supergoldenbakes.com/privacy-policy/",
+          "status": "EXCLUDED: explicit automated access and text/data mining restrictions. Candidate facts purged; URL/reason only retained."
+        },
+        {
+          "host": "www.forksoverknives.com",
+          "policyUrl": "https://www.forksoverknives.com/forks-over-knives-terms-of-use/",
+          "status": "EXCLUDED: section2(b-c) retrieval automation and dataset/TDM restrictions. Candidate facts purged; URL/reason only retained."
+        },
+        {
+          "host": "silverhillsbakery.ca",
+          "policyUrl": "https://silverhillsbakery.ca/website-terms-of-use/",
+          "status": "EXCLUDED: automatic-device access restriction. Candidate facts purged; URL/reason only retained."
+        }
+      ],
+      "safetyFindings": [
+        "Fried rice ordinary soy sauce was missing wheat allergen; reported to plant researcher.",
+        "COSORI original allergen banner omitted egg and pine nuts; adaptation must include them.",
+        "No additional severe safety issue found in the focused latest-recipe review; this is not a cooking or laboratory validation."
+      ]
+    }
+  },
+  "candidates": [
+    {
+      "key": "pesto-mozzarella-gnocchi",
+      "url": "https://www.easycheesyvegetarian.com/air-fryer-gnocchi/",
+      "publisher": "Becca Heyes, Easy Cheesy Vegetarian",
+      "evidence": "Individually opened recipe card, ingredients lines131\u2013138; instructions152\u2013159; nutrition171\u2013191.",
+      "yield": "2 portions",
+      "ingredients": {
+        "gnocchi_g": 500,
+        "mozzarella_g": 250,
+        "mushrooms_g": 120,
+        "tomato_pasta_sauce_g": 340,
+        "capsicum_each": 1,
+        "red_onion_each": 1,
+        "pesto_tbsp": 2,
+        "water_tbsp": 2
+      },
+      "timing": {
+        "prepMinutes": 10,
+        "cookMinutes": 22,
+        "temperatureC": 180
+      },
+      "methodFacts": "Dilute pesto; coat chopped vegetables and uncooked bought gnocchi. Air fry 10 minutes, stir, then 5\u201310 more. Add torn mozzarella for final 2 minutes. Separately heat tomato sauce and plate beneath gnocchi.",
+      "nutritionPerPortion": {
+        "kcal": 663,
+        "protein_g": 34.4,
+        "carbs_g": 99.5,
+        "fat_g": 18,
+        "fibre_g": 6.2
+      },
+      "cautions": [
+        "Nutrition needs plausibility review against 250g mozzarella; do not blindly trust publisher calculation.",
+        "Pesto may contain nuts and cheese; check gnocchi egg/wheat ingredients."
+      ]
+    },
+    {
+      "key": "black-bean-burgers",
+      "url": "https://www.splashoftaste.com/air-fryer-black-bean-burger/",
+      "publisher": "Mandy Applegate, Splash of Taste",
+      "evidence": "Individually opened recipe card125\u2013148.",
+      "yield": "6 patties; buns/toppings optional and unquantified",
+      "ingredients": {
+        "cooked_drained_black_beans_cups": 3,
+        "grated_onion_cups": "1/3",
+        "garlic_cloves": 2,
+        "vegetarian_worcestershire_tbsp": 1,
+        "cumin_tsp": 1,
+        "chilli_powder_tsp": 0.5,
+        "smoked_paprika_tsp": 0.25,
+        "egg_each": 1,
+        "panko_cups": 1,
+        "oil": "Unquantified brushing/spray"
+      },
+      "timing": {
+        "prepMinutes": 10,
+        "instructionCookMinutes": 10,
+        "headerCookMinutes": 12,
+        "temperatureF": 400
+      },
+      "methodFacts": "Coarsely mash beans with aromatics and spices; incorporate egg and crumbs. Shape six flattened patties. Brush basket and patties lightly; cook in one layer, turn after five minutes. Chill loose mixture if necessary.",
+      "cautions": [
+        "Resolve 10-minute method versus 12-minute header; egg requires cooked-through safety check.",
+        "Specify oil and optional bun amounts before nutrient calculation."
+      ]
+    },
+    {
+      "key": "lentil-mushroom-bbq-balls",
+      "url": "https://veganyackattack.com/2018/04/04/bbq-lentil-meatballs/",
+      "publisher": "Jackie Sobon, Vegan Yack Attack",
+      "evidence": "Individually opened recipe76\u2013102; author footer211 permits attributed excerpts/links.",
+      "yield": "20 balls",
+      "ingredients": {
+        "dry_lentils_cups": 1,
+        "vegetable_broth_cups": 2,
+        "dried_mushrooms_cups": 0.5,
+        "oil_tbsp": 2,
+        "onion_cups": 1,
+        "tomato_paste_tbsp": 1,
+        "garlic_cloves": 1,
+        "vital_wheat_gluten_cups": 0.5,
+        "bbq_sauce_tbsp": 3,
+        "water_tbsp": 2,
+        "vegan_worcestershire_tbsp": 1,
+        "onion_powder_tsp": 1,
+        "dried_parsley_tsp": 1,
+        "smoked_paprika_tsp": 0.5,
+        "salt_tsp": 0.5,
+        "pepper_tsp": 0.25,
+        "finishing_bbq_sauce_cups": 1
+      },
+      "timing": {
+        "prepMinutes": 5,
+        "overallCookMinutes": 40,
+        "airFryMinutes": 12,
+        "temperatureF": 350
+      },
+      "methodFacts": "Simmer lentils/mushrooms in stock about20 minutes. Separately soften onions7\u201310 minutes, then garlic/paste1 minute. Pulse with binders/seasonings, retaining texture. Shape20 balls; leave gaps in lightly oiled basket. Air fry until browned; finish with warm sauce.",
+      "cautions": [
+        "20 balls may require two batches; total app duration must account for this.",
+        "Contains wheat/gluten; source nutrition malformed and unusable."
+      ]
+    },
+    {
+      "key": "mexican-vegetable-zucchini-boats",
+      "url": "https://brooklynactivemama.com/air-fryer-veggie-stuffed-zucchini-boats/",
+      "publisher": "Nellie, Brooklyn Active Mama",
+      "evidence": "Individually opened ingredients105\u2013115 and current method120\u2013126.",
+      "yield": "4 zucchini halves from 2 medium zucchini",
+      "ingredients": {
+        "zucchini_each": 2,
+        "roma_tomato_each": 1,
+        "jalapeno_each": 1,
+        "red_capsicum_each": 1,
+        "garlic_powder_tsp": 0.5,
+        "chilli_powder_tsp": 0.5,
+        "grated_mexican_cheese_cups": 0.5,
+        "oil": "Unquantified light brushing"
+      },
+      "timing": {
+        "temperatureF": 390,
+        "airFryMinutes": 12
+      },
+      "methodFacts": "Halve zucchini; leave a roughly6mm wall when hollowing. Chop extracted flesh and mix with finely cut vegetables, spice and cheese. Fill and lightly oil boats. Cook10 minutes; optional extra cheese and2 minutes more, until fork-tender.",
+      "cautions": [
+        "Page contains an apparent unremoved editorial note in variations; use measured core method only, quality review advised.",
+        "Specify produce weights and oil; optional topping changes nutrition."
+      ]
+    },
+    {
+      "key": "chickpea-scotch-eggs",
+      "url": "https://abundantborders.org.uk/wp-content/uploads/2024/08/Air-fryer-vegetarian-scotch-eggs.pdf",
+      "publisher": "Abundant Borders, Scottish charity SC049008",
+      "evidence": "One-page primary PDF initially opened; later timeout, full ingredients/method verified via indexed PDF text.",
+      "yield": "4 portions, 2 eggs each",
+      "ingredients": {
+        "eggs_for_centres": 8,
+        "egg_for_binder": 1,
+        "vegetable_oil_tbsp": 1,
+        "onions_each": 2,
+        "garlic_cloves": 2,
+        "cumin_tbsp": 1,
+        "coriander_tbsp": 1,
+        "breadcrumbs_binding_g": 200,
+        "chickpea_can_net_g": 400,
+        "plain_flour_tbsp": 5,
+        "breadcrumbs_coating_g": 50
+      },
+      "timing": {
+        "eggsTemperatureC": 150,
+        "eggsMinutes": 15,
+        "coolMinutes": 10,
+        "coatedTemperatureC": 200,
+        "coatedMinutes": 20
+      },
+      "methodFacts": "Cook then cool/peel eggs. Pan-cook onion/garlic/spices; mash in drained chickpeas. Bind with raw egg, crumbs and flour. Divide8 ways and encase eggs; crumb and air fry, turning halfway.",
+      "cautions": [
+        "Source calls centres hard-boiled yet includes cooking from raw; choose one route explicitly.",
+        "Drain chickpeas and document edible weight; binder egg must cook through. Eight large eggs require batches in a6.7L basket."
+      ]
+    },
+    {
+      "key": "pinto-bean-cheese-taquitos",
+      "url": "https://recipecenter.giantfood.com/recipes/236552/air-fried-bean-and-cheese-taquitos",
+      "publisher": "Giant Food recipe centre",
+      "evidence": "Full primary recipe visible in search result; direct open403. Do not claim live page access; use alternative owner verification before release.",
+      "yield": "12 mini taquitos",
+      "ingredients": {
+        "vegetarian_refried_pinto_beans_cups": 0.75,
+        "shredded_cheese_cups": 0.75,
+        "mini_flour_tortillas_each": 12,
+        "oil": "Cooking spray"
+      },
+      "timing": {
+        "prepMinutes": 8,
+        "cookMinutes": 12,
+        "temperatureF": 375
+      },
+      "methodFacts": "Combine filling. Briefly microwave wrapped tortillas to soften; roll each with roughly1.5 US tablespoons filling. Place seam underneath, leaving gaps. Spray; cook6\u20137 minutes, flip/spray, then4\u20135 minutes.",
+      "nutritionPerTaquito": {
+        "kcal": 130,
+        "carbs_g": 17,
+        "protein_g": 5,
+        "fat_g": 4,
+        "fibre_g": 1
+      },
+      "cautions": [
+        "Garnishes excluded; verify actual tortilla sizes and spread amounts.",
+        "Needs final direct-source verification because access returned403."
+      ]
+    },
+    {
+      "key": "portobello-avocado-burgers",
+      "url": "https://www.secondrecipe.com/air-fryer-mushroom-burgers/",
+      "publisher": "Bhavana Bhatia, SecondRecipe",
+      "evidence": "Individually opened recipe ingredients118\u2013123 and method126\u2013137.",
+      "yield": "2 burgers",
+      "ingredients": {
+        "portobello_mushrooms_each": 4,
+        "onion_each": 1,
+        "tomato_each": 1,
+        "avocado_each": 0.5,
+        "lettuce_leaves": "2\u20133",
+        "burger_buns_each": 2,
+        "garlic": "Unquantified in method",
+        "oil": "Unquantified in method"
+      },
+      "timing": {
+        "prepMinutes": 10,
+        "preheatMinutes": 10,
+        "temperatureC": 200,
+        "airFryMinutes": "8\u201310"
+      },
+      "methodFacts": "Oil and season caps. Air fry4\u20135 minutes, turn and add garlic/oil, then4\u20135 minutes. Layer cooked mushrooms, avocado, onion, tomato and lettuce in buns.",
+      "cautions": [
+        "Source header says15-minute cooking but method8\u201310 plus10-minute preheat; calculate total honestly.",
+        "Must specify oil/garlic weights as explicit adaptation; page omits amounts."
+      ]
+    },
+    {
+      "key": "halloumi-pepper-fajitas",
+      "url": "https://www.easycheesyvegetarian.com/air-fryer-vegetarian-fajitas/",
+      "publisher": "Becca Heyes, Easy Cheesy Vegetarian",
+      "evidence": "Individually opened ingredients188\u2013197, method202\u2013207.",
+      "yield": "4 tortillas; confirm source portion count before importing nutrition",
+      "ingredients": {
+        "capsicums_each": 3,
+        "red_onion_each": 1,
+        "oil_tbsp": 1,
+        "smoked_paprika_tsp": 2,
+        "chilli_powder_tsp": 1,
+        "cumin_tsp": 0.5,
+        "pepper_tsp": 0.5,
+        "halloumi_g": 225,
+        "flour_tortillas_each": 4
+      },
+      "timing": {
+        "temperatureC": 180,
+        "vegetableMinutes": 15,
+        "halloumiMinutes": 10
+      },
+      "methodFacts": "Toss sliced peppers/onion with oil/spices; air fry15 minutes. Stir and add cheese sticks on top for10 minutes. Combine and fill tortillas; toppings are optional.",
+      "cautions": [
+        "Check distinctness against existing shawarma halloumi wraps; do not include merely as a seasoning variant.",
+        "Toppings unquantified, and source portion count must be confirmed."
+      ]
+    },
+    {
+      "key": "soy-chunk-popcorn",
+      "url": "https://www.secondrecipe.com/air-fryer-vegan-popcorn-chicken/",
+      "publisher": "Bhavana Bhatia, SecondRecipe",
+      "evidence": "Individually opened full card: ingredients159\u2013168, method169\u2013199.",
+      "yield": "2 portions",
+      "ingredients": {
+        "dry_soy_chunks_g": 100,
+        "cornflour_tbsp": 2,
+        "light_soy_sauce_tbsp": 2,
+        "onion_powder_tbsp": 1,
+        "garlic_powder_tbsp": 0.5,
+        "vegetable_stock_powder_tbsp": 1,
+        "oil_tbsp": 2,
+        "soaking_water_cups": 2
+      },
+      "timing": {
+        "soakMinutes": "10\u201315",
+        "marinadeMinutes": 10,
+        "preheatMinutes": 5,
+        "airFryMinutes": "12\u201313",
+        "temperatureC": 180,
+        "headerTotalMinutes": 40
+      },
+      "methodFacts": "Rehydrate soy chunks in seasoned boiling water; drain, cool and squeeze. Marinate with soy sauce and oil, then coat with cornflour. Cook in one spaced layer, turning as needed.",
+      "cautions": [
+        "Soy chunks/TVP are a distinct dry protein ingredient; needs a side for a substantial meal.",
+        "Header total40 may undercount sequential soaking/marinating/preheating; calculate realistic elapsed time.",
+        "Count specified oil; soaking stock partly discarded. Never preheat empty parchment."
+      ]
+    },
+    {
+      "key": "white-bean-polenta-bruschetta",
+      "url": "https://www.kathysvegankitchen.com/fried-polenta/",
+      "publisher": "Kathy Carmichael, Kathys Vegan Kitchen",
+      "evidence": "Individually opened recipe: amounts216\u2013227, assembly106\u2013144, card247\u2013255.",
+      "yield": "4 portions",
+      "ingredients": {
+        "precooked_polenta_oz": 14,
+        "grape_tomatoes_pints": 1,
+        "white_beans_can_net_oz": 15,
+        "red_onion_tbsp": 2,
+        "kalamata_olives_cups": 0.25,
+        "garlic_cloves": 3,
+        "basil_cups": 0.25,
+        "parsley_cups": 0.25,
+        "balsamic_glaze_tbsp": 2,
+        "vegan_feta_cups": 0.5,
+        "plant_milk_cups": 0.125,
+        "italian_seasoning_tbsp": 2
+      },
+      "timing": {
+        "prepMinutes": 20,
+        "cookMinutes": 15,
+        "temperatureF": 350
+      },
+      "methodFacts": "Slice ready-cooked polenta into 12mm rounds; season and air fry in one layer. Combine chopped tomatoes, drained beans, olives, aromatics and glaze. Blend feta with milk; spread on cooked polenta, then add bean topping.",
+      "cautions": [
+        "Quantify drained bean yield and cheese weight, never treat canned net weight as edible beans.",
+        "Publisher92kcal per portion cannot plausibly represent all listed ingredients; independently calculate.",
+        "Source optionally omits feta; keep chosen adaptation explicit. Distinct assembled main from plain polenta fries."
+      ]
+    },
+    {
+      "key": "almond-hemp-granola",
+      "url": "https://evergreenkitchen.ca/air-fryer-granola/",
+      "publisher": "Bri Beaudoin, Evergreen Kitchen",
+      "evidence": "Individually opened full card151\u2013183.",
+      "yield": "5 portions, approximately3.75cups total",
+      "ingredients": {
+        "rolled_oats_cups": 1.5,
+        "raw_unsalted_nuts_cups": 0.5,
+        "almond_flour_cups": 0.25,
+        "hemp_seeds_tbsp": 2,
+        "coconut_oil_tbsp": 2,
+        "almond_butter_tbsp": 3,
+        "honey_or_maple_syrup_tbsp": 3,
+        "vanilla_tsp": 1,
+        "cinnamon_tsp": 0.75
+      },
+      "timing": {
+        "prepMinutes": 5,
+        "cookMinutes": 20,
+        "temperatureC": 150,
+        "preheatRequired": false,
+        "coolMinutes": "unspecified; allow fully cool"
+      },
+      "methodFacts": "Combine dry ingredients; separately mix wet ingredients, then coat oats. Press in basket on securely food-weighted parchment. Cook10minutes, turn and press, then roughly10minutes more. Cool without disturbing before breaking into clusters.",
+      "nutritionPerPortion": {
+        "kcal": 362,
+        "protein_g": 10,
+        "carbs_g": 31,
+        "fat_g": 22,
+        "fibre_g": 6
+      },
+      "cautions": [
+        "Author excludes pecans because they burn; specify almonds or walnuts.",
+        "Publisher calls high-protein but10g per serving is below project default30g; do not carry marketing claim.",
+        "Honey is not vegan. Australian oats are not automatically gluten-free.",
+        "Never run with unweighted parchment; model-approved liner/dish only."
+      ]
+    },
+    {
+      "key": "cornbread-muffins",
+      "url": "https://www.sustainablecooks.com/air-fryer-cornbread/",
+      "publisher": "Sarah Cook, Sustainable Cooks",
+      "evidence": "Individually opened ingredients99\u2013108, method112\u2013134.",
+      "yield": "18 muffins per notes; header16 differs",
+      "ingredients": {
+        "yellow_cornmeal_cups": 1,
+        "plain_flour_cups": 1,
+        "baking_powder_tbsp": 1,
+        "baking_soda_tsp": 1,
+        "salt_tsp": 0.5,
+        "melted_butter_tbsp": 6,
+        "buttermilk_cups": 1,
+        "eggs_each": 2,
+        "honey_or_maple_cups": 0.25,
+        "mould_oil": "spray unspecified"
+      },
+      "timing": {
+        "prepMinutes": 10,
+        "preheatF": 320,
+        "preheatMinutes": 5,
+        "batterRestMinutes": 5,
+        "muffinCookMinutes": 15,
+        "temperatureF": 300
+      },
+      "methodFacts": "Combine dry ingredients then beaten eggs, buttermilk, melted butter and honey. Rest batter5minutes; fill silicone muffin moulds three-quarters. Air fry until centres pass clean-skewer test.",
+      "cautions": [
+        "Selected muffin method avoids overfilling skillet: full source batch exceeds its small skillet capacity.",
+        "18 muffins need batches; account for actual basket capacity in total time.",
+        "Source calls cornmeal; Australian cornflour is starch and not a substitute.",
+        "Quantify greasing; choose honey versus maple explicitly."
+      ]
+    },
+    {
+      "key": "pumpkin-custard-pie",
+      "url": "https://lianaskitchen.co.uk/air-fryer-pumpkin-pie/",
+      "publisher": "Liana Green, Lianas Kitchen",
+      "evidence": "Individually opened ingredient details51\u201358, method80\u201398, recipe125\u2013155.",
+      "yield": "8 slices in small bought pre-baked pastry case; source5.5L basket",
+      "ingredients": {
+        "pumpkin_puree_g": 300,
+        "eggs_each": 1,
+        "light_brown_sugar_g": 50,
+        "double_cream_ml": 50,
+        "vanilla_tsp": 0.5,
+        "cinnamon_tsp": 0.5,
+        "ginger_tsp": 0.5,
+        "nutmeg_tsp": 0.5,
+        "prebaked_pastry_case": "1; weight/diameter not stated"
+      },
+      "timing": {
+        "temperatureC": 180,
+        "cookMinutes": "18\u201320",
+        "coolMinutes": "unspecified"
+      },
+      "methodFacts": "Whisk filling ingredients smooth, pour into pre-baked case leaving expansion space. Air fry until filling sets and pastry browns; cool before slicing.",
+      "cautions": [
+        "Pastry weight and diameter need explicit adaptation; page105kcal likely omits unquantified pastry. Recalculate nutrition.",
+        "Raw pastry requires prior blind baking not included here.",
+        "Egg custard needs proper centre doneness and refrigeration; do not rely only on top browning.",
+        "If covering browned top, secure approved foil to dish; never loose foil."
+      ]
+    },
+    {
+      "key": "quinoa-kale-stuffed-acorn-squash",
+      "url": "https://veganpunks.com/air-fryer-acorn-squash/",
+      "publisher": "Jess and Dan, Vegan Punks",
+      "evidence": "Individually opened metric card208\u2013251 and nutrition269\u2013271.",
+      "yield": "2 halves/portions",
+      "ingredients": {
+        "acorn_squash_each": 1,
+        "dry_quinoa_g": 60,
+        "vegetable_stock_ml": 180,
+        "garlic_cloves": 2,
+        "red_onion_each": 0.5,
+        "sage_tbsp": 1,
+        "kale_cups": 1,
+        "toasted_pumpkin_seeds_tbsp": 1,
+        "oil": "Unquantified splash in frying pan; optional squash spray",
+        "salt_pepper": "to taste"
+      },
+      "timing": {
+        "prepMinutes": 10,
+        "airFryMinutes": "25\u201330",
+        "temperatureC": 160,
+        "quinoaSimmerMinutes": "12\u201315 concurrently"
+      },
+      "methodFacts": "Halve and deseed squash; cook cut-side down15minutes, turn5\u201310until fork-tender. Meanwhile simmer quinoa in stock. Soften onion in pan, add garlic/sage then finely shredded kale. Combine filling; stuff squash and finish5minutes. Top with seeds.",
+      "nutritionPerPortion": {
+        "kcal": 257,
+        "protein_g": 9,
+        "carbs_g": 48,
+        "fat_g": 5,
+        "fibre_g": 8
+      },
+      "cautions": [
+        "Specify edible squash weight and oil before nutrient calculation. Acorn squash may be less available in Australia; different pumpkin requires declared timing adaptation.",
+        "Source oven method is separate; do not substitute its200C air-fryer setting.",
+        "Two halves must fit without stacking."
+      ]
+    },
+    {
+      "key": "broccoli-ricotta-stuffed-shells",
+      "url": "https://cosori.com/blogs/recipes/cheesy-veggie-stuffed-shells",
+      "publisher": "COSORI, curated by Margaret",
+      "evidence": "Individually opened manufacturer recipe148\u2013202.",
+      "yield": "4 portions,3 shells each",
+      "ingredients": {
+        "broccoli_oz": 4,
+        "dry_jumbo_pasta_shells_oz": 5,
+        "olive_oil_tbsp": 1,
+        "ricotta_cups": 0.5,
+        "basil_cups": 0.5,
+        "parmesan_cups": 0.3,
+        "pine_nuts_tbsp": 1,
+        "garlic_cloves": 1,
+        "lemon_zest_tsp": 0.5,
+        "salt_tsp": 0.5,
+        "pepper_tsp": 0.25,
+        "chilli_flakes_tsp": 0.125,
+        "egg_each": 1,
+        "marinara_cups": 1,
+        "mozzarella_cups": 0.25
+      },
+      "timing": {
+        "prepMinutes": 30,
+        "coveredBakeMinutes": 30,
+        "coveredBakeF": 350,
+        "uncoveredBroilMinutes": 4,
+        "uncoveredBroilF": 450
+      },
+      "methodFacts": "Boil broccoli5minutes, chill/drain; boil shells al dente and oil. Process broccoli with ricotta, herbs, Parmesan, nuts and seasonings; add egg last. Fill shells over half sauce in20cm pan; add remaining sauce/cheese. Cover securely, bake then uncover to brown.",
+      "nutritionPerPortion": {
+        "kcal": 346,
+        "protein_g": 15,
+        "carbs_g": 36,
+        "fat_g": 17,
+        "fibre_g": 4
+      },
+      "cautions": [
+        "Source450F broil229C is above some Ninja model maximums; use lower validated adaptation and colour/centre checks, never claim exact compatibility.",
+        "Source allergen banner omits egg and pine nuts despite listed ingredients; include both.",
+        "Source Parmesan uses0.3cup; do not silently call it1/3 unless declared.",
+        "Avoid loose foil and maintain basket airflow."
+      ]
+    }
+  ],
+  "notReady": [
+    {
+      "url": "https://www.easycheesyvegetarian.com/tofu-spinach-samosas/",
+      "reason": "Primary facts verified but source uses Actifry20 minutes with no temperature. Cannot invent basket-style temperature. Existing spinach-feta filo parcels also create distinctness concern."
+    },
+    {
+      "url": "https://www.easycheesyvegetarian.com/beetroot-nuggets/",
+      "reason": "Source verified450g cooked beetroot, cashew/sage coating,15-minute Actifry batches; no temperature. Need independent basket-airfryer method before adaptation."
+    },
+    {
+      "url": "https://www.tastingtable.com/1583947/air-fryer-veggie-stuffed-cabbage-rolls-recipe/",
+      "reason": "Source verified200C10-minute vegetable pre-cook, cabbage blanch4 minutes and175C12-minute rolls, but rice quantity rendered as only 'cup cooked rice' without numeric amount. Resolve from page image/schema; do not guess."
+    },
+    {
+      "url": "https://sunrise-soya.com/recipe/tofu-katsu/",
+      "reason": "Producer recipe found, but airfryer temperature is implied by oven400F and tofu package weight unspecified. Stronger explicit airfryer source selected from Silver Hills."
+    }
+  ],
+  "excludedAfterPolicyAudit": [
+    {
+      "url": "https://silverhillsbakery.ca/crispy-air-fryer-tofu-katsu-sando-with-sprouted-breadcrumbs/",
+      "reason": "Automatic-device access prohibited: https://silverhillsbakery.ca/website-terms-of-use/"
+    },
+    {
+      "url": "https://www.forksoverknives.com/recipes/vegan-snacks-appetizers/air-fryer-rice-paper-dumplings/",
+      "reason": "Section2(b-c) retrieval and dataset/TDM bans: https://www.forksoverknives.com/forks-over-knives-terms-of-use/"
+    },
+    {
+      "url": "https://www.supergoldenbakes.com/air-fryer-lasagna/",
+      "reason": "Explicit automated access/text-data-mining prohibition: https://www.supergoldenbakes.com/privacy-policy/"
+    }
+  ]
+}

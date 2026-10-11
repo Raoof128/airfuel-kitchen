@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "air-fryer-poached-egg",
+    "reason": "Retired: Good Food January 2026 eggs guide explicitly discourages this method due to oil-water spitting and difficult access; replaced with tempeh recipe."
+  },
+  {
+    "slug": "air-fryer-french-fries",
+    "reason": "Source six-person yield conflicts with per-four nutrition and implausible energy; excludes factory-prepared item."
+  },
+  {
+    "slug": "air-fryer-crisps",
+    "reason": "ME nutrition repeats frozen fries numbers; not used pending clear calculation."
+  },
+  {
+    "slug": "air-fryer-tuna-pasta-bake",
+    "reason": "Owned by savoury stream."
+  },
+  {
+    "slug": "air-fryer-buffalo-wings",
+    "reason": "Owned by savoury stream."
+  },
+  {
+    "slug": "air-fryer-hot-cross-bun-brownie",
+    "reason": "Too similar to the independently retained brownie."
+  },
+  {
+    "slug": "caramelised-onion-chutney-soured-cream-dip-with-air-fryer-crisps",
+    "reason": "Dip variation does not create distinct potato preparation."
+  },
+  {
+    "slug": "air-fryer-chocolate-fondants-2",
+    "reason": "Molten batter conflicts with requested cooked-flour/egg dessert standard."
+  },
+  {
+    "slug": "air-fryer-almond-choc-chunk-passover-cookies",
+    "reason": "Published calories inconsistent with macros; unresolved."
+  },
+  {
+    "slug": "easiest-air-fryer-easter-chocolate-cookies",
+    "reason": "Too similar to cookie component of retained ice-cream sandwich."
+  },
+  {
+    "slug": "air-fryer-tofu-popcorn-nuggets",
+    "reason": "Publisher estimate excluded: undefined tofu block; retained separately with explicit 400 g tofu and AFCD recalculation."
+  },
+  {
+    "slug": "air-fryer-cinnamon-rolls",
+    "reason": "Publisher estimate excluded as inconsistent; retained separately with AFCD recalculation."
+  },
+  {
+    "slug": "air-fryer-chickpeas",
+    "reason": "Publisher estimate excluded for missing yield; retained separately with measured drained weight and AFCD recalculation."
+  }
+]

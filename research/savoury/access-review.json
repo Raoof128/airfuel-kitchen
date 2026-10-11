@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-11",
+  "allowedRegionalNinja": {
+    "urls": [
+      "https://sharkninja.com.au/policies/terms-of-service",
+      "https://sharkninja.my/policies/terms-of-service"
+    ],
+    "review": "Copyrighted material and trademarks restricted. Factual technique research with independently authored prose and no images retained; no express robot ban observed."
+  },
+  "excluded": {
+    "https://www.sharkninja.com/terms-and-conditions.html": "Express automated extraction restriction; no canonical US recipes.",
+    "https://www.thedinnerbite.com/robots.txt": "ChatGPT-User Disallow /",
+    "Supergolden Bakes": "Express text/data mining restriction; no canonical recipes.",
+    "Allrecipes and EatingWell": "Data aggregation restrictions.",
+    "Skinnytaste": "Aggregation restriction."
+  },
+  "sunbeam": "Four individually read pages via web; robots retrieval unavailable and no permission inferred from timeout. Actual Newell AU linked terms personally reviewed by research agent; factual original adaptations only.",
+  "photos": "No publisher photos retained."
+}

@@ -1,0 +1,1433 @@
+[
+  {
+    "id": "F002893",
+    "name": "Chilli (chili), dried, ground",
+    "energyKj": 1224,
+    "protein": 12.3,
+    "fat": 14.3,
+    "fibre": 34.2,
+    "carbs": 12.9
+  },
+  {
+    "id": "F003190",
+    "name": "Coriander seed, dried, ground",
+    "energyKj": 1344,
+    "protein": 12.4,
+    "fat": 17.8,
+    "fibre": 41.9,
+    "carbs": 8.4
+  },
+  {
+    "id": "F003327",
+    "name": "Cumin (cummin) seed, dried, ground",
+    "energyKj": 1782,
+    "protein": 17.8,
+    "fat": 22.3,
+    "fibre": 10.5,
+    "carbs": 33.7
+  },
+  {
+    "id": "F003337",
+    "name": "Curry powder",
+    "energyKj": 1231,
+    "protein": 14.3,
+    "fat": 14,
+    "fibre": 53.2,
+    "carbs": 2.8
+  },
+  {
+    "id": "F006281",
+    "name": "Oregano, dried",
+    "energyKj": 1096,
+    "protein": 9,
+    "fat": 4.3,
+    "fibre": 42.5,
+    "carbs": 26.4
+  },
+  {
+    "id": "F006316",
+    "name": "Paprika, dry powder",
+    "energyKj": 1311,
+    "protein": 14.1,
+    "fat": 12.9,
+    "fibre": 34.9,
+    "carbs": 19.1
+  },
+  {
+    "id": "F006618",
+    "name": "Pepper, black, ground",
+    "energyKj": 1156,
+    "protein": 10.4,
+    "fat": 3.3,
+    "fibre": 25.3,
+    "carbs": 38.6
+  },
+  {
+    "id": "F007715",
+    "name": "Rosemary, dried",
+    "energyKj": 1314,
+    "protein": 4.9,
+    "fat": 15.2,
+    "fibre": 42.6,
+    "carbs": 20.4
+  },
+  {
+    "id": "F009160",
+    "name": "Thyme, dried, ground",
+    "energyKj": 1182,
+    "protein": 9.1,
+    "fat": 7.4,
+    "fibre": 37,
+    "carbs": 26.9
+  },
+  {
+    "id": "F009335",
+    "name": "Turmeric, dried, ground",
+    "energyKj": 1219,
+    "protein": 9.7,
+    "fat": 3.2,
+    "fibre": 22.7,
+    "carbs": 44.4
+  },
+  {
+    "id": "F008936",
+    "name": "Stock, liquid, all flavours (except fish), prepared from commercial powder or cube",
+    "energyKj": 18,
+    "protein": 0.2,
+    "fat": 0.2,
+    "fibre": 0,
+    "carbs": 0.4
+  },
+  {
+    "id": "F004726",
+    "name": "Juice, lemon",
+    "energyKj": 111,
+    "protein": 0.6,
+    "fat": 0.1,
+    "fibre": 2,
+    "carbs": 1.8
+  },
+  {
+    "id": "F001401",
+    "name": "Bread, flat (pita or Lebanese), white, commercial",
+    "energyKj": 1102,
+    "protein": 9.5,
+    "fat": 2.1,
+    "fibre": 3.7,
+    "carbs": 49.1
+  },
+  {
+    "id": "F001669",
+    "name": "Bread, tortilla, white, commercial",
+    "energyKj": 1263,
+    "protein": 7.3,
+    "fat": 9,
+    "fibre": 2,
+    "carbs": 46.3
+  },
+  {
+    "id": "F001683",
+    "name": "Breadcrumbs, white",
+    "energyKj": 1598,
+    "protein": 14,
+    "fat": 4.1,
+    "fibre": 4.7,
+    "carbs": 68.5
+  },
+  {
+    "id": "F001653",
+    "name": "Bread, pizza base, commercial",
+    "energyKj": 1109,
+    "protein": 8.6,
+    "fat": 3.3,
+    "fibre": 2.7,
+    "carbs": 48.5
+  },
+  {
+    "id": "F001353",
+    "name": "Bread roll, from white flour",
+    "energyKj": 1044,
+    "protein": 9.3,
+    "fat": 2.9,
+    "fibre": 3,
+    "carbs": 44.6
+  },
+  {
+    "id": "F003239",
+    "name": "Couscous, uncooked",
+    "energyKj": 1523,
+    "protein": 13.8,
+    "fat": 0.2,
+    "fibre": 4.2,
+    "carbs": 73.6
+  },
+  {
+    "id": "F007682",
+    "name": "Rice, white, uncooked",
+    "energyKj": 1422,
+    "protein": 7,
+    "fat": 0.9,
+    "fibre": 0.8,
+    "carbs": 74
+  },
+  {
+    "id": "F007661",
+    "name": "Rice, white, boiled or rice cooker, no added salt",
+    "energyKj": 659,
+    "protein": 3.1,
+    "fat": 0.2,
+    "fibre": 0.8,
+    "carbs": 34.7
+  },
+  {
+    "id": "F007641",
+    "name": "Rice, brown, boiled, no added salt",
+    "energyKj": 693,
+    "protein": 4.1,
+    "fat": 1.1,
+    "fibre": 1.7,
+    "carbs": 33.5
+  },
+  {
+    "id": "F003988",
+    "name": "Flour, cornflour, from maize starch",
+    "energyKj": 1458,
+    "protein": 0.4,
+    "fat": 0.6,
+    "fibre": 0,
+    "carbs": 84.1
+  },
+  {
+    "id": "F004007",
+    "name": "Flour, wheat, white, plain",
+    "energyKj": 1479,
+    "protein": 10,
+    "fat": 1.3,
+    "fibre": 2.2,
+    "carbs": 73.2
+  },
+  {
+    "id": "F006458",
+    "name": "Pasta, white wheat flour, dry",
+    "energyKj": 1458,
+    "protein": 12.7,
+    "fat": 1.4,
+    "fibre": 3.2,
+    "carbs": 68.5
+  },
+  {
+    "id": "F006460",
+    "name": "Pasta, white wheat flour, fresh, uncooked",
+    "energyKj": 1122,
+    "protein": 10.5,
+    "fat": 2.1,
+    "fibre": 3.3,
+    "carbs": 49.4
+  },
+  {
+    "id": "F006497",
+    "name": "Pastry, filo, commercial, raw",
+    "energyKj": 1283,
+    "protein": 10.2,
+    "fat": 3.8,
+    "fibre": 2.5,
+    "carbs": 55.8
+  },
+  {
+    "id": "F006503",
+    "name": "Pastry, puff, vegetable oil, commercial, raw",
+    "energyKj": 1321,
+    "protein": 5.5,
+    "fat": 16.4,
+    "fibre": 3.4,
+    "carbs": 35
+  },
+  {
+    "id": "F006507",
+    "name": "Pastry, shortcrust style, commercial, raw",
+    "energyKj": 1653,
+    "protein": 6.4,
+    "fat": 21.4,
+    "fibre": 6.4,
+    "carbs": 41.3
+  },
+  {
+    "id": "F005441",
+    "name": "Mayonnaise, traditional (>65% fat), commercial",
+    "energyKj": 2651,
+    "protein": 0.8,
+    "fat": 67.2,
+    "fibre": 0.5,
+    "carbs": 8.7
+  },
+  {
+    "id": "F005973",
+    "name": "Mustard, cream style",
+    "energyKj": 348,
+    "protein": 5.8,
+    "fat": 3.1,
+    "fibre": 4.1,
+    "carbs": 6.2
+  },
+  {
+    "id": "F007987",
+    "name": "Sauce, barbecue, commercial",
+    "energyKj": 725,
+    "protein": 0.8,
+    "fat": 0.1,
+    "fibre": 0.9,
+    "carbs": 42.2
+  },
+  {
+    "id": "F008004",
+    "name": "Sauce, fish, commercial",
+    "energyKj": 213,
+    "protein": 6.8,
+    "fat": 0.3,
+    "fibre": 1.2,
+    "carbs": 4.4
+  },
+  {
+    "id": "F008008",
+    "name": "Sauce, hoi sin (hoisin), commercial",
+    "energyKj": 922,
+    "protein": 1.6,
+    "fat": 5.4,
+    "fibre": 10.4,
+    "carbs": 37.2
+  },
+  {
+    "id": "F008026",
+    "name": "Sauce, oyster, commercial",
+    "energyKj": 471,
+    "protein": 2.8,
+    "fat": 1,
+    "fibre": 0.3,
+    "carbs": 21
+  },
+  {
+    "id": "F008029",
+    "name": "Sauce, pasta, basil pesto, commercial",
+    "energyKj": 1598,
+    "protein": 5.3,
+    "fat": 37.1,
+    "fibre": 1.5,
+    "carbs": 7.4
+  },
+  {
+    "id": "F008056",
+    "name": "Sauce, salsa, tomato-based, commercial",
+    "energyKj": 146,
+    "protein": 1.3,
+    "fat": 0,
+    "fibre": 1.6,
+    "carbs": 6.3
+  },
+  {
+    "id": "F008065",
+    "name": "Sauce, soy, commercial",
+    "energyKj": 209,
+    "protein": 6.8,
+    "fat": 0,
+    "fibre": 0,
+    "carbs": 3.2
+  },
+  {
+    "id": "F008077",
+    "name": "Sauce, tabasco, commercial",
+    "energyKj": 57,
+    "protein": 1.3,
+    "fat": 0.8,
+    "fibre": 0.6,
+    "carbs": 0.1
+  },
+  {
+    "id": "F008083",
+    "name": "Sauce, tomato, commercial",
+    "energyKj": 437,
+    "protein": 1.3,
+    "fat": 0,
+    "fibre": 1.3,
+    "carbs": 24.1
+  },
+  {
+    "id": "F008094",
+    "name": "Sauce, Worcestershire, commercial",
+    "energyKj": 311,
+    "protein": 1.3,
+    "fat": 0.2,
+    "fibre": 0,
+    "carbs": 17.6
+  },
+  {
+    "id": "F009498",
+    "name": "Vinegar (except balsamic vinegar)",
+    "energyKj": 65,
+    "protein": 0,
+    "fat": 0,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F006579",
+    "name": "Peanut butter, smooth & crunchy, no added sugar or salt",
+    "energyKj": 2628,
+    "protein": 24.3,
+    "fat": 54.3,
+    "fibre": 6.5,
+    "carbs": 9.4
+  },
+  {
+    "id": "F002405",
+    "name": "Cheese, blue vein",
+    "energyKj": 1552,
+    "protein": 19.1,
+    "fat": 32.9,
+    "fibre": 0,
+    "carbs": 0.3
+  },
+  {
+    "id": "F002414",
+    "name": "Cheese, cheddar, natural, regular fat",
+    "energyKj": 1686,
+    "protein": 24.6,
+    "fat": 33.4,
+    "fibre": 0,
+    "carbs": 0.3
+  },
+  {
+    "id": "F002428",
+    "name": "Cheese, cheddar, processed, regular fat",
+    "energyKj": 1254,
+    "protein": 18.2,
+    "fat": 23.9,
+    "fibre": 0,
+    "carbs": 1.9
+  },
+  {
+    "id": "F002444",
+    "name": "Cheese, cream, plain",
+    "energyKj": 1420,
+    "protein": 8.5,
+    "fat": 34.2,
+    "fibre": 0,
+    "carbs": 0.2
+  },
+  {
+    "id": "F002472",
+    "name": "Cheese, mozzarella",
+    "energyKj": 1212,
+    "protein": 22.2,
+    "fat": 22.1,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F002479",
+    "name": "Cheese, parmesan, fresh, regular fat",
+    "energyKj": 1565,
+    "protein": 32,
+    "fat": 27,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F002488",
+    "name": "Cheese, ricotta",
+    "energyKj": 636,
+    "protein": 10.4,
+    "fat": 11,
+    "fibre": 0,
+    "carbs": 2.7
+  },
+  {
+    "id": "F003270",
+    "name": "Cream, thickened, regular fat (~35%)",
+    "energyKj": 1422,
+    "protein": 2,
+    "fat": 36.5,
+    "fibre": 0,
+    "carbs": 2.4
+  },
+  {
+    "id": "F005614",
+    "name": "Milk, cow, fluid, reduced fat (~1%)",
+    "energyKj": 181,
+    "protein": 3.3,
+    "fat": 1.2,
+    "fibre": 0,
+    "carbs": 4.8
+  },
+  {
+    "id": "F009694",
+    "name": "Yoghurt, natural, regular fat (~3%)",
+    "energyKj": 306,
+    "protein": 5.1,
+    "fat": 3.2,
+    "fibre": 0.1,
+    "carbs": 5
+  },
+  {
+    "id": "F001973",
+    "name": "Butter, plain, salted",
+    "energyKj": 3069,
+    "protein": 1.1,
+    "fat": 82.2,
+    "fibre": 0,
+    "carbs": 0.6
+  },
+  {
+    "id": "F006177",
+    "name": "Oil, olive",
+    "energyKj": 3695,
+    "protein": 0,
+    "fat": 99.9,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F006187",
+    "name": "Oil, sesame",
+    "energyKj": 3700,
+    "protein": 0,
+    "fat": 100,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F003729",
+    "name": "Egg, chicken, whole, raw",
+    "energyKj": 533,
+    "protein": 12.6,
+    "fat": 8.5,
+    "fibre": 0,
+    "carbs": 0.3
+  },
+  {
+    "id": "F003737",
+    "name": "Egg, chicken, yolk, raw",
+    "energyKj": 1311,
+    "protein": 15.6,
+    "fat": 28.2,
+    "fibre": 0,
+    "carbs": 0.2
+  },
+  {
+    "id": "F000108",
+    "name": "Apple, red skin, peeled, raw",
+    "energyKj": 242,
+    "protein": 0.2,
+    "fat": 0,
+    "fibre": 1.8,
+    "carbs": 13
+  },
+  {
+    "id": "F003496",
+    "name": "Date, dried",
+    "energyKj": 1212,
+    "protein": 2,
+    "fat": 0.2,
+    "fibre": 9.7,
+    "carbs": 67.2
+  },
+  {
+    "id": "F005174",
+    "name": "Lemon, peeled, raw",
+    "energyKj": 111,
+    "protein": 0.6,
+    "fat": 0.1,
+    "fibre": 2,
+    "carbs": 1.8
+  },
+  {
+    "id": "F006277",
+    "name": "Orange, peeled, raw",
+    "energyKj": 174,
+    "protein": 1,
+    "fat": 0,
+    "fibre": 2.3,
+    "carbs": 8.2
+  },
+  {
+    "id": "F006842",
+    "name": "Pomegranate, peeled, raw",
+    "energyKj": 329,
+    "protein": 1.9,
+    "fat": 0.2,
+    "fibre": 6.4,
+    "carbs": 13.5
+  },
+  {
+    "id": "F000243",
+    "name": "Baked beans, canned in tomato sauce",
+    "energyKj": 381,
+    "protein": 4.8,
+    "fat": 0.3,
+    "fibre": 4.8,
+    "carbs": 13
+  },
+  {
+    "id": "F000448",
+    "name": "Bean, red kidney, canned, drained",
+    "energyKj": 441,
+    "protein": 6.6,
+    "fat": 0.6,
+    "fibre": 6.5,
+    "carbs": 14
+  },
+  {
+    "id": "F002880",
+    "name": "Chickpea, canned, drained",
+    "energyKj": 474,
+    "protein": 6.3,
+    "fat": 2.1,
+    "fibre": 5.7,
+    "carbs": 13.3
+  },
+  {
+    "id": "F000666",
+    "name": "Beef, mince, lower fat, raw ",
+    "energyKj": 541,
+    "protein": 22.9,
+    "fat": 4.1,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F000678",
+    "name": "Beef, mince, regular fat, raw ",
+    "energyKj": 710,
+    "protein": 22.4,
+    "fat": 8.9,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F000836",
+    "name": "Beef, steak, boneless, fillet or tenderloin, lean, raw",
+    "energyKj": 570,
+    "protein": 22.2,
+    "fat": 5.2,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F004888",
+    "name": "Lamb, chop, with bone, forequarter, untrimmed, raw",
+    "energyKj": 1126,
+    "protein": 17.4,
+    "fat": 22.4,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F005044",
+    "name": "Lamb, loin chop, untrimmed, raw",
+    "energyKj": 1276,
+    "protein": 22,
+    "fat": 24.4,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F005049",
+    "name": "Lamb, mince, raw",
+    "energyKj": 602,
+    "protein": 20.4,
+    "fat": 6.9,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F005014",
+    "name": "Lamb, leg roast, lean, roasted, no added fat",
+    "energyKj": 742,
+    "protein": 30.6,
+    "fat": 6,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F005017",
+    "name": "Lamb, leg roast, untrimmed, raw",
+    "energyKj": 786,
+    "protein": 19.4,
+    "fat": 12.3,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F006862",
+    "name": "Pork, belly, rind removed, raw",
+    "energyKj": 1286,
+    "protein": 18.6,
+    "fat": 26.2,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F007057",
+    "name": "Pork, mince, untrimmed, raw",
+    "energyKj": 748,
+    "protein": 20.9,
+    "fat": 10.6,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F007049",
+    "name": "Pork, medallion or loin steak, lean, raw",
+    "energyKj": 469,
+    "protein": 24.1,
+    "fat": 1.6,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F007085",
+    "name": "Pork, rump steak, lean, raw",
+    "energyKj": 508,
+    "protein": 25.3,
+    "fat": 2.1,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F006899",
+    "name": "Pork, fillet, lean, raw",
+    "energyKj": 433,
+    "protein": 23.1,
+    "fat": 1.1,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F007117",
+    "name": "Pork, spare ribs, untrimmed, raw",
+    "energyKj": 1198,
+    "protein": 18.1,
+    "fat": 24,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F002594",
+    "name": "Chicken, breast, lean flesh, raw",
+    "energyKj": 412,
+    "protein": 22.5,
+    "fat": 0.8,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F002590",
+    "name": "Chicken, breast, lean flesh, baked, no added fat",
+    "energyKj": 637,
+    "protein": 29,
+    "fat": 3.9,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F002739",
+    "name": "Chicken, mince, raw",
+    "energyKj": 404,
+    "protein": 21.4,
+    "fat": 1.1,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F002806",
+    "name": "Chicken, thigh, lean flesh, raw",
+    "energyKj": 436,
+    "protein": 19.1,
+    "fat": 3,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F002809",
+    "name": "Chicken, thigh, lean flesh, skin & fat, raw",
+    "energyKj": 898,
+    "protein": 16,
+    "fat": 16.9,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F009307",
+    "name": "Turkey, breast, lean flesh, raw",
+    "energyKj": 490,
+    "protein": 21.6,
+    "fat": 3.3,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F009306",
+    "name": "Turkey, breast, lean flesh, baked, no added fat",
+    "energyKj": 648,
+    "protein": 29.4,
+    "fat": 4,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F003634",
+    "name": "Duck, lean flesh, skin & fat, raw",
+    "energyKj": 1585,
+    "protein": 13,
+    "fat": 36.9,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F002709",
+    "name": "Chicken, liver, raw",
+    "energyKj": 466,
+    "protein": 16.9,
+    "fat": 4.8,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F000228",
+    "name": "Bacon, middle rasher, untrimmed, raw",
+    "energyKj": 1310,
+    "protein": 15.4,
+    "fat": 28.2,
+    "fibre": 0,
+    "carbs": 0.2
+  },
+  {
+    "id": "F004299",
+    "name": "Ham, leg, lean",
+    "energyKj": 467,
+    "protein": 17,
+    "fat": 2.5,
+    "fibre": 1.8,
+    "carbs": 2
+  },
+  {
+    "id": "F008112",
+    "name": "Sausage, beef, raw",
+    "energyKj": 987,
+    "protein": 14.5,
+    "fat": 18.7,
+    "fibre": 0,
+    "carbs": 2.9
+  },
+  {
+    "id": "F008126",
+    "name": "Sausage, chorizo, uncooked",
+    "energyKj": 1183,
+    "protein": 20.1,
+    "fat": 22.1,
+    "fibre": 0.5,
+    "carbs": 1.2
+  },
+  {
+    "id": "F007818",
+    "name": "Salami, all varieties, raw",
+    "energyKj": 1445,
+    "protein": 21.9,
+    "fat": 28.3,
+    "fibre": 0.5,
+    "carbs": 0.4
+  },
+  {
+    "id": "F000544",
+    "name": "Beef, corned, canned",
+    "energyKj": 957,
+    "protein": 21.5,
+    "fat": 15.7,
+    "fibre": 0.7,
+    "carbs": 0.3
+  },
+  {
+    "id": "F002982",
+    "name": "Coconut, cream, regular fat",
+    "energyKj": 908,
+    "protein": 1.6,
+    "fat": 23.2,
+    "fibre": 0,
+    "carbs": 1.4
+  },
+  {
+    "id": "F002991",
+    "name": "Coconut, milk, canned, regular fat",
+    "energyKj": 620,
+    "protein": 1.4,
+    "fat": 15.4,
+    "fibre": 0,
+    "carbs": 1.7
+  },
+  {
+    "id": "F006092",
+    "name": "Nut, cashew, roasted, unsalted",
+    "energyKj": 2530,
+    "protein": 17,
+    "fat": 47.7,
+    "fibre": 3.4,
+    "carbs": 26.8
+  },
+  {
+    "id": "F006111",
+    "name": "Nut, pecan, raw, unsalted",
+    "energyKj": 2973,
+    "protein": 9.8,
+    "fat": 71.9,
+    "fibre": 8.4,
+    "carbs": 4.9
+  },
+  {
+    "id": "F008214",
+    "name": "Seed, sesame, unsalted",
+    "energyKj": 2620,
+    "protein": 22.2,
+    "fat": 55.6,
+    "fibre": 10.1,
+    "carbs": 6.2
+  },
+  {
+    "id": "F009076",
+    "name": "Tahini, sesame seed pulp",
+    "energyKj": 2717,
+    "protein": 20.4,
+    "fat": 60.7,
+    "fibre": 13.5,
+    "carbs": 1
+  },
+  {
+    "id": "F001277",
+    "name": "Blue grenadier (hoki), fillet, raw",
+    "energyKj": 350,
+    "protein": 18,
+    "fat": 1.2,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F001884",
+    "name": "Bream, fillet, raw",
+    "energyKj": 521,
+    "protein": 19.6,
+    "fat": 5.1,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F007827",
+    "name": "Salmon, Atlantic, fillet, raw",
+    "energyKj": 965,
+    "protein": 20.5,
+    "fat": 16.7,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F003243",
+    "name": "Crab, flesh, purchased steamed or boiled",
+    "energyKj": 370,
+    "protein": 20.2,
+    "fat": 0.7,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F005228",
+    "name": "Lobster, southern rock, wild, flesh, raw",
+    "energyKj": 370,
+    "protein": 20.2,
+    "fat": 0.7,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F005968",
+    "name": "Mussel, blue, steamed",
+    "energyKj": 438,
+    "protein": 16,
+    "fat": 2.3,
+    "fibre": 0,
+    "carbs": 4.7
+  },
+  {
+    "id": "F007433",
+    "name": "Prawn, flesh, raw (green)",
+    "energyKj": 381,
+    "protein": 20.7,
+    "fat": 0.8,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F008166",
+    "name": "Scallop, raw",
+    "energyKj": 351,
+    "protein": 15.6,
+    "fat": 0.8,
+    "fibre": 0,
+    "carbs": 3.4
+  },
+  {
+    "id": "F008828",
+    "name": "Squid or calamari, raw",
+    "energyKj": 328,
+    "protein": 16.7,
+    "fat": 1.2,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F009300",
+    "name": "Tuna, unflavoured, canned in water, drained",
+    "energyKj": 540,
+    "protein": 26.1,
+    "fat": 2.6,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F009285",
+    "name": "Tuna, canned in brine, drained",
+    "energyKj": 540,
+    "protein": 26.1,
+    "fat": 2.6,
+    "fibre": 0,
+    "carbs": 0
+  },
+  {
+    "id": "F002220",
+    "name": "Capers, pickled, canned, drained",
+    "energyKj": 126,
+    "protein": 2.4,
+    "fat": 0.9,
+    "fibre": 3.2,
+    "carbs": 1.7
+  },
+  {
+    "id": "F004607",
+    "name": "Jam, stone fruit",
+    "energyKj": 1050,
+    "protein": 0.2,
+    "fat": 0,
+    "fibre": 0.9,
+    "carbs": 64.4
+  },
+  {
+    "id": "F008969",
+    "name": "Sugar, brown",
+    "energyKj": 1552,
+    "protein": 0.2,
+    "fat": 0,
+    "fibre": 0,
+    "carbs": 96.8
+  },
+  {
+    "id": "F008976",
+    "name": "Sugar, white, granulated or lump",
+    "energyKj": 1600,
+    "protein": 0,
+    "fat": 0,
+    "fibre": 0,
+    "carbs": 100
+  },
+  {
+    "id": "F004380",
+    "name": "Honey",
+    "energyKj": 1162,
+    "protein": 0.3,
+    "fat": 0,
+    "fibre": 0,
+    "carbs": 72.3
+  },
+  {
+    "id": "F000396",
+    "name": "Basil, green, fresh, raw",
+    "energyKj": 94,
+    "protein": 2.6,
+    "fat": 0.5,
+    "fibre": 3.3,
+    "carbs": 0.2
+  },
+  {
+    "id": "F003192",
+    "name": "Coriander, fresh, raw",
+    "energyKj": 132,
+    "protein": 3.1,
+    "fat": 0.6,
+    "fibre": 3.2,
+    "carbs": 1.9
+  },
+  {
+    "id": "F003509",
+    "name": "Dill, fresh, raw",
+    "energyKj": 170,
+    "protein": 3.4,
+    "fat": 1.2,
+    "fibre": 3.3,
+    "carbs": 2.5
+  },
+  {
+    "id": "F010452",
+    "name": "Oregano, fresh, raw",
+    "energyKj": 396,
+    "protein": 3.3,
+    "fat": 5.9,
+    "fibre": 14.1,
+    "carbs": 0.6
+  },
+  {
+    "id": "F006321",
+    "name": "Parsley, continental, fresh, raw",
+    "energyKj": 150,
+    "protein": 3.9,
+    "fat": 0.7,
+    "fibre": 5,
+    "carbs": 1.1
+  },
+  {
+    "id": "F010439",
+    "name": "Sage, fresh, raw",
+    "energyKj": 396,
+    "protein": 3.3,
+    "fat": 5.9,
+    "fibre": 14.1,
+    "carbs": 0.6
+  },
+  {
+    "id": "F010466",
+    "name": "Thyme, fresh, raw",
+    "energyKj": 287,
+    "protein": 5.6,
+    "fat": 1.7,
+    "fibre": 14,
+    "carbs": 1.1
+  },
+  {
+    "id": "F000162",
+    "name": "Avocado, hass, raw",
+    "energyKj": 653,
+    "protein": 1.6,
+    "fat": 14.6,
+    "fibre": 5.9,
+    "carbs": 2.2
+  },
+  {
+    "id": "F000431",
+    "name": "Bean, green, fresh, raw",
+    "energyKj": 106,
+    "protein": 1.8,
+    "fat": 0,
+    "fibre": 2.8,
+    "carbs": 3.3
+  },
+  {
+    "id": "F001301",
+    "name": "Bok choy, raw",
+    "energyKj": 79,
+    "protein": 2.5,
+    "fat": 0.2,
+    "fibre": 2.4,
+    "carbs": 0.6
+  },
+  {
+    "id": "F001905",
+    "name": "Broccoli, fresh, raw",
+    "energyKj": 134,
+    "protein": 4,
+    "fat": 0.4,
+    "fibre": 3.5,
+    "carbs": 1.2
+  },
+  {
+    "id": "F001914",
+    "name": "Brussels sprout, fresh, raw",
+    "energyKj": 184,
+    "protein": 3.8,
+    "fat": 0.3,
+    "fibre": 4.6,
+    "carbs": 4.2
+  },
+  {
+    "id": "F002006",
+    "name": "Cabbage, red, raw",
+    "energyKj": 128,
+    "protein": 2.2,
+    "fat": 0.3,
+    "fibre": 3.1,
+    "carbs": 3.2
+  },
+  {
+    "id": "F002247",
+    "name": "Capsicum, red, fresh, raw",
+    "energyKj": 115,
+    "protein": 1.1,
+    "fat": 0.4,
+    "fibre": 1.1,
+    "carbs": 4.4
+  },
+  {
+    "id": "F002276",
+    "name": "Carrot, mature, peeled, fresh, raw",
+    "energyKj": 145,
+    "protein": 0.6,
+    "fat": 0,
+    "fibre": 3.2,
+    "carbs": 6.6
+  },
+  {
+    "id": "F002275",
+    "name": "Carrot, mature, peeled, fresh, boiled, drained",
+    "energyKj": 139,
+    "protein": 1.1,
+    "fat": 0.3,
+    "fibre": 3.3,
+    "carbs": 5.1
+  },
+  {
+    "id": "F002378",
+    "name": "Cauliflower, fresh, raw",
+    "energyKj": 102,
+    "protein": 1.9,
+    "fat": 0.2,
+    "fibre": 1.2,
+    "carbs": 3.3
+  },
+  {
+    "id": "F002384",
+    "name": "Celeriac, peeled, raw",
+    "energyKj": 162,
+    "protein": 1.6,
+    "fat": 0.2,
+    "fibre": 5.1,
+    "carbs": 2.8
+  },
+  {
+    "id": "F002390",
+    "name": "Celery, fresh, raw",
+    "energyKj": 74,
+    "protein": 0.6,
+    "fat": 0.1,
+    "fibre": 1.6,
+    "carbs": 1.8
+  },
+  {
+    "id": "F002901",
+    "name": "Chilli (chili), red, raw",
+    "energyKj": 193,
+    "protein": 1.4,
+    "fat": 0.7,
+    "fibre": 7.2,
+    "carbs": 4.8
+  },
+  {
+    "id": "F003220",
+    "name": "Corn, kernels, canned in brine, drained",
+    "energyKj": 391,
+    "protein": 2.9,
+    "fat": 1,
+    "fibre": 2.7,
+    "carbs": 16.8
+  },
+  {
+    "id": "F003320",
+    "name": "Cucumber, common, unpeeled, raw",
+    "energyKj": 50,
+    "protein": 0.8,
+    "fat": 0.1,
+    "fibre": 1.4,
+    "carbs": 1.2
+  },
+  {
+    "id": "F004193",
+    "name": "Garlic, peeled, fresh, raw",
+    "energyKj": 522,
+    "protein": 6.1,
+    "fat": 2.8,
+    "fibre": 16.9,
+    "carbs": 10.2
+  },
+  {
+    "id": "F004206",
+    "name": "Gherkin, pickled, drained, commercial",
+    "energyKj": 441,
+    "protein": 0.4,
+    "fat": 0.3,
+    "fibre": 0.9,
+    "carbs": 24.4
+  },
+  {
+    "id": "F004213",
+    "name": "Ginger, peeled, fresh, raw",
+    "energyKj": 132,
+    "protein": 0.8,
+    "fat": 0.4,
+    "fibre": 2.8,
+    "carbs": 4.8
+  },
+  {
+    "id": "F005192",
+    "name": "Lettuce, iceberg, raw",
+    "energyKj": 60,
+    "protein": 1,
+    "fat": 0,
+    "fibre": 1.1,
+    "carbs": 2.1
+  },
+  {
+    "id": "F005946",
+    "name": "Mushroom, common, fresh, raw",
+    "energyKj": 114,
+    "protein": 2.2,
+    "fat": 0.8,
+    "fibre": 1.4,
+    "carbs": 0.8
+  },
+  {
+    "id": "F006225",
+    "name": "Onion, mature, brown skinned, peeled, raw",
+    "energyKj": 136,
+    "protein": 1.3,
+    "fat": 0,
+    "fibre": 2.3,
+    "carbs": 5.8
+  },
+  {
+    "id": "F009800",
+    "name": "Onion, mature, red skinned, raw",
+    "energyKj": 116,
+    "protein": 0.8,
+    "fat": 0,
+    "fibre": 1.8,
+    "carbs": 5.5
+  },
+  {
+    "id": "F006243",
+    "name": "Onion, mature, white skinned, peeled, fresh, raw",
+    "energyKj": 128,
+    "protein": 1.7,
+    "fat": 0.1,
+    "fibre": 2.1,
+    "carbs": 4.7
+  },
+  {
+    "id": "F006250",
+    "name": "Onion, spring, fresh, raw",
+    "energyKj": 127,
+    "protein": 1.7,
+    "fat": 0.2,
+    "fibre": 1.9,
+    "carbs": 4.6
+  },
+  {
+    "id": "F006538",
+    "name": "Pea, green, frozen, boiled, drained",
+    "energyKj": 261,
+    "protein": 5.2,
+    "fat": 0.3,
+    "fibre": 6.1,
+    "carbs": 6.4
+  },
+  {
+    "id": "F007308",
+    "name": "Potato, new, peeled, raw",
+    "energyKj": 272,
+    "protein": 2.3,
+    "fat": 0.1,
+    "fibre": 1.1,
+    "carbs": 12.8
+  },
+  {
+    "id": "F007325",
+    "name": "Potato, pale skin, peeled, raw",
+    "energyKj": 242,
+    "protein": 2,
+    "fat": 0,
+    "fibre": 1.1,
+    "carbs": 11.5
+  },
+  {
+    "id": "F007606",
+    "name": "Radish, red skinned, unpeeled, raw",
+    "energyKj": 62,
+    "protein": 0.8,
+    "fat": 0.2,
+    "fibre": 1.1,
+    "carbs": 1.9
+  },
+  {
+    "id": "F007712",
+    "name": "Rocket, fresh, raw",
+    "energyKj": 91,
+    "protein": 3.3,
+    "fat": 0.3,
+    "fibre": 2.4,
+    "carbs": 0.3
+  },
+  {
+    "id": "F008227",
+    "name": "Shallot, peeled, fresh, raw",
+    "energyKj": 107,
+    "protein": 1.5,
+    "fat": 0.1,
+    "fibre": 2.9,
+    "carbs": 3.1
+  },
+  {
+    "id": "F008749",
+    "name": "Spinach, baby, fresh, raw",
+    "energyKj": 68,
+    "protein": 2.8,
+    "fat": 0,
+    "fibre": 2.5,
+    "carbs": 0
+  },
+  {
+    "id": "F009035",
+    "name": "Sweet potato, orange flesh, peeled, fresh, raw",
+    "energyKj": 273,
+    "protein": 1.4,
+    "fat": 0.2,
+    "fibre": 2.6,
+    "carbs": 13.2
+  },
+  {
+    "id": "F009190",
+    "name": "Tomato, cherry, raw",
+    "energyKj": 90,
+    "protein": 0.9,
+    "fat": 0,
+    "fibre": 1.7,
+    "carbs": 3.5
+  },
+  {
+    "id": "F009193",
+    "name": "Tomato, common, raw",
+    "energyKj": 73,
+    "protein": 0.6,
+    "fat": 0,
+    "fibre": 1.1,
+    "carbs": 3
+  },
+  {
+    "id": "F009206",
+    "name": "Tomato, paste, no added salt",
+    "energyKj": 266,
+    "protein": 3.4,
+    "fat": 0.5,
+    "fibre": 3.6,
+    "carbs": 10.1
+  },
+  {
+    "id": "F009222",
+    "name": "Tomato, whole, canned in tomato juice, undrained",
+    "energyKj": 79,
+    "protein": 0.9,
+    "fat": 0,
+    "fibre": 1,
+    "carbs": 3
+  }
+]

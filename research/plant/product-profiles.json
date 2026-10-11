@@ -1,0 +1,4 @@
+[
+  {"id":"LABEL_SANREMO_GNOCCHI","name":"San Remo Fresh Gnocchi, uncooked","energyKj":718,"protein":2.5,"fat":0.8,"carbs":36.7,"fibre":null,"url":"https://sanremo.com.au/products/fresh-gnocchi/","verifiedAt":"2026-10-11","basis":"Manufacturer per100g uncooked label. Fibre not stated and therefore recipe fibre remains unknown."},
+  {"id":"LABEL_WOOLWORTHS_BLACK_BEANS","name":"Woolworths Black Beans, drained serving","energyKj":454,"protein":7.9,"fat":0.8,"carbs":14,"fibre":6.5,"url":"https://www.woolworths.com.au/shop/productdetails/907377/woolworths-black-beans","verifiedAt":"2026-10-11","basis":"Retailer product label per100g, serving75g x3 per can. Uses drained-bean serving interpretation; check actual package because formula may change."}
+]

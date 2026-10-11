@@ -1,0 +1,6569 @@
+[
+  {
+    "slug": "air-fryer-scrambled-eggs-on-toast",
+    "techniqueSource": "https://recipethis.com/air-fryer-scrambled-eggs-on-toast/",
+    "adaptation": "This is the egg component only; toast was not in the source ingredient list and is excluded.",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "eggs",
+        "grams": 100,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      },
+      {
+        "ingredient": "butter",
+        "grams": 5,
+        "afcdId": "F001973",
+        "referenceId": "F001973",
+        "referenceName": "Butter, plain, salted"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 12.655,
+      "calories": 164.0654875717017,
+      "carbs": 0.32999999999999996,
+      "fat": 12.61,
+      "fibre": 0.0
+    },
+    "roundedPerServing": {
+      "protein": 6,
+      "calories": 80,
+      "carbs": 0,
+      "fat": 6,
+      "fibre": 0
+    }
+  },
+  {
+    "slug": "air-fryer-zucchini-fries",
+    "techniqueSource": "https://recipethis.com/air-fryer-zucchini-fries/",
+    "adaptation": "Counts the complete coating ingredients; discarded flour or egg will reduce actual intake.",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "zucchini",
+        "grams": 250,
+        "afcdId": "F009775",
+        "referenceId": "F009775",
+        "referenceName": "Zucchini, green skin, fresh, unpeeled, raw"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 5,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "dried oregano",
+        "grams": 2,
+        "afcdId": "F006281",
+        "referenceId": "F006281",
+        "referenceName": "Oregano, dried"
+      },
+      {
+        "ingredient": "plain flour",
+        "grams": 35,
+        "afcdId": "F004007",
+        "referenceId": "F004007",
+        "referenceName": "Flour, wheat, white, plain"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 50,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      },
+      {
+        "ingredient": "dry breadcrumbs",
+        "grams": 45,
+        "afcdId": "F001683",
+        "referenceId": "F001683",
+        "referenceName": "Breadcrumbs, white"
+      },
+      {
+        "ingredient": "dried thyme",
+        "grams": 1,
+        "afcdId": "F009160",
+        "referenceId": "F009160",
+        "referenceName": "Thyme, dried, ground"
+      },
+      {
+        "ingredient": "fresh basil",
+        "grams": 2,
+        "afcdId": "F000396",
+        "referenceId": "F000396",
+        "referenceName": "Basil, green, fresh, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 18.923000000000002,
+      "calories": 453.1835564053537,
+      "carbs": 62.896,
+      "fat": 12.215000000000002,
+      "fibre": 6.671
+    },
+    "roundedPerServing": {
+      "protein": 9,
+      "calories": 225,
+      "carbs": 31,
+      "fat": 6,
+      "fibre": 3
+    }
+  },
+  {
+    "slug": "air-fryer-zucchini-double-cheese-pizza",
+    "techniqueSource": "https://recipethis.com/air-fryer-zucchini-double-cheese-pizza/",
+    "adaptation": "",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "zucchini",
+        "grams": 150,
+        "afcdId": "F009775",
+        "referenceId": "F009775",
+        "referenceName": "Zucchini, green skin, fresh, unpeeled, raw"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 3,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "cream cheese",
+        "grams": 45,
+        "afcdId": "F002444",
+        "referenceId": "F002444",
+        "referenceName": "Cheese, cream, plain"
+      },
+      {
+        "ingredient": "vegetarian cheddar",
+        "grams": 60,
+        "afcdId": "F002414",
+        "referenceId": "F002414",
+        "referenceName": "Cheese, cheddar, natural, regular fat"
+      },
+      {
+        "ingredient": "dried oregano",
+        "grams": 4,
+        "afcdId": "F006281",
+        "referenceId": "F006281",
+        "referenceName": "Oregano, dried"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 20.445,
+      "calories": 456.21175908221795,
+      "carbs": 4.626,
+      "fat": 38.899,
+      "fibre": 3.2
+    },
+    "roundedPerServing": {
+      "protein": 10,
+      "calories": 230,
+      "carbs": 2,
+      "fat": 19,
+      "fibre": 2
+    }
+  },
+  {
+    "slug": "air-fryer-pizza-toast",
+    "techniqueSource": "https://recipethis.com/air-fryer-pizza-toast/",
+    "adaptation": "",
+    "servings": 1,
+    "ingredientMatches": [
+      {
+        "ingredient": "Italian-style white bread",
+        "grams": 45,
+        "afcdId": "F001528",
+        "referenceId": "F001528",
+        "referenceName": "Bread, from white flour, Italian-style, commercial"
+      },
+      {
+        "ingredient": "tomato paste",
+        "grams": 8,
+        "afcdId": "F009208",
+        "referenceId": "F009208",
+        "referenceName": "Tomato, paste, with added salt"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 8,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "barbecue sauce",
+        "grams": 15,
+        "afcdId": "F007987",
+        "referenceId": "F007987",
+        "referenceName": "Sauce, barbecue, commercial"
+      },
+      {
+        "ingredient": "paprika",
+        "grams": 1,
+        "afcdId": "F006316",
+        "referenceId": "F006316",
+        "referenceName": "Paprika, dry powder"
+      },
+      {
+        "ingredient": "dried oregano",
+        "grams": 1,
+        "afcdId": "F006281",
+        "referenceId": "F006281",
+        "referenceName": "Oregano, dried"
+      },
+      {
+        "ingredient": "vegetarian cheddar",
+        "grams": 40,
+        "afcdId": "F002414",
+        "referenceId": "F002414",
+        "referenceName": "Cheese, cheddar, natural, regular fat"
+      },
+      {
+        "ingredient": "cherry tomatoes",
+        "grams": 60,
+        "afcdId": "F009190",
+        "referenceId": "F009190",
+        "referenceName": "Tomato, cherry, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 15.517,
+      "calories": 336.1950286806883,
+      "carbs": 31.712999999999997,
+      "fat": 14.92,
+      "fibre": 5.316000000000001
+    },
+    "roundedPerServing": {
+      "protein": 16,
+      "calories": 335,
+      "carbs": 32,
+      "fat": 15,
+      "fibre": 5
+    }
+  },
+  {
+    "slug": "air-fryer-onions",
+    "techniqueSource": "https://recipethis.com/air-fryer-onions/",
+    "adaptation": "",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "brown onion",
+        "grams": 150,
+        "afcdId": "F006225",
+        "referenceId": "F006225",
+        "referenceName": "Onion, mature, brown skinned, peeled, raw"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 5,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 1.9500000000000002,
+      "calories": 92.91347992351817,
+      "carbs": 8.7,
+      "fat": 4.995000000000001,
+      "fibre": 3.4499999999999997
+    },
+    "roundedPerServing": {
+      "protein": 1,
+      "calories": 45,
+      "carbs": 4,
+      "fat": 2,
+      "fibre": 2
+    }
+  },
+  {
+    "slug": "puff-pastry-pizza-in-air-fryer",
+    "techniqueSource": "https://recipethis.com/puff-pastry-pizza-in-air-fryer/",
+    "adaptation": "Adapted to four portions; optional stuffed-crust cheese is omitted. Two batches may double cooking time.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "tinned tomatoes",
+        "grams": 200,
+        "afcdId": "F010071",
+        "referenceId": "F010071",
+        "referenceName": "Tomato, whole, canned in tomato juice, no added salt, undrained"
+      },
+      {
+        "ingredient": "tomato paste",
+        "grams": 10,
+        "afcdId": "F009208",
+        "referenceId": "F009208",
+        "referenceName": "Tomato, paste, with added salt"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 5,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "fresh basil",
+        "grams": 2,
+        "afcdId": "F000396",
+        "referenceId": "F000396",
+        "referenceName": "Basil, green, fresh, raw"
+      },
+      {
+        "ingredient": "puff pastry",
+        "grams": 250,
+        "afcdId": "F006505",
+        "referenceId": "F006505",
+        "referenceName": "Pastry, puff, with butter, commercial, raw"
+      },
+      {
+        "ingredient": "cherry tomatoes",
+        "grams": 175,
+        "afcdId": "F009190",
+        "referenceId": "F009190",
+        "referenceName": "Tomato, cherry, raw"
+      },
+      {
+        "ingredient": "vegetarian cheddar",
+        "grams": 225,
+        "afcdId": "F002414",
+        "referenceId": "F002414",
+        "referenceName": "Cheese, cheddar, natural, regular fat"
+      },
+      {
+        "ingredient": "dried oregano",
+        "grams": 2,
+        "afcdId": "F006281",
+        "referenceId": "F006281",
+        "referenceName": "Oregano, dried"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 73.322,
+      "calories": 1826.9837476099426,
+      "carbs": 97.132,
+      "fat": 122.91599999999998,
+      "fibre": 15.585999999999999
+    },
+    "roundedPerServing": {
+      "protein": 18,
+      "calories": 455,
+      "carbs": 24,
+      "fat": 31,
+      "fibre": 4
+    }
+  },
+  {
+    "slug": "air-fryer-cheese-quiche",
+    "techniqueSource": "https://recipethis.com/air-fryer-cheese-quiche/",
+    "adaptation": "Mushrooms replace the original ham and nutrition is recalculated from the actual ingredients.",
+    "servings": 6,
+    "ingredientMatches": [
+      {
+        "ingredient": "self-raising flour",
+        "grams": 125,
+        "afcdId": "F004009",
+        "referenceId": "F004009",
+        "referenceName": "Flour, wheat, white, self-raising"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 250,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      },
+      {
+        "ingredient": "whole milk",
+        "grams": 120,
+        "afcdId": "F005634",
+        "referenceId": "F005634",
+        "referenceName": "Milk, cow, fluid, regular fat (~3.5%)"
+      },
+      {
+        "ingredient": "tomatoes",
+        "grams": 150,
+        "afcdId": "F009193",
+        "referenceId": "F009193",
+        "referenceName": "Tomato, common, raw"
+      },
+      {
+        "ingredient": "red onion",
+        "grams": 100,
+        "afcdId": "F009800",
+        "referenceId": "F009800",
+        "referenceName": "Onion, mature, red skinned, raw"
+      },
+      {
+        "ingredient": "button mushrooms",
+        "grams": 80,
+        "afcdId": "F005946",
+        "referenceId": "F005946",
+        "referenceName": "Mushroom, common, fresh, raw"
+      },
+      {
+        "ingredient": "vegetarian cheddar",
+        "grams": 85,
+        "afcdId": "F002414",
+        "referenceId": "F002414",
+        "referenceName": "Cheese, cheddar, natural, regular fat"
+      },
+      {
+        "ingredient": "dried oregano",
+        "grams": 2,
+        "afcdId": "F006281",
+        "referenceId": "F006281",
+        "referenceName": "Oregano, dried"
+      },
+      {
+        "ingredient": "dried thyme",
+        "grams": 2,
+        "afcdId": "F009160",
+        "referenceId": "F009160",
+        "referenceName": "Thyme, dried, ground"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 72.69200000000001,
+      "calories": 1266.8761950286805,
+      "carbs": 110.691,
+      "fat": 56.219,
+      "fibre": 8.91
+    },
+    "roundedPerServing": {
+      "protein": 12,
+      "calories": 210,
+      "carbs": 18,
+      "fat": 9,
+      "fibre": 1
+    }
+  },
+  {
+    "slug": "cauliflower-cheese-in-air-fryer",
+    "techniqueSource": "https://recipethis.com/cauliflower-cheese-in-air-fryer/",
+    "adaptation": "Explicit measured sauce replaces the source unspecified cream-cheese tub; macros recalculated.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "cauliflower",
+        "grams": 700,
+        "afcdId": "F002378",
+        "referenceId": "F002378",
+        "referenceName": "Cauliflower, fresh, raw"
+      },
+      {
+        "ingredient": "peeled butternut pumpkin",
+        "grams": 500,
+        "afcdId": "F007535",
+        "referenceId": "F007535",
+        "referenceName": "Pumpkin, butternut, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 15,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "cream cheese",
+        "grams": 150,
+        "afcdId": "F002444",
+        "referenceId": "F002444",
+        "referenceName": "Cheese, cream, plain"
+      },
+      {
+        "ingredient": "vegetarian cheddar",
+        "grams": 200,
+        "afcdId": "F002414",
+        "referenceId": "F002414",
+        "referenceName": "Cheese, cheddar, natural, regular fat"
+      },
+      {
+        "ingredient": "whole milk",
+        "grams": 240,
+        "afcdId": "F005634",
+        "referenceId": "F005634",
+        "referenceName": "Milk, cow, fluid, regular fat (~3.5%)"
+      },
+      {
+        "ingredient": "dried oregano",
+        "grams": 3,
+        "afcdId": "F006281",
+        "referenceId": "F006281",
+        "referenceName": "Oregano, dried"
+      },
+      {
+        "ingredient": "dried thyme",
+        "grams": 3,
+        "afcdId": "F009160",
+        "referenceId": "F009160",
+        "referenceName": "Thyme, dried, ground"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 94.213,
+      "calories": 2015.1983747609943,
+      "carbs": 73.059,
+      "fat": 145.996,
+      "fibre": 19.784999999999997
+    },
+    "roundedPerServing": {
+      "protein": 24,
+      "calories": 505,
+      "carbs": 18,
+      "fat": 36,
+      "fibre": 5
+    }
+  },
+  {
+    "slug": "air-fryer-cheese-and-bean-toastie",
+    "techniqueSource": "https://recipethis.com/air-fryer-cheese-and-bean-toastie/",
+    "adaptation": "",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "baked beans",
+        "grams": 100,
+        "afcdId": "F000243",
+        "referenceId": "F000243",
+        "referenceName": "Baked beans, canned in tomato sauce"
+      },
+      {
+        "ingredient": "vegetarian cheddar",
+        "grams": 90,
+        "afcdId": "F002414",
+        "referenceId": "F002414",
+        "referenceName": "Cheese, cheddar, natural, regular fat"
+      },
+      {
+        "ingredient": "Italian-style white bread",
+        "grams": 160,
+        "afcdId": "F001528",
+        "referenceId": "F001528",
+        "referenceName": "Bread, from white flour, Italian-style, commercial"
+      },
+      {
+        "ingredient": "butter",
+        "grams": 10,
+        "afcdId": "F001973",
+        "referenceId": "F001973",
+        "referenceName": "Butter, plain, salted"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 41.45,
+      "calories": 936.2571701720841,
+      "carbs": 88.21,
+      "fat": 42.58,
+      "fibre": 11.04
+    },
+    "roundedPerServing": {
+      "protein": 21,
+      "calories": 470,
+      "carbs": 44,
+      "fat": 21,
+      "fibre": 6
+    }
+  },
+  {
+    "slug": "air-fryer-cabbage",
+    "techniqueSource": "https://recipethis.com/air-fryer-cabbage/",
+    "adaptation": "",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "savoy cabbage",
+        "grams": 400,
+        "afcdId": "F002010",
+        "referenceId": "F002010",
+        "referenceName": "Cabbage, savoy, raw"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 15,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "dried oregano",
+        "grams": 1,
+        "afcdId": "F006281",
+        "referenceId": "F006281",
+        "referenceName": "Oregano, dried"
+      },
+      {
+        "ingredient": "fresh parsley",
+        "grams": 3,
+        "afcdId": "F006321",
+        "referenceId": "F006321",
+        "referenceName": "Parsley, continental, fresh, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 7.007,
+      "calories": 222.20602294455063,
+      "carbs": 9.496999999999998,
+      "fat": 15.449,
+      "fibre": 9.775
+    },
+    "roundedPerServing": {
+      "protein": 4,
+      "calories": 110,
+      "carbs": 5,
+      "fat": 8,
+      "fibre": 5
+    }
+  },
+  {
+    "slug": "air-fryer-green-bean-casserole",
+    "techniqueSource": "https://recipethis.com/air-fryer-green-bean-casserole/",
+    "adaptation": "Original bacon is omitted; unspecified leftover sauce is replaced with a measured sauce and fresh beans.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "green beans",
+        "grams": 400,
+        "afcdId": "F000431",
+        "referenceId": "F000431",
+        "referenceName": "Bean, green, fresh, raw"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 5,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "whole milk",
+        "grams": 200,
+        "afcdId": "F005634",
+        "referenceId": "F005634",
+        "referenceName": "Milk, cow, fluid, regular fat (~3.5%)"
+      },
+      {
+        "ingredient": "vegetarian cheddar",
+        "grams": 80,
+        "afcdId": "F002414",
+        "referenceId": "F002414",
+        "referenceName": "Cheese, cheddar, natural, regular fat"
+      },
+      {
+        "ingredient": "cream cheese",
+        "grams": 80,
+        "afcdId": "F002444",
+        "referenceId": "F002444",
+        "referenceName": "Cheese, cream, plain"
+      },
+      {
+        "ingredient": "dry breadcrumbs",
+        "grams": 25,
+        "afcdId": "F001683",
+        "referenceId": "F001683",
+        "referenceName": "Breadcrumbs, white"
+      },
+      {
+        "ingredient": "brown onion",
+        "grams": 60,
+        "afcdId": "F006225",
+        "referenceId": "F006225",
+        "referenceName": "Onion, mature, brown skinned, peeled, raw"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 5,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 44.865,
+      "calories": 989.6630019120461,
+      "carbs": 45.51499999999999,
+      "fat": 67.04,
+      "fibre": 14.6
+    },
+    "roundedPerServing": {
+      "protein": 11,
+      "calories": 245,
+      "carbs": 11,
+      "fat": 17,
+      "fibre": 4
+    }
+  },
+  {
+    "slug": "air-fryer-cheese-swirls",
+    "techniqueSource": "https://recipethis.com/air-fryer-cheese-swirls/",
+    "adaptation": "",
+    "servings": 6,
+    "ingredientMatches": [
+      {
+        "ingredient": "prepared mustard",
+        "grams": 30,
+        "afcdId": "F005973",
+        "referenceId": "F005973",
+        "referenceName": "Mustard, cream style"
+      },
+      {
+        "ingredient": "brown onion",
+        "grams": 50,
+        "afcdId": "F006225",
+        "referenceId": "F006225",
+        "referenceName": "Onion, mature, brown skinned, peeled, raw"
+      },
+      {
+        "ingredient": "vegetarian cheddar",
+        "grams": 178,
+        "afcdId": "F002414",
+        "referenceId": "F002414",
+        "referenceName": "Cheese, cheddar, natural, regular fat"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 25,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      },
+      {
+        "ingredient": "self-raising flour",
+        "grams": 225,
+        "afcdId": "F004009",
+        "referenceId": "F004009",
+        "referenceName": "Flour, wheat, white, self-raising"
+      },
+      {
+        "ingredient": "butter",
+        "grams": 50,
+        "afcdId": "F001973",
+        "referenceId": "F001973",
+        "referenceName": "Butter, plain, salted"
+      },
+      {
+        "ingredient": "whole milk",
+        "grams": 120,
+        "afcdId": "F005634",
+        "referenceId": "F005634",
+        "referenceName": "Milk, cow, fluid, regular fat (~3.5%)"
+      },
+      {
+        "ingredient": "fresh parsley",
+        "grams": 3,
+        "afcdId": "F006321",
+        "referenceId": "F006321",
+        "referenceName": "Parsley, continental, fresh, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 76.455,
+      "calories": 2030.946462715105,
+      "carbs": 176.882,
+      "fat": 110.63300000000001,
+      "fibre": 7.48
+    },
+    "roundedPerServing": {
+      "protein": 13,
+      "calories": 340,
+      "carbs": 29,
+      "fat": 18,
+      "fibre": 1
+    }
+  },
+  {
+    "slug": "air-fryer-frittata",
+    "techniqueSource": "https://recipethis.com/air-fryer-frittata/",
+    "adaptation": "Vegetarian adaptation replaces sausage and mascarpone with a measured cream-cheese mixture. Two dishes may require separate batches.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "eggs",
+        "grams": 400,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      },
+      {
+        "ingredient": "cream cheese",
+        "grams": 120,
+        "afcdId": "F002444",
+        "referenceId": "F002444",
+        "referenceName": "Cheese, cream, plain"
+      },
+      {
+        "ingredient": "whole milk",
+        "grams": 120,
+        "afcdId": "F005634",
+        "referenceId": "F005634",
+        "referenceName": "Milk, cow, fluid, regular fat (~3.5%)"
+      },
+      {
+        "ingredient": "vegetarian cheddar",
+        "grams": 100,
+        "afcdId": "F002414",
+        "referenceId": "F002414",
+        "referenceName": "Cheese, cheddar, natural, regular fat"
+      },
+      {
+        "ingredient": "sweet potato",
+        "grams": 250,
+        "afcdId": "F009035",
+        "referenceId": "F009035",
+        "referenceName": "Sweet potato, orange flesh, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "zucchini",
+        "grams": 200,
+        "afcdId": "F009775",
+        "referenceId": "F009775",
+        "referenceName": "Zucchini, green skin, fresh, unpeeled, raw"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 15,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "spring onion",
+        "grams": 30,
+        "afcdId": "F006250",
+        "referenceId": "F006250",
+        "referenceName": "Onion, spring, fresh, raw"
+      },
+      {
+        "ingredient": "fresh parsley",
+        "grams": 3,
+        "afcdId": "F006321",
+        "referenceId": "F006321",
+        "referenceName": "Parsley, continental, fresh, raw"
+      },
+      {
+        "ingredient": "cherry tomatoes",
+        "grams": 80,
+        "afcdId": "F009190",
+        "referenceId": "F009190",
+        "referenceName": "Tomato, cherry, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 96.007,
+      "calories": 1753.1907265774378,
+      "carbs": 49.833,
+      "fat": 128.48599999999996,
+      "fibre": 10.58
+    },
+    "roundedPerServing": {
+      "protein": 24,
+      "calories": 440,
+      "carbs": 12,
+      "fat": 32,
+      "fibre": 3
+    }
+  },
+  {
+    "slug": "air-fryer-carrot-cake",
+    "techniqueSource": "https://recipethis.com/air-fryer-carrot-cake/",
+    "adaptation": "Oil converted from150ml to138g using0.92g/ml; source slicing text conflicts with yield, so this adaptation explicitly makes12 portions.",
+    "servings": 12,
+    "ingredientMatches": [
+      {
+        "ingredient": "self-raising flour",
+        "grams": 225,
+        "afcdId": "F004009",
+        "referenceId": "F004009",
+        "referenceName": "Flour, wheat, white, self-raising"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 138,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "brown sugar",
+        "grams": 150,
+        "afcdId": "F008969",
+        "referenceId": "F008969",
+        "referenceName": "Sugar, brown"
+      },
+      {
+        "ingredient": "caster sugar",
+        "grams": 30,
+        "afcdId": "F008976",
+        "referenceId": "F008976",
+        "referenceName": "Sugar, white, granulated or lump"
+      },
+      {
+        "ingredient": "carrots",
+        "grams": 250,
+        "afcdId": "F002276",
+        "referenceId": "F002276",
+        "referenceName": "Carrot, mature, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 100,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      },
+      {
+        "ingredient": "whole milk",
+        "grams": 30,
+        "afcdId": "F005634",
+        "referenceId": "F005634",
+        "referenceName": "Milk, cow, fluid, regular fat (~3.5%)"
+      },
+      {
+        "ingredient": "ground cinnamon",
+        "grams": 2,
+        "afcdId": "F002963",
+        "referenceId": "F002963",
+        "referenceName": "Cinnamon, dried, ground"
+      },
+      {
+        "ingredient": "ground ginger",
+        "grams": 2,
+        "afcdId": "F004210",
+        "referenceId": "F004210",
+        "referenceName": "Ginger, dried, ground"
+      },
+      {
+        "ingredient": "ground nutmeg",
+        "grams": 0.5,
+        "afcdId": "F006118",
+        "referenceId": "F006118",
+        "referenceName": "Nutmeg, dried, ground"
+      },
+      {
+        "ingredient": "cream cheese",
+        "grams": 85,
+        "afcdId": "F002444",
+        "referenceId": "F002444",
+        "referenceName": "Cheese, cream, plain"
+      },
+      {
+        "ingredient": "butter",
+        "grams": 16,
+        "afcdId": "F001973",
+        "referenceId": "F001973",
+        "referenceName": "Butter, plain, salted"
+      },
+      {
+        "ingredient": "icing sugar",
+        "grams": 60,
+        "afcdId": "F008980",
+        "referenceId": "F008980",
+        "referenceName": "Sugar, white, icing"
+      },
+      {
+        "ingredient": "vanilla extract",
+        "grams": 5,
+        "afcdId": "F009350",
+        "referenceId": "F009350",
+        "referenceName": "Vanilla bean extract"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 45.58500000000001,
+      "calories": 3582.2203632887185,
+      "carbs": 421.0585,
+      "fat": 192.82350000000002,
+      "fibre": 14.397999999999998
+    },
+    "roundedPerServing": {
+      "protein": 4,
+      "calories": 300,
+      "carbs": 35,
+      "fat": 16,
+      "fibre": 1
+    }
+  },
+  {
+    "slug": "air-fryer-garlic-mushrooms",
+    "techniqueSource": "https://recipethis.com/air-fryer-garlic-mushrooms/",
+    "adaptation": "",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "button mushrooms",
+        "grams": 250,
+        "afcdId": "F005946",
+        "referenceId": "F005946",
+        "referenceName": "Mushroom, common, fresh, raw"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 30,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "dried thyme",
+        "grams": 1,
+        "afcdId": "F009160",
+        "referenceId": "F009160",
+        "referenceName": "Thyme, dried, ground"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 3,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "butter",
+        "grams": 15,
+        "afcdId": "F001973",
+        "referenceId": "F001973",
+        "referenceName": "Butter, plain, salted"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 7.586,
+      "calories": 244.89005736137665,
+      "carbs": 5.419,
+      "fat": 18.241,
+      "fibre": 8.94
+    },
+    "roundedPerServing": {
+      "protein": 4,
+      "calories": 120,
+      "carbs": 3,
+      "fat": 9,
+      "fibre": 4
+    }
+  },
+  {
+    "slug": "air-fryer-egg-cups",
+    "techniqueSource": "https://recipethis.com/air-fryer-egg-cups/",
+    "adaptation": "Vegetables replace the original leftover meat; serves4 with two cups each.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "cherry tomatoes",
+        "grams": 90,
+        "afcdId": "F009190",
+        "referenceId": "F009190",
+        "referenceName": "Tomato, cherry, raw"
+      },
+      {
+        "ingredient": "green capsicum",
+        "grams": 40,
+        "afcdId": "F002239",
+        "referenceId": "F002239",
+        "referenceName": "Capsicum, green, fresh, raw"
+      },
+      {
+        "ingredient": "button mushrooms",
+        "grams": 40,
+        "afcdId": "F005946",
+        "referenceId": "F005946",
+        "referenceName": "Mushroom, common, fresh, raw"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 200,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 3,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "fresh basil",
+        "grams": 3,
+        "afcdId": "F000396",
+        "referenceId": "F000396",
+        "referenceName": "Basil, green, fresh, raw"
+      },
+      {
+        "ingredient": "whole milk",
+        "grams": 45,
+        "afcdId": "F005634",
+        "referenceId": "F005634",
+        "referenceName": "Milk, cow, fluid, regular fat (~3.5%)"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 28.996,
+      "calories": 325.0908221797323,
+      "carbs": 7.812000000000001,
+      "fat": 18.949,
+      "fibre": 3.2960000000000003
+    },
+    "roundedPerServing": {
+      "protein": 7,
+      "calories": 80,
+      "carbs": 2,
+      "fat": 5,
+      "fibre": 1
+    }
+  },
+  {
+    "slug": "best-ever-airfryer-vegan-lentil-burgers",
+    "techniqueSource": "https://recipethis.com/best-ever-airfryer-vegan-lentil-burgers/",
+    "adaptation": "Source lentil quantity was undefined; this adaptation states480g cooked drained lentils and recalculates nutrition. Batch time is17min.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "cooked drained lentils",
+        "grams": 480,
+        "afcdId": "F005177",
+        "referenceId": "F005177",
+        "referenceName": "Lentil, dried, boiled, drained"
+      },
+      {
+        "ingredient": "sweet potato",
+        "grams": 200,
+        "afcdId": "F009035",
+        "referenceId": "F009035",
+        "referenceName": "Sweet potato, orange flesh, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "carrots",
+        "grams": 300,
+        "afcdId": "F002276",
+        "referenceId": "F002276",
+        "referenceName": "Carrot, mature, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "red onion",
+        "grams": 80,
+        "afcdId": "F009800",
+        "referenceId": "F009800",
+        "referenceName": "Onion, mature, red skinned, raw"
+      },
+      {
+        "ingredient": "rolled oats",
+        "grams": 50,
+        "afcdId": "F006143",
+        "referenceId": "F006143",
+        "referenceName": "Oats, rolled, uncooked"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 5,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "fresh basil",
+        "grams": 2,
+        "afcdId": "F000396",
+        "referenceId": "F000396",
+        "referenceName": "Basil, green, fresh, raw"
+      },
+      {
+        "ingredient": "dried oregano",
+        "grams": 1,
+        "afcdId": "F006281",
+        "referenceId": "F006281",
+        "referenceName": "Oregano, dried"
+      },
+      {
+        "ingredient": "dried thyme",
+        "grams": 1,
+        "afcdId": "F009160",
+        "referenceId": "F009160",
+        "referenceName": "Thyme, dried, ground"
+      },
+      {
+        "ingredient": "paprika",
+        "grams": 2,
+        "afcdId": "F006316",
+        "referenceId": "F006316",
+        "referenceName": "Paprika, dry powder"
+      },
+      {
+        "ingredient": "ground cumin",
+        "grams": 2,
+        "afcdId": "F003327",
+        "referenceId": "F003327",
+        "referenceName": "Cumin (cummin) seed, dried, ground"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 47.556,
+      "calories": 912.146271510516,
+      "carbs": 137.073,
+      "fat": 8.520999999999999,
+      "fibre": 43.28399999999999
+    },
+    "roundedPerServing": {
+      "protein": 12,
+      "calories": 230,
+      "carbs": 34,
+      "fat": 2,
+      "fibre": 11
+    }
+  },
+  {
+    "slug": "air-fryer-roasted-beets",
+    "techniqueSource": "https://recipethis.com/air-fryer-roasted-beets/",
+    "adaptation": "",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "beetroot",
+        "grams": 300,
+        "afcdId": "F001015",
+        "referenceId": "F001015",
+        "referenceName": "Beetroot, fresh, purple, peeled, raw"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 15,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 6.0,
+      "calories": 298.8169216061185,
+      "carbs": 28.200000000000003,
+      "fat": 16.785,
+      "fibre": 10.2
+    },
+    "roundedPerServing": {
+      "protein": 3,
+      "calories": 150,
+      "carbs": 14,
+      "fat": 8,
+      "fibre": 5
+    }
+  },
+  {
+    "slug": "air-fryer-crispy-tofu",
+    "techniqueSource": "https://recipethis.com/air-fryer-crispy-tofu/",
+    "adaptation": "Measured herbs and spices replace an undefined harissa blend; lemon omitted and nutrient totals recalculated.",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "firm tofu",
+        "grams": 250,
+        "afcdId": "F009176",
+        "referenceId": "F009176",
+        "referenceName": "Tofu (soy bean curd), firm, as purchased"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 15,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "fresh parsley",
+        "grams": 4,
+        "afcdId": "F006321",
+        "referenceId": "F006321",
+        "referenceName": "Parsley, continental, fresh, raw"
+      },
+      {
+        "ingredient": "fresh basil",
+        "grams": 4,
+        "afcdId": "F000396",
+        "referenceId": "F000396",
+        "referenceName": "Basil, green, fresh, raw"
+      },
+      {
+        "ingredient": "paprika",
+        "grams": 3,
+        "afcdId": "F006316",
+        "referenceId": "F006316",
+        "referenceName": "Paprika, dry powder"
+      },
+      {
+        "ingredient": "ground cumin",
+        "grams": 2,
+        "afcdId": "F003327",
+        "referenceId": "F003327",
+        "referenceName": "Cumin (cummin) seed, dried, ground"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 33.954,
+      "calories": 363.4153919694073,
+      "carbs": 2.8289999999999997,
+      "fat": 22.051000000000002,
+      "fibre": 6.624
+    },
+    "roundedPerServing": {
+      "protein": 17,
+      "calories": 180,
+      "carbs": 1,
+      "fat": 11,
+      "fibre": 3
+    }
+  },
+  {
+    "slug": "air-fryer-oatmeal-cookies",
+    "techniqueSource": "https://recipethis.com/air-fryer-oatmeal-cookies/",
+    "adaptation": "",
+    "servings": 6,
+    "ingredientMatches": [
+      {
+        "ingredient": "self-raising flour",
+        "grams": 150,
+        "afcdId": "F004009",
+        "referenceId": "F004009",
+        "referenceName": "Flour, wheat, white, self-raising"
+      },
+      {
+        "ingredient": "rolled oats",
+        "grams": 150,
+        "afcdId": "F006143",
+        "referenceId": "F006143",
+        "referenceName": "Oats, rolled, uncooked"
+      },
+      {
+        "ingredient": "butter",
+        "grams": 75,
+        "afcdId": "F001973",
+        "referenceId": "F001973",
+        "referenceName": "Butter, plain, salted"
+      },
+      {
+        "ingredient": "caster sugar",
+        "grams": 75,
+        "afcdId": "F008976",
+        "referenceId": "F008976",
+        "referenceName": "Sugar, white, granulated or lump"
+      },
+      {
+        "ingredient": "golden syrup",
+        "grams": 14,
+        "afcdId": "F009049",
+        "referenceId": "F009049",
+        "referenceName": "Syrup, golden"
+      },
+      {
+        "ingredient": "vanilla extract",
+        "grams": 10,
+        "afcdId": "F009350",
+        "referenceId": "F009350",
+        "referenceName": "Vanilla bean extract"
+      },
+      {
+        "ingredient": "whole milk",
+        "grams": 15,
+        "afcdId": "F005634",
+        "referenceId": "F005634",
+        "referenceName": "Milk, cow, fluid, regular fat (~3.5%)"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 34.657999999999994,
+      "calories": 2006.5654875717016,
+      "carbs": 279.556,
+      "fat": 78.37000000000002,
+      "fibre": 17.55
+    },
+    "roundedPerServing": {
+      "protein": 6,
+      "calories": 335,
+      "carbs": 47,
+      "fat": 13,
+      "fibre": 3
+    }
+  },
+  {
+    "slug": "how-to-cook-asparagus-in-air-fryer",
+    "techniqueSource": "https://recipethis.com/how-to-cook-asparagus-in-air-fryer/",
+    "adaptation": "",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "asparagus",
+        "grams": 250,
+        "afcdId": "F000155",
+        "referenceId": "F000155",
+        "referenceName": "Asparagus, green, raw"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 3,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "butter",
+        "grams": 8,
+        "afcdId": "F001973",
+        "referenceId": "F001973",
+        "referenceName": "Butter, plain, salted"
+      },
+      {
+        "ingredient": "vegetarian cheddar",
+        "grams": 30,
+        "afcdId": "F002414",
+        "referenceId": "F002414",
+        "referenceName": "Cheese, cheddar, natural, regular fat"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 13.718,
+      "calories": 258.6448374760994,
+      "carbs": 3.638,
+      "fat": 19.843,
+      "fibre": 5.5
+    },
+    "roundedPerServing": {
+      "protein": 7,
+      "calories": 130,
+      "carbs": 2,
+      "fat": 10,
+      "fibre": 3
+    }
+  },
+  {
+    "slug": "air-fryer-frozen-green-beans",
+    "techniqueSource": "https://recipethis.com/air-fryer-frozen-green-beans/",
+    "adaptation": "Adapted from frozen to fresh beans so the AFCD raw edible-input match is exact; check tenderness rather than timing alone.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "green beans",
+        "grams": 500,
+        "afcdId": "F000431",
+        "referenceId": "F000431",
+        "referenceName": "Bean, green, fresh, raw"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 5,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "dried oregano",
+        "grams": 2,
+        "afcdId": "F006281",
+        "referenceId": "F006281",
+        "referenceName": "Oregano, dried"
+      },
+      {
+        "ingredient": "dried thyme",
+        "grams": 2,
+        "afcdId": "F009160",
+        "referenceId": "F009160",
+        "referenceName": "Thyme, dried, ground"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 9.362,
+      "calories": 181.71845124282981,
+      "carbs": 17.566,
+      "fat": 5.229000000000001,
+      "fibre": 15.59
+    },
+    "roundedPerServing": {
+      "protein": 2,
+      "calories": 45,
+      "carbs": 4,
+      "fat": 1,
+      "fibre": 4
+    }
+  },
+  {
+    "slug": "air-fryer-frozen-corn-on-the-cob",
+    "techniqueSource": "https://recipethis.com/air-fryer-frozen-corn-on-the-cob/",
+    "adaptation": "Ingredient weight is edible kernels, excluding cobs; buy six mini-cob portions. Nutrition recalculated because publisher omitted corn energy.",
+    "servings": 3,
+    "ingredientMatches": [
+      {
+        "ingredient": "sweetcorn kernels",
+        "grams": 450,
+        "afcdId": "F003202",
+        "referenceId": "F003202",
+        "referenceName": "Corn, kernels, purchased frozen, raw"
+      },
+      {
+        "ingredient": "butter",
+        "grams": 10,
+        "afcdId": "F001973",
+        "referenceId": "F001973",
+        "referenceName": "Butter, plain, salted"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 13.61,
+      "calories": 492.80592734225615,
+      "carbs": 75.66000000000001,
+      "fat": 12.27,
+      "fibre": 11.25
+    },
+    "roundedPerServing": {
+      "protein": 5,
+      "calories": 165,
+      "carbs": 25,
+      "fat": 4,
+      "fibre": 4
+    }
+  },
+  {
+    "slug": "air-fryer-cream-cheese-bagels",
+    "techniqueSource": "https://recipethis.com/air-fryer-cream-cheese-bagels/",
+    "adaptation": "",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "plain bagels",
+        "grams": 200,
+        "afcdId": "F000233",
+        "referenceId": "F000233",
+        "referenceName": "Bagel, from white flour, commercial"
+      },
+      {
+        "ingredient": "cream cheese",
+        "grams": 30,
+        "afcdId": "F002444",
+        "referenceId": "F002444",
+        "referenceName": "Cheese, cream, plain"
+      },
+      {
+        "ingredient": "butter",
+        "grams": 5,
+        "afcdId": "F001973",
+        "referenceId": "F001973",
+        "referenceName": "Butter, plain, salted"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 23.405,
+      "calories": 668.6065965583174,
+      "carbs": 101.49000000000001,
+      "fat": 17.169999999999998,
+      "fibre": 6.2
+    },
+    "roundedPerServing": {
+      "protein": 12,
+      "calories": 335,
+      "carbs": 51,
+      "fat": 9,
+      "fibre": 3
+    }
+  },
+  {
+    "slug": "air-fryer-butternut-squash",
+    "techniqueSource": "https://recipethis.com/air-fryer-butternut-squash/",
+    "adaptation": "",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "peeled butternut pumpkin",
+        "grams": 500,
+        "afcdId": "F007535",
+        "referenceId": "F007535",
+        "referenceName": "Pumpkin, butternut, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 7,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 5,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "dried thyme",
+        "grams": 2,
+        "afcdId": "F009160",
+        "referenceId": "F009160",
+        "referenceName": "Thyme, dried, ground"
+      },
+      {
+        "ingredient": "fresh parsley",
+        "grams": 4,
+        "afcdId": "F006321",
+        "referenceId": "F006321",
+        "referenceName": "Parsley, continental, fresh, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 11.143,
+      "calories": 301.00143403441683,
+      "carbs": 35.59199999999999,
+      "fat": 10.309000000000003,
+      "fibre": 10.785
+    },
+    "roundedPerServing": {
+      "protein": 3,
+      "calories": 75,
+      "carbs": 9,
+      "fat": 3,
+      "fibre": 3
+    }
+  },
+  {
+    "slug": "air-fryer-tofu-popcorn-nuggets",
+    "techniqueSource": "https://www.bbcgoodfoodme.com/recipes/air-fryer-tofu-popcorn-nuggets/",
+    "adaptation": "A400g block replaces the source undefined block size. Bouillon omitted; all measured coating is counted. Two main-meal portions.",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "firm tofu",
+        "grams": 400,
+        "afcdId": "F009176",
+        "referenceId": "F009176",
+        "referenceName": "Tofu (soy bean curd), firm, as purchased"
+      },
+      {
+        "ingredient": "plain flour",
+        "grams": 35,
+        "afcdId": "F004007",
+        "referenceId": "F004007",
+        "referenceName": "Flour, wheat, white, plain"
+      },
+      {
+        "ingredient": "paprika",
+        "grams": 3,
+        "afcdId": "F006316",
+        "referenceId": "F006316",
+        "referenceName": "Paprika, dry powder"
+      },
+      {
+        "ingredient": "prepared mustard",
+        "grams": 5,
+        "afcdId": "F005973",
+        "referenceId": "F005973",
+        "referenceName": "Mustard, cream style"
+      },
+      {
+        "ingredient": "whole milk",
+        "grams": 125,
+        "afcdId": "F005634",
+        "referenceId": "F005634",
+        "referenceName": "Milk, cow, fluid, regular fat (~3.5%)"
+      },
+      {
+        "ingredient": "dry breadcrumbs",
+        "grams": 75,
+        "afcdId": "F001683",
+        "referenceId": "F001683",
+        "referenceName": "Breadcrumbs, white"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 5,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 70.34300000000002,
+      "calories": 1029.751434034417,
+      "carbs": 85.138,
+      "fat": 41.662000000000006,
+      "fibre": 10.392000000000001
+    },
+    "roundedPerServing": {
+      "protein": 35,
+      "calories": 515,
+      "carbs": 43,
+      "fat": 21,
+      "fibre": 5
+    }
+  },
+  {
+    "slug": "air-fryer-chickpeas",
+    "techniqueSource": "https://www.bbcgoodfoodme.com/recipes/air-fryer-chickpeas/",
+    "adaptation": "Source serving count was missing. Explicit240g drained weight and four small portions; fresh aromatics replace powders and nutrition is recalculated.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "drained canned chickpeas",
+        "grams": 240,
+        "afcdId": "F002880",
+        "referenceId": "F002880",
+        "referenceName": "Chickpea, canned, drained"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 7,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "paprika",
+        "grams": 2,
+        "afcdId": "F006316",
+        "referenceId": "F006316",
+        "referenceName": "Paprika, dry powder"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 3,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "brown onion",
+        "grams": 5,
+        "afcdId": "F006225",
+        "referenceId": "F006225",
+        "referenceName": "Onion, mature, brown skinned, peeled, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 15.649999999999999,
+      "calories": 345.3465583173996,
+      "carbs": 32.897999999999996,
+      "fat": 12.375,
+      "fibre": 15.0
+    },
+    "roundedPerServing": {
+      "protein": 4,
+      "calories": 85,
+      "carbs": 8,
+      "fat": 3,
+      "fibre": 4
+    }
+  },
+  {
+    "slug": "air-fryer-cinnamon-rolls",
+    "techniqueSource": "https://www.bbcgoodfoodme.com/recipes/air-fryer-cinnamon-rolls/",
+    "adaptation": "Publisher energy was inconsistent; exact recipe quantities recalculated from AFCD. Whole milk mass approximates the source125ml.",
+    "servings": 6,
+    "ingredientMatches": [
+      {
+        "ingredient": "plain flour",
+        "grams": 125,
+        "afcdId": "F004007",
+        "referenceId": "F004007",
+        "referenceName": "Flour, wheat, white, plain"
+      },
+      {
+        "ingredient": "bread flour",
+        "grams": 125,
+        "afcdId": "F004006",
+        "referenceId": "F004006",
+        "referenceName": "Flour, wheat, white, high protein or bread making flour"
+      },
+      {
+        "ingredient": "dried yeast",
+        "grams": 3.5,
+        "afcdId": "F009606",
+        "referenceId": "F009606",
+        "referenceName": "Yeast, dry powder"
+      },
+      {
+        "ingredient": "caster sugar",
+        "grams": 12,
+        "afcdId": "F008976",
+        "referenceId": "F008976",
+        "referenceName": "Sugar, white, granulated or lump"
+      },
+      {
+        "ingredient": "whole milk",
+        "grams": 125,
+        "afcdId": "F005634",
+        "referenceId": "F005634",
+        "referenceName": "Milk, cow, fluid, regular fat (~3.5%)"
+      },
+      {
+        "ingredient": "butter",
+        "grams": 90,
+        "afcdId": "F001973",
+        "referenceId": "F001973",
+        "referenceName": "Butter, plain, salted"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 50,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      },
+      {
+        "ingredient": "brown sugar",
+        "grams": 50,
+        "afcdId": "F008969",
+        "referenceId": "F008969",
+        "referenceName": "Sugar, brown"
+      },
+      {
+        "ingredient": "vanilla extract",
+        "grams": 7,
+        "afcdId": "F009350",
+        "referenceId": "F009350",
+        "referenceName": "Vanilla bean extract"
+      },
+      {
+        "ingredient": "ground cinnamon",
+        "grams": 4,
+        "afcdId": "F002963",
+        "referenceId": "F002963",
+        "referenceName": "Cinnamon, dried, ground"
+      },
+      {
+        "ingredient": "cream cheese",
+        "grams": 50,
+        "afcdId": "F002444",
+        "referenceId": "F002444",
+        "referenceName": "Cheese, cream, plain"
+      },
+      {
+        "ingredient": "icing sugar",
+        "grams": 75,
+        "afcdId": "F008980",
+        "referenceId": "F008980",
+        "referenceName": "Sugar, white, icing"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 44.330999999999996,
+      "calories": 2410.762428298279,
+      "carbs": 323.6425,
+      "fat": 103.56,
+      "fibre": 8.9405
+    },
+    "roundedPerServing": {
+      "protein": 7,
+      "calories": 400,
+      "carbs": 54,
+      "fat": 17,
+      "fibre": 1
+    }
+  },
+  {
+    "slug": "best-ever-philips-airfryer-new-york-cheesecake",
+    "techniqueSource": "https://recipethis.com/best-ever-philips-airfryer-new-york-cheesecake/",
+    "adaptation": "Original method omitted the butter quantity and used unspecified mini-biscuit bags. This complete measured vanilla adaptation is recalculated; chill time included.",
+    "servings": 8,
+    "ingredientMatches": [
+      {
+        "ingredient": "plain sweet biscuits",
+        "grams": 150,
+        "afcdId": "F001215",
+        "referenceId": "F001215",
+        "referenceName": "Biscuit, sweet, plain"
+      },
+      {
+        "ingredient": "butter",
+        "grams": 60,
+        "afcdId": "F001973",
+        "referenceId": "F001973",
+        "referenceName": "Butter, plain, salted"
+      },
+      {
+        "ingredient": "cream cheese",
+        "grams": 700,
+        "afcdId": "F002444",
+        "referenceId": "F002444",
+        "referenceName": "Cheese, cream, plain"
+      },
+      {
+        "ingredient": "caster sugar",
+        "grams": 200,
+        "afcdId": "F008976",
+        "referenceId": "F008976",
+        "referenceName": "Sugar, white, granulated or lump"
+      },
+      {
+        "ingredient": "sour cream",
+        "grams": 45,
+        "afcdId": "F003269",
+        "referenceId": "F003269",
+        "referenceName": "Cream, sour, regular fat"
+      },
+      {
+        "ingredient": "vanilla extract",
+        "grams": 10,
+        "afcdId": "F009350",
+        "referenceId": "F009350",
+        "referenceName": "Vanilla bean extract"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 100,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 83.22500000000001,
+      "calories": 4558.556405353728,
+      "carbs": 308.32,
+      "fat": 337.26500000000004,
+      "fibre": 3.1500000000000004
+    },
+    "roundedPerServing": {
+      "protein": 10,
+      "calories": 570,
+      "carbs": 39,
+      "fat": 42,
+      "fibre": 0
+    }
+  },
+  {
+    "slug": "whole-30-life-changing-airfryer-veggie-pakoras",
+    "techniqueSource": "https://recipethis.com/whole-30-life-changing-airfryer-veggie-pakoras/",
+    "adaptation": "Measured vegetables replace undefined leftovers and an explicit spice blend replaces branded powders. This contains wheat and is not a Whole30 claim.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "chickpea flour",
+        "grams": 250,
+        "afcdId": "F003986",
+        "referenceId": "F003986",
+        "referenceName": "Flour, chickpea (besan)"
+      },
+      {
+        "ingredient": "self-raising flour",
+        "grams": 50,
+        "afcdId": "F004009",
+        "referenceId": "F004009",
+        "referenceName": "Flour, wheat, white, self-raising"
+      },
+      {
+        "ingredient": "lemon juice",
+        "grams": 15,
+        "afcdId": "F004726",
+        "referenceId": "F004726",
+        "referenceName": "Juice, lemon"
+      },
+      {
+        "ingredient": "sweet potato",
+        "grams": 250,
+        "afcdId": "F009035",
+        "referenceId": "F009035",
+        "referenceName": "Sweet potato, orange flesh, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "carrots",
+        "grams": 75,
+        "afcdId": "F002276",
+        "referenceId": "F002276",
+        "referenceName": "Carrot, mature, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "cauliflower",
+        "grams": 75,
+        "afcdId": "F002378",
+        "referenceId": "F002378",
+        "referenceName": "Cauliflower, fresh, raw"
+      },
+      {
+        "ingredient": "ground cumin",
+        "grams": 2,
+        "afcdId": "F003327",
+        "referenceId": "F003327",
+        "referenceName": "Cumin (cummin) seed, dried, ground"
+      },
+      {
+        "ingredient": "ground coriander",
+        "grams": 2,
+        "afcdId": "F003190",
+        "referenceId": "F003190",
+        "referenceName": "Coriander seed, dried, ground"
+      },
+      {
+        "ingredient": "paprika",
+        "grams": 2,
+        "afcdId": "F006316",
+        "referenceId": "F006316",
+        "referenceName": "Paprika, dry powder"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 60.601,
+      "calories": 1229.7179732313577,
+      "carbs": 174.769,
+      "fat": 16.125,
+      "fibre": 64.94599999999998
+    },
+    "roundedPerServing": {
+      "protein": 15,
+      "calories": 305,
+      "carbs": 44,
+      "fat": 4,
+      "fibre": 16
+    }
+  },
+  {
+    "slug": "air-fryer-onion-rings",
+    "techniqueSource": "https://www.loveandlemons.com/air-fryer-onion-rings/",
+    "adaptation": "Love & Lemons technique. US cup measures replaced with explicit weighed quantities; two batches allowed. Full coating counted; dips excluded.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "brown onion",
+        "grams": 250,
+        "afcdId": "F006225",
+        "referenceId": "F006225",
+        "referenceName": "Onion, mature, brown skinned, peeled, raw"
+      },
+      {
+        "ingredient": "dry breadcrumbs",
+        "grams": 95,
+        "afcdId": "F001683",
+        "referenceId": "F001683",
+        "referenceName": "Breadcrumbs, white"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 100,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      },
+      {
+        "ingredient": "plain flour",
+        "grams": 60,
+        "afcdId": "F004007",
+        "referenceId": "F004007",
+        "referenceName": "Flour, wheat, white, plain"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 10,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 3,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 35.333,
+      "calories": 875.6357552581262,
+      "carbs": 124.101,
+      "fat": 23.249,
+      "fibre": 12.042
+    },
+    "roundedPerServing": {
+      "protein": 9,
+      "calories": 220,
+      "carbs": 31,
+      "fat": 6,
+      "fibre": 3
+    }
+  },
+  {
+    "slug": "air-fryer-fried-pickles",
+    "techniqueSource": "https://www.loveandlemons.com/air-fryer-fried-pickles/",
+    "adaptation": "Love & Lemons technique. Source16-ounce jar is represented by250g drained pickles; nutrition uses actual drained weight.",
+    "servings": 6,
+    "ingredientMatches": [
+      {
+        "ingredient": "drained pickled gherkins",
+        "grams": 250,
+        "afcdId": "F004206",
+        "referenceId": "F004206",
+        "referenceName": "Gherkin, pickled, drained, commercial"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 50,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      },
+      {
+        "ingredient": "dry breadcrumbs",
+        "grams": 75,
+        "afcdId": "F001683",
+        "referenceId": "F001683",
+        "referenceName": "Breadcrumbs, white"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 10,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 17.8,
+      "calories": 701.9598470363289,
+      "carbs": 112.525,
+      "fat": 18.065,
+      "fibre": 5.775
+    },
+    "roundedPerServing": {
+      "protein": 3,
+      "calories": 115,
+      "carbs": 19,
+      "fat": 3,
+      "fibre": 1
+    }
+  },
+  {
+    "slug": "air-fryer-eggplant",
+    "techniqueSource": "https://www.loveandlemons.com/air-fryer-eggplant/",
+    "adaptation": "Love & Lemons technique. Weighed breading and oil replace US cups and unspecified drizzle. Pasta, sauce and cashew cream are optional additions and excluded.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "eggplant",
+        "grams": 500,
+        "afcdId": "F003761",
+        "referenceId": "F003761",
+        "referenceName": "Eggplant, unpeeled, fresh, raw"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 50,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      },
+      {
+        "ingredient": "dry breadcrumbs",
+        "grams": 40,
+        "afcdId": "F001683",
+        "referenceId": "F001683",
+        "referenceName": "Breadcrumbs, white"
+      },
+      {
+        "ingredient": "almond meal",
+        "grams": 50,
+        "afcdId": "F006077",
+        "referenceId": "F006077",
+        "referenceName": "Nut, almond meal"
+      },
+      {
+        "ingredient": "vegetarian hard cheese",
+        "grams": 25,
+        "afcdId": "F002479",
+        "referenceId": "F002479",
+        "referenceName": "Cheese, parmesan, fresh, regular fat"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 10,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 34.75,
+      "calories": 785.0023900573615,
+      "carbs": 43.25000000000001,
+      "fat": 48.88,
+      "fibre": 20.380000000000003
+    },
+    "roundedPerServing": {
+      "protein": 9,
+      "calories": 195,
+      "carbs": 11,
+      "fat": 12,
+      "fibre": 5
+    }
+  },
+  {
+    "slug": "air-fryer-halloumi-greek-salad",
+    "techniqueSource": "https://recipethis.com/air-fryer-halloumi-greek-salad/",
+    "adaptation": "Measured salad vegetables replace unspecified source quantities; olives reduced to 60 g and all dressing oil counted.",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "vegetarian halloumi",
+        "grams": 225,
+        "afcdId": "F002466",
+        "referenceId": "F002466",
+        "referenceName": "Cheese, haloumi (halloumi)"
+      },
+      {
+        "ingredient": "cucumber",
+        "grams": 200,
+        "afcdId": "F003320",
+        "referenceId": "F003320",
+        "referenceName": "Cucumber, common, unpeeled, raw"
+      },
+      {
+        "ingredient": "cherry tomatoes",
+        "grams": 200,
+        "afcdId": "F009190",
+        "referenceId": "F009190",
+        "referenceName": "Tomato, cherry, raw"
+      },
+      {
+        "ingredient": "drained olives",
+        "grams": 60,
+        "afcdId": "F006198",
+        "referenceId": "F006198",
+        "referenceName": "Olive, green or black, drained"
+      },
+      {
+        "ingredient": "red onion",
+        "grams": 60,
+        "afcdId": "F009800",
+        "referenceId": "F009800",
+        "referenceName": "Onion, mature, red skinned, raw"
+      },
+      {
+        "ingredient": "rocket",
+        "grams": 100,
+        "afcdId": "F007712",
+        "referenceId": "F007712",
+        "referenceName": "Rocket, fresh, raw"
+      },
+      {
+        "ingredient": "dried oregano",
+        "grams": 2,
+        "afcdId": "F006281",
+        "referenceId": "F006281",
+        "referenceName": "Oregano, dried"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 15,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 54.80499999999999,
+      "calories": 1054.2112810707456,
+      "carbs": 15.778,
+      "fat": 83.941,
+      "fibre": 12.45
+    },
+    "roundedPerServing": {
+      "protein": 27,
+      "calories": 525,
+      "carbs": 8,
+      "fat": 42,
+      "fibre": 6
+    }
+  },
+  {
+    "slug": "air-fryer-halloumi-burgers",
+    "techniqueSource": "https://recipethis.com/air-fryer-halloumi-burgers/",
+    "adaptation": "Uses measured vegetables totalling 500 g plus tomatoes and 70 g bread per serving; optional mayonnaise and coleslaw excluded.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "vegetarian halloumi",
+        "grams": 450,
+        "afcdId": "F002466",
+        "referenceId": "F002466",
+        "referenceName": "Cheese, haloumi (halloumi)"
+      },
+      {
+        "ingredient": "zucchini",
+        "grams": 200,
+        "afcdId": "F009775",
+        "referenceId": "F009775",
+        "referenceName": "Zucchini, green skin, fresh, unpeeled, raw"
+      },
+      {
+        "ingredient": "green capsicum",
+        "grams": 200,
+        "afcdId": "F002239",
+        "referenceId": "F002239",
+        "referenceName": "Capsicum, green, fresh, raw"
+      },
+      {
+        "ingredient": "brown onion",
+        "grams": 100,
+        "afcdId": "F006225",
+        "referenceId": "F006225",
+        "referenceName": "Onion, mature, brown skinned, peeled, raw"
+      },
+      {
+        "ingredient": "cherry tomatoes",
+        "grams": 100,
+        "afcdId": "F009190",
+        "referenceId": "F009190",
+        "referenceName": "Tomato, cherry, raw"
+      },
+      {
+        "ingredient": "white bread rolls",
+        "grams": 280,
+        "afcdId": "F001353",
+        "referenceId": "F001353",
+        "referenceName": "Bread roll, from white flour"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 10,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "dried oregano",
+        "grams": 2,
+        "afcdId": "F006281",
+        "referenceId": "F006281",
+        "referenceName": "Oregano, dried"
+      },
+      {
+        "ingredient": "dried thyme",
+        "grams": 2,
+        "afcdId": "F009160",
+        "referenceId": "F009160",
+        "referenceName": "Thyme, dried, ground"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 124.652,
+      "calories": 2291.2906309751434,
+      "carbs": 149.146,
+      "fat": 129.44400000000002,
+      "fibre": 18.99
+    },
+    "roundedPerServing": {
+      "protein": 31,
+      "calories": 575,
+      "carbs": 37,
+      "fat": 32,
+      "fibre": 5
+    }
+  },
+  {
+    "slug": "air-fryer-quesadilla",
+    "techniqueSource": "https://recipethis.com/air-fryer-quesadilla/",
+    "adaptation": "Kidney beans replace black beans, tomatoes replace salsa, and measured spices replace seasoning mix. Full 350 g source cheese quantity retained. Eight 40 g tortillas make four portions.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "wheat tortilla bread",
+        "grams": 320,
+        "afcdId": "F001669",
+        "referenceId": "F001669",
+        "referenceName": "Bread, tortilla, white, commercial"
+      },
+      {
+        "ingredient": "drained canned kidney beans",
+        "grams": 240,
+        "afcdId": "F000448",
+        "referenceId": "F000448",
+        "referenceName": "Bean, red kidney, canned, drained"
+      },
+      {
+        "ingredient": "sweetcorn kernels",
+        "grams": 150,
+        "afcdId": "F003202",
+        "referenceId": "F003202",
+        "referenceName": "Corn, kernels, purchased frozen, raw"
+      },
+      {
+        "ingredient": "vegetarian cheddar",
+        "grams": 350,
+        "afcdId": "F002414",
+        "referenceId": "F002414",
+        "referenceName": "Cheese, cheddar, natural, regular fat"
+      },
+      {
+        "ingredient": "sour cream",
+        "grams": 30,
+        "afcdId": "F003269",
+        "referenceId": "F003269",
+        "referenceName": "Cream, sour, regular fat"
+      },
+      {
+        "ingredient": "tinned tomatoes",
+        "grams": 45,
+        "afcdId": "F010071",
+        "referenceId": "F010071",
+        "referenceName": "Tomato, whole, canned in tomato juice, no added salt, undrained"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 25,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      },
+      {
+        "ingredient": "ground cumin",
+        "grams": 3,
+        "afcdId": "F003327",
+        "referenceId": "F003327",
+        "referenceName": "Cumin (cummin) seed, dried, ground"
+      },
+      {
+        "ingredient": "paprika",
+        "grams": 3,
+        "afcdId": "F006316",
+        "referenceId": "F006316",
+        "referenceName": "Paprika, dry powder"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 5,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 135.187,
+      "calories": 2939.266252390057,
+      "carbs": 212.12899999999996,
+      "fat": 162.701,
+      "fibre": 28.407
+    },
+    "roundedPerServing": {
+      "protein": 34,
+      "calories": 735,
+      "carbs": 53,
+      "fat": 41,
+      "fibre": 7
+    }
+  },
+  {
+    "slug": "air-fryer-tortilla-de-patatas",
+    "techniqueSource": "https://recipethis.com/air-fryer-tortilla-de-patatas/",
+    "adaptation": "Source eight side portions redefined as four main-sized portions; AFCD calculation uses 300 g shelled eggs, 500 g raw potato and 10 g oil.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "potatoes",
+        "grams": 500,
+        "afcdId": "F007386",
+        "referenceId": "F007386",
+        "referenceName": "Potato, sebago, peeled, raw"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 300,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 10,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 50.3,
+      "calories": 832.576481835564,
+      "carbs": 69.9,
+      "fat": 36.49,
+      "fibre": 11.0
+    },
+    "roundedPerServing": {
+      "protein": 13,
+      "calories": 210,
+      "carbs": 17,
+      "fat": 9,
+      "fibre": 3
+    }
+  },
+  {
+    "slug": "air-fryer-flour-tortilla-chips",
+    "techniqueSource": "https://recipethis.com/air-fryer-flour-tortilla-chips/",
+    "adaptation": "Six 40 g tortillas and 15 g oil; measured spices replace the source Cajun mix. Cook time includes two batches.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "wheat tortilla bread",
+        "grams": 240,
+        "afcdId": "F001669",
+        "referenceId": "F001669",
+        "referenceName": "Bread, tortilla, white, commercial"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 15,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "paprika",
+        "grams": 2,
+        "afcdId": "F006316",
+        "referenceId": "F006316",
+        "referenceName": "Paprika, dry powder"
+      },
+      {
+        "ingredient": "ground cumin",
+        "grams": 2,
+        "afcdId": "F003327",
+        "referenceId": "F003327",
+        "referenceName": "Cumin (cummin) seed, dried, ground"
+      },
+      {
+        "ingredient": "dried oregano",
+        "grams": 1,
+        "afcdId": "F006281",
+        "referenceId": "F006281",
+        "referenceName": "Oregano, dried"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 18.248,
+      "calories": 874.3475143403441,
+      "carbs": 112.44,
+      "fat": 37.331999999999994,
+      "fibre": 6.132999999999999
+    },
+    "roundedPerServing": {
+      "protein": 5,
+      "calories": 220,
+      "carbs": 28,
+      "fat": 9,
+      "fibre": 2
+    }
+  },
+  {
+    "slug": "air-fryer-stuffed-peppers",
+    "techniqueSource": "https://hungryhealthyhappy.com/air-fryer-stuffed-peppers/",
+    "adaptation": "Uses source-approved brown onion and basil pesto swaps; all vegetables and oil quantified. Rice is 125 g COOKED for the complete recipe. Publisher carbohydrate figure is not reused.",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "green capsicum",
+        "grams": 300,
+        "afcdId": "F002239",
+        "referenceId": "F002239",
+        "referenceName": "Capsicum, green, fresh, raw"
+      },
+      {
+        "ingredient": "brown onion",
+        "grams": 100,
+        "afcdId": "F006225",
+        "referenceId": "F006225",
+        "referenceName": "Onion, mature, brown skinned, peeled, raw"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 10,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "cooked white rice",
+        "grams": 125,
+        "afcdId": "F007661",
+        "referenceId": "F007661",
+        "referenceName": "Rice, white, boiled or rice cooker, no added salt"
+      },
+      {
+        "ingredient": "baby spinach",
+        "grams": 60,
+        "afcdId": "F008749",
+        "referenceId": "F008749",
+        "referenceName": "Spinach, baby, fresh, raw"
+      },
+      {
+        "ingredient": "cherry tomatoes",
+        "grams": 120,
+        "afcdId": "F009190",
+        "referenceId": "F009190",
+        "referenceName": "Tomato, cherry, raw"
+      },
+      {
+        "ingredient": "vegetarian basil pesto",
+        "grams": 30,
+        "afcdId": "F008029",
+        "referenceId": "F008029",
+        "referenceName": "Sauce, pasta, basil pesto, commercial"
+      },
+      {
+        "ingredient": "vegetarian feta",
+        "grams": 20,
+        "afcdId": "F002452",
+        "referenceId": "F002452",
+        "referenceName": "Cheese, fetta (feta)"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 5,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 16.155,
+      "calories": 536.9263862332696,
+      "carbs": 64.19500000000001,
+      "fat": 20.775000000000002,
+      "fibre": 13.48
+    },
+    "roundedPerServing": {
+      "protein": 8,
+      "calories": 270,
+      "carbs": 32,
+      "fat": 10,
+      "fibre": 7
+    }
+  },
+  {
+    "slug": "air-fryer-cheesy-stuffed-mushrooms",
+    "techniqueSource": "https://www.aldi.com.au/recipes/starters-sides-salad-recipes/air-fryer-cheesy-stuffed-mushrooms",
+    "adaptation": "Based on ALDI Australia technique, with 360 g edible mushroom caps, 60 g cheddar and 5 g oil. Fresh parsley replaces dried flakes; all ingredients included in nutrition.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "button mushrooms",
+        "grams": 360,
+        "afcdId": "F005946",
+        "referenceId": "F005946",
+        "referenceName": "Mushroom, common, fresh, raw"
+      },
+      {
+        "ingredient": "cream cheese",
+        "grams": 250,
+        "afcdId": "F002444",
+        "referenceId": "F002444",
+        "referenceName": "Cheese, cream, plain"
+      },
+      {
+        "ingredient": "vegetarian cheddar",
+        "grams": 60,
+        "afcdId": "F002414",
+        "referenceId": "F002414",
+        "referenceName": "Cheese, cheddar, natural, regular fat"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 10,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "fresh parsley",
+        "grams": 3,
+        "afcdId": "F006321",
+        "referenceId": "F006321",
+        "referenceName": "Parsley, continental, fresh, raw"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 5,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 44.657,
+      "calories": 1246.0444550669217,
+      "carbs": 4.613,
+      "fat": 113.716,
+      "fibre": 6.880000000000001
+    },
+    "roundedPerServing": {
+      "protein": 11,
+      "calories": 310,
+      "carbs": 1,
+      "fat": 28,
+      "fibre": 2
+    }
+  },
+  {
+    "slug": "air-fryer-camembert",
+    "techniqueSource": "https://recipethis.com/air-fryer-camembert/",
+    "adaptation": "Quantifies source cheese round as 250 g and serving bread as 160 g. Uses oil option; no marmalade. Packaging replaced with a heat-safe dish.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "vegetarian camembert",
+        "grams": 250,
+        "afcdId": "F002408",
+        "referenceId": "F002408",
+        "referenceName": "Cheese, camembert"
+      },
+      {
+        "ingredient": "Italian-style white bread",
+        "grams": 160,
+        "afcdId": "F001528",
+        "referenceId": "F001528",
+        "referenceName": "Bread, from white flour, Italian-style, commercial"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 5,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 60.9,
+      "calories": 1274.3188336520075,
+      "carbs": 74.88,
+      "fat": 78.745,
+      "fibre": 6.24
+    },
+    "roundedPerServing": {
+      "protein": 15,
+      "calories": 320,
+      "carbs": 19,
+      "fat": 20,
+      "fibre": 2
+    }
+  },
+  {
+    "slug": "air-fryer-healthy-flapjacks-recipe",
+    "techniqueSource": "https://recipethis.com/air-fryer-healthy-flapjacks-recipe/",
+    "adaptation": "Source two UK tablespoons syrup measured as 40 g; all other major quantities retained. Not described as low-sugar or high-protein.",
+    "servings": 8,
+    "ingredientMatches": [
+      {
+        "ingredient": "rolled oats",
+        "grams": 250,
+        "afcdId": "F006143",
+        "referenceId": "F006143",
+        "referenceName": "Oats, rolled, uncooked"
+      },
+      {
+        "ingredient": "butter",
+        "grams": 100,
+        "afcdId": "F001973",
+        "referenceId": "F001973",
+        "referenceName": "Butter, plain, salted"
+      },
+      {
+        "ingredient": "brown sugar",
+        "grams": 100,
+        "afcdId": "F008969",
+        "referenceId": "F008969",
+        "referenceName": "Sugar, brown"
+      },
+      {
+        "ingredient": "golden syrup",
+        "grams": 40,
+        "afcdId": "F009049",
+        "referenceId": "F009049",
+        "referenceName": "Syrup, golden"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 31.88,
+      "calories": 2153.967495219885,
+      "carbs": 263.60999999999996,
+      "fat": 105.95,
+      "fibre": 23.75
+    },
+    "roundedPerServing": {
+      "protein": 4,
+      "calories": 270,
+      "carbs": 33,
+      "fat": 13,
+      "fibre": 3
+    }
+  },
+  {
+    "slug": "air-fryer-jalapeno-poppers",
+    "techniqueSource": "https://recipethis.com/air-fryer-jalapeno-poppers/",
+    "adaptation": "Five portions of two halves; source ten-piece yield regrouped. Jalape\u00f1os use the AFCD green-chilli profile; fresh parsley replaces coriander.",
+    "servings": 5,
+    "ingredientMatches": [
+      {
+        "ingredient": "fresh red chilli",
+        "grams": 150,
+        "afcdId": "F002901",
+        "referenceId": "F002901",
+        "referenceName": "Chilli (chili), red, raw"
+      },
+      {
+        "ingredient": "cream cheese",
+        "grams": 165,
+        "afcdId": "F002444",
+        "referenceId": "F002444",
+        "referenceName": "Cheese, cream, plain"
+      },
+      {
+        "ingredient": "vegetarian cheddar",
+        "grams": 115,
+        "afcdId": "F002414",
+        "referenceId": "F002414",
+        "referenceName": "Cheese, cheddar, natural, regular fat"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 5,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "spring onion",
+        "grams": 10,
+        "afcdId": "F006250",
+        "referenceId": "F006250",
+        "referenceName": "Onion, spring, fresh, raw"
+      },
+      {
+        "ingredient": "fresh parsley",
+        "grams": 4,
+        "afcdId": "F006321",
+        "referenceId": "F006321",
+        "referenceName": "Parsley, continental, fresh, raw"
+      },
+      {
+        "ingredient": "butter",
+        "grams": 15,
+        "afcdId": "F001973",
+        "referenceId": "F001973",
+        "referenceName": "Butter, plain, salted"
+      },
+      {
+        "ingredient": "dry breadcrumbs",
+        "grams": 50,
+        "afcdId": "F001683",
+        "referenceId": "F001683",
+        "referenceName": "Breadcrumbs, white"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 52.211,
+      "calories": 1404.290152963671,
+      "carbs": 43.229,
+      "fat": 110.45799999999998,
+      "fibre": 14.385
+    },
+    "roundedPerServing": {
+      "protein": 10,
+      "calories": 280,
+      "carbs": 9,
+      "fat": 22,
+      "fibre": 3
+    }
+  },
+  {
+    "slug": "air-fryer-garlic-crack-bread",
+    "techniqueSource": "https://recipethis.com/air-fryer-garlic-crack-bread/",
+    "adaptation": "Undefined source cob specified as 500 g white bread; source two-person share redivided into eight snack portions.",
+    "servings": 8,
+    "ingredientMatches": [
+      {
+        "ingredient": "Italian-style white bread",
+        "grams": 500,
+        "afcdId": "F001528",
+        "referenceId": "F001528",
+        "referenceName": "Bread, from white flour, Italian-style, commercial"
+      },
+      {
+        "ingredient": "butter",
+        "grams": 100,
+        "afcdId": "F001973",
+        "referenceId": "F001973",
+        "referenceName": "Butter, plain, salted"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 10,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "fresh parsley",
+        "grams": 3,
+        "afcdId": "F006321",
+        "referenceId": "F006321",
+        "referenceName": "Parsley, continental, fresh, raw"
+      },
+      {
+        "ingredient": "mozzarella",
+        "grams": 50,
+        "afcdId": "F002472",
+        "referenceId": "F002472",
+        "referenceName": "Cheese, mozzarella"
+      },
+      {
+        "ingredient": "vegetarian cheddar",
+        "grams": 50,
+        "afcdId": "F002414",
+        "referenceId": "F002414",
+        "referenceName": "Cheese, cheddar, natural, regular fat"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 70.227,
+      "calories": 2372.0602294455066,
+      "carbs": 235.803,
+      "fat": 122.751,
+      "fibre": 21.34
+    },
+    "roundedPerServing": {
+      "protein": 9,
+      "calories": 295,
+      "carbs": 29,
+      "fat": 15,
+      "fibre": 3
+    }
+  },
+  {
+    "slug": "air-fryer-babybel-cheesy-bites",
+    "techniqueSource": "https://recipethis.com/air-fryer-babybel-cheesy-bites/",
+    "adaptation": "Plain 20 g Edam portions replace branded mini cheeses. Commercial shortcrust profile used; two batches included.",
+    "servings": 12,
+    "ingredientMatches": [
+      {
+        "ingredient": "shortcrust pastry",
+        "grams": 500,
+        "afcdId": "F006507",
+        "referenceId": "F006507",
+        "referenceName": "Pastry, shortcrust style, commercial, raw"
+      },
+      {
+        "ingredient": "vegetarian Edam cheese",
+        "grams": 240,
+        "afcdId": "F002448",
+        "referenceId": "F002448",
+        "referenceName": "Cheese, edam"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 25,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 100.91,
+      "calories": 2867.6505736137665,
+      "carbs": 206.575,
+      "fat": 174.405,
+      "fibre": 32.0
+    },
+    "roundedPerServing": {
+      "protein": 8,
+      "calories": 240,
+      "carbs": 17,
+      "fat": 15,
+      "fibre": 3
+    }
+  },
+  {
+    "slug": "air-fryer-apple-crumble",
+    "techniqueSource": "https://recipethis.com/air-fryer-apple-crumble/",
+    "adaptation": "Fruit weights are cored edible weights. Source spoon-measured sugar and syrup converted to explicit gram amounts; nutrition recalculated.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "green apples",
+        "grams": 180,
+        "afcdId": "F000098",
+        "referenceId": "F000098",
+        "referenceName": "Apple, green skin, unpeeled, raw"
+      },
+      {
+        "ingredient": "green pears",
+        "grams": 180,
+        "afcdId": "F006601",
+        "referenceId": "F006601",
+        "referenceName": "Pear, green skin, unpeeled, raw"
+      },
+      {
+        "ingredient": "caster sugar",
+        "grams": 80,
+        "afcdId": "F008976",
+        "referenceId": "F008976",
+        "referenceName": "Sugar, white, granulated or lump"
+      },
+      {
+        "ingredient": "golden syrup",
+        "grams": 80,
+        "afcdId": "F009049",
+        "referenceId": "F009049",
+        "referenceName": "Syrup, golden"
+      },
+      {
+        "ingredient": "plain flour",
+        "grams": 125,
+        "afcdId": "F004007",
+        "referenceId": "F004007",
+        "referenceName": "Flour, wheat, white, plain"
+      },
+      {
+        "ingredient": "rolled oats",
+        "grams": 28,
+        "afcdId": "F006143",
+        "referenceId": "F006143",
+        "referenceName": "Oats, rolled, uncooked"
+      },
+      {
+        "ingredient": "butter",
+        "grams": 60,
+        "afcdId": "F001973",
+        "referenceId": "F001973",
+        "referenceName": "Butter, plain, salted"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 17.996,
+      "calories": 1720.4756214149138,
+      "carbs": 286.64,
+      "fat": 53.605000000000004,
+      "fibre": 15.31
+    },
+    "roundedPerServing": {
+      "protein": 4,
+      "calories": 430,
+      "carbs": 72,
+      "fat": 13,
+      "fibre": 4
+    }
+  },
+  {
+    "slug": "the-ultimate-airfryer-british-victoria-sponge",
+    "techniqueSource": "https://recipethis.com/the-ultimate-airfryer-british-victoria-sponge/",
+    "adaptation": "Source eight generous slices changed to twelve. Thickened cream replaces UK double cream and every amount is recalculated; two baking batches included.",
+    "servings": 12,
+    "ingredientMatches": [
+      {
+        "ingredient": "self-raising flour",
+        "grams": 225,
+        "afcdId": "F004009",
+        "referenceId": "F004009",
+        "referenceName": "Flour, wheat, white, self-raising"
+      },
+      {
+        "ingredient": "caster sugar",
+        "grams": 250,
+        "afcdId": "F008976",
+        "referenceId": "F008976",
+        "referenceName": "Sugar, white, granulated or lump"
+      },
+      {
+        "ingredient": "butter",
+        "grams": 230,
+        "afcdId": "F001973",
+        "referenceId": "F001973",
+        "referenceName": "Butter, plain, salted"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 250,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 27,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "whole milk",
+        "grams": 120,
+        "afcdId": "F005634",
+        "referenceId": "F005634",
+        "referenceName": "Milk, cow, fluid, regular fat (~3.5%)"
+      },
+      {
+        "ingredient": "vanilla extract",
+        "grams": 30,
+        "afcdId": "F009350",
+        "referenceId": "F009350",
+        "referenceName": "Vanilla bean extract"
+      },
+      {
+        "ingredient": "thickened cream",
+        "grams": 180,
+        "afcdId": "F003270",
+        "referenceId": "F003270",
+        "referenceName": "Cream, thickened, regular fat (~35%)"
+      },
+      {
+        "ingredient": "berry jam",
+        "grams": 40,
+        "afcdId": "F004600",
+        "referenceId": "F004600",
+        "referenceName": "Jam, berry"
+      },
+      {
+        "ingredient": "icing sugar",
+        "grams": 10,
+        "afcdId": "F008980",
+        "referenceId": "F008980",
+        "referenceName": "Sugar, white, icing"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 64.24000000000001,
+      "calories": 4914.22084130019,
+      "carbs": 468.33000000000004,
+      "fat": 310.01800000000003,
+      "fibre": 5.59
+    },
+    "roundedPerServing": {
+      "protein": 5,
+      "calories": 410,
+      "carbs": 39,
+      "fat": 26,
+      "fibre": 0
+    }
+  },
+  {
+    "slug": "air-fryer-hot-cross-buns",
+    "techniqueSource": "https://recipethis.com/air-fryer-hot-cross-buns/",
+    "adaptation": "Fresh lemon zest replaces mixed peel; individual spices replace mixed spice. No 20-minute empty preheat. Two baking batches and 90-minute proving allowance included.",
+    "servings": 10,
+    "ingredientMatches": [
+      {
+        "ingredient": "plain flour",
+        "grams": 455,
+        "afcdId": "F004007",
+        "referenceId": "F004007",
+        "referenceName": "Flour, wheat, white, plain"
+      },
+      {
+        "ingredient": "butter",
+        "grams": 60,
+        "afcdId": "F001973",
+        "referenceId": "F001973",
+        "referenceName": "Butter, plain, salted"
+      },
+      {
+        "ingredient": "brown sugar",
+        "grams": 30,
+        "afcdId": "F008969",
+        "referenceId": "F008969",
+        "referenceName": "Sugar, brown"
+      },
+      {
+        "ingredient": "caster sugar",
+        "grams": 30,
+        "afcdId": "F008976",
+        "referenceId": "F008976",
+        "referenceName": "Sugar, white, granulated or lump"
+      },
+      {
+        "ingredient": "ground cinnamon",
+        "grams": 6,
+        "afcdId": "F002963",
+        "referenceId": "F002963",
+        "referenceName": "Cinnamon, dried, ground"
+      },
+      {
+        "ingredient": "ground nutmeg",
+        "grams": 1,
+        "afcdId": "F006118",
+        "referenceId": "F006118",
+        "referenceName": "Nutmeg, dried, ground"
+      },
+      {
+        "ingredient": "ground ginger",
+        "grams": 2,
+        "afcdId": "F004210",
+        "referenceId": "F004210",
+        "referenceName": "Ginger, dried, ground"
+      },
+      {
+        "ingredient": "whole milk",
+        "grams": 240,
+        "afcdId": "F005634",
+        "referenceId": "F005634",
+        "referenceName": "Milk, cow, fluid, regular fat (~3.5%)"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 15,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "dried yeast",
+        "grams": 9,
+        "afcdId": "F009606",
+        "referenceId": "F009606",
+        "referenceName": "Yeast, dry powder"
+      },
+      {
+        "ingredient": "raisins",
+        "grams": 75,
+        "afcdId": "F007610",
+        "referenceId": "F007610",
+        "referenceName": "Raisin"
+      },
+      {
+        "ingredient": "lemon zest",
+        "grams": 5,
+        "afcdId": "F005172",
+        "referenceId": "F005172",
+        "referenceName": "Lemon peel, raw"
+      },
+      {
+        "ingredient": "icing sugar",
+        "grams": 10,
+        "afcdId": "F008980",
+        "referenceId": "F008980",
+        "referenceName": "Sugar, white, icing"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 59.54400000000001,
+      "calories": 2881.613288718929,
+      "carbs": 474.872,
+      "fat": 80.039,
+      "fibre": 18.287
+    },
+    "roundedPerServing": {
+      "protein": 6,
+      "calories": 290,
+      "carbs": 47,
+      "fat": 8,
+      "fibre": 2
+    }
+  },
+  {
+    "slug": "air-fryer-tea-loaf",
+    "techniqueSource": "https://recipethis.com/air-fryer-tea-loaf/",
+    "adaptation": "Raisins replace unspecified mixed dried fruit; lemon zest replaces mixed peel. Ten slices replace source four portions. Tea-soaking and cooling included.",
+    "servings": 10,
+    "ingredientMatches": [
+      {
+        "ingredient": "raisins",
+        "grams": 225,
+        "afcdId": "F007610",
+        "referenceId": "F007610",
+        "referenceName": "Raisin"
+      },
+      {
+        "ingredient": "brown sugar",
+        "grams": 175,
+        "afcdId": "F008969",
+        "referenceId": "F008969",
+        "referenceName": "Sugar, brown"
+      },
+      {
+        "ingredient": "brewed black tea",
+        "grams": 180,
+        "afcdId": "F009125",
+        "referenceId": "F009125",
+        "referenceName": "Tea, regular, black, brewed from leaf or teabags, without milk"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 50,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      },
+      {
+        "ingredient": "self-raising flour",
+        "grams": 225,
+        "afcdId": "F004009",
+        "referenceId": "F004009",
+        "referenceName": "Flour, wheat, white, self-raising"
+      },
+      {
+        "ingredient": "lemon zest",
+        "grams": 5,
+        "afcdId": "F005172",
+        "referenceId": "F005172",
+        "referenceName": "Lemon peel, raw"
+      },
+      {
+        "ingredient": "ground cinnamon",
+        "grams": 2,
+        "afcdId": "F002963",
+        "referenceId": "F002963",
+        "referenceName": "Cinnamon, dried, ground"
+      },
+      {
+        "ingredient": "ground ginger",
+        "grams": 1,
+        "afcdId": "F004210",
+        "referenceId": "F004210",
+        "referenceName": "Ginger, dried, ground"
+      },
+      {
+        "ingredient": "ground nutmeg",
+        "grams": 1,
+        "afcdId": "F006118",
+        "referenceId": "F006118",
+        "referenceName": "Nutmeg, dried, ground"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 34.358000000000004,
+      "calories": 2212.607552581261,
+      "carbs": 503.06,
+      "fat": 9.644,
+      "fibre": 11.841
+    },
+    "roundedPerServing": {
+      "protein": 3,
+      "calories": 220,
+      "carbs": 50,
+      "fat": 1,
+      "fibre": 1
+    }
+  },
+  {
+    "slug": "the-best-ever-yorkshire-pudding-recipe-in-the-airfryer",
+    "techniqueSource": "https://recipethis.com/the-best-ever-yorkshire-pudding-recipe-in-the-airfryer/",
+    "adaptation": "Olive oil replaces beef dripping to make a vegetarian recipe; all listed oil counted. Six tins must fit without restricting airflow.",
+    "servings": 6,
+    "ingredientMatches": [
+      {
+        "ingredient": "plain flour",
+        "grams": 115,
+        "afcdId": "F004007",
+        "referenceId": "F004007",
+        "referenceName": "Flour, wheat, white, plain"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 50,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      },
+      {
+        "ingredient": "whole milk",
+        "grams": 210,
+        "afcdId": "F005634",
+        "referenceId": "F005634",
+        "referenceName": "Milk, cow, fluid, regular fat (~3.5%)"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 15,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 24.73,
+      "calories": 738.1931166347991,
+      "carbs": 95.67,
+      "fat": 27.869999999999997,
+      "fibre": 2.53
+    },
+    "roundedPerServing": {
+      "protein": 4,
+      "calories": 125,
+      "carbs": 16,
+      "fat": 5,
+      "fibre": 0
+    }
+  },
+  {
+    "slug": "air-fryer-chestnuts",
+    "techniqueSource": "https://recipethis.com/air-fryer-chestnuts/",
+    "adaptation": "Nutrition is for 420 g edible raw kernels estimated from 600 g shell-on chestnuts. Discard shells; actual edible yield varies.",
+    "servings": 6,
+    "ingredientMatches": [
+      {
+        "ingredient": "shelled chestnuts",
+        "grams": 420,
+        "afcdId": "F006095",
+        "referenceId": "F006095",
+        "referenceName": "Nut, chestnut, raw, unsalted"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 5,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 14.28,
+      "calories": 773.9364244741874,
+      "carbs": 134.82000000000002,
+      "fat": 5.835000000000001,
+      "fibre": 62.580000000000005
+    },
+    "roundedPerServing": {
+      "protein": 2,
+      "calories": 130,
+      "carbs": 22,
+      "fat": 1,
+      "fibre": 10
+    }
+  },
+  {
+    "slug": "super-easy-potato-gratin-in-the-air-fryer",
+    "techniqueSource": "https://recipethis.com/super-easy-potato-gratin-in-the-air-fryer/",
+    "adaptation": "Undefined leftover sauce replaced by a fully measured milk-flour-butter sauce. Six medium potatoes specified as 900 g; six main-side portions.",
+    "servings": 6,
+    "ingredientMatches": [
+      {
+        "ingredient": "potatoes",
+        "grams": 900,
+        "afcdId": "F007386",
+        "referenceId": "F007386",
+        "referenceName": "Potato, sebago, peeled, raw"
+      },
+      {
+        "ingredient": "whole milk",
+        "grams": 600,
+        "afcdId": "F005634",
+        "referenceId": "F005634",
+        "referenceName": "Milk, cow, fluid, regular fat (~3.5%)"
+      },
+      {
+        "ingredient": "plain flour",
+        "grams": 35,
+        "afcdId": "F004007",
+        "referenceId": "F004007",
+        "referenceName": "Flour, wheat, white, plain"
+      },
+      {
+        "ingredient": "butter",
+        "grams": 35,
+        "afcdId": "F001973",
+        "referenceId": "F001973",
+        "referenceName": "Butter, plain, salted"
+      },
+      {
+        "ingredient": "vegetarian cheddar",
+        "grams": 150,
+        "afcdId": "F002414",
+        "referenceId": "F002414",
+        "referenceName": "Cheese, cheddar, natural, regular fat"
+      },
+      {
+        "ingredient": "dry breadcrumbs",
+        "grams": 50,
+        "afcdId": "F001683",
+        "referenceId": "F001683",
+        "referenceName": "Breadcrumbs, white"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 15,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "fresh parsley",
+        "grams": 5,
+        "afcdId": "F006321",
+        "referenceId": "F006321",
+        "referenceName": "Parsley, continental, fresh, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 90.28,
+      "calories": 2349.07982791587,
+      "carbs": 217.18500000000003,
+      "fat": 118.59499999999998,
+      "fibre": 23.17
+    },
+    "roundedPerServing": {
+      "protein": 15,
+      "calories": 390,
+      "carbs": 36,
+      "fat": 20,
+      "fibre": 4
+    }
+  },
+  {
+    "slug": "air-fryer-enchiladas",
+    "techniqueSource": "https://recipethis.com/air-fryer-enchiladas/",
+    "adaptation": "Measured drained kidney beans replace taco beans; tinned tomatoes and spices replace salsa. Eight enchiladas are four portions, with two complete batches counted.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "wheat tortilla bread",
+        "grams": 320,
+        "afcdId": "F001669",
+        "referenceId": "F001669",
+        "referenceName": "Bread, tortilla, white, commercial"
+      },
+      {
+        "ingredient": "green capsicum",
+        "grams": 150,
+        "afcdId": "F002239",
+        "referenceId": "F002239",
+        "referenceName": "Capsicum, green, fresh, raw"
+      },
+      {
+        "ingredient": "eggplant",
+        "grams": 150,
+        "afcdId": "F003761",
+        "referenceId": "F003761",
+        "referenceName": "Eggplant, unpeeled, fresh, raw"
+      },
+      {
+        "ingredient": "red onion",
+        "grams": 80,
+        "afcdId": "F009800",
+        "referenceId": "F009800",
+        "referenceName": "Onion, mature, red skinned, raw"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 15,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "drained canned kidney beans",
+        "grams": 240,
+        "afcdId": "F000448",
+        "referenceId": "F000448",
+        "referenceName": "Bean, red kidney, canned, drained"
+      },
+      {
+        "ingredient": "sweetcorn kernels",
+        "grams": 70,
+        "afcdId": "F003202",
+        "referenceId": "F003202",
+        "referenceName": "Corn, kernels, purchased frozen, raw"
+      },
+      {
+        "ingredient": "sour cream",
+        "grams": 15,
+        "afcdId": "F003269",
+        "referenceId": "F003269",
+        "referenceName": "Cream, sour, regular fat"
+      },
+      {
+        "ingredient": "vegetarian cheddar",
+        "grams": 200,
+        "afcdId": "F002414",
+        "referenceId": "F002414",
+        "referenceName": "Cheese, cheddar, natural, regular fat"
+      },
+      {
+        "ingredient": "tinned tomatoes",
+        "grams": 300,
+        "afcdId": "F010071",
+        "referenceId": "F010071",
+        "referenceName": "Tomato, whole, canned in tomato juice, no added salt, undrained"
+      },
+      {
+        "ingredient": "ground cumin",
+        "grams": 6,
+        "afcdId": "F003327",
+        "referenceId": "F003327",
+        "referenceName": "Cumin (cummin) seed, dried, ground"
+      },
+      {
+        "ingredient": "dried oregano",
+        "grams": 2,
+        "afcdId": "F006281",
+        "referenceId": "F006281",
+        "referenceName": "Oregano, dried"
+      },
+      {
+        "ingredient": "paprika",
+        "grams": 2,
+        "afcdId": "F006316",
+        "referenceId": "F006316",
+        "referenceName": "Paprika, dry powder"
+      },
+      {
+        "ingredient": "ground coriander",
+        "grams": 4,
+        "afcdId": "F003190",
+        "referenceId": "F003190",
+        "referenceName": "Coriander seed, dried, ground"
+      },
+      {
+        "ingredient": "fresh red chilli",
+        "grams": 15,
+        "afcdId": "F002901",
+        "referenceId": "F002901",
+        "referenceName": "Chilli (chili), red, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 99.211,
+      "calories": 2464.130019120459,
+      "carbs": 219.458,
+      "fat": 120.899,
+      "fibre": 39.27400000000001
+    },
+    "roundedPerServing": {
+      "protein": 25,
+      "calories": 615,
+      "carbs": 55,
+      "fat": 30,
+      "fibre": 10
+    }
+  },
+  {
+    "slug": "air-fryer-banana-souffle",
+    "techniqueSource": "https://recipethis.com/air-fryer-banana-souffle/",
+    "adaptation": "Two medium peeled bananas specified as 220 g; greasing oil included. No whipped whites, so the result is a soft baked custard rather than a classic French souffl\u00e9.",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "banana",
+        "grams": 220,
+        "afcdId": "F000262",
+        "referenceId": "F000262",
+        "referenceName": "Banana, cavendish, peeled, raw"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 100,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      },
+      {
+        "ingredient": "ground cinnamon",
+        "grams": 1,
+        "afcdId": "F002963",
+        "referenceId": "F002963",
+        "referenceName": "Cinnamon, dried, ground"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 5,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 15.719999999999999,
+      "calories": 383.74521988527727,
+      "carbs": 44.355,
+      "fat": 13.947000000000001,
+      "fibre": 5.371
+    },
+    "roundedPerServing": {
+      "protein": 8,
+      "calories": 190,
+      "carbs": 22,
+      "fat": 7,
+      "fibre": 3
+    }
+  },
+  {
+    "slug": "three-ingredient-airfryer-shortbread-fingers",
+    "techniqueSource": "https://recipethis.com/three-ingredient-airfryer-shortbread-fingers/",
+    "adaptation": "Source ingredients retained exactly; sixteen modest biscuits with two batches. Nutrition recalculated from the full dough.",
+    "servings": 16,
+    "ingredientMatches": [
+      {
+        "ingredient": "self-raising flour",
+        "grams": 250,
+        "afcdId": "F004009",
+        "referenceId": "F004009",
+        "referenceName": "Flour, wheat, white, self-raising"
+      },
+      {
+        "ingredient": "butter",
+        "grams": 175,
+        "afcdId": "F001973",
+        "referenceId": "F001973",
+        "referenceName": "Butter, plain, salted"
+      },
+      {
+        "ingredient": "caster sugar",
+        "grams": 75,
+        "afcdId": "F008976",
+        "referenceId": "F008976",
+        "referenceName": "Sugar, white, granulated or lump"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 26.925,
+      "calories": 2454.1706500956016,
+      "carbs": 259.05,
+      "fat": 147.1,
+      "fibre": 5.5
+    },
+    "roundedPerServing": {
+      "protein": 2,
+      "calories": 155,
+      "carbs": 16,
+      "fat": 9,
+      "fibre": 0
+    }
+  },
+  {
+    "slug": "air-fryer-oven-apple-pie",
+    "techniqueSource": "https://recipethis.com/air-fryer-oven-apple-pie/",
+    "adaptation": "Commercial shortcrust replaces linked homemade crust. Uses thin slices for reliable cooking in a basket, with no uncounted sugar dusting.",
+    "servings": 8,
+    "ingredientMatches": [
+      {
+        "ingredient": "shortcrust pastry",
+        "grams": 400,
+        "afcdId": "F006507",
+        "referenceId": "F006507",
+        "referenceName": "Pastry, shortcrust style, commercial, raw"
+      },
+      {
+        "ingredient": "green apples",
+        "grams": 325,
+        "afcdId": "F000098",
+        "referenceId": "F000098",
+        "referenceName": "Apple, green skin, unpeeled, raw"
+      },
+      {
+        "ingredient": "caster sugar",
+        "grams": 50,
+        "afcdId": "F008976",
+        "referenceId": "F008976",
+        "referenceName": "Sugar, white, granulated or lump"
+      },
+      {
+        "ingredient": "lemon juice",
+        "grams": 20,
+        "afcdId": "F004726",
+        "referenceId": "F004726",
+        "referenceName": "Juice, lemon"
+      },
+      {
+        "ingredient": "lemon zest",
+        "grams": 3,
+        "afcdId": "F005172",
+        "referenceId": "F005172",
+        "referenceName": "Lemon peel, raw"
+      },
+      {
+        "ingredient": "ground cinnamon",
+        "grams": 4,
+        "afcdId": "F002963",
+        "referenceId": "F002963",
+        "referenceName": "Cinnamon, dried, ground"
+      },
+      {
+        "ingredient": "ground nutmeg",
+        "grams": 1,
+        "afcdId": "F006118",
+        "referenceId": "F006118",
+        "referenceName": "Nutmeg, dried, ground"
+      },
+      {
+        "ingredient": "ground ginger",
+        "grams": 1,
+        "afcdId": "F004210",
+        "referenceId": "F004210",
+        "referenceName": "Ginger, dried, ground"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 25,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 30.198000000000004,
+      "calories": 1992.1391013384318,
+      "carbs": 253.99499999999998,
+      "fat": 88.207,
+      "fibre": 36.916
+    },
+    "roundedPerServing": {
+      "protein": 4,
+      "calories": 250,
+      "carbs": 32,
+      "fat": 11,
+      "fibre": 5
+    }
+  },
+  {
+    "slug": "air-fryer-peach-cobbler",
+    "techniqueSource": "https://recipethis.com/air-fryer-peach-cobbler/",
+    "adaptation": "Peach weight excludes stones. Spoon-measured honey, sugar and spices converted to grams; cream and extra sugar topping excluded.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "yellow peaches",
+        "grams": 200,
+        "afcdId": "F006573",
+        "referenceId": "F006573",
+        "referenceName": "Peach, yellow, unpeeled, raw"
+      },
+      {
+        "ingredient": "honey",
+        "grams": 20,
+        "afcdId": "F004380",
+        "referenceId": "F004380",
+        "referenceName": "Honey"
+      },
+      {
+        "ingredient": "caster sugar",
+        "grams": 63,
+        "afcdId": "F008976",
+        "referenceId": "F008976",
+        "referenceName": "Sugar, white, granulated or lump"
+      },
+      {
+        "ingredient": "vanilla extract",
+        "grams": 5,
+        "afcdId": "F009350",
+        "referenceId": "F009350",
+        "referenceName": "Vanilla bean extract"
+      },
+      {
+        "ingredient": "ground ginger",
+        "grams": 5,
+        "afcdId": "F004210",
+        "referenceId": "F004210",
+        "referenceName": "Ginger, dried, ground"
+      },
+      {
+        "ingredient": "self-raising flour",
+        "grams": 112,
+        "afcdId": "F004009",
+        "referenceId": "F004009",
+        "referenceName": "Flour, wheat, white, self-raising"
+      },
+      {
+        "ingredient": "butter",
+        "grams": 50,
+        "afcdId": "F001973",
+        "referenceId": "F001973",
+        "referenceName": "Butter, plain, salted"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 50,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 19.965,
+      "calories": 1230.8508604206502,
+      "carbs": 178.799,
+      "fat": 47.021,
+      "fibre": 6.369000000000001
+    },
+    "roundedPerServing": {
+      "protein": 5,
+      "calories": 310,
+      "carbs": 45,
+      "fat": 12,
+      "fibre": 2
+    }
+  },
+  {
+    "slug": "air-fryer-pumpkin-seeds",
+    "techniqueSource": "https://recipethis.com/air-fryer-pumpkin-seeds/",
+    "adaptation": "Source cup of pumpkin seeds specified as 120 g hulled dry pepitas, with nutrition matched to hulled seeds. Raw wet shell-on seeds are not interchangeable.",
+    "servings": 6,
+    "ingredientMatches": [
+      {
+        "ingredient": "hulled pumpkin seeds",
+        "grams": 120,
+        "afcdId": "F008212",
+        "referenceId": "F008212",
+        "referenceName": "Seed, pumpkin, hulled & dried"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 5,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "ground cumin",
+        "grams": 2,
+        "afcdId": "F003327",
+        "referenceId": "F003327",
+        "referenceName": "Cumin (cummin) seed, dried, ground"
+      },
+      {
+        "ingredient": "ground cinnamon",
+        "grams": 1,
+        "afcdId": "F002963",
+        "referenceId": "F002963",
+        "referenceName": "Cinnamon, dried, ground"
+      },
+      {
+        "ingredient": "paprika",
+        "grams": 2,
+        "afcdId": "F006316",
+        "referenceId": "F006316",
+        "referenceName": "Paprika, dry powder"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 36.91799999999999,
+      "calories": 706.3695028680689,
+      "carbs": 3.851,
+      "fat": 59.711000000000006,
+      "fibre": 6.959
+    },
+    "roundedPerServing": {
+      "protein": 6,
+      "calories": 120,
+      "carbs": 1,
+      "fat": 10,
+      "fibre": 1
+    }
+  },
+  {
+    "slug": "air-fryer-roasted-garlic",
+    "techniqueSource": "https://recipethis.com/air-fryer-roasted-garlic/",
+    "adaptation": "All oil and 120 g edible garlic counted; papery skins excluded. Timing will vary with bulb size.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "garlic",
+        "grams": 120,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 10,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 7.319999999999999,
+      "calories": 238.02581261950286,
+      "carbs": 12.239999999999998,
+      "fat": 13.350000000000001,
+      "fibre": 20.279999999999998
+    },
+    "roundedPerServing": {
+      "protein": 2,
+      "calories": 60,
+      "carbs": 3,
+      "fat": 3,
+      "fibre": 5
+    }
+  },
+  {
+    "slug": "sabudana-vada-recipe",
+    "techniqueSource": "https://www.indianveggiedelight.com/sabudana-vada-recipe/",
+    "adaptation": "Complete measured adaptation; source per-serving 55 kcal figure rejected. Parsley replaces coriander leaves. Potato nutrient basis is raw peeled input; two batches and soaking included.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "dry tapioca pearls",
+        "grams": 90,
+        "afcdId": "F009090",
+        "referenceId": "F009090",
+        "referenceName": "Tapioca, pearl or seed style, uncooked"
+      },
+      {
+        "ingredient": "potatoes",
+        "grams": 300,
+        "afcdId": "F007386",
+        "referenceId": "F007386",
+        "referenceName": "Potato, sebago, peeled, raw"
+      },
+      {
+        "ingredient": "raw unsalted peanuts",
+        "grams": 35,
+        "afcdId": "F006107",
+        "referenceId": "F006107",
+        "referenceName": "Nut, peanut, with skin, raw, unsalted"
+      },
+      {
+        "ingredient": "fresh red chilli",
+        "grams": 10,
+        "afcdId": "F002901",
+        "referenceId": "F002901",
+        "referenceName": "Chilli (chili), red, raw"
+      },
+      {
+        "ingredient": "fresh ginger",
+        "grams": 5,
+        "afcdId": "F004213",
+        "referenceId": "F004213",
+        "referenceName": "Ginger, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "ground cumin",
+        "grams": 1,
+        "afcdId": "F003327",
+        "referenceId": "F003327",
+        "referenceName": "Cumin (cummin) seed, dried, ground"
+      },
+      {
+        "ingredient": "maize cornflour",
+        "grams": 15,
+        "afcdId": "F003988",
+        "referenceId": "F003988",
+        "referenceName": "Flour, cornflour, from maize starch"
+      },
+      {
+        "ingredient": "lemon juice",
+        "grams": 15,
+        "afcdId": "F004726",
+        "referenceId": "F004726",
+        "referenceName": "Juice, lemon"
+      },
+      {
+        "ingredient": "fresh parsley",
+        "grams": 5,
+        "afcdId": "F006321",
+        "referenceId": "F006321",
+        "referenceName": "Parsley, continental, fresh, raw"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 10,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 17.028,
+      "calories": 865.1457934990441,
+      "carbs": 129.88200000000003,
+      "fat": 27.708000000000002,
+      "fibre": 10.985000000000003
+    },
+    "roundedPerServing": {
+      "protein": 4,
+      "calories": 215,
+      "carbs": 32,
+      "fat": 7,
+      "fibre": 3
+    }
+  },
+  {
+    "slug": "bharwa-bhindi-stuffed-okra",
+    "techniqueSource": "https://www.indianveggiedelight.com/bharwa-bhindi-stuffed-okra/",
+    "adaptation": "Measured two-portion adaptation. Lemon replaces dry mango powder; simplified individual spices replace garam masala. All stuffing and brushing oil counted.",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "okra",
+        "grams": 230,
+        "afcdId": "F006195",
+        "referenceId": "F006195",
+        "referenceName": "Okra, raw"
+      },
+      {
+        "ingredient": "raw unsalted peanuts",
+        "grams": 30,
+        "afcdId": "F006107",
+        "referenceId": "F006107",
+        "referenceName": "Nut, peanut, with skin, raw, unsalted"
+      },
+      {
+        "ingredient": "ground coriander",
+        "grams": 6,
+        "afcdId": "F003190",
+        "referenceId": "F003190",
+        "referenceName": "Coriander seed, dried, ground"
+      },
+      {
+        "ingredient": "ground cumin",
+        "grams": 2,
+        "afcdId": "F003327",
+        "referenceId": "F003327",
+        "referenceName": "Cumin (cummin) seed, dried, ground"
+      },
+      {
+        "ingredient": "ground turmeric",
+        "grams": 1,
+        "afcdId": "F009335",
+        "referenceId": "F009335",
+        "referenceName": "Turmeric, dried, ground"
+      },
+      {
+        "ingredient": "paprika",
+        "grams": 2,
+        "afcdId": "F006316",
+        "referenceId": "F006316",
+        "referenceName": "Paprika, dry powder"
+      },
+      {
+        "ingredient": "ground ginger",
+        "grams": 1,
+        "afcdId": "F004210",
+        "referenceId": "F004210",
+        "referenceName": "Ginger, dried, ground"
+      },
+      {
+        "ingredient": "lemon juice",
+        "grams": 5,
+        "afcdId": "F004726",
+        "referenceId": "F004726",
+        "referenceName": "Juice, lemon"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 23,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 16.139,
+      "calories": 476.6873804971319,
+      "carbs": 8.559,
+      "fat": 39.418000000000006,
+      "fibre": 14.86
+    },
+    "roundedPerServing": {
+      "protein": 8,
+      "calories": 240,
+      "carbs": 4,
+      "fat": 20,
+      "fibre": 7
+    }
+  },
+  {
+    "slug": "masala-peanuts",
+    "techniqueSource": "https://www.indianveggiedelight.com/masala-peanuts/",
+    "adaptation": "Oil fixed at 5 g instead of unspecified amount. Asafoetida and chaat masala omitted; cumin added. Four snack portions rather than two source portions.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "raw unsalted peanuts",
+        "grams": 75,
+        "afcdId": "F006107",
+        "referenceId": "F006107",
+        "referenceName": "Nut, peanut, with skin, raw, unsalted"
+      },
+      {
+        "ingredient": "chickpea flour",
+        "grams": 16,
+        "afcdId": "F003986",
+        "referenceId": "F003986",
+        "referenceName": "Flour, chickpea (besan)"
+      },
+      {
+        "ingredient": "rice flour",
+        "grams": 10,
+        "afcdId": "F003998",
+        "referenceId": "F003998",
+        "referenceName": "Flour, rice"
+      },
+      {
+        "ingredient": "ground turmeric",
+        "grams": 1,
+        "afcdId": "F009335",
+        "referenceId": "F009335",
+        "referenceName": "Turmeric, dried, ground"
+      },
+      {
+        "ingredient": "paprika",
+        "grams": 2,
+        "afcdId": "F006316",
+        "referenceId": "F006316",
+        "referenceName": "Paprika, dry powder"
+      },
+      {
+        "ingredient": "ground cumin",
+        "grams": 1,
+        "afcdId": "F003327",
+        "referenceId": "F003327",
+        "referenceName": "Cumin (cummin) seed, dried, ground"
+      },
+      {
+        "ingredient": "lemon juice",
+        "grams": 15,
+        "afcdId": "F004726",
+        "referenceId": "F004726",
+        "referenceName": "Juice, lemon"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 5,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 23.054000000000002,
+      "calories": 574.3331739961759,
+      "carbs": 21.428,
+      "fat": 41.92800000000001,
+      "fibre": 11.028000000000002
+    },
+    "roundedPerServing": {
+      "protein": 6,
+      "calories": 145,
+      "carbs": 5,
+      "fat": 10,
+      "fibre": 3
+    }
+  },
+  {
+    "slug": "vegetable-rice-cutlet",
+    "techniqueSource": "https://www.indianveggiedelight.com/vegetable-rice-cutlet/",
+    "adaptation": "Measured rice and vegetable quantities; source quarter-cup shallow-frying oil replaced by 10 g brushing oil, requiring full recalculation. Individual spices replace seasoning blends.",
+    "servings": 3,
+    "ingredientMatches": [
+      {
+        "ingredient": "cooked white rice",
+        "grams": 180,
+        "afcdId": "F007661",
+        "referenceId": "F007661",
+        "referenceName": "Rice, white, boiled or rice cooker, no added salt"
+      },
+      {
+        "ingredient": "potatoes",
+        "grams": 150,
+        "afcdId": "F007386",
+        "referenceId": "F007386",
+        "referenceName": "Potato, sebago, peeled, raw"
+      },
+      {
+        "ingredient": "carrots",
+        "grams": 30,
+        "afcdId": "F002276",
+        "referenceId": "F002276",
+        "referenceName": "Carrot, mature, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "brown onion",
+        "grams": 40,
+        "afcdId": "F006225",
+        "referenceId": "F006225",
+        "referenceName": "Onion, mature, brown skinned, peeled, raw"
+      },
+      {
+        "ingredient": "green capsicum",
+        "grams": 30,
+        "afcdId": "F002239",
+        "referenceId": "F002239",
+        "referenceName": "Capsicum, green, fresh, raw"
+      },
+      {
+        "ingredient": "baby spinach",
+        "grams": 10,
+        "afcdId": "F008749",
+        "referenceId": "F008749",
+        "referenceName": "Spinach, baby, fresh, raw"
+      },
+      {
+        "ingredient": "green beans",
+        "grams": 10,
+        "afcdId": "F000431",
+        "referenceId": "F000431",
+        "referenceName": "Bean, green, fresh, raw"
+      },
+      {
+        "ingredient": "fresh parsley",
+        "grams": 5,
+        "afcdId": "F006321",
+        "referenceId": "F006321",
+        "referenceName": "Parsley, continental, fresh, raw"
+      },
+      {
+        "ingredient": "fresh red chilli",
+        "grams": 5,
+        "afcdId": "F002901",
+        "referenceId": "F002901",
+        "referenceName": "Chilli (chili), red, raw"
+      },
+      {
+        "ingredient": "maize cornflour",
+        "grams": 24,
+        "afcdId": "F003988",
+        "referenceId": "F003988",
+        "referenceName": "Flour, cornflour, from maize starch"
+      },
+      {
+        "ingredient": "ground turmeric",
+        "grams": 1,
+        "afcdId": "F009335",
+        "referenceId": "F009335",
+        "referenceName": "Turmeric, dried, ground"
+      },
+      {
+        "ingredient": "paprika",
+        "grams": 1,
+        "afcdId": "F006316",
+        "referenceId": "F006316",
+        "referenceName": "Paprika, dry powder"
+      },
+      {
+        "ingredient": "fresh ginger",
+        "grams": 5,
+        "afcdId": "F004213",
+        "referenceId": "F004213",
+        "referenceName": "Ginger, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "ground cumin",
+        "grams": 2,
+        "afcdId": "F003327",
+        "referenceId": "F003327",
+        "referenceName": "Cumin (cummin) seed, dried, ground"
+      },
+      {
+        "ingredient": "lemon juice",
+        "grams": 15,
+        "afcdId": "F004726",
+        "referenceId": "F004726",
+        "referenceName": "Juice, lemon"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 10,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 11.844999999999997,
+      "calories": 620.8078393881452,
+      "carbs": 110.83800000000001,
+      "fat": 11.506000000000002,
+      "fibre": 9.436000000000003
+    },
+    "roundedPerServing": {
+      "protein": 4,
+      "calories": 205,
+      "carbs": 37,
+      "fat": 4,
+      "fibre": 3
+    }
+  },
+  {
+    "slug": "gobi-manchurian",
+    "techniqueSource": "https://www.indianveggiedelight.com/gobi-manchurian/",
+    "adaptation": "All batter and measured oil included. Paprika replaces chilli powder and parsley replaces coriander; optional chilli sauce omitted. Publisher deep-frying estimate not used.",
+    "servings": 3,
+    "ingredientMatches": [
+      {
+        "ingredient": "cauliflower",
+        "grams": 350,
+        "afcdId": "F002378",
+        "referenceId": "F002378",
+        "referenceName": "Cauliflower, fresh, raw"
+      },
+      {
+        "ingredient": "maize cornflour",
+        "grams": 30,
+        "afcdId": "F003988",
+        "referenceId": "F003988",
+        "referenceName": "Flour, cornflour, from maize starch"
+      },
+      {
+        "ingredient": "plain flour",
+        "grams": 30,
+        "afcdId": "F004007",
+        "referenceId": "F004007",
+        "referenceName": "Flour, wheat, white, plain"
+      },
+      {
+        "ingredient": "paprika",
+        "grams": 2,
+        "afcdId": "F006316",
+        "referenceId": "F006316",
+        "referenceName": "Paprika, dry powder"
+      },
+      {
+        "ingredient": "fresh ginger",
+        "grams": 15,
+        "afcdId": "F004213",
+        "referenceId": "F004213",
+        "referenceName": "Ginger, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 15,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "tomato sauce",
+        "grams": 65,
+        "afcdId": "F008083",
+        "referenceId": "F008083",
+        "referenceName": "Sauce, tomato, commercial"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 15,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "brown onion",
+        "grams": 70,
+        "afcdId": "F006225",
+        "referenceId": "F006225",
+        "referenceName": "Onion, mature, brown skinned, peeled, raw"
+      },
+      {
+        "ingredient": "green capsicum",
+        "grams": 40,
+        "afcdId": "F002239",
+        "referenceId": "F002239",
+        "referenceName": "Capsicum, green, fresh, raw"
+      },
+      {
+        "ingredient": "soy sauce",
+        "grams": 15,
+        "afcdId": "F008065",
+        "referenceId": "F008065",
+        "referenceName": "Sauce, soy, commercial"
+      },
+      {
+        "ingredient": "white vinegar",
+        "grams": 15,
+        "afcdId": "F009498",
+        "referenceId": "F009498",
+        "referenceName": "Vinegar (except balsamic vinegar)"
+      },
+      {
+        "ingredient": "fresh parsley",
+        "grams": 5,
+        "afcdId": "F006321",
+        "referenceId": "F006321",
+        "referenceName": "Parsley, continental, fresh, raw"
+      },
+      {
+        "ingredient": "spring onion",
+        "grams": 15,
+        "afcdId": "F006250",
+        "referenceId": "F006250",
+        "referenceName": "Onion, spring, fresh, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 14.671999999999999,
+      "calories": 571.5033460803061,
+      "carbs": 83.322,
+      "fat": 17.058,
+      "fibre": 12.103
+    },
+    "roundedPerServing": {
+      "protein": 5,
+      "calories": 190,
+      "carbs": 28,
+      "fat": 6,
+      "fibre": 4
+    }
+  },
+  {
+    "slug": "air-fryer-cherry-tomato-salad",
+    "techniqueSource": "https://recipethis.com/air-fryer-cherry-tomato-salad/",
+    "adaptation": "Includes the source optional 200 g mozzarella as a required ingredient; fresh basil quantified at 10 g.",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "cherry tomatoes",
+        "grams": 500,
+        "afcdId": "F009190",
+        "referenceId": "F009190",
+        "referenceName": "Tomato, cherry, raw"
+      },
+      {
+        "ingredient": "mozzarella",
+        "grams": 200,
+        "afcdId": "F002472",
+        "referenceId": "F002472",
+        "referenceName": "Cheese, mozzarella"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 5,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "fresh basil",
+        "grams": 10,
+        "afcdId": "F000396",
+        "referenceId": "F000396",
+        "referenceName": "Basil, green, fresh, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 49.16,
+      "calories": 733.3054493307839,
+      "carbs": 17.52,
+      "fat": 49.245000000000005,
+      "fibre": 8.83
+    },
+    "roundedPerServing": {
+      "protein": 25,
+      "calories": 365,
+      "carbs": 9,
+      "fat": 25,
+      "fibre": 4
+    }
+  },
+  {
+    "slug": "air-fryer-roasted-peppers-bell-peppers",
+    "techniqueSource": "https://recipethis.com/air-fryer-roasted-peppers-bell-peppers/",
+    "adaptation": "Three source capsicums specified as 450 g edible green capsicum. Nutrients vary with colour and size.",
+    "servings": 3,
+    "ingredientMatches": [
+      {
+        "ingredient": "green capsicum",
+        "grams": 450,
+        "afcdId": "F002239",
+        "referenceId": "F002239",
+        "referenceName": "Capsicum, green, fresh, raw"
+      },
+      {
+        "ingredient": "dried thyme",
+        "grams": 1,
+        "afcdId": "F009160",
+        "referenceId": "F009160",
+        "referenceName": "Thyme, dried, ground"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 4.141,
+      "calories": 77.03632887189292,
+      "carbs": 11.519,
+      "fat": 0.07400000000000001,
+      "fibre": 7.12
+    },
+    "roundedPerServing": {
+      "protein": 1,
+      "calories": 25,
+      "carbs": 4,
+      "fat": 0,
+      "fibre": 2
+    }
+  },
+  {
+    "slug": "air-fryer-spinach",
+    "techniqueSource": "https://recipethis.com/air-fryer-spinach/",
+    "adaptation": "Fresh minced garlic replaces source garlic powder. All liquid retained for nutrient calculation.",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "baby spinach",
+        "grams": 300,
+        "afcdId": "F008749",
+        "referenceId": "F008749",
+        "referenceName": "Spinach, baby, fresh, raw"
+      },
+      {
+        "ingredient": "butter",
+        "grams": 10,
+        "afcdId": "F001973",
+        "referenceId": "F001973",
+        "referenceName": "Butter, plain, salted"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 10,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 9.119999999999997,
+      "calories": 134.58413001912047,
+      "carbs": 1.08,
+      "fat": 8.5,
+      "fibre": 9.19
+    },
+    "roundedPerServing": {
+      "protein": 5,
+      "calories": 65,
+      "carbs": 1,
+      "fat": 4,
+      "fibre": 5
+    }
+  },
+  {
+    "slug": "two-ingredient-air-fryer-croutons",
+    "techniqueSource": "https://recipethis.com/two-ingredient-air-fryer-croutons/",
+    "adaptation": "Three small source rolls specified as 180 g total; six garnish portions. Crusts retained and counted.",
+    "servings": 6,
+    "ingredientMatches": [
+      {
+        "ingredient": "white bread rolls",
+        "grams": 180,
+        "afcdId": "F001353",
+        "referenceId": "F001353",
+        "referenceName": "Bread roll, from white flour"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 5,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 5,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "dried oregano",
+        "grams": 1,
+        "afcdId": "F006281",
+        "referenceId": "F006281",
+        "referenceName": "Oregano, dried"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 17.135,
+      "calories": 502.1534416826004,
+      "carbs": 81.054,
+      "fat": 10.398,
+      "fibre": 6.67
+    },
+    "roundedPerServing": {
+      "protein": 3,
+      "calories": 85,
+      "carbs": 14,
+      "fat": 2,
+      "fibre": 1
+    }
+  },
+  {
+    "slug": "zoodles-in-air-fryer",
+    "techniqueSource": "https://recipethis.com/zoodles-in-air-fryer/",
+    "adaptation": "Four medium zucchini specified as 600 g. Additional unmeasured spray omitted and 10 g total oil counted.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "zucchini",
+        "grams": 600,
+        "afcdId": "F009775",
+        "referenceId": "F009775",
+        "referenceName": "Zucchini, green skin, fresh, unpeeled, raw"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 5,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 10,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "dried oregano",
+        "grams": 3,
+        "afcdId": "F006281",
+        "referenceId": "F006281",
+        "referenceName": "Oregano, dried"
+      },
+      {
+        "ingredient": "fresh basil",
+        "grams": 5,
+        "afcdId": "F000396",
+        "referenceId": "F000396",
+        "referenceName": "Basil, green, fresh, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 6.704999999999999,
+      "calories": 202.480879541109,
+      "carbs": 14.512,
+      "fat": 11.484000000000002,
+      "fibre": 8.284999999999998
+    },
+    "roundedPerServing": {
+      "protein": 2,
+      "calories": 50,
+      "carbs": 4,
+      "fat": 3,
+      "fibre": 2
+    }
+  },
+  {
+    "slug": "cottage-cheese-bagels",
+    "techniqueSource": "https://www.tesco.com/recipes/en-GB/recipe/everything-cottage-cheese-bagels/cooking",
+    "adaptation": "Tesco technique; sesame-only topping replaces a large source seasoning mix that is partly retained. Counts 25 g egg wash and all sesame; dusting flour omitted. Four bagels must fit for quoted time.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "cottage cheese",
+        "grams": 300,
+        "afcdId": "F002435",
+        "referenceId": "F002435",
+        "referenceName": "Cheese, cottage"
+      },
+      {
+        "ingredient": "self-raising flour",
+        "grams": 180,
+        "afcdId": "F004009",
+        "referenceId": "F004009",
+        "referenceName": "Flour, wheat, white, self-raising"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 25,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      },
+      {
+        "ingredient": "sesame seeds",
+        "grams": 12,
+        "afcdId": "F008214",
+        "referenceId": "F008214",
+        "referenceName": "Seed, sesame, unsalted"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 74.81400000000001,
+      "calories": 1141.9335564053536,
+      "carbs": 137.979,
+      "fat": 28.237000000000002,
+      "fibre": 5.172000000000001
+    },
+    "roundedPerServing": {
+      "protein": 19,
+      "calories": 285,
+      "carbs": 34,
+      "fat": 7,
+      "fibre": 1
+    }
+  },
+  {
+    "slug": "air-fryer-ricotta-balls",
+    "techniqueSource": "https://sandhyahariharan.co.uk/air-fryer-ricotta-balls/",
+    "adaptation": "Source flour and breadcrumbs measured as 25 g and 100 g. Oregano replaces Italian seasoning. All coating counted, including egg white and yolk.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "ricotta cheese",
+        "grams": 250,
+        "afcdId": "F002488",
+        "referenceId": "F002488",
+        "referenceName": "Cheese, ricotta"
+      },
+      {
+        "ingredient": "plain flour",
+        "grams": 25,
+        "afcdId": "F004007",
+        "referenceId": "F004007",
+        "referenceName": "Flour, wheat, white, plain"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 50,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      },
+      {
+        "ingredient": "fresh basil",
+        "grams": 10,
+        "afcdId": "F000396",
+        "referenceId": "F000396",
+        "referenceName": "Basil, green, fresh, raw"
+      },
+      {
+        "ingredient": "dry breadcrumbs",
+        "grams": 100,
+        "afcdId": "F001683",
+        "referenceId": "F001683",
+        "referenceName": "Breadcrumbs, white"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 15,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "dried oregano",
+        "grams": 2,
+        "afcdId": "F006281",
+        "referenceId": "F006281",
+        "referenceName": "Oregano, dried"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 49.239999999999995,
+      "calories": 1053.972275334608,
+      "carbs": 94.248,
+      "fat": 51.296,
+      "fibre": 6.43
+    },
+    "roundedPerServing": {
+      "protein": 12,
+      "calories": 265,
+      "carbs": 24,
+      "fat": 13,
+      "fibre": 2
+    }
+  },
+  {
+    "slug": "air-fryer-baba-ganoush",
+    "techniqueSource": "https://sandhyahariharan.co.uk/air-fryer-baba-ganoush/",
+    "adaptation": "Counts 500 g edible raw eggplant flesh, approximately two medium whole fruit. Oil reduced and fixed at 40 g; six dip portions replace four. Source 205 C rounded to common 200 C setting.",
+    "servings": 6,
+    "ingredientMatches": [
+      {
+        "ingredient": "eggplant",
+        "grams": 500,
+        "afcdId": "F003761",
+        "referenceId": "F003761",
+        "referenceName": "Eggplant, unpeeled, fresh, raw"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 20,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 40,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "tahini",
+        "grams": 45,
+        "afcdId": "F009076",
+        "referenceId": "F009076",
+        "referenceName": "Tahini, sesame seed pulp"
+      },
+      {
+        "ingredient": "lemon juice",
+        "grams": 30,
+        "afcdId": "F004726",
+        "referenceId": "F004726",
+        "referenceName": "Juice, lemon"
+      },
+      {
+        "ingredient": "ground cumin",
+        "grams": 1,
+        "afcdId": "F003327",
+        "referenceId": "F003327",
+        "referenceName": "Cumin (cummin) seed, dried, ground"
+      },
+      {
+        "ingredient": "paprika",
+        "grams": 1,
+        "afcdId": "F006316",
+        "referenceId": "F006316",
+        "referenceName": "Paprika, dry powder"
+      },
+      {
+        "ingredient": "fresh parsley",
+        "grams": 5,
+        "afcdId": "F006321",
+        "referenceId": "F006321",
+        "referenceName": "Parsley, continental, fresh, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 16.093999999999998,
+      "calories": 789.1443594646273,
+      "carbs": 16.612999999999996,
+      "fat": 69.25200000000001,
+      "fibre": 23.759
+    },
+    "roundedPerServing": {
+      "protein": 3,
+      "calories": 130,
+      "carbs": 3,
+      "fat": 12,
+      "fibre": 4
+    }
+  },
+  {
+    "slug": "air-fryer-roasted-artichokes",
+    "techniqueSource": "https://dailydish.co.uk/air-fryer-roasted-artichokes/",
+    "adaptation": "Two artichokes estimated to yield 300 g edible flesh; tough discarded portions excluded. All 27 g oil counted, so oil left on discarded leaves makes this an upper estimate.",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "globe artichoke edible flesh",
+        "grams": 300,
+        "afcdId": "F000144",
+        "referenceId": "F000144",
+        "referenceName": "Artichoke, globe, raw"
+      },
+      {
+        "ingredient": "lemon juice",
+        "grams": 60,
+        "afcdId": "F004726",
+        "referenceId": "F004726",
+        "referenceName": "Juice, lemon"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 27,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 8.759999999999998,
+      "calories": 358.3293499043977,
+      "carbs": 4.98,
+      "fat": 27.633000000000003,
+      "fibre": 25.499999999999996
+    },
+    "roundedPerServing": {
+      "protein": 4,
+      "calories": 180,
+      "carbs": 2,
+      "fat": 14,
+      "fibre": 13
+    }
+  },
+  {
+    "slug": "air-fryer-fried-rice",
+    "techniqueSource": "https://recipethis.com/air-fryer-fried-rice/",
+    "adaptation": "Larger measured cooked-rice and egg portions. Worcestershire omitted to avoid anchovy; soy reduced, fresh ginger replaces five-spice mix. All vegetables and oil quantified.",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "cooked white rice",
+        "grams": 300,
+        "afcdId": "F007661",
+        "referenceId": "F007661",
+        "referenceName": "Rice, white, boiled or rice cooker, no added salt"
+      },
+      {
+        "ingredient": "cooked green peas",
+        "grams": 80,
+        "afcdId": "F006538",
+        "referenceId": "F006538",
+        "referenceName": "Pea, green, frozen, boiled, drained"
+      },
+      {
+        "ingredient": "carrots",
+        "grams": 50,
+        "afcdId": "F002276",
+        "referenceId": "F002276",
+        "referenceName": "Carrot, mature, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "green capsicum",
+        "grams": 50,
+        "afcdId": "F002239",
+        "referenceId": "F002239",
+        "referenceName": "Capsicum, green, fresh, raw"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 150,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 15,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "butter",
+        "grams": 5,
+        "afcdId": "F001973",
+        "referenceId": "F001973",
+        "referenceName": "Butter, plain, salted"
+      },
+      {
+        "ingredient": "soy sauce",
+        "grams": 30,
+        "afcdId": "F008065",
+        "referenceId": "F008065",
+        "referenceName": "Sauce, soy, commercial"
+      },
+      {
+        "ingredient": "fresh ginger",
+        "grams": 5,
+        "afcdId": "F004213",
+        "referenceId": "F004213",
+        "referenceName": "Ginger, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "spring onion",
+        "grams": 20,
+        "afcdId": "F006250",
+        "referenceId": "F006250",
+        "referenceName": "Onion, spring, fresh, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 35.585,
+      "calories": 930.8556405353728,
+      "carbs": 116.37,
+      "fat": 32.745000000000005,
+      "fibre": 10.150000000000002
+    },
+    "roundedPerServing": {
+      "protein": 18,
+      "calories": 465,
+      "carbs": 58,
+      "fat": 16,
+      "fibre": 5
+    }
+  },
+  {
+    "slug": "dal-with-air-fryer-tofu",
+    "techniqueSource": "https://www.marksandspencer.com/c/food-and-wine/cooking/recipes/237895/high-fibre-dal-recipe-with-air-fryer-tikka-tofu/",
+    "adaptation": "M&S source pack size fixed at 400 g tofu and rice pouches at 500 g cooked rice. Individual spices replace tikka paste and garam masala; curry leaf and mustard seed omitted. Complete meal recalculated; implausible publisher 156 kcal rejected.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "dried split peas",
+        "grams": 150,
+        "afcdId": "F006543",
+        "referenceId": "F006543",
+        "referenceName": "Pea, split, dried"
+      },
+      {
+        "ingredient": "dry red lentils",
+        "grams": 150,
+        "afcdId": "F005184",
+        "referenceId": "F005184",
+        "referenceName": "Lentil, red, hulled, dry"
+      },
+      {
+        "ingredient": "brown onion",
+        "grams": 150,
+        "afcdId": "F006225",
+        "referenceId": "F006225",
+        "referenceName": "Onion, mature, brown skinned, peeled, raw"
+      },
+      {
+        "ingredient": "ground turmeric",
+        "grams": 4,
+        "afcdId": "F009335",
+        "referenceId": "F009335",
+        "referenceName": "Turmeric, dried, ground"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 20,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "fresh red chilli",
+        "grams": 15,
+        "afcdId": "F002901",
+        "referenceId": "F002901",
+        "referenceName": "Chilli (chili), red, raw"
+      },
+      {
+        "ingredient": "fresh ginger",
+        "grams": 25,
+        "afcdId": "F004213",
+        "referenceId": "F004213",
+        "referenceName": "Ginger, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "tomatoes",
+        "grams": 300,
+        "afcdId": "F009193",
+        "referenceId": "F009193",
+        "referenceName": "Tomato, common, raw"
+      },
+      {
+        "ingredient": "baby spinach",
+        "grams": 100,
+        "afcdId": "F008749",
+        "referenceId": "F008749",
+        "referenceName": "Spinach, baby, fresh, raw"
+      },
+      {
+        "ingredient": "lemon juice",
+        "grams": 50,
+        "afcdId": "F004726",
+        "referenceId": "F004726",
+        "referenceName": "Juice, lemon"
+      },
+      {
+        "ingredient": "ground cumin",
+        "grams": 4,
+        "afcdId": "F003327",
+        "referenceId": "F003327",
+        "referenceName": "Cumin (cummin) seed, dried, ground"
+      },
+      {
+        "ingredient": "ground coriander",
+        "grams": 4,
+        "afcdId": "F003190",
+        "referenceId": "F003190",
+        "referenceName": "Coriander seed, dried, ground"
+      },
+      {
+        "ingredient": "paprika",
+        "grams": 3,
+        "afcdId": "F006316",
+        "referenceId": "F006316",
+        "referenceName": "Paprika, dry powder"
+      },
+      {
+        "ingredient": "firm tofu",
+        "grams": 400,
+        "afcdId": "F009176",
+        "referenceId": "F009176",
+        "referenceName": "Tofu (soy bean curd), firm, as purchased"
+      },
+      {
+        "ingredient": "natural yoghurt",
+        "grams": 40,
+        "afcdId": "F009694",
+        "referenceId": "F009694",
+        "referenceName": "Yoghurt, natural, regular fat (~3%)"
+      },
+      {
+        "ingredient": "cooked brown rice",
+        "grams": 500,
+        "afcdId": "F007641",
+        "referenceId": "F007641",
+        "referenceName": "Rice, brown, boiled, no added salt"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 15,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "fresh parsley",
+        "grams": 10,
+        "afcdId": "F006321",
+        "referenceId": "F006321",
+        "referenceName": "Parsley, continental, fresh, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 153.629,
+      "calories": 2734.49569789675,
+      "carbs": 340.50300000000004,
+      "fat": 63.819,
+      "fibre": 68.201
+    },
+    "roundedPerServing": {
+      "protein": 38,
+      "calories": 685,
+      "carbs": 85,
+      "fat": 16,
+      "fibre": 17
+    }
+  },
+  {
+    "slug": "air-fryer-bread-and-butter-pudding",
+    "techniqueSource": "https://recipethis.com/air-fryer-bread-and-butter-pudding/",
+    "adaptation": "Source spoon and slice measures converted to explicit gram inputs. Thickened cream replaces double cream. Six portions; longer finish allowance and 71 C endpoint added for custard safety.",
+    "servings": 6,
+    "ingredientMatches": [
+      {
+        "ingredient": "Italian-style white bread",
+        "grams": 180,
+        "afcdId": "F001528",
+        "referenceId": "F001528",
+        "referenceName": "Bread, from white flour, Italian-style, commercial"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 150,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      },
+      {
+        "ingredient": "thickened cream",
+        "grams": 240,
+        "afcdId": "F003270",
+        "referenceId": "F003270",
+        "referenceName": "Cream, thickened, regular fat (~35%)"
+      },
+      {
+        "ingredient": "caster sugar",
+        "grams": 65,
+        "afcdId": "F008976",
+        "referenceId": "F008976",
+        "referenceName": "Sugar, white, granulated or lump"
+      },
+      {
+        "ingredient": "ground cinnamon",
+        "grams": 3,
+        "afcdId": "F002963",
+        "referenceId": "F002963",
+        "referenceName": "Cinnamon, dried, ground"
+      },
+      {
+        "ingredient": "vanilla extract",
+        "grams": 5,
+        "afcdId": "F009350",
+        "referenceId": "F009350",
+        "referenceName": "Vanilla bean extract"
+      },
+      {
+        "ingredient": "whole milk",
+        "grams": 120,
+        "afcdId": "F005634",
+        "referenceId": "F005634",
+        "referenceName": "Milk, cow, fluid, regular fat (~3.5%)"
+      },
+      {
+        "ingredient": "raisins",
+        "grams": 150,
+        "afcdId": "F007610",
+        "referenceId": "F007610",
+        "referenceName": "Raisin"
+      },
+      {
+        "ingredient": "butter",
+        "grams": 30,
+        "afcdId": "F001973",
+        "referenceId": "F001973",
+        "referenceName": "Butter, plain, salted"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 47.46499999999999,
+      "calories": 2494.328393881453,
+      "carbs": 275.16499999999996,
+      "fat": 134.981,
+      "fibre": 11.913
+    },
+    "roundedPerServing": {
+      "protein": 8,
+      "calories": 415,
+      "carbs": 46,
+      "fat": 22,
+      "fibre": 2
+    }
+  },
+  {
+    "slug": "classic-baked-oats",
+    "techniqueSource": "https://www.bbcgoodfood.com/recipes/classic-baked-oats",
+    "adaptation": "Selects source blueberry and honey options; banana specified as 100 g edible fruit and greasing oil as 5 g. Publisher chocolate-chip nutrition not used.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "rolled oats",
+        "grams": 100,
+        "afcdId": "F006143",
+        "referenceId": "F006143",
+        "referenceName": "Oats, rolled, uncooked"
+      },
+      {
+        "ingredient": "baking powder",
+        "grams": 4,
+        "afcdId": "F000247",
+        "referenceId": "F000247",
+        "referenceName": "Baking powder, dry powder"
+      },
+      {
+        "ingredient": "banana",
+        "grams": 100,
+        "afcdId": "F000262",
+        "referenceId": "F000262",
+        "referenceName": "Banana, cavendish, peeled, raw"
+      },
+      {
+        "ingredient": "honey",
+        "grams": 20,
+        "afcdId": "F004380",
+        "referenceId": "F004380",
+        "referenceName": "Honey"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 100,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      },
+      {
+        "ingredient": "ground cinnamon",
+        "grams": 1,
+        "afcdId": "F002963",
+        "referenceId": "F002963",
+        "referenceName": "Cinnamon, dried, ground"
+      },
+      {
+        "ingredient": "blueberries",
+        "grams": 100,
+        "afcdId": "F001290",
+        "referenceId": "F001290",
+        "referenceName": "Blueberry, raw"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 5,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 26.832,
+      "calories": 750.6572657743786,
+      "carbs": 100.62700000000002,
+      "fat": 23.219,
+      "fibre": 15.247000000000002
+    },
+    "roundedPerServing": {
+      "protein": 7,
+      "calories": 190,
+      "carbs": 25,
+      "fat": 6,
+      "fibre": 4
+    }
+  },
+  {
+    "slug": "air-fryer-baked-leek-and-mushroom-orzo",
+    "techniqueSource": "https://thehappyfoodie.co.uk/recipes/air-fryer-baked-leek-and-mushroom-orzo/",
+    "adaptation": "Plain cream cheese plus spring onion replaces chive cheese; water replaces stock. Unspecified spray fixed at 5 g oil, leek at 120 g; dry wheat-pasta AFCD profile used.",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "dry wheat orzo pasta",
+        "grams": 150,
+        "afcdId": "F006458",
+        "referenceId": "F006458",
+        "referenceName": "Pasta, white wheat flour, dry"
+      },
+      {
+        "ingredient": "button mushrooms",
+        "grams": 100,
+        "afcdId": "F005946",
+        "referenceId": "F005946",
+        "referenceName": "Mushroom, common, fresh, raw"
+      },
+      {
+        "ingredient": "cream cheese",
+        "grams": 80,
+        "afcdId": "F002444",
+        "referenceId": "F002444",
+        "referenceName": "Cheese, cream, plain"
+      },
+      {
+        "ingredient": "leeks",
+        "grams": 120,
+        "afcdId": "F005164",
+        "referenceId": "F005164",
+        "referenceName": "Leek, fresh, raw"
+      },
+      {
+        "ingredient": "vegetarian hard cheese",
+        "grams": 15,
+        "afcdId": "F002479",
+        "referenceId": "F002479",
+        "referenceName": "Cheese, parmesan, fresh, regular fat"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 5,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "spring onion",
+        "grams": 10,
+        "afcdId": "F006250",
+        "referenceId": "F006250",
+        "referenceName": "Onion, spring, fresh, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 34.94,
+      "calories": 961.472275334608,
+      "carbs": 109.08999999999999,
+      "fat": 39.565000000000005,
+      "fibre": 10.110000000000001
+    },
+    "roundedPerServing": {
+      "protein": 17,
+      "calories": 480,
+      "carbs": 55,
+      "fat": 20,
+      "fibre": 5
+    }
+  },
+  {
+    "slug": "air-fryer-leeks",
+    "techniqueSource": "https://www.throughthefibrofog.com/air-fryer-leeks/",
+    "adaptation": "Source cup of leeks specified as 180 g edible input; thyme and fresh garlic replace herb blend and powder. No source dietary-health claims carried over.",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "leeks",
+        "grams": 180,
+        "afcdId": "F005164",
+        "referenceId": "F005164",
+        "referenceName": "Leek, fresh, raw"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 5,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "dried thyme",
+        "grams": 1,
+        "afcdId": "F009160",
+        "referenceId": "F009160",
+        "referenceName": "Thyme, dried, ground"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 3,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 3.1540000000000004,
+      "calories": 105.79110898661567,
+      "carbs": 7.955,
+      "fat": 5.513000000000001,
+      "fibre": 6.457
+    },
+    "roundedPerServing": {
+      "protein": 2,
+      "calories": 55,
+      "carbs": 4,
+      "fat": 3,
+      "fibre": 3
+    }
+  },
+  {
+    "slug": "air-fryer-polenta-fries",
+    "techniqueSource": "https://blog.giallozafferano.com/tastycorner/recipe-crispy-air-fryer-polenta-fries/",
+    "adaptation": "Uses the source 80 g dry-polenta option and counts 14 g oil. Water has no macronutrients; hydration changes final weight. Includes five-hour chilling time.",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "dry instant polenta",
+        "grams": 80,
+        "afcdId": "F003230",
+        "referenceId": "F003230",
+        "referenceName": "Cornmeal (polenta), uncooked"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 14,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 6.800000000000001,
+      "calories": 395.33938814531547,
+      "carbs": 56.0,
+      "fat": 15.346000000000002,
+      "fibre": 2.4000000000000004
+    },
+    "roundedPerServing": {
+      "protein": 3,
+      "calories": 200,
+      "carbs": 28,
+      "fat": 8,
+      "fibre": 1
+    }
+  },
+  {
+    "slug": "pesto-mozzarella-gnocchi",
+    "techniqueSource": "https://www.easycheesyvegetarian.com/air-fryer-gnocchi/",
+    "adaptation": "Three meal portions replace source two. Gnocchi uses named San Remo uncooked product label; remaining ingredients AFCD. Produce and pesto fixed to gram weights; publisher macros rejected.",
+    "servings": 3,
+    "ingredientMatches": [
+      {
+        "ingredient": "San Remo fresh potato gnocchi",
+        "grams": 500,
+        "afcdId": null,
+        "referenceId": "LABEL_SANREMO_GNOCCHI",
+        "referenceName": "San Remo Fresh Gnocchi, uncooked"
+      },
+      {
+        "ingredient": "mozzarella",
+        "grams": 250,
+        "afcdId": "F002472",
+        "referenceId": "F002472",
+        "referenceName": "Cheese, mozzarella"
+      },
+      {
+        "ingredient": "button mushrooms",
+        "grams": 120,
+        "afcdId": "F005946",
+        "referenceId": "F005946",
+        "referenceName": "Mushroom, common, fresh, raw"
+      },
+      {
+        "ingredient": "tomato pasta sauce",
+        "grams": 340,
+        "afcdId": "F008050",
+        "referenceId": "F008050",
+        "referenceName": "Sauce, pasta, tomato-based, commercial, heated"
+      },
+      {
+        "ingredient": "green capsicum",
+        "grams": 150,
+        "afcdId": "F002239",
+        "referenceId": "F002239",
+        "referenceName": "Capsicum, green, fresh, raw"
+      },
+      {
+        "ingredient": "red onion",
+        "grams": 120,
+        "afcdId": "F009800",
+        "referenceId": "F009800",
+        "referenceName": "Onion, mature, red skinned, raw"
+      },
+      {
+        "ingredient": "vegetarian basil pesto",
+        "grams": 30,
+        "afcdId": "F008029",
+        "referenceId": "F008029",
+        "referenceName": "Sauce, pasta, basil pesto, commercial"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 79.97999999999999,
+      "calories": 1971.1520076481834,
+      "carbs": 222.53,
+      "fat": 76.44,
+      "fibre": null
+    },
+    "roundedPerServing": {
+      "protein": 27,
+      "calories": 655,
+      "carbs": 74,
+      "fat": 25,
+      "fibre": null
+    }
+  },
+  {
+    "slug": "air-fryer-black-bean-burgers",
+    "techniqueSource": "https://www.splashoftaste.com/air-fryer-black-bean-burger/",
+    "adaptation": "Woolworths drained-bean label plus AFCD ingredients. Soy replaces vegetarian Worcestershire; explicit gram quantities replace cup measures. Three portions of two patties, two batches included.",
+    "servings": 3,
+    "ingredientMatches": [
+      {
+        "ingredient": "drained Woolworths canned black beans",
+        "grams": 510,
+        "afcdId": null,
+        "referenceId": "LABEL_WOOLWORTHS_BLACK_BEANS",
+        "referenceName": "Woolworths Black Beans, drained serving"
+      },
+      {
+        "ingredient": "brown onion",
+        "grams": 50,
+        "afcdId": "F006225",
+        "referenceId": "F006225",
+        "referenceName": "Onion, mature, brown skinned, peeled, raw"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 10,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "soy sauce",
+        "grams": 15,
+        "afcdId": "F008065",
+        "referenceId": "F008065",
+        "referenceName": "Sauce, soy, commercial"
+      },
+      {
+        "ingredient": "ground cumin",
+        "grams": 2,
+        "afcdId": "F003327",
+        "referenceId": "F003327",
+        "referenceName": "Cumin (cummin) seed, dried, ground"
+      },
+      {
+        "ingredient": "paprika",
+        "grams": 2,
+        "afcdId": "F006316",
+        "referenceId": "F006316",
+        "referenceName": "Paprika, dry powder"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 50,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      },
+      {
+        "ingredient": "dry breadcrumbs",
+        "grams": 70,
+        "afcdId": "F001683",
+        "referenceId": "F001683",
+        "referenceName": "Breadcrumbs, white"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 10,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 59.30799999999999,
+      "calories": 1023.7595602294455,
+      "carbs": 124.95600000000002,
+      "fat": 22.174,
+      "fibre": 40.187999999999995
+    },
+    "roundedPerServing": {
+      "protein": 20,
+      "calories": 340,
+      "carbs": 42,
+      "fat": 7,
+      "fibre": 13
+    }
+  },
+  {
+    "slug": "bbq-lentil-mushroom-balls",
+    "techniqueSource": "https://veganyackattack.com/2018/04/04/bbq-lentil-meatballs/",
+    "adaptation": "Fresh mushrooms replace dried; water replaces stock, soy replaces vegan Worcestershire. Source cups converted to specified weights. Includes all sauce and two batches. Wheat gluten is essential and is not plain flour.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "dry green lentils",
+        "grams": 190,
+        "afcdId": "F005181",
+        "referenceId": "F005181",
+        "referenceName": "Lentil, green, hulled, dry"
+      },
+      {
+        "ingredient": "button mushrooms",
+        "grams": 100,
+        "afcdId": "F005946",
+        "referenceId": "F005946",
+        "referenceName": "Mushroom, common, fresh, raw"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 25,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "brown onion",
+        "grams": 150,
+        "afcdId": "F006225",
+        "referenceId": "F006225",
+        "referenceName": "Onion, mature, brown skinned, peeled, raw"
+      },
+      {
+        "ingredient": "tomato paste",
+        "grams": 15,
+        "afcdId": "F009208",
+        "referenceId": "F009208",
+        "referenceName": "Tomato, paste, with added salt"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 5,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "vital wheat gluten",
+        "grams": 60,
+        "afcdId": "F004220",
+        "referenceId": "F004220",
+        "referenceName": "Gluten, from wheat (vital wheat gluten)"
+      },
+      {
+        "ingredient": "barbecue sauce",
+        "grams": 280,
+        "afcdId": "F007987",
+        "referenceId": "F007987",
+        "referenceName": "Sauce, barbecue, commercial"
+      },
+      {
+        "ingredient": "soy sauce",
+        "grams": 15,
+        "afcdId": "F008065",
+        "referenceId": "F008065",
+        "referenceName": "Sauce, soy, commercial"
+      },
+      {
+        "ingredient": "fresh parsley",
+        "grams": 3,
+        "afcdId": "F006321",
+        "referenceId": "F006321",
+        "referenceName": "Parsley, continental, fresh, raw"
+      },
+      {
+        "ingredient": "paprika",
+        "grams": 2,
+        "afcdId": "F006316",
+        "referenceId": "F006316",
+        "referenceName": "Paprika, dry powder"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 101.769,
+      "calories": 1633.047323135755,
+      "carbs": 216.255,
+      "fat": 29.749000000000006,
+      "fibre": 37.687999999999995
+    },
+    "roundedPerServing": {
+      "protein": 25,
+      "calories": 410,
+      "carbs": 54,
+      "fat": 7,
+      "fibre": 9
+    }
+  },
+  {
+    "slug": "air-fryer-zucchini-boats",
+    "techniqueSource": "https://brooklynactivemama.com/air-fryer-veggie-stuffed-zucchini-boats/",
+    "adaptation": "Source produce sizes specified in grams; cheddar replaces Mexican cheese blend. Fixed 5 g oil. Two main-side portions; source 390 F rounded to 200 C.",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "zucchini",
+        "grams": 400,
+        "afcdId": "F009775",
+        "referenceId": "F009775",
+        "referenceName": "Zucchini, green skin, fresh, unpeeled, raw"
+      },
+      {
+        "ingredient": "tomatoes",
+        "grams": 100,
+        "afcdId": "F009193",
+        "referenceId": "F009193",
+        "referenceName": "Tomato, common, raw"
+      },
+      {
+        "ingredient": "green capsicum",
+        "grams": 150,
+        "afcdId": "F002239",
+        "referenceId": "F002239",
+        "referenceName": "Capsicum, green, fresh, raw"
+      },
+      {
+        "ingredient": "fresh red chilli",
+        "grams": 20,
+        "afcdId": "F002901",
+        "referenceId": "F002901",
+        "referenceName": "Chilli (chili), red, raw"
+      },
+      {
+        "ingredient": "vegetarian cheddar",
+        "grams": 60,
+        "afcdId": "F002414",
+        "referenceId": "F002414",
+        "referenceName": "Cheese, cheddar, natural, regular fat"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 5,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "paprika",
+        "grams": 2,
+        "afcdId": "F006316",
+        "referenceId": "F006316",
+        "referenceName": "Paprika, dry powder"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 5,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 21.576999999999998,
+      "calories": 415.81500956022944,
+      "carbs": 17.582000000000004,
+      "fat": 26.373,
+      "fibre": 10.333
+    },
+    "roundedPerServing": {
+      "protein": 11,
+      "calories": 210,
+      "carbs": 9,
+      "fat": 13,
+      "fibre": 5
+    }
+  },
+  {
+    "slug": "air-fryer-portobello-burgers",
+    "techniqueSource": "https://www.secondrecipe.com/air-fryer-mushroom-burgers/",
+    "adaptation": "Large flat field mushrooms use AFCD button-mushroom profile. Unspecified source oil and garlic fixed at 10 g each; all produce and rolls weighed. Ten-minute empty preheat replaced with normal appliance preheat.",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "button mushrooms",
+        "grams": 300,
+        "afcdId": "F005946",
+        "referenceId": "F005946",
+        "referenceName": "Mushroom, common, fresh, raw"
+      },
+      {
+        "ingredient": "brown onion",
+        "grams": 80,
+        "afcdId": "F006225",
+        "referenceId": "F006225",
+        "referenceName": "Onion, mature, brown skinned, peeled, raw"
+      },
+      {
+        "ingredient": "tomatoes",
+        "grams": 120,
+        "afcdId": "F009193",
+        "referenceId": "F009193",
+        "referenceName": "Tomato, common, raw"
+      },
+      {
+        "ingredient": "avocado flesh",
+        "grams": 75,
+        "afcdId": "F000162",
+        "referenceId": "F000162",
+        "referenceName": "Avocado, hass, raw"
+      },
+      {
+        "ingredient": "cos lettuce",
+        "grams": 30,
+        "afcdId": "F005191",
+        "referenceId": "F005191",
+        "referenceName": "Lettuce, cos, raw"
+      },
+      {
+        "ingredient": "white bread rolls",
+        "grams": 140,
+        "afcdId": "F001353",
+        "referenceId": "F001353",
+        "referenceName": "Bread roll, from white flour"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 10,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 10,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 23.55,
+      "calories": 701.015774378585,
+      "carbs": 76.28999999999999,
+      "fat": 27.740000000000002,
+      "fibre": 18.215
+    },
+    "roundedPerServing": {
+      "protein": 12,
+      "calories": 350,
+      "carbs": 38,
+      "fat": 14,
+      "fibre": 9
+    }
+  },
+  {
+    "slug": "chickpea-scotch-eggs",
+    "techniqueSource": "https://abundantborders.org.uk/wp-content/uploads/2024/08/Air-fryer-vegetarian-scotch-eggs.pdf",
+    "adaptation": "400 g source can interpreted as 240 g drained chickpeas. Nine large eggs specified as 450 g shelled weight. Source two onions specified as 200 g. Includes egg cook, cooling and two final batches.",
+    "servings": 4,
+    "ingredientMatches": [
+      {
+        "ingredient": "eggs",
+        "grams": 450,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 14,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "brown onion",
+        "grams": 200,
+        "afcdId": "F006225",
+        "referenceId": "F006225",
+        "referenceName": "Onion, mature, brown skinned, peeled, raw"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 10,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "ground cumin",
+        "grams": 6,
+        "afcdId": "F003327",
+        "referenceId": "F003327",
+        "referenceName": "Cumin (cummin) seed, dried, ground"
+      },
+      {
+        "ingredient": "ground coriander",
+        "grams": 6,
+        "afcdId": "F003190",
+        "referenceId": "F003190",
+        "referenceName": "Coriander seed, dried, ground"
+      },
+      {
+        "ingredient": "dry breadcrumbs",
+        "grams": 250,
+        "afcdId": "F001683",
+        "referenceId": "F001683",
+        "referenceName": "Breadcrumbs, white"
+      },
+      {
+        "ingredient": "drained canned chickpeas",
+        "grams": 240,
+        "afcdId": "F002880",
+        "referenceId": "F002880",
+        "referenceName": "Chickpea, canned, drained"
+      },
+      {
+        "ingredient": "plain flour",
+        "grams": 40,
+        "afcdId": "F004007",
+        "referenceId": "F004007",
+        "referenceName": "Flour, wheat, white, plain"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 115.842,
+      "calories": 2187.323135755258,
+      "carbs": 248.946,
+      "fat": 70.732,
+      "fibre": 35.744
+    },
+    "roundedPerServing": {
+      "protein": 29,
+      "calories": 545,
+      "carbs": 62,
+      "fat": 18,
+      "fibre": 9
+    }
+  },
+  {
+    "slug": "air-fryer-soy-chunk-popcorn",
+    "techniqueSource": "https://www.secondrecipe.com/air-fryer-vegan-popcorn-chicken/",
+    "adaptation": "AFCD dry textured-soy profile used for plain soy chunks. Stock powder and onion powder omitted; fresh garlic and paprika added after draining. All measured oil and coating counted; dipping sauce excluded.",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "dry textured soy chunks",
+        "grams": 100,
+        "afcdId": "F009147",
+        "referenceId": "F009147",
+        "referenceName": "Textured vegetable protein/soy granules"
+      },
+      {
+        "ingredient": "maize cornflour",
+        "grams": 20,
+        "afcdId": "F003988",
+        "referenceId": "F003988",
+        "referenceName": "Flour, cornflour, from maize starch"
+      },
+      {
+        "ingredient": "soy sauce",
+        "grams": 30,
+        "afcdId": "F008065",
+        "referenceId": "F008065",
+        "referenceName": "Sauce, soy, commercial"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 10,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "paprika",
+        "grams": 2,
+        "afcdId": "F006316",
+        "referenceId": "F006316",
+        "referenceName": "Paprika, dry powder"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 27,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 54.51199999999999,
+      "calories": 661.8953154875717,
+      "carbs": 34.382,
+      "fat": 28.831000000000003,
+      "fibre": 19.888
+    },
+    "roundedPerServing": {
+      "protein": 27,
+      "calories": 330,
+      "carbs": 17,
+      "fat": 14,
+      "fibre": 10
+    }
+  },
+  {
+    "slug": "white-bean-polenta-bruschetta",
+    "techniqueSource": "https://www.kathysvegankitchen.com/fried-polenta/",
+    "adaptation": "Regular vegetarian feta and dairy milk replace vegan products; two meal portions replace four. Haricot beans specified at 240 g cooked drained weight. Vinegar plus honey replaces glaze. Polenta must be cooked and chilled before starting.",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "plain cooked polenta",
+        "grams": 400,
+        "afcdId": "F003227",
+        "referenceId": "F003227",
+        "referenceName": "Cornmeal (polenta), boiled, no added fat or salt"
+      },
+      {
+        "ingredient": "cherry tomatoes",
+        "grams": 300,
+        "afcdId": "F009190",
+        "referenceId": "F009190",
+        "referenceName": "Tomato, cherry, raw"
+      },
+      {
+        "ingredient": "cooked drained haricot beans",
+        "grams": 240,
+        "afcdId": "F000437",
+        "referenceId": "F000437",
+        "referenceName": "Bean, haricot, dried, boiled, drained"
+      },
+      {
+        "ingredient": "red onion",
+        "grams": 30,
+        "afcdId": "F009800",
+        "referenceId": "F009800",
+        "referenceName": "Onion, mature, red skinned, raw"
+      },
+      {
+        "ingredient": "drained olives",
+        "grams": 35,
+        "afcdId": "F006198",
+        "referenceId": "F006198",
+        "referenceName": "Olive, green or black, drained"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 15,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "fresh basil",
+        "grams": 10,
+        "afcdId": "F000396",
+        "referenceId": "F000396",
+        "referenceName": "Basil, green, fresh, raw"
+      },
+      {
+        "ingredient": "fresh parsley",
+        "grams": 10,
+        "afcdId": "F006321",
+        "referenceId": "F006321",
+        "referenceName": "Parsley, continental, fresh, raw"
+      },
+      {
+        "ingredient": "white vinegar",
+        "grams": 20,
+        "afcdId": "F009498",
+        "referenceId": "F009498",
+        "referenceName": "Vinegar (except balsamic vinegar)"
+      },
+      {
+        "ingredient": "honey",
+        "grams": 10,
+        "afcdId": "F004380",
+        "referenceId": "F004380",
+        "referenceName": "Honey"
+      },
+      {
+        "ingredient": "vegetarian feta",
+        "grams": 75,
+        "afcdId": "F002452",
+        "referenceId": "F002452",
+        "referenceName": "Cheese, fetta (feta)"
+      },
+      {
+        "ingredient": "whole milk",
+        "grams": 30,
+        "afcdId": "F005634",
+        "referenceId": "F005634",
+        "referenceName": "Milk, cow, fluid, regular fat (~3.5%)"
+      },
+      {
+        "ingredient": "dried oregano",
+        "grams": 2,
+        "afcdId": "F006281",
+        "referenceId": "F006281",
+        "referenceName": "Oregano, dried"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 49.405,
+      "calories": 1116.1018164435945,
+      "carbs": 142.92800000000003,
+      "fat": 28.371,
+      "fibre": 36.095
+    },
+    "roundedPerServing": {
+      "protein": 25,
+      "calories": 560,
+      "carbs": 71,
+      "fat": 14,
+      "fibre": 18
+    }
+  },
+  {
+    "slug": "air-fryer-cornbread-muffins",
+    "techniqueSource": "https://www.sustainablecooks.com/air-fryer-cornbread/",
+    "adaptation": "Source cup measures replaced by explicit weights. Yoghurt and milk replace buttermilk; full nutrients recalculated. Eighteen small muffins, three six-muffin batches. All greasing oil counted.",
+    "servings": 18,
+    "ingredientMatches": [
+      {
+        "ingredient": "dry instant polenta",
+        "grams": 160,
+        "afcdId": "F003230",
+        "referenceId": "F003230",
+        "referenceName": "Cornmeal (polenta), uncooked"
+      },
+      {
+        "ingredient": "plain flour",
+        "grams": 125,
+        "afcdId": "F004007",
+        "referenceId": "F004007",
+        "referenceName": "Flour, wheat, white, plain"
+      },
+      {
+        "ingredient": "baking powder",
+        "grams": 12,
+        "afcdId": "F000247",
+        "referenceId": "F000247",
+        "referenceName": "Baking powder, dry powder"
+      },
+      {
+        "ingredient": "bicarbonate of soda",
+        "grams": 5,
+        "afcdId": "F000248",
+        "referenceId": "F000248",
+        "referenceName": "Baking soda (bicarbonate), dry powder"
+      },
+      {
+        "ingredient": "butter",
+        "grams": 85,
+        "afcdId": "F001973",
+        "referenceId": "F001973",
+        "referenceName": "Butter, plain, salted"
+      },
+      {
+        "ingredient": "natural yoghurt",
+        "grams": 120,
+        "afcdId": "F009694",
+        "referenceId": "F009694",
+        "referenceName": "Yoghurt, natural, regular fat (~3%)"
+      },
+      {
+        "ingredient": "whole milk",
+        "grams": 120,
+        "afcdId": "F005634",
+        "referenceId": "F005634",
+        "referenceName": "Milk, cow, fluid, regular fat (~3.5%)"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 100,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      },
+      {
+        "ingredient": "honey",
+        "grams": 85,
+        "afcdId": "F004380",
+        "referenceId": "F004380",
+        "referenceName": "Honey"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 5,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 50.066,
+      "calories": 2192.0004780114723,
+      "carbs": 280.621,
+      "fat": 95.66600000000001,
+      "fibre": 7.718000000000001
+    },
+    "roundedPerServing": {
+      "protein": 3,
+      "calories": 120,
+      "carbs": 16,
+      "fat": 5,
+      "fibre": 0
+    }
+  },
+  {
+    "slug": "air-fryer-pumpkin-custard-pie",
+    "techniqueSource": "https://lianaskitchen.co.uk/air-fryer-pumpkin-pie/",
+    "adaptation": "Source unweighed pre-baked case specified as 180 g; cooked plain pumpkin specified rather than sweetened pie filling. Thickened cream replaces double cream. Pastry included in recalculation; not the source incomplete calorie estimate.",
+    "servings": 8,
+    "ingredientMatches": [
+      {
+        "ingredient": "plain cooked mashed butternut pumpkin",
+        "grams": 300,
+        "afcdId": "F007534",
+        "referenceId": "F007534",
+        "referenceName": "Pumpkin, butternut, peeled, fresh, boiled, drained"
+      },
+      {
+        "ingredient": "eggs",
+        "grams": 50,
+        "afcdId": "F003729",
+        "referenceId": "F003729",
+        "referenceName": "Egg, chicken, whole, raw"
+      },
+      {
+        "ingredient": "brown sugar",
+        "grams": 50,
+        "afcdId": "F008969",
+        "referenceId": "F008969",
+        "referenceName": "Sugar, brown"
+      },
+      {
+        "ingredient": "thickened cream",
+        "grams": 50,
+        "afcdId": "F003270",
+        "referenceId": "F003270",
+        "referenceName": "Cream, thickened, regular fat (~35%)"
+      },
+      {
+        "ingredient": "vanilla extract",
+        "grams": 2.5,
+        "afcdId": "F009350",
+        "referenceId": "F009350",
+        "referenceName": "Vanilla bean extract"
+      },
+      {
+        "ingredient": "ground cinnamon",
+        "grams": 1.5,
+        "afcdId": "F002963",
+        "referenceId": "F002963",
+        "referenceName": "Cinnamon, dried, ground"
+      },
+      {
+        "ingredient": "ground ginger",
+        "grams": 1,
+        "afcdId": "F004210",
+        "referenceId": "F004210",
+        "referenceName": "Ginger, dried, ground"
+      },
+      {
+        "ingredient": "ground nutmeg",
+        "grams": 1,
+        "afcdId": "F006118",
+        "referenceId": "F006118",
+        "referenceName": "Nutmeg, dried, ground"
+      },
+      {
+        "ingredient": "pre-baked shortcrust pastry case",
+        "grams": 180,
+        "afcdId": "F006506",
+        "referenceId": "F006506",
+        "referenceName": "Pastry, shortcrust style, commercial, baked"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 28.2505,
+      "calories": 1446.3444072657744,
+      "carbs": 163.6575,
+      "fat": 71.7055,
+      "fibre": 20.8855
+    },
+    "roundedPerServing": {
+      "protein": 4,
+      "calories": 180,
+      "carbs": 20,
+      "fat": 9,
+      "fibre": 3
+    }
+  },
+  {
+    "slug": "air-fryer-tofu-vegetable-stir-fry",
+    "techniqueSource": "https://recipethis.com/air-fryer-stir-fry/",
+    "adaptation": "Source expressly suggests tofu and fresh thin-cut vegetables with the same temperature schedule. Explicit fresh vegetables, tofu and measured oil replace the generic frozen mix; ginger-garlic-soy replaces five-spice. All nutrients recalculated; one uncrowded batch assumed.",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "firm tofu",
+        "grams": 300,
+        "afcdId": "F009176",
+        "referenceId": "F009176",
+        "referenceName": "Tofu (soy bean curd), firm, as purchased"
+      },
+      {
+        "ingredient": "green capsicum",
+        "grams": 100,
+        "afcdId": "F002239",
+        "referenceId": "F002239",
+        "referenceName": "Capsicum, green, fresh, raw"
+      },
+      {
+        "ingredient": "button mushrooms",
+        "grams": 80,
+        "afcdId": "F005946",
+        "referenceId": "F005946",
+        "referenceName": "Mushroom, common, fresh, raw"
+      },
+      {
+        "ingredient": "carrots",
+        "grams": 70,
+        "afcdId": "F002276",
+        "referenceId": "F002276",
+        "referenceName": "Carrot, mature, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 10,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "soy sauce",
+        "grams": 20,
+        "afcdId": "F008065",
+        "referenceId": "F008065",
+        "referenceName": "Sauce, soy, commercial"
+      },
+      {
+        "ingredient": "fresh ginger",
+        "grams": 10,
+        "afcdId": "F004213",
+        "referenceId": "F004213",
+        "referenceName": "Ginger, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 5,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 43.225,
+      "calories": 559.5841300191207,
+      "carbs": 9.39,
+      "fat": 35.71,
+      "fibre": 8.985
+    },
+    "roundedPerServing": {
+      "protein": 22,
+      "calories": 280,
+      "carbs": 5,
+      "fat": 18,
+      "fibre": 4
+    }
+  },
+  {
+    "slug": "crispy-rice-cucumber-peanut-salad",
+    "techniqueSource": "https://www.redsunfarms.com/public/recipes/crispy-rice-air-fryer-salad",
+    "adaptation": "Grower source air-fries cooked rice at 200\u00b0C for 7\u20139 minutes. Original vegetarian adaptation: soy replaces fish sauce, fresh chilli-garlic-ginger replaces curry paste, and measured peeled lime replaces an unspecified lime yield. Oil allocation clarified, all ingredients weighed and nutrients recalculated. Rice cooking and cooling must be done beforehand.",
+    "servings": 2,
+    "ingredientMatches": [
+      {
+        "ingredient": "cooked white rice",
+        "grams": 300,
+        "afcdId": "F007661",
+        "referenceId": "F007661",
+        "referenceName": "Rice, white, boiled or rice cooker, no added salt"
+      },
+      {
+        "ingredient": "olive oil",
+        "grams": 25,
+        "afcdId": "F006177",
+        "referenceId": "F006177",
+        "referenceName": "Oil, olive"
+      },
+      {
+        "ingredient": "cucumber",
+        "grams": 300,
+        "afcdId": "F003320",
+        "referenceId": "F003320",
+        "referenceName": "Cucumber, common, unpeeled, raw"
+      },
+      {
+        "ingredient": "red onion",
+        "grams": 40,
+        "afcdId": "F009800",
+        "referenceId": "F009800",
+        "referenceName": "Onion, mature, red skinned, raw"
+      },
+      {
+        "ingredient": "fresh coriander",
+        "grams": 15,
+        "afcdId": "F003192",
+        "referenceId": "F003192",
+        "referenceName": "Coriander, fresh, raw"
+      },
+      {
+        "ingredient": "fresh mint",
+        "grams": 10,
+        "afcdId": "F005700",
+        "referenceId": "F005700",
+        "referenceName": "Mint, fresh, raw"
+      },
+      {
+        "ingredient": "raw unsalted peanuts",
+        "grams": 50,
+        "afcdId": "F006107",
+        "referenceId": "F006107",
+        "referenceName": "Nut, peanut, with skin, raw, unsalted"
+      },
+      {
+        "ingredient": "soy sauce",
+        "grams": 30,
+        "afcdId": "F008065",
+        "referenceId": "F008065",
+        "referenceName": "Sauce, soy, commercial"
+      },
+      {
+        "ingredient": "peeled lime flesh",
+        "grams": 50,
+        "afcdId": "F005199",
+        "referenceId": "F005199",
+        "referenceName": "Lime, peeled, raw"
+      },
+      {
+        "ingredient": "brown sugar",
+        "grams": 15,
+        "afcdId": "F008969",
+        "referenceId": "F008969",
+        "referenceName": "Sugar, brown"
+      },
+      {
+        "ingredient": "fresh ginger",
+        "grams": 15,
+        "afcdId": "F004213",
+        "referenceId": "F004213",
+        "referenceName": "Ginger, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "garlic",
+        "grams": 10,
+        "afcdId": "F004193",
+        "referenceId": "F004193",
+        "referenceName": "Garlic, peeled, fresh, raw"
+      },
+      {
+        "ingredient": "fresh red chilli",
+        "grams": 10,
+        "afcdId": "F002901",
+        "referenceId": "F002901",
+        "referenceName": "Chilli (chili), red, raw"
+      }
+    ],
+    "totalsBeforeDivision": {
+      "protein": 28.485000000000003,
+      "calories": 1140.7146271510514,
+      "carbs": 133.375,
+      "fat": 50.085,
+      "fibre": 17.25
+    },
+    "roundedPerServing": {
+      "protein": 14,
+      "calories": 570,
+      "carbs": 67,
+      "fat": 25,
+      "fibre": 9
+    }
+  }
+]

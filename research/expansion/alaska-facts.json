@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-10-11",
+  "publisher": "Alaska Seafood Marketing Institute",
+  "verification": "Individual pages opened with web tool, full ingredients/method viewed. Robots fetched curl200: User-agent * Disallow empty. Collection automatedrequest403 not retried. Terms examined: media/photo use conditional; no images copied.",
+  "records": [
+    {
+      "title": "Harissa cod rice bowls",
+      "url": "https://www.alaskaseafood.org/recipe/harissa-alaska-cod-rice-bowls/",
+      "servings": 4,
+      "ingredientFacts": "Cod 680g; olive oil 30ml; harissa 60ml; cucumber 1; shallot 1; garlic 1 clove; lemon juice 30ml; yoghurt 120ml; coriander 60ml; naan 2; butter15ml; cooked basmati rice3cups.",
+      "techniqueReview": "200C; coated cod about10min. Cucumber salad and yoghurt dressing assembled separately; naan2min after fish. Source total40min. Recalculate AFCD after metric conversion. Bread/rice make this a full meal rather than sauce-only fish variant."
+    },
+    {
+      "title": "Olive-crusted cod and vegetables",
+      "url": "https://www.alaskaseafood.org/recipe/pacific-cod-in-an-olive-crust/",
+      "servings": 2,
+      "ingredientFacts": "Cod340g; tapenade30ml; panko30ml; parmesan30ml; carrot1; potato1; half red onion; broccoli1cup; olive oil15ml; mixed herbs5ml.",
+      "techniqueReview": "180C; vegetables15min shaking; then cod topped with tapenade and panko/parmesan15min to63C. Source total40min. Recalculate AFCD with explicit edible vegetable weights. Judge distinction from existing herb salmon and pesto hoki carefully."
+    },
+    {
+      "title": "Salmon with tahini couscous salad",
+      "url": "https://www.alaskaseafood.org/recipe/air-fried-alaska-salmon-with-israeli-salad-couscous/",
+      "servings": 4,
+      "ingredientFacts": "Frozen salmon fillets4x115-170g; olive oil30ml; lemon5ml; cumin2.5ml; dry couscous0.75cup; tahini30ml; lemon15ml; cumin1.25ml; tomatoes1cup; cucumber1.5cups; parsley0.5cup.",
+      "techniqueReview": "Preheat200C5min; frozen salmon4min at200C then coat and175C8-10min; cook couscous separately perpacket then mix with dressing and vegetables. Source total35min. Add63C internal endpoint and accurate total; no raw-fish washing instruction in adaptation."
+    },
+    {
+      "title": "Yoghurt salmon and rice-quinoa",
+      "url": "https://www.alaskaseafood.org/recipe/air-fried-yogurt-salmon-bites/",
+      "servings": 4,
+      "ingredientFacts": "Salmon454g; yoghurt120ml; ginger1US tablespoon; garlic2cloves; coriander0.25cup; lemonzest1; spiceblend15ml; cooked rice/quinoa2pouches; oliveoil30ml; onion0.25cup; rocket2cups; lemonjuicehalf.",
+      "techniqueReview": "Marinade30min refrigerated omitted from displayed25min total, must include it. Wipe excess marinade;175C6-8min salmon; microwavegrains; onion/rocketpanfinishing optional faithful. One distinct grain bowl only; do not also add seasoning-only salmon bite variations."
+    },
+    {
+      "title": "Char siu pollock noodles",
+      "url": "https://www.alaskaseafood.org/recipe/char-sui-alaska-pollock-noodle-bowls/",
+      "servings": 4,
+      "ingredientFacts": "Pollock567g; char siu80ml; ricevinegar30ml; chilli7.5ml; cooked yakisoba504g; cabbage2cups; carrot1; capsicum1cup; springonions4; coriander0.5cup. Dressing avocadooil45ml, mayo30ml, lime30ml, soy20ml, garlic1clove, sesameoil15ml,honey15ml,sriracha5-10ml.",
+      "techniqueReview": "Source230C12min after30minfridge marinade. Appliance model unknown: REJECT if basket cannot reach230C; do not invent200Ctime. Warm noodlesperpacket; saladvegetablesraw. Source60mintotal."
+    }
+  ],
+  "rejected": [
+    {
+      "url": "https://www.alaskaseafood.org/recipe/crispy-air-fried-alaska-pollock-chips/",
+      "reason": "Existing fish and chips concept; source displayed cook30min omits sequential fish10min."
+    },
+    {
+      "url": "https://www.alaskaseafood.org/recipe/hot-alaska-pollock-sandwich-by-chef-chris-cosentino/",
+      "reason": "Already have crumbedfishburger; seasoning change alone insufficient."
+    },
+    {
+      "url": "https://www.alaskaseafood.org/recipe/szechuan-alaska-salmon-bites-and-garlicky-green-beans/",
+      "reason": "Viable200C6-8minsalmon and6minbeans but avoid additional glazed-bitesconcept alreadypresent."
+    }
+  ]
+}

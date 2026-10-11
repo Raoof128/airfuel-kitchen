@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://www.supergoldenbakes.com/privacy-policy/",
+    "decision": "Excluded host: explicit automated-access/text-data-mining ban. No recipe facts retained."
+  },
+  {
+    "url": "https://www.forksoverknives.com/forks-over-knives-terms-of-use/",
+    "decision": "Excluded host: sections2(b)2(c) automated retrieval/dataset creation ban. No recipe facts retained."
+  },
+  {
+    "url": "https://silverhillsbakery.ca/website-terms-of-use/",
+    "decision": "Excluded host: automated-process access ban. No recipe facts retained."
+  },
+  {
+    "url": "https://www.indianveggiedelight.com/aloo-tikki/",
+    "decision": "No verified air-fryer method in individual source; not included."
+  },
+  {
+    "url": "https://www.indianveggiedelight.com/maddur-vada/",
+    "decision": "Deep-fry method only in checked source; not included."
+  },
+  {
+    "url": "https://recipethis.com/air-fryer-pineapple/",
+    "decision": "Rotisserie oven technique not transferred to basket without evidence."
+  },
+  {
+    "url": "https://recipethis.com/air-fryer-crumpets/",
+    "decision": "Prepared-product reheating not used to pad distinct recipe count."
+  },
+  {
+    "url": "https://sandhyahariharan.co.uk/air-fryer-edamame/",
+    "decision": "Edible pod/bean nutrient weight ambiguity; suitable composition reference unresolved. Not included."
+  },
+  {
+    "url": "https://www.bbcgoodfood.com/recipes/smoky-white-bean-ricotta-traybake",
+    "decision": "Oven method rather than verified air-fryer method; not included."
+  },
+  {
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-courgette-feta-fritters",
+    "decision": "Existing canonical concept; no second variant added."
+  }
+]

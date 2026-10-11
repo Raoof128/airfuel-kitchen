@@ -1,0 +1,234 @@
+[
+  {
+    "name": "Air-fryer cauliflower popcorn with soured cream & herb dressing",
+    "sourceUrl": "https://www.bbcgoodfood.com/recipes/air-fryer-cauliflower-popcorn-with-soured-cream-herb-dressing",
+    "slug": "air-fryer-cauliflower-popcorn-with-soured-cream-herb-dressing",
+    "sha256": "84c46e5cc18630df268129217e949a6080434b9d821f0422b22aea998813b03a",
+    "recipeIngredient": [
+      "1 medium cauliflower (about 1kg)",
+      "125g plain flour",
+      "25g parmesan or vegetarian alternative, grated",
+      "1 tsp onion granules",
+      "\u00bd tsp dried oregano",
+      "1 tsp paprika",
+      "1 egg",
+      "150ml milk",
+      "80g panko breadcrumbs",
+      "olive oil for drizzling (optional)",
+      "150ml soured cream",
+      "pinch of  onion granules",
+      "10g chives chopped"
+    ],
+    "recipeYield": 4,
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "386 calories",
+      "fatContent": "14 grams fat",
+      "saturatedFatContent": "8 grams saturated fat",
+      "carbohydrateContent": "47 grams carbohydrates",
+      "sugarContent": "8 grams sugar",
+      "fiberContent": "5 grams fiber",
+      "proteinContent": "16 grams protein",
+      "sodiumContent": "0.6 milligram of sodium"
+    },
+    "prepTime": "PT20M",
+    "cookTime": "PT20M"
+  },
+  {
+    "name": "Air-fryer clementine & chilli halloumi skewers",
+    "sourceUrl": "https://www.bbcgoodfood.com/recipes/air-fryer-clementine-chilli-halloumi-skewers",
+    "slug": "air-fryer-clementine-chilli-halloumi-skewers",
+    "sha256": "49f90170cdd52b74aeaae03b5999648778324564f0846fce8e555f301da7a2db",
+    "recipeIngredient": [
+      "1 clementine zested and juiced",
+      "3 tbsp marmalade (clementine, if possible)",
+      "1 tbsp triple sec (optional)",
+      "chilli flakes to taste",
+      "2 tsp vegetable oil",
+      "2 x 250g packs halloumi",
+      "sweet chilli sauce or sriracha mayo, to serve"
+    ],
+    "recipeYield": "Makes 10",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "176 calories",
+      "fatContent": "12 grams fat",
+      "saturatedFatContent": "8 grams saturated fat",
+      "carbohydrateContent": "4 grams carbohydrates",
+      "sugarContent": "4 grams sugar",
+      "fiberContent": "0.1 grams fiber",
+      "proteinContent": "12 grams protein",
+      "sodiumContent": "1.6 milligram of sodium"
+    },
+    "prepTime": "PT20M",
+    "cookTime": "PT8M"
+  },
+  {
+    "name": "Air-fryer spring rolls",
+    "sourceUrl": "https://www.bbcgoodfood.com/recipes/air-fryer-spring-rolls",
+    "slug": "air-fryer-spring-rolls",
+    "sha256": "a46dd65a155a6705ec7611fca812b194bc34eb29540d7ca7bb9e65ec7165e1e7",
+    "recipeIngredient": [
+      "2 tbsp cornflour",
+      "1 tbsp dark soy sauce",
+      "1 tsp honey",
+      "1 tsp sesame oil",
+      "1 tbsp vegetable oil",
+      "450g mixed stir-fry vegetables (we used a mix of beansprouts, cabbage, carrots and peppers), any large pieces finely chopped",
+      "8 large or 16 small spring roll pastry sheets",
+      "2 tbsp vegetable oil",
+      "sweet chilli sauce for dipping"
+    ],
+    "recipeYield": "Makes 8",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "95 calories",
+      "fatContent": "5 grams fat",
+      "saturatedFatContent": "0.5 grams saturated fat",
+      "carbohydrateContent": "11 grams carbohydrates",
+      "sugarContent": "3 grams sugar",
+      "proteinContent": "1 grams protein",
+      "sodiumContent": "0.3 milligram of sodium"
+    },
+    "prepTime": "PT5M",
+    "cookTime": "PT30M"
+  },
+  {
+    "name": "Air fryer sweetcorn fritters",
+    "sourceUrl": "https://www.bbcgoodfood.com/recipes/air-fryer-sweetcorn-fritters",
+    "slug": "air-fryer-sweetcorn-fritters",
+    "sha256": "edb16bcf62e3b92b3de0075d5563af1f735b3fd809b7d9318870ae6f7d5d1588",
+    "recipeIngredient": [
+      "175g plain flour",
+      "1\u00bd tsp baking powder",
+      "\u00bd tsp garlic powder",
+      "1 tsp smoked paprika",
+      "100ml milk",
+      "2 eggs beaten",
+      "\u00bd small bunch of  parsley finely chopped",
+      "4 spring onions finely chopped",
+      "500g sweetcorn (see tip below)"
+    ],
+    "recipeYield": 12,
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "101 calories",
+      "fatContent": "2 grams fat",
+      "saturatedFatContent": "1 grams saturated fat",
+      "carbohydrateContent": "15 grams carbohydrates",
+      "sugarContent": "2 grams sugar",
+      "fiberContent": "2 grams fiber",
+      "proteinContent": "4 grams protein",
+      "sodiumContent": "0.2 milligram of sodium"
+    },
+    "prepTime": "PT15M",
+    "cookTime": "PT12M"
+  },
+  {
+    "name": "Green goddess bowl with crispy sesame tofu",
+    "sourceUrl": "https://www.bbcgoodfood.com/recipes/green-goddess-bowl-with-crispy-sesame-tofu",
+    "slug": "green-goddess-bowl-with-crispy-sesame-tofu",
+    "sha256": "2ac89e91b9c6d65b0cd48a7f18fca403455de6a1e65a8cfd62fcf62285ce021e",
+    "recipeIngredient": [
+      "1 tbsp soy sauce",
+      "1 egg beaten",
+      "3 tbsp flour",
+      "75g black and white sesame seeds",
+      "450g tofu thoroughly dried using kitchen paper, and cut into strips",
+      "2 x 250g pouches of   ready-cooked quinoa",
+      "\u00bd white cabbage shredded",
+      "160g edamame",
+      "1 green apple cut into matchsticks",
+      "chilli flakes to serve (optional)",
+      "1 avocado peeled and chopped",
+      "15g coriander",
+      "15g basil",
+      "100g thick Greek yogurt",
+      "1 lime zested and juiced"
+    ],
+    "recipeYield": 4,
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "749 calories",
+      "fatContent": "35 grams fat",
+      "saturatedFatContent": "7 grams saturated fat",
+      "carbohydrateContent": "64 grams carbohydrates",
+      "sugarContent": "10 grams sugar",
+      "fiberContent": "16 grams fiber",
+      "proteinContent": "36 grams protein",
+      "sodiumContent": "0.73 milligram of sodium"
+    },
+    "prepTime": "PT20M",
+    "cookTime": "PT20M"
+  },
+  {
+    "name": "Air Fryer Onion Rings",
+    "sourceUrl": "https://www.loveandlemons.com/air-fryer-onion-rings/",
+    "slug": "air-fryer-onion-rings",
+    "sha256": "5aa98d6262229432ccde5ef10adbbe0dc6d258ab3600214f9e8a7d85869b761f",
+    "recipeIngredient": [
+      "1\u00bc cups panko bread crumbs",
+      "\u00bd teaspoon garlic powder",
+      "\u00bd teaspoon onion powder",
+      "Heaping \u00bd teaspoon sea salt",
+      "2  large eggs",
+      "\u00bd cup all-purpose flour",
+      "1  yellow onion (sliced into \u00bd-inch rings)",
+      "Extra-virgin olive oil (for drizzling)",
+      "Tartar Sauce (optional, for dipping)"
+    ],
+    "recipeYield": [
+      "4"
+    ],
+    "nutrition": null,
+    "prepTime": "PT15M",
+    "cookTime": "PT10M"
+  },
+  {
+    "name": "Air Fryer Fried Pickles",
+    "sourceUrl": "https://www.loveandlemons.com/air-fryer-fried-pickles/",
+    "slug": "air-fryer-fried-pickles",
+    "sha256": "d24cdb61265c5348f0ddba902438cfa24a1fc26bc2993a2ec701ec31b4a9b881",
+    "recipeIngredient": [
+      "1  (16-ounce) jar dill pickle coins, drained",
+      "1  egg",
+      "1 cup panko breadcrumbs",
+      "Extra-virgin olive oil (for drizzling)",
+      "Remoulade sauce (for dipping)"
+    ],
+    "recipeYield": [
+      "6"
+    ],
+    "nutrition": null,
+    "prepTime": "PT15M",
+    "cookTime": "PT10M"
+  },
+  {
+    "name": "Air Fryer Eggplant",
+    "sourceUrl": "https://www.loveandlemons.com/air-fryer-eggplant/",
+    "slug": "air-fryer-eggplant",
+    "sha256": "07b7a2ba5b1062174b08386b54afa912b0fe58b9210d40fe0feb39312a94be62",
+    "recipeIngredient": [
+      "1  large globe eggplant (sliced into \u00bc-inch-thick rounds)",
+      "Sea salt (for sprinkling)",
+      "1  large egg*",
+      "\u00bd cup panko bread crumbs",
+      "\u00bd cup almond flour",
+      "\u00bc cup grated Parmesan cheese (pecorino cheese, or Vegan Parmesan)",
+      "\u00bd teaspoon sea salt",
+      "Freshly ground black pepper",
+      "Extra-virgin olive oil (for drizzling)",
+      "Cooked pasta",
+      "Tomato Sauce",
+      "Cashew Cream",
+      "Fresh basil leaves and/or chopped fresh parsley",
+      "Red pepper flakes"
+    ],
+    "recipeYield": [
+      "4"
+    ],
+    "nutrition": null,
+    "prepTime": "PT40M",
+    "cookTime": "PT20M"
+  }
+]

@@ -1,0 +1,37 @@
+node_modules/
+dist/
+.env
+.env.local
+*.tsbuildinfo
+test-results/
+playwright-report/
+.DS_Store
+__pycache__/
+*.pyc
+
+# Local tooling and agent scratch space
+.remember/
+.ruff_cache/
+scripts/frontend-audit/tmp/
+
+# Raw third-party captures used during research (publisher sitemaps, robots
+# files, URL discovery lists, the downloadable AFCD workbook). Authored records,
+# concise source facts and provenance stay in the repository.
+research/**/*sitemap*.xml
+research/**/*sitemap*.txt
+research/**/*robots*.txt
+research/**/my-articles.xml
+research/**/discovered*.txt
+research/**/ninja-discovered.txt
+research/**/my-recipes.txt
+research/**/candidates.txt
+research/**/AFCD-nutrients.xlsx
+
+# Full screenshot sweeps are large and reproducible with
+# scripts/frontend-audit/capture.mjs; a curated before/after set is committed.
+docs/frontend/screenshots/baseline/
+docs/frontend/screenshots/final/
+docs/frontend/screenshots/agents/
+docs/frontend/screenshots/redteam/
+docs/screenshots/upgrade-before/
+docs/screenshots/upgrade-after/

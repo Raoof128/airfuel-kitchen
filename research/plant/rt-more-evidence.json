@@ -1,0 +1,109 @@
+[
+  {
+    "sourceUrl": "https://recipethis.com/air-fryer-halloumi-greek-salad/",
+    "slug": "air-fryer-halloumi-greek-salad",
+    "sha256": "1457d9245d158189a4f2ceec0da412033f634dd617038ef1919b087ac23ee520",
+    "recipeYield": [
+      "2"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "575 kcal",
+      "carbohydrateContent": "11 g",
+      "proteinContent": "29 g",
+      "fatContent": "48 g",
+      "saturatedFatContent": "22 g",
+      "sodiumContent": "2549 mg",
+      "fiberContent": "6 g",
+      "sugarContent": "4 g",
+      "unsaturatedFatContent": "24 g",
+      "servingSize": "1 serving"
+    }
+  },
+  {
+    "sourceUrl": "https://recipethis.com/air-fryer-halloumi-burgers/",
+    "slug": "air-fryer-halloumi-burgers",
+    "sha256": "e7409058a10e1ce24255e9b185f5654f87002037f7630c720f283028102221e0",
+    "recipeYield": [
+      "4"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "566 kcal",
+      "carbohydrateContent": "45 g",
+      "proteinContent": "34 g",
+      "fatContent": "29 g",
+      "saturatedFatContent": "19 g",
+      "sodiumContent": "1683 mg",
+      "fiberContent": "6 g",
+      "sugarContent": "1 g",
+      "unsaturatedFatContent": "8 g",
+      "servingSize": "1 serving"
+    }
+  },
+  {
+    "sourceUrl": "https://recipethis.com/air-fryer-quesadilla/",
+    "slug": "air-fryer-quesadilla",
+    "sha256": "3462581f1bd76597bd03e7af09e44a4c2fcebf755627422a205cc26e0af20774",
+    "recipeYield": [
+      "4"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "590 kcal",
+      "carbohydrateContent": "45 g",
+      "proteinContent": "28 g",
+      "fatContent": "34 g",
+      "saturatedFatContent": "19 g",
+      "cholesterolContent": "92 mg",
+      "sodiumContent": "1077 mg",
+      "fiberContent": "4 g",
+      "sugarContent": "6 g",
+      "servingSize": "1 serving"
+    }
+  },
+  {
+    "sourceUrl": "https://recipethis.com/air-fryer-tortilla-de-patatas/",
+    "slug": "air-fryer-tortilla-de-patatas",
+    "sha256": "ae1ec2dbc0bd6f454009568f93e6e29ab9ed78c01cc26bfe9533951357d46403",
+    "recipeYield": [
+      "8"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "104 kcal",
+      "carbohydrateContent": "11 g",
+      "proteinContent": "5 g",
+      "fatContent": "4 g",
+      "saturatedFatContent": "1 g",
+      "transFatContent": "0.01 g",
+      "cholesterolContent": "123 mg",
+      "sodiumContent": "51 mg",
+      "fiberContent": "1 g",
+      "sugarContent": "1 g",
+      "unsaturatedFatContent": "3 g",
+      "servingSize": "1 serving"
+    }
+  },
+  {
+    "sourceUrl": "https://recipethis.com/air-fryer-flour-tortilla-chips/",
+    "slug": "air-fryer-flour-tortilla-chips",
+    "sha256": "5f18c651737768d3091c64f269fd0251e98a8cfebb5f255534874fef8bb9dc6a",
+    "recipeYield": [
+      "4"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "171 kcal",
+      "carbohydrateContent": "24 g",
+      "proteinContent": "4 g",
+      "fatContent": "7 g",
+      "saturatedFatContent": "1 g",
+      "sodiumContent": "310 mg",
+      "fiberContent": "2 g",
+      "sugarContent": "2 g",
+      "unsaturatedFatContent": "5 g",
+      "servingSize": "1 serving"
+    }
+  }
+]

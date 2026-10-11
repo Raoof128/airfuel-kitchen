@@ -1,0 +1,61 @@
+
+> airfuel-kitchen@1.0.0 lint
+> eslint .
+
+
+/Users/raoof.r12/Desktop/Raouf/Fun/.remember/tmp/last-ndc.ts
+  1:1  error  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+✖ 1 problem (1 error, 0 warnings)
+
+LINT_EXIT=1
+
+> airfuel-kitchen@1.0.0 typecheck
+> tsc -b
+
+TSC_EXIT=0
+
+> airfuel-kitchen@1.0.0 test
+> vitest run
+
+
+ RUN  v5.0.3 /Users/raoof.r12/Desktop/Raouf/Fun
+
+
+ Test Files  9 passed (9)
+      Tests  58 passed (58)
+   Start at  18:48:37
+   Duration  1.13s (import 42%, tests 30%, transform 27%, worker 1%)
+
+UNIT_EXIT=0
+dist/assets/rolldown-runtime-hePW80VL.js                0.71 kB │ gzip:  0.42 kB
+dist/assets/vendor-BegFJYAZ.js                          1.40 kB │ gzip:  0.65 kB
+dist/assets/vendor-nrUaXfR-.js                          3.67 kB │ gzip:  1.32 kB
+dist/assets/vendor-Bywlca-Z.js                          3.68 kB │ gzip:  1.61 kB
+dist/assets/vendor-C0pJwawb.js                          8.73 kB │ gzip:  3.24 kB
+dist/assets/vendor-CWVxb5ex.js                         14.46 kB │ gzip:  5.56 kB
+dist/assets/vendor-D3GGiIM7.js                         30.16 kB │ gzip:  9.61 kB
+dist/assets/vendor-DC_lu9hv.js                         44.82 kB │ gzip: 13.40 kB
+dist/assets/vendor-Dq2X9ao3.js                         63.96 kB │ gzip: 18.58 kB
+dist/assets/vendor-DPz2_ECt.js                         70.29 kB │ gzip: 14.62 kB
+dist/assets/vendor-DjKl6jTz.js                         91.42 kB │ gzip: 26.47 kB
+dist/assets/vendor-DO3Sua0M.js                        100.54 kB │ gzip: 32.67 kB
+dist/assets/index-0kqGPu_l.js                         152.51 kB │ gzip: 43.94 kB
+dist/assets/vendor-VhE9KXJb.js                        203.02 kB │ gzip: 63.51 kB
+dist/assets/recipes-savoury-CmzMFtok.js               603.42 kB │ gzip: 74.25 kB
+dist/assets/recipes-plant-Cqr1mge0.js                 613.39 kB │ gzip: 68.70 kB
+
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 401ms
+
+PWA v2.0.0
+mode      generateSW
+precache  42 entries (4822.31 KiB)
+files generated
+  dist/sw.js
+  dist/workbox-2fbc6a65.js
+BUILD_EXIT=0
