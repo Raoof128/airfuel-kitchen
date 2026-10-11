@@ -71,7 +71,7 @@ async function counters(pg: Pg, uid: string) {
     [uid],
   );
   const sum = await pg.query<{ bytes: number }>(
-    "select coalesce(sum(coalesce(octet_length(payload::text), 0)), 0)::bigint as bytes from public.airfuel_user_records where user_id = $1",
+    "select coalesce(sum(public.airfuel_row_bytes(record_id, payload)), 0)::bigint as bytes from public.airfuel_user_records where user_id = $1",
     [uid],
   );
   return {
@@ -80,10 +80,14 @@ async function counters(pg: Pg, uid: string) {
     actual: Number(sum.rows[0].bytes),
   };
 }
-async function sizeOf(pg: Pg, payload: unknown): Promise<number> {
+async function sizeOf(
+  pg: Pg,
+  recordId: string,
+  payload: unknown,
+): Promise<number> {
   const result = await pg.query<{ n: number }>(
-    "select octet_length($1::jsonb::text) as n",
-    [JSON.stringify(payload)],
+    "select public.airfuel_row_bytes($1, $2::jsonb) as n",
+    [recordId, JSON.stringify(payload)],
   );
   return Number(result.rows[0].n);
 }
@@ -93,6 +97,7 @@ const ALL = [
   "202610110002_airfuel_sync_no_force_rls.sql",
   "202610110003_airfuel_sync_quota.sql",
   "202610110004_airfuel_sync_byte_quota.sql",
+  "202610110005_airfuel_sync_row_bytes.sql",
 ];
 
 describe("byte quota: enforcement, accounting and invariants", () => {
@@ -108,6 +113,9 @@ describe("byte quota: enforcement, accounting and invariants", () => {
     const w = writer(pg);
     await w.as(ALICE);
     await pg.exec("reset role");
+    // The row-size helper is not granted to clients, so size the payload as the administrator.
+    const small = { id: "byte-small", notes: "y".repeat(200) };
+    const size = await sizeOf(pg, "byte-small", small);
     // Put Alice's counter 1,000 bytes below the cap, as a full account would be.
     await pg.exec(
       `insert into public.airfuel_user_quota (user_id, record_count, payload_bytes) values ('${ALICE}', 0, ${BYTE_CAP - 1000}) on conflict (user_id) do update set payload_bytes = excluded.payload_bytes`,
@@ -121,15 +129,13 @@ describe("byte quota: enforcement, accounting and invariants", () => {
     expect(String((refused as Error).message)).toContain(
       "Storage quota exceeded",
     );
-    const small = { id: "byte-small", notes: "y".repeat(200) };
-    const size = await sizeOf(pg, small);
     expect(size).toBeLessThan(1000);
     await w.write("sessions", "byte-small", 1, OP(2), small);
     await w.done();
     expect((await counters(pg, ALICE)).counter).toBe(BYTE_CAP - 1000 + size);
   });
 
-  it("deletes and shrinking updates free bytes", async () => {
+  it("deletes free the payload but a tombstone stays on disk, charged its id and overhead", async () => {
     const w = writer(pg);
     await w.as(BOB);
     const payload = { id: "bob-doc", notes: "z".repeat(5000) };
@@ -138,12 +144,13 @@ describe("byte quota: enforcement, accounting and invariants", () => {
     await w.write("pantry", "bob-doc", 2, OP(4), shrunk);
     const afterShrink = await counters(pg, BOB);
     expect(afterShrink.counter).toBe(afterShrink.actual);
-    expect(afterShrink.counter).toBe(await sizeOf(pg, shrunk));
+    expect(afterShrink.counter).toBe(await sizeOf(pg, "bob-doc", shrunk));
     await w.write("pantry", "bob-doc", 3, OP(5), null);
     await w.done();
     const afterDelete = await counters(pg, BOB);
-    expect(afterDelete.counter).toBe(0);
-    expect(afterDelete.actual).toBe(0);
+    // The tombstone row remains, so its id column, index entry and overhead are still charged.
+    expect(afterDelete.counter).toBe(2 * "bob-doc".length + 128);
+    expect(afterDelete.actual).toBe(afterDelete.counter);
   });
 
   it("stale and duplicate writes change neither the row nor the counter", async () => {
@@ -208,33 +215,38 @@ describe("byte quota: enforcement, accounting and invariants", () => {
   });
 });
 
-describe("byte quota: backfill on a populated database", () => {
+describe("byte quota: recompute on a populated database (0005)", () => {
   let pg: Pg;
   beforeAll(async () => {
-    // Existing project: 0001 to 0003 applied, rows written, then 0004.
-    pg = await setup(ALL.slice(0, 3));
+    // Existing project: 0001 to 0004 applied, rows written directly, then 0005 recomputes every account.
+    pg = await setup(ALL.slice(0, 4));
     await pg.exec(`
       insert into public.airfuel_user_records (user_id, entity, record_id, revision, operation_id, deleted, payload) values
         ('${ALICE}', 'sessions', 'p1', 1, '${OP(20)}', false, '{"id":"p1","notes":"${"m".repeat(400)}"}'),
         ('${ALICE}', 'sessions', 'p2', 2, '${OP(21)}', true, null),
         ('${BOB}', 'pantry', 'q1', 1, '${OP(22)}', false, '{"id":"q1","notes":"${"n".repeat(70)}"}');
     `);
-    await pg.exec(read(ALL[3]));
+    await pg.exec(read(ALL[4]));
   }, 60_000);
   afterAll(async () => {
     await pg?.close();
   }, 60_000);
 
-  it("backfills payload_bytes to the real sum, tombstones count as zero", async () => {
+  it("recomputes each account's counter to the row-size estimate, tombstones included", async () => {
     const alice = await counters(pg, ALICE);
     const bob = await counters(pg, BOB);
     expect(alice.counter).toBe(alice.actual);
     expect(bob.counter).toBe(bob.actual);
-    expect(alice.actual).toBeGreaterThan(400);
+    // Alice: the live row plus the tombstone's id and overhead.
+    expect(alice.actual).toBe(
+      (await sizeOf(pg, "p1", { id: "p1", notes: "m".repeat(400) })) +
+        2 * 2 +
+        128,
+    );
     expect(alice.records).toBe(2);
   });
 
-  it("applies the byte cap immediately to a backfilled account", async () => {
+  it("applies the byte cap immediately to a recomputed account", async () => {
     await pg.exec("reset role");
     await pg.exec(
       `update public.airfuel_user_quota set payload_bytes = ${BYTE_CAP - 10} where user_id = '${BOB}'`,

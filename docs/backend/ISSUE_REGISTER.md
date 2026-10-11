@@ -6,7 +6,7 @@ Status vocabulary: FIXED-VERIFIED (fix in code and checked by a test or probe), 
 
 ## Totals
 
-Rows: **113**
+Rows: **114**
 
 By severity (P0 data loss, cross-user exposure or destructive migration; P1 broken persistence, sync defect, duplicate records, broken restore, allergen-exclusion bypass; P2 missing validation, recoverable inconsistency, wrong ranking, incomplete error handling; P3 debt):
 
@@ -14,20 +14,20 @@ By severity (P0 data loss, cross-user exposure or destructive migration; P1 brok
 | --- | ---: |
 | P0 | 0 |
 | P1 | 16 |
-| P2 | 50 |
+| P2 | 51 |
 | P3 | 47 |
-| **Total** | **113** |
+| **Total** | **114** |
 
 By status:
 
 | Status | Count |
 | --- | ---: |
-| FIXED-VERIFIED | 65 |
+| FIXED-VERIFIED | 66 |
 | FIXED-UNVERIFIED | 2 |
 | OPEN | 29 |
 | WONT-FIX | 4 |
 | DECISION | 13 |
-| **Total** | **113** |
+| **Total** | **114** |
 
 ## Register
 
@@ -146,6 +146,7 @@ By status:
 | LEAD-B12 | Build config | tsconfig.node.json (exclude scripts/bench, scripts/*-audit/tmp) | P3 | Type-check of scratch scripts | Scratch scripts included in project types | Excluded in tsconfig.node.json (lead) | none (config read; tsc not re-run by this register) | FIXED-UNVERIFIED (config present; tsc not re-run here) |
 | TEST-2 | E2E / SavedCheckbox | tests/e2e/security.spec.ts:59 | P2 | "separate tabs preserve simultaneous cooking checklist changes and timer" failed 2/6: the test reloaded while the step-tick save was still in flight (aria-busy=true), aborting the IndexedDB transaction | Frontend sweep SHELL-6 stopped disabling checkboxes while saving, so the test's toBeEnabled() wait no longer waited for the save | Test waits for aria-busy to clear before reload; db.ts gains hasPendingWrites(); real users are already warned by App.tsx's beforeunload guard while run() is pending | tests/unit/backend-storage-cook-interleave.test.ts (two connections, both orders, 60 interleaved writes); e2e --repeat-each 10 passed | FIXED-VERIFIED (final full e2e 102/102) |
 | SEC-20 | Sync / Supabase | supabase/migrations/202610110003_airfuel_sync_quota.sql | P1 | Post-commit security review: the 0003 quota capped rows (224,006) but not bytes; with 512 KiB payloads one account could store ~109 GiB | Row count is not a storage bound | Migration 202610110004 adds a 64 MiB per-account payload-byte quota under a row lock on the quota row (also serialises writes, fixing OBS-1); counters move only when the upsert changes a row; shrinks and deletes free bytes; 53400 refusal reason surfaced in the sync status | tests/unit/backend-sync-byte-quota.test.ts (6, PGlite incl. backfill); RLS suite runs 0004 (30) | FIXED-VERIFIED (commit 7886d6c; PGlite is single-connection, so real parallel writes are not exercised) |
+| SEC-21 | Sync / Supabase | supabase/migrations/202610110004_airfuel_sync_byte_quota.sql | P2 | Second post-commit review: the byte counter summed payload text only; record_id column, PK index entry and tuple header were uncounted (PoC-1: physical growth > 1.5x counted bytes; bounded by the row cap) | Counter measured payload, not row storage | Migration 202610110005 adds airfuel_row_bytes(record_id, payload) = payload text + 2x id + 128 overhead (measured: growth 1.15x counted), execute revoked from clients and granted only to the RPC owner; counters recomputed; tombstones charged id + overhead. Multi-account (Sybil) exhaustion and per-request CPU have no per-account SQL fix: documented under "Deployment hardening" in docs/CLOUD.md | tests/unit/backend-security-quota.test.ts (8 PoCs/controls), backend-sync-byte-quota.test.ts (recompute on populated DB) | FIXED-VERIFIED (PGlite; concurrent sessions not exercised) |
 
 ## Notes
 

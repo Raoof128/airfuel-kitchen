@@ -117,6 +117,15 @@ beforeAll(async () => {
       "utf8",
     ),
   );
+  await db.exec(
+    readFileSync(
+      new URL(
+        "../../supabase/migrations/202610110005_airfuel_sync_row_bytes.sql",
+        import.meta.url,
+      ),
+      "utf8",
+    ),
+  );
   // Production owner setup for this suite: the table and function belong to a role WITHOUT BYPASSRLS.
   // Every test below therefore runs with the owner subject to RLS, which the no-FORCE migration must allow.
   await db.exec(`
@@ -128,6 +137,8 @@ beforeAll(async () => {
     alter function public.airfuel_apply_change(text,text,bigint,uuid,boolean,jsonb) owner to airfuel_owner;
     -- The quota counter must share the function's owner: the RPC reads and writes it under RLS.
     alter table public.airfuel_user_quota owner to airfuel_owner;
+    -- The RPC owner needs the row-size helper (migration 0005).
+    grant execute on function public.airfuel_row_bytes(text, jsonb) to airfuel_owner;
   `);
   // Seed both users' rows through the only legitimate write path.
   await as(ALICE);
