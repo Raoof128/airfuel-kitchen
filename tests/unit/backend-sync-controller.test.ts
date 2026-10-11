@@ -322,3 +322,22 @@ describe("delete-all with unresolved conflicts", () => {
     );
   });
 });
+
+describe("quota refusal reaches the owner", () => {
+  it("a storage-quota refusal is shown as a rejected record with its reason in the status message", async () => {
+    const h = harness();
+    await h.controller.signIn(ALICE.email, "pw");
+    await h.controller.enableSync();
+    await h.actions.patchRecipeState("chicken", { notes: "too much" });
+    h.fake.rpcError = {
+      code: "53400",
+      message:
+        "Storage quota exceeded: this account would exceed the 64 MiB sync storage limit",
+    };
+    await h.controller.syncNow();
+    const status = h.controller.getStatus();
+    expect(status.rejected).toBe(1);
+    expect(status.message).toContain("Storage quota exceeded");
+    expect(status.enabled).toBe(true);
+  });
+});

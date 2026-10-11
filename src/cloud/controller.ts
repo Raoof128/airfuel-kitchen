@@ -283,6 +283,11 @@ export function createCloudController(
           const result = await currentEngine.run();
           failures = 0;
           const rejected = result.rejected + result.unreadable;
+          // Show the reason for the first refused record (for example a quota), not only a count.
+          const firstRefusal =
+            rejected > 0
+              ? await metadata.records.filter((row) => !!row.blocked).first()
+              : undefined;
           update({
             phase: "ready",
             pending: result.pending,
@@ -291,7 +296,7 @@ export function createCloudController(
             lastSyncedAt: Date.now(),
             message:
               rejected > 0
-                ? `${rejected} item(s) could not be synced. Your copies are kept on this device.`
+                ? `${rejected} item(s) could not be synced${firstRefusal?.blocked ? `: ${firstRefusal.blocked.message}` : ""}. Your copies are kept on this device.`
                 : result.conflicts > 0
                   ? `${result.conflicts} conflict(s) need a decision. Both versions are kept on this device.`
                   : result.pending

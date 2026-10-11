@@ -108,6 +108,15 @@ beforeAll(async () => {
   await db.exec(migration);
   await db.exec(noForce);
   await db.exec(quota);
+  await db.exec(
+    readFileSync(
+      new URL(
+        "../../supabase/migrations/202610110004_airfuel_sync_byte_quota.sql",
+        import.meta.url,
+      ),
+      "utf8",
+    ),
+  );
   // Production owner setup for this suite: the table and function belong to a role WITHOUT BYPASSRLS.
   // Every test below therefore runs with the owner subject to RLS, which the no-FORCE migration must allow.
   await db.exec(`
