@@ -35,7 +35,7 @@ Custom recipes live in Your recipes (Settings). They are editable and can be pri
 
 ## Check the project
 
-Latest verification (frontend sweep, 2026-10-11): **109 unit tests, 69 production-browser tests and 33 visual-regression snapshots passed**, axe reported no WCAG 2.2 AA violations across 104 route/theme/width states, and 182 screen/width/theme captures (320–1920 px) showed no overflow or console errors. Data validation, lint, strict typing and a fresh production build also passed. See [the final frontend report](docs/frontend/FINAL_FRONTEND_REPORT.md) and its [issue register](docs/frontend/ISSUE_REGISTER.md); the earlier upgrade's [QUALITY_REPORT.md](docs/QUALITY_REPORT.md) remains for history.
+Latest verification (frontend and backend sweeps, 2026-10-11): **540 unit tests (plus 2 documented expected failures), 69 production-browser tests and 33 visual-regression snapshots passed**, axe reported no WCAG 2.2 AA violations across 104 route/theme/width states, and 182 screen/width/theme captures (320–1920 px) showed no overflow or console errors. Data validation, lint, strict typing and a fresh production build also passed. See the [final frontend report](docs/frontend/FINAL_FRONTEND_REPORT.md), the [final backend report](docs/backend/FINAL_BACKEND_REPORT.md) and their issue registers; the earlier upgrade's [QUALITY_REPORT.md](docs/QUALITY_REPORT.md) remains for history.
 
 ```bash
 npm run validate:data
