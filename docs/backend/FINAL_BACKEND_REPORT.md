@@ -37,17 +37,17 @@ AirFuel Kitchen is **local-first with optional cloud sync**. No server was inven
 | SQL objects | 2 tables, RLS policies, 1 security-definer RPC, grants, 3 migrations |
 | Recipes | 300, all validated programmatically (`RECIPE_DATA_REPORT.md`) |
 
-## 3. Defects (`ISSUE_REGISTER.md`, 114 rows)
+## 3. Defects (`ISSUE_REGISTER.md`, 115 rows)
 
 | Severity | Found | Open now |
 | --- | --- | --- |
 | P0 | 0 | 0 |
 | P1 | 16 | 0 |
-| P2 | 51 | 5 (ARCH-6, a decision paired with SYNC-13; DATA-3, -4, -6, -7, which are research-owner data checks) |
+| P2 | 52 | 5 (ARCH-6, a decision paired with SYNC-13; DATA-3, -4, -6, -7, which are research-owner data checks) |
 | P3 | 47 | 24 (debt, wording and editorial data) |
 
 Status totals:
-- 66 fixed and verified
+- 67 fixed and verified
 - 2 fixed, partly unverified
 - 29 open (above)
 - 13 decisions
@@ -89,11 +89,12 @@ Status totals:
   - `RecipeState.checks` is a new optional, non-indexed field. Old rows and old backups remain valid; tests cover this.
   - The v1 → v2 upgrade is proven to preserve every record byte for byte, apart from its intended defaults, and to roll back cleanly when an upgrade throws midway.
   - Null preferences now get defaults (RT-B7).
-- **Supabase:** three new migrations to apply in order after `0001`, documented in `docs/CLOUD.md`:
+- **Supabase:** five new migrations to apply in order after `0001`, documented in `docs/CLOUD.md`:
   - `202610110002_airfuel_sync_no_force_rls.sql`
   - `202610110003_airfuel_sync_quota.sql` (row quota), whose backfill is tested on an already populated database.
   - `202610110004_airfuel_sync_byte_quota.sql`: a 64 MiB per-account byte quota under a row lock (SEC-20). A post-commit security review found that the row quota alone allowed about 109 GiB per account.
   - `202610110005_airfuel_sync_row_bytes.sql`: counts id, index and row overhead in the byte quota (SEC-21, from a second review). Deployment hardening against multi-account abuse (email confirmation, sign-up limits, CAPTCHA, request limits) is documented in `docs/CLOUD.md`.
+  - `202610110006_airfuel_sync_accounting_hardening.sql`: serialises the recompute with table locks, charges max(text, binary) size, and adds a binary 512 KiB row bound (SEC-22, from a third review).
 
   The applied `0001` is unchanged.
 - **Backup format:** unchanged.
@@ -140,7 +141,7 @@ Baseline: OWASP ASVS 5.0 and the OWASP API Top 10 (relevant controls only).
 
 | Suite | Result |
 | --- | --- |
-| Unit (Vitest, fake-indexeddb, PGlite) | **534 passed + 2 expected-fail, 50 files** (109 at the start of the sweep, 58 originally) |
+| Unit (Vitest, fake-indexeddb, PGlite) | **540 passed + 2 expected-fail, 51 files** (two consecutive clean runs) (109 at the start of the sweep, 58 originally) |
 | Expected failures | SEC-7 (512 KiB sync bound, a decision); RT-B8 (backups don't include sync-conflict copies; a decision, the delete dialog warns instead) |
 | E2E (Playwright, production build) | **102/102** on the final tree (69 functional/a11y/security + 33 visual-regression snapshots) |
 | Lint / typecheck / data validation / npm audit | clean / clean / 0 errors / 0 vulnerabilities |

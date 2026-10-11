@@ -124,7 +124,14 @@ export default defineConfig(({ mode }) => ({
       },
     },
   },
-  test: { include: ["tests/unit/**/*.test.ts"], environment: "node" },
+  test: {
+    include: ["tests/unit/**/*.test.ts"],
+    environment: "node",
+    // Several suites boot an embedded Postgres (PGlite). Generous budgets keep the
+    // suite deterministic on a loaded machine; assertions are unchanged.
+    hookTimeout: 60_000,
+    testTimeout: 30_000,
+  },
   server: { host: "127.0.0.1", port: 5173, strictPort: true },
   preview: { host: "127.0.0.1", port: 4173, strictPort: true },
 }));
