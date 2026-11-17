@@ -2,6 +2,13 @@
 
 11 October 2026. **Local upgrade complete.** Current evidence: [QUALITY_REPORT.md](QUALITY_REPORT.md).
 
+## Update: documentation tidy-up (17 November 2026)
+
+- README: added a status line (personal project, not deployed, cloud sync untested live, built with AI coding assistants, recipes not kitchen-tested) and a licence section stating that no licence has been chosen.
+- Replaced the author's machine paths in eight documents under `docs/` with `<repo>` and `~`.
+- Added a one-line note at the top of the two agent briefs saying what they are.
+- Re-checked the README figures against the tree: 300 recipes (150 + 150), 128 main meals at 25 g protein or more, and `npm test` at 540 passed with 2 expected failures. No code or recipe data changed.
+
 ## Update: frontend and backend sweeps (11 October 2026, evening)
 
 **Published:** https://github.com/Raoof128/airfuel-kitchen (public). Commits: `3dea492` (frontend sweep), `80e95e0` (backend sweep), then security follow-ups `7886d6c`, `2af9400` and `fe291ed` (sync quota migrations 0004–0006).

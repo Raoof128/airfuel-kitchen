@@ -14,7 +14,7 @@ The selected design applies frontend-design's coherent, deliberate aesthetic and
 
 Actual generator output: `../design-system/airfuel-kitchen/MASTER.md`. Actual product/style/colour/typography/UX/React search results: `DESIGN_RESEARCH.md`.
 
-UI/UX Pro Max was run with variance 6, motion 2 and density 5, using `--design-system --persist --project-name 'AirFuel Kitchen' --output-dir /Users/raoof.r12/Desktop/Raouf/Fun --format markdown`. All referenced files were inspected before execution.
+UI/UX Pro Max was run with variance 6, motion 2 and density 5, using `--design-system --persist --project-name 'AirFuel Kitchen' --output-dir <repo> --format markdown`. All referenced files were inspected before execution.
 
 - Retain locally bundled **Fraunces + DM Sans**. The supplementary editorial typography search supports serif/sans pairing; handwritten Caveat/Quicksand from the generic generator is too casual for dense cooking instructions. No remote font dependency.
 - Adapt terracotta/cream/green to contrast-tested light and dark semantic tokens. Warm muted surfaces are intentional, despite the generator's generic anti-muted-colour suggestion.

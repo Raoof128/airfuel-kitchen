@@ -3,7 +3,7 @@
 > eslint .
 
 
-/Users/raoof.r12/Desktop/Raouf/Fun/.remember/tmp/last-ndc.ts
+<repo>/.remember/tmp/last-ndc.ts
   1:1  error  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
 
 ✖ 1 problem (1 error, 0 warnings)
@@ -19,7 +19,7 @@ TSC_EXIT=0
 > vitest run
 
 
- RUN  v5.0.3 /Users/raoof.r12/Desktop/Raouf/Fun
+ RUN  v5.0.3 <repo>
 
 
  Test Files  9 passed (9)
