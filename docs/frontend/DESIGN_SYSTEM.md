@@ -4,7 +4,7 @@ This document describes what is actually in `src/styles/tokens.css`, `src/styles
 
 ## Skills used
 
-- **frontend-design** (`/Users/raoof.r12/.claude/skills/frontend-design/SKILL.md`): read. Recommended a committed, non-generic direction with distinctive type and cohesive CSS variables. Applied: Fraunces display and DM Sans body, warm paper surfaces, terracotta and forest accents. Rejected: purple gradients, glassmorphism, default system fonts.
+- **frontend-design** (`~/.claude/skills/frontend-design/SKILL.md`): read. Recommended a committed, non-generic direction with distinctive type and cohesive CSS variables. Applied: Fraunces display and DM Sans body, warm paper surfaces, terracotta and forest accents. Rejected: purple gradients, glassmorphism, default system fonts.
 - **ui-ux-pro-max** (`2.11.0`): read `SKILL.md`, `references/quick-reference.md` (not separately quoted), and `references/pro-rules.md`. Commands run, without `--persist` or `--force`:
   - `python3 .../scripts/search.py "recipe cooking app warm editorial" --design-system -p "AirFuel Kitchen"`. Returned an App Store landing pattern, a Claymorphism style, a Calistoga/Inter pairing and a `#9A3412` / `#059669` palette. **Rejected** for style, type and palette. The palette's warm-terracotta-plus-green note is consistent with the app, but the hex values are not used.
   - `--domain ux "dark mode contrast"`. Recommended 4.5:1 body text and no grey-on-grey. Applied and measured below.

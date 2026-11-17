@@ -1,6 +1,8 @@
 # Frontend sweep: shared agent brief (2026-10-11)
 
-Project: AirFuel Kitchen, `/Users/raoof.r12/Desktop/Raouf/Fun` (React 19 + Vite + Dexie, hash routing in `src/App.tsx`).
+> Kept for the record: this is the brief an AI coding agent worked from during the October 2026 frontend sweep. It describes the task as given, not the current state of the project.
+
+Project: AirFuel Kitchen, `<repo>` (React 19 + Vite + Dexie, hash routing in `src/App.tsx`).
 Several agents work in parallel. Read this whole brief before starting.
 
 ## Environment

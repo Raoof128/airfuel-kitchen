@@ -1,6 +1,8 @@
 # Backend sweep: shared agent brief (2026-10-11)
 
-Project: AirFuel Kitchen, `/Users/raoof.r12/Desktop/Raouf/Fun`. This is a git repo: `main` is pushed to a PUBLIC GitHub repo. Never commit or push; the lead does that.
+> Kept for the record: this is the brief an AI coding agent worked from during the October 2026 backend sweep. It describes the task as given, not the current state of the project.
+
+Project: AirFuel Kitchen, `<repo>`. This is a git repo: `main` is pushed to a PUBLIC GitHub repo. Never commit or push; the lead does that.
 A frontend sweep just finished (see `docs/frontend/FINAL_FRONTEND_REPORT.md`, `docs/frontend/ISSUE_REGISTER.md`, especially LOGIC-*, PLAN-*, PERF-*). Don't redo it; build on it.
 
 ## The real architecture (audit THIS; don't invent a server)

@@ -2,6 +2,8 @@
 
 A private, offline-first air-fryer cooking companion built for Australian metric ingredients and a Ninja 6.7 L basket, without assuming a model number. Includes **300 researched recipes**, with original metric instructions, attributed sources and estimated nutrition. The final dataset has 128 main meals with at least 25g estimated protein per serving; "main meal" here means every category except breakfast, snacks-sides and desserts, so it includes the vegetarian category.
 
+**Status:** a personal project, last worked on in October 2026. It is not deployed anywhere public; run it locally. The optional cloud sync has never been tested against a live Supabase project. It was built with AI coding assistants (the briefs they worked from are in `docs/backend/` and `docs/frontend/`), and the recipes have not been cooked and tested for this project.
+
 ## Run locally
 
 Use Node.js 22.12 or newer (tested here on Node 24.21). No API key or account is required.
@@ -80,3 +82,7 @@ Cloud sync is **unconfigured and has not been tested against a live Supabase pro
 - [Optional cloud setup](docs/CLOUD.md)
 
 Recipes were adapted from individually checked sources and have not been physically kitchen-tested in this project. Nutrition remains an estimate; times depend on food thickness, batch size and appliance. The recipe pages distinguish basket settings from thermometer safety targets, and contain their sources and method notes.
+
+## Licence
+
+No licence has been chosen for this repository yet, so the default applies: the code is published for reading, and no permission to reuse it is granted. The recipes are adaptations of third-party recipes; each recipe page and the [source register](research/source-register.json) name the source.

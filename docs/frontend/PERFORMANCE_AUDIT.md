@@ -13,9 +13,9 @@ two builds made from one copy of `src/`, `public/`, `index.html` and the configs
 ```bash
 # 1. Snapshot the source (other agents keep editing the live tree)
 P=/private/tmp/claude-501/airfuel-perf/proto
-mkdir -p $P/before && cd /Users/raoof.r12/Desktop/Raouf/Fun
+mkdir -p $P/before && cd <repo>
 cp -R src public index.html vite.config.ts tsconfig*.json package.json $P/before/
-ln -s /Users/raoof.r12/Desktop/Raouf/Fun/node_modules $P/before/node_modules
+ln -s <repo>/node_modules $P/before/node_modules
 cp /private/tmp/claude-501/airfuel-perf/orig-images/*.webp $P/before/public/images/   # pre-change images
 cp -R $P/before $P/after && cp public/images/*.webp $P/after/public/images/            # re-encoded images
 

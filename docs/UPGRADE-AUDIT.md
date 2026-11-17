@@ -4,8 +4,8 @@ Baseline inspected on 11 October 2026 from the existing production preview at `h
 
 ## Evidence and method
 
-- Read and applied `/Users/raoof.r12/.agents/skills/frontend-design/SKILL.md` for editorial direction, hierarchy and intentional composition.
-- Read `/Users/raoof.r12/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.11.0/.claude/skills/ui-ux-pro-max/SKILL.md`, its `references/pro-rules.md` and accessibility, touch, performance and responsive sections of `references/quick-reference.md`. The native-specific checklist was adapted to browser semantics rather than treated as a native-platform compliance claim.
+- Read and applied `~/.agents/skills/frontend-design/SKILL.md` for editorial direction, hierarchy and intentional composition.
+- Read `~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.11.0/.claude/skills/ui-ux-pro-max/SKILL.md`, its `references/pro-rules.md` and accessibility, touch, performance and responsive sections of `references/quick-reference.md`. The native-specific checklist was adapted to browser semantics rather than treated as a native-platform compliance claim.
 - Ran the installed search workflow for `animation accessibility z-index loading` in the UX domain. It returned loading feedback, restrained continuous animation and stacking-context guidance. The main implementation owns the persisted product design-system synthesis.
 - Captured **18 before screenshots**, covering Today, Explore and recipe details at 375, 768 and 1440 CSS pixels in both light and dark themes. See [capture manifest](screenshots/upgrade-before/capture.json). Reproduce with `node scripts/capture-upgrade.mjs before`; use `after` only against the completed production build.
 - Visually inspected the mobile Today and Explore pages, desktop recipe and tablet dark dashboard, then reviewed all route components and shared styles. The representative files are [mobile Today](screenshots/upgrade-before/375-light-today.png), [mobile Explore](screenshots/upgrade-before/375-dark-explore.png), [desktop recipe](screenshots/upgrade-before/1440-light-recipe.png) and [tablet dark Today](screenshots/upgrade-before/768-dark-today.png).

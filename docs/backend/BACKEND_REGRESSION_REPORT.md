@@ -4,7 +4,7 @@ Scope: independent red-team review of the backend sweep against the published co
 (`git diff 3dea492`). Written without relying on the sweep's own summaries. Read-only for `src/`,
 `supabase/` and existing tests. Added only new test files, scratch scripts and this report.
 
-Date: 2026-10-11. Repo: AirFuel Kitchen (`/Users/raoof.r12/Desktop/Raouf/Fun`).
+Date: 2026-10-11. Repo: AirFuel Kitchen (`<repo>`).
 
 ## 1. Totals
 
